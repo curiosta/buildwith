@@ -321,3 +321,12 @@ footer .more b{color:#cfe2ec;font-weight:600}
   .cal-day .n{font-size:.68rem}
   .seg2 button{padding:7px 12px}
 }
+
+/* calendar geo filters */
+.geo-filters{display:grid;gap:10px;margin-bottom:12px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.chip .cnt{font:600 .72rem var(--mono);opacity:.7}
+.chip[aria-pressed=true] .cnt{opacity:.85}
+#cal-country{max-width:100%;min-width:0}
+.cal-status{margin:4px 0 16px}
+.dated li[hidden]{display:none}
+@media (max-width:640px){.geo-filters{padding:12px}.geo-filters .fgroup select{width:100%}}
