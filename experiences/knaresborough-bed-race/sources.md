@@ -1,6 +1,6 @@
 # buildwith · Great Knaresborough Bed Race: sources
 
-Row #15 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates. The page deliberately shows **no prices** and no contact emails; see the official site.
+Row #15 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -17,6 +17,21 @@ Row #15 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Date: 12 Jun 2027: Great Knaresborough Bed Race 2027. Official site. Build/use: Decorated racing bed over a 2.4-mile course with a river crossing. How to join: Team entry (lottery); the race starts at 3pm. | https://www.bedrace.co.uk/ |
 | Take-part route "Enter a bed team" (Team entry): Build or decorate a racing bed (you bring your own bed) and push it round the course, river crossing included. Enter online between 1 Jan and 28 Feb; if there are more than 90 entries, a lottery in March picks the teams. | Re-worded from the CSV row and the dated items above |
 | Check note: Team size and entry fees were not captured. | CSV verification notes / dated items above |
+
+## Skills you'll need (section 03)
+
+| Fact used | Source |
+|---|---|
+| Skills (this experience): Building or adapting a racing bed that passes scrutineering (size limits, no mechanical propulsion); Team running and pushing over a 2.4-mile course including a river crossing; Theme decoration and parade etiquette | Skills research, checked 2026-10-04 (IST) |
+| Difficulty (our estimate): Some practice (fit team of 6 plus passenger); prep time (our estimate): 4–8 weeks of team fitness plus a few build weekends. Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures. | Curiosta editorial estimate |
+| Refresher, practice and safety steps: Read the official rules: each team brings a bed decorated to the year's theme, an air horn, plus a helmet and lifejacket for the passenger. / Decorated size limit: max 2 m wide, 4 m long, 3 m tall; decorations come off before the race, and the bed must have no mechanical propulsion. Scrutineers must pass it. / A team is six runners plus one passenger (minimum age 10), with two adult marshals who attend a briefing. / Everyone must be able to swim, because the course crosses the River Nidd; the passenger wears a helmet and lifejacket throughout. / Keep left unless overtaking; no throwing objects or liquids; no alcohol for runners until after the race; finish within 30 minutes. / Entries close at the end of February and a lottery picks the teams. / Train as a team: interval runs pushing a loaded trolley or cart. / Check every runner can swim; do a pool session in clothes. / Build a test frame and check wheels and steering on rough ground. / All competitors must be able to swim (river crossing). / Passenger: helmet and lifejacket throughout. / No alcohol for runners until after the race; no throwing objects. | Our summary of the resources below |
+| Resource (Official; publisher: Great Knaresborough Bed Race (Knaresborough Lions Club)): Bed Race Rules: Full team, bed, safety and conduct rules. | https://www.bedrace.co.uk/about/race-rules |
+| Resource (Official; publisher: Great Knaresborough Bed Race): Enter a team to the 2026 Great Knaresborough Bed Race: Entry process and timeline (applications and lottery). | https://www.bedrace.co.uk/enter |
+| Resource (Official; publisher: Great Knaresborough Bed Race): FAQ: Practical questions about the day. | https://www.bedrace.co.uk/visitor-info/faq |
+| Also consulted for the skills section | https://www.bedrace.co.uk/ |
+| Also consulted for the skills section | https://www.bedrace.co.uk/teams |
+
+See also: skills guide `skills/human-powered-craft/`
 
 ## Check notes shown on the page
 

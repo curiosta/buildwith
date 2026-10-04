@@ -330,3 +330,58 @@ footer .more b{color:#cfe2ec;font-weight:600}
 .cal-status{margin:4px 0 16px}
 .dated li[hidden]{display:none}
 @media (max-width:640px){.geo-filters{padding:12px}.geo-filters .fgroup select{width:100%}}
+
+/* skills (release 2026-10-04b) */
+.badge{display:inline-block;font:700 .62rem var(--mono);letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:2px 8px;white-space:nowrap;vertical-align:middle}
+.badge.official{background:var(--sea-800);color:#fff}
+.badge.community{background:#fff1d6;color:#7a4f00;border:1px solid #d99a00;cursor:help}
+.skills-top{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:stretch;margin-bottom:26px}
+.skill-core{border-left:5px solid var(--teal)}
+.skill-core h4{font-size:1.12rem;margin:.2em 0 .3em}
+.skill-more{margin:4px 0 0;padding-left:1.1em;font-size:.92rem}
+.skill-more li{margin:3px 0}
+.est{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;display:grid;gap:12px;align-content:start}
+.est-item{display:grid;gap:2px}
+.est-item .l{font:600 .7rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.est-item .l em{font-style:normal;background:#f1efe8;color:var(--ink-2);border-radius:999px;padding:1px 7px;margin-left:4px;letter-spacing:.04em;text-transform:none;font-weight:600}
+.est-item .n{font-weight:650;color:var(--sea-800);overflow-wrap:anywhere}
+.est p{margin:0}
+.skills-cols{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:22px 30px}
+.skills-cols h3{margin-bottom:10px}
+.steps{margin:0;padding-left:1.4em;display:grid;gap:8px}
+.steps li{padding-left:4px}
+.steps li::marker{font:700 .9rem var(--mono);color:var(--teal)}
+.practise{margin:0 0 6px;padding-left:1.1em;display:grid;gap:6px}
+.safety ul{margin:0;padding-left:1.1em}
+.res-h{margin-top:30px;margin-bottom:12px}
+.res-cards .res{display:flex;flex-direction:column;gap:6px}
+.res-cards .res h4{margin:0;font-size:1rem;overflow-wrap:anywhere}
+.res-cards .res p{margin:0;font-size:.9rem}
+.res-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.rtype{font:500 .72rem var(--mono);color:var(--muted);overflow-wrap:anywhere}
+.res .pub{color:var(--ink-2);font-size:.84rem!important}
+.res .pub span{font:600 .68rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.res .why-acc{font-size:.82rem!important;background:#fffaf0;border-left:3px solid #d99a00;padding:6px 8px;border-radius:6px}
+.res.comm{border-color:#ecd9a8}
+.gap{margin-top:18px}
+.see-also{margin-top:22px;font-weight:600}
+.skill-index{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.skill-index li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:4px;min-width:0}
+.skill-index li>a{display:flex;gap:8px;align-items:center;text-decoration:none;color:var(--ink)}
+.skill-index li>a:hover b{color:var(--coral)}
+.skill-index .core{font-size:.9rem;color:var(--ink-2)}
+.skill-index .meta{font:500 .74rem var(--mono);color:var(--sea-700);overflow-wrap:anywhere}
+.guide-card{text-decoration:none;color:var(--ink);display:flex;flex-direction:column}
+.guide-card:hover{color:var(--ink);border-color:var(--teal)}
+.guide-card .ico{font-size:1.9rem;line-height:1;margin-bottom:10px}
+.guide-card .when{font:500 .78rem var(--mono);color:var(--sea-700);display:flex;flex-direction:column;gap:4px;border-top:1px solid var(--line);padding-top:10px;margin-top:auto}
+.guide-card .go{font:600 .9rem var(--sans);color:var(--sea-500);margin-top:10px}
+.mini-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.mini-exp{display:flex;gap:10px;align-items:flex-start;text-decoration:none;color:var(--ink)}
+.mini-exp:hover{border-color:var(--teal);color:var(--ink)}
+.mini-exp .ico{font-size:1.6rem;line-height:1}
+.mini-exp b{display:block}
+.mini-exp .small{display:block;overflow-wrap:anywhere}
+@media (max-width:960px){.mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){.skills-top,.skills-cols,.skill-index{grid-template-columns:1fr}}
+@media (max-width:640px){.mini-grid{grid-template-columns:1fr}.est{padding:14px}}

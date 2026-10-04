@@ -1,0 +1,358 @@
+{
+ "rule": "Manoj's source rule (buildwith, 4 Oct 2026 IST): official sources first (organiser, government, tourism board, governing body, UNESCO). Non-official sources only if the event community widely accepts them, with evidence (source_type community-accepted, why_accepted recorded). No blogs, SEO travel guides, listing sites, newspapers as primary sources, travel agencies or commercial sellers. Every external link on buildwith.curiosta.com must be on a domain listed here; test-all.js fails otherwise. Hosts are matched exactly after dropping a leading 'www.'.",
+ "checked": "2026-10-04",
+ "domains": [
+  {
+   "domain": "afrikaburn.org",
+   "source_type": "official",
+   "owner": "AfrikaBurn (Tankwa Town NPC), organiser"
+  },
+  {
+   "domain": "tickets.afrikaburn.org",
+   "source_type": "official",
+   "owner": "AfrikaBurn ticketing, organiser"
+  },
+  {
+   "domain": "balloonfiesta.com",
+   "source_type": "official",
+   "owner": "Albuquerque International Balloon Fiesta, Inc., organiser"
+  },
+  {
+   "domain": "faa.gov",
+   "source_type": "official",
+   "owner": "Federal Aviation Administration (US government)"
+  },
+  {
+   "domain": "bfa.net",
+   "source_type": "official",
+   "owner": "Balloon Federation of America (US national governing body for ballooning)"
+  },
+  {
+   "domain": "nebuta.jp",
+   "source_type": "official",
+   "owner": "Aomori Nebuta Festival Executive Committee, organiser"
+  },
+  {
+   "domain": "mlit.go.jp",
+   "source_type": "official",
+   "owner": "Japan Tourism Agency / Ministry of Land, Infrastructure, Transport and Tourism (Japanese government)"
+  },
+  {
+   "domain": "youtube.com",
+   "source_type": "official",
+   "owner": "Video host (Google). Only organisers' own official channels, each linked from that organiser's site, are allowed"
+  },
+  {
+   "domain": "burningman.org",
+   "source_type": "official",
+   "owner": "Burning Man Project, organiser"
+  },
+  {
+   "domain": "survival.burningman.org",
+   "source_type": "official",
+   "owner": "Burning Man Project, organiser (Survival Guide)"
+  },
+  {
+   "domain": "capementalhealth.co.za",
+   "source_type": "official",
+   "owner": "Cape Mental Health, organiser of the Cape Town International Kite Festival"
+  },
+  {
+   "domain": "kite.org",
+   "source_type": "official",
+   "owner": "American Kitefliers Association (US national kite association)"
+  },
+  {
+   "domain": "corsozundert.nl",
+   "source_type": "official",
+   "owner": "Stichting Corso Zundert, organiser"
+  },
+  {
+   "domain": "beercanregatta.org.au",
+   "source_type": "official",
+   "owner": "Darwin Lions Beer Can Regatta, organiser"
+  },
+  {
+   "domain": "dieppe-cerf-volant.org",
+   "source_type": "official",
+   "owner": "Festival International de Cerf-Volant de Dieppe, organiser"
+  },
+  {
+   "domain": "dieppetourisme.com",
+   "source_type": "official",
+   "owner": "Office de Tourisme Dieppe-Normandie (tourist office)"
+  },
+  {
+   "domain": "seine-maritime-tourisme.com",
+   "source_type": "official",
+   "owner": "Seine-Maritime Attractivité (departmental tourism board)"
+  },
+  {
+   "domain": "en.normandie-tourisme.fr",
+   "source_type": "official",
+   "owner": "Normandy regional tourism board"
+  },
+  {
+   "domain": "mpcb.gov.in",
+   "source_type": "official",
+   "owner": "Maharashtra Pollution Control Board (hosts the CPCB idol-immersion guidelines)"
+  },
+  {
+   "domain": "cpcb.gov.in",
+   "source_type": "official",
+   "owner": "Central Pollution Control Board, Government of India"
+  },
+  {
+   "domain": "english.www.gov.cn",
+   "source_type": "official",
+   "owner": "The State Council of the People's Republic of China (government portal)"
+  },
+  {
+   "domain": "sdxc.gov.cn",
+   "source_type": "official",
+   "owner": "Shandong provincial publicity department (government site; Weifang kite festival announcement)"
+  },
+  {
+   "domain": "gobreck.com",
+   "source_type": "official",
+   "owner": "Breckenridge Tourism Office (tourism board; snow-sculpting reference)"
+  },
+  {
+   "domain": "henleyontodd.com.au",
+   "source_type": "official",
+   "owner": "Rotary Henley on Todd Regatta, organiser"
+  },
+  {
+   "domain": "artsandculture.google.com",
+   "source_type": "official",
+   "owner": "Platform (Google Arts & Culture). Only the partner story by a Vietnamese provincial tourism department (credits Quang Nam Province Department of Culture, Sports and Tourism) is allowed"
+  },
+  {
+   "domain": "danangfantasticity.com",
+   "source_type": "official",
+   "owner": "Da Nang city official tourism portal (Hoi An is now part of Da Nang city)"
+  },
+  {
+   "domain": "hoiancreativecity.com",
+   "source_type": "official",
+   "owner": "Hội An Creative City portal (city government; standing agency in Hội An with a danang.gov.vn contact)"
+  },
+  {
+   "domain": "hornbillfestival.com",
+   "source_type": "official",
+   "owner": "Hornbill Festival, organised by the Government of Nagaland"
+  },
+  {
+   "domain": "tourism.nagaland.gov.in",
+   "source_type": "official",
+   "owner": "Directorate of Tourism, Government of Nagaland"
+  },
+  {
+   "domain": "ilp.nagaland.gov.in",
+   "source_type": "official",
+   "owner": "Government of Nagaland (Inner Line Permit portal)"
+  },
+  {
+   "domain": "kineticgrandchampionship.com",
+   "source_type": "official",
+   "owner": "Kinetic Universe / Kinetic Grand Championship, organiser"
+  },
+  {
+   "domain": "bedrace.co.uk",
+   "source_type": "official",
+   "owner": "Great Knaresborough Bed Race (Knaresborough Lions Club), organiser"
+  },
+  {
+   "domain": "ich.unesco.org",
+   "source_type": "official",
+   "owner": "UNESCO Intangible Cultural Heritage Section"
+  },
+  {
+   "domain": "unesco.org",
+   "source_type": "official",
+   "owner": "UNESCO"
+  },
+  {
+   "domain": "pib.gov.in",
+   "source_type": "official",
+   "owner": "Press Information Bureau, Government of India"
+  },
+  {
+   "domain": "par.wb.gov.in",
+   "source_type": "official",
+   "owner": "Personnel & Administrative Reforms Department, Government of West Bengal (state holiday lists)"
+  },
+  {
+   "domain": "sromarol.esic.gov.in",
+   "source_type": "official",
+   "owner": "Employees' State Insurance Corporation (Government of India); hosts the DoPT O.M. on Central Government holidays for 2027"
+  },
+  {
+   "domain": "dste.py.gov.in",
+   "source_type": "official",
+   "owner": "Department of Science, Technology & Environment, Government of Puducherry; hosts the National Green Tribunal manja judgment (11 Jul 2017)"
+  },
+  {
+   "domain": "valencia.es",
+   "source_type": "official",
+   "owner": "Ajuntament de València (Valencia City Council)"
+  },
+  {
+   "domain": "visitvalencia.com",
+   "source_type": "official",
+   "owner": "Visit València (city tourism board)"
+  },
+  {
+   "domain": "fallas.com",
+   "source_type": "official",
+   "owner": "Junta Central Fallera (official Fallas body, publishes the city's bando)"
+  },
+  {
+   "domain": "makerfairerome.eu",
+   "source_type": "official",
+   "owner": "Maker Faire Rome (Innova Camera, Rome Chamber of Commerce), organiser"
+  },
+  {
+   "domain": "makezine.com",
+   "source_type": "community-accepted",
+   "owner": "Make: Community (Make: magazine)",
+   "why_accepted": "Publisher of the Maker Faire brand; its exhibitor tips are the standard reference makers use for faire booths"
+  },
+  {
+   "domain": "makerfaire.com",
+   "source_type": "community-accepted",
+   "owner": "Make: Community (makerfaire.com)",
+   "why_accepted": "Maker Faire brand owner's maker toolkit, used across Maker Faires worldwide"
+  },
+  {
+   "domain": "eng.taiwan.net.tw",
+   "source_type": "official",
+   "owner": "Tourism Administration, Republic of China (Taiwan)"
+  },
+  {
+   "domain": "wedid.ntpc.gov.tw",
+   "source_type": "official",
+   "owner": "New Taipei City Government"
+  },
+  {
+   "domain": "redbull.com",
+   "source_type": "official",
+   "owner": "Red Bull, organiser of Soapbox Race and Flugtag"
+  },
+  {
+   "domain": "visitbrasil.com",
+   "source_type": "official",
+   "owner": "Visit Brasil (Embratur, Brazilian tourism board)"
+  },
+  {
+   "domain": "liesa.com.br",
+   "source_type": "official",
+   "owner": "LIESA, Liga Independente das Escolas de Samba do Rio de Janeiro (samba schools' league)"
+  },
+  {
+   "domain": "liesa.org.br",
+   "source_type": "official",
+   "owner": "LIESA, Liga Independente das Escolas de Samba do Rio de Janeiro (samba schools' league)"
+  },
+  {
+   "domain": "mangueira.com.br",
+   "source_type": "official",
+   "owner": "G.R.E.S. Estação Primeira de Mangueira (LIESA Special Group samba school), sells its own wing costumes"
+  },
+  {
+   "domain": "festivaldesumpango.com",
+   "source_type": "official",
+   "owner": "Comité Permanente de Barriletes Gigantes de Sumpango, organiser"
+  },
+  {
+   "domain": "noticias.mcd.gob.gt",
+   "source_type": "official",
+   "owner": "Ministerio de Cultura y Deportes de Guatemala"
+  },
+  {
+   "domain": "guatemala.gob.gt",
+   "source_type": "official",
+   "owner": "Government of Guatemala portal"
+  },
+  {
+   "domain": "texassandfest.org",
+   "source_type": "official",
+   "owner": "Texas SandFest (non-profit organiser)"
+  },
+  {
+   "domain": "portaransas.org",
+   "source_type": "official",
+   "owner": "Port Aransas & Mustang Island Chamber of Commerce / Tourist Bureau (local tourism bureau)"
+  },
+  {
+   "domain": "ikf.gujarattourism.com",
+   "source_type": "official",
+   "owner": "Tourism Corporation of Gujarat Ltd (International Kite Festival)"
+  },
+  {
+   "domain": "gujarattourism.com",
+   "source_type": "official",
+   "owner": "Gujarat Tourism, Government of Gujarat"
+  },
+  {
+   "domain": "tatnews.org",
+   "source_type": "official",
+   "owner": "Tourism Authority of Thailand (TAT Newsroom)"
+  },
+  {
+   "domain": "lnt.org",
+   "source_type": "official",
+   "owner": "Leave No Trace Center for Outdoor Ethics (publisher of the Seven Principles)"
+  },
+  {
+   "domain": "snowfes.com",
+   "source_type": "official",
+   "owner": "Sapporo Snow Festival Executive Committee (watch-list)"
+  },
+  {
+   "domain": "visitkapiti.co.nz",
+   "source_type": "official",
+   "owner": "Visit Kāpiti, powered by Kāpiti Coast District Council (watch-list)"
+  },
+  {
+   "domain": "nobodies.team",
+   "source_type": "official",
+   "owner": "Nobodies Collective, organiser of Elsewhere (watch-list)"
+  },
+  {
+   "domain": "kinetic.curiosta.com",
+   "source_type": "own-site",
+   "owner": "Curiosta (sister site)"
+  },
+  {
+   "domain": "buildwith.curiosta.com",
+   "source_type": "own-site",
+   "owner": "Curiosta (this site: canonical URLs, sitemap)"
+  },
+  {
+   "domain": "fonts.googleapis.com",
+   "source_type": "infrastructure",
+   "owner": "Google Fonts (stylesheet, not a source)"
+  },
+  {
+   "domain": "fonts.gstatic.com",
+   "source_type": "infrastructure",
+   "owner": "Google Fonts (font files, not a source)"
+  },
+  {
+   "domain": "giscus.app",
+   "source_type": "infrastructure",
+   "owner": "Giscus comments widget (experience detail pages only, not a source)"
+  },
+  {
+   "domain": "sitemaps.org",
+   "source_type": "infrastructure",
+   "owner": "Sitemaps protocol XML namespace in sitemap.xml (not a link)"
+  },
+  {
+   "domain": "w3.org",
+   "source_type": "infrastructure",
+   "owner": "W3C XML/SVG namespace identifiers (not links)"
+  }
+ ]
+}

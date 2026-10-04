@@ -24,50 +24,54 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-3-2026-10-10-1@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-SUMMARY:Mahalaya: peak Kumartuli idol-making walks (Kolkata)
-DESCRIPTION:What you build/use: Watch Kumartuli artisans finish clay Durga 
- idols.\nHow to join: Join a guided Kumartuli walk (several are listed for 
- 10 Oct).\nLevel: Watch. Experience #3 in experiences_v1.csv.\nNote: Date f
- rom puja calendars\; tours from an event-listing site.\nhttps://allevents.
- in/kolkata/kumartuli-before-durga-puja-an-artisans-journey/200030638596513
- \nMore: https://buildwith.curiosta.com/experiences/kumartuli-durga-puja-ko
- lkata/
-URL:https://allevents.in/kolkata/kumartuli-before-durga-puja-an-artisans-jo
- urney/200030638596513
+SUMMARY:Mahalaya: the Durga Puja season begins (Kolkata)
+DESCRIPTION:What you build/use: Watch artisans finish the clay Durga idols 
+ in Kumartuli's workshops.\nHow to join: Visit the workshops respectfully (
+ ask before photographing).\nLevel: Watch. Experience #3 in experiences_v1.
+ csv.\nNote: West Bengal Government 2026 holiday list. UNESCO: the eyes are
+  painted onto the clay images on Mahalaya.\nhttps://par.wb.gov.in/holidayl
+ ist.php\nMore: https://buildwith.curiosta.com/experiences/kumartuli-durga-
+ puja-kolkata/
+URL:https://par.wb.gov.in/holidaylist.php
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-3-2026-10-16-2@curiosta.com
 DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20261016
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261022
-SUMMARY:Durga Puja\, Kolkata (Shashthi to Vijaya Dashami)
+SUMMARY:Durga Puja\, Kolkata (Maha Saptami to Vijaya Dashami)
 DESCRIPTION:What you build/use: See the finished idols and the pandals buil
  t by local artisans.\nHow to join: Pandal-hopping\, open to all.\nLevel: W
- atch. Experience #3 in experiences_v1.csv.\nNote: Religious-calendar dates
-  (secondary calendar sites agree).\nhttps://sharodiya.com/kolkata-durga-pu
- ja-schedule\nMore: https://buildwith.curiosta.com/experiences/kumartuli-du
- rga-puja-kolkata/
-URL:https://sharodiya.com/kolkata-durga-puja-schedule
+ atch. Experience #3 in experiences_v1.csv.\nNote: West Bengal Government 2
+ 026 holiday list: Saptami 18 Oct to Dashami 21 Oct.\nhttps://par.wb.gov.in
+ /holidaylist.php\nMore: https://buildwith.curiosta.com/experiences/kumartu
+ li-durga-puja-kolkata/
+URL:https://par.wb.gov.in/holidaylist.php
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-9-2026-10-23-3@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-SUMMARY:Hoi An Full Moon Lantern Festival (+ lantern-making class)
-DESCRIPTION:What you build/use: Build a bamboo-and-silk lantern.\nHow to jo
- in: Book the class (10am/2pm)\; old town goes lantern-lit from about 6pm.\
- nLevel: Build. Experience #9 in experiences_v1.csv.\nNote: Lunar 14th-day 
- date\; several independent calendars agree.\nhttps://hoianlanternworkshop.
- com/\nMore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-work
- shop/
-URL:https://hoianlanternworkshop.com/
+SUMMARY:Hoi An Full Moon Lantern Night (Hội An Legendary Night)
+DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
+ orkshop.\nHow to join: The old town is lantern-lit on the 14th night of th
+ e lunar month.\nLevel: Build. Experience #9 in experiences_v1.csv.\nNote: 
+ 14th night of the lunar month (Hội An Creative City portal). Calendar da
+ te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
+ oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
+ ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
+ of-hoi-an
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -155,16 +159,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-23-2026-11-01-9@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Sumpango Giant Kite Festival (Barriletes Gigantes)
 DESCRIPTION:What you build/use: Giant tissue-paper kites built by local gro
- ups.\nHow to join: Free entry\; bring your own kite.\nLevel: Watch. Experi
- ence #23 in experiences_v1.csv.\nNote: Held every 1 November (Govt of Guat
- emala). The 2026 programme isn't published yet.\nhttps://guatemala.gob.gt/
- festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracte
- riza-a-sumpango-y-santiago-sacatepequez/\nMore: https://buildwith.curiosta
- .com/experiences/sumpango-giant-kites/
+ ups.\nHow to join: Free entry\; public kite-flying: Unconfirmed: no offici
+ al source.\nLevel: Watch. Experience #23 in experiences_v1.csv.\nNote: Hel
+ d every 1 November (Govt of Guatemala). The 2026 programme isn't published
+  yet.\nhttps://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-
+ tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/\n
+ More: https://buildwith.curiosta.com/experiences/sumpango-giant-kites/
 URL:https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-trad
  icion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/
 CATEGORIES:Watch,Event
@@ -173,32 +178,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-9-2026-11-22-10@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Hoi An Full Moon Lantern Festival (+ lantern-making class)
-DESCRIPTION:What you build/use: Build a bamboo-and-silk lantern.\nHow to jo
- in: Book the class\; lantern night from about 6pm.\nLevel: Build. Experien
- ce #9 in experiences_v1.csv.\nNote: Lunar 14th-day date\; several calendar
- s agree. November is flood season.\nhttps://hoianlanternworkshop.com/\nMor
- e: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
-URL:https://hoianlanternworkshop.com/
-CATEGORIES:Build,Event
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:buildwith-10-2026-11-23-11@curiosta.com
-DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261126
-SUMMARY:Yi Peng / Loy Krathong\, Chiang Mai
-DESCRIPTION:What you build/use: Make (or buy) a banana-leaf krathong and fl
- oat it.\nHow to join: Free on the Ping River\; DIY krathong at ticketed ev
- ents\; sky lanterns only at authorised venues.\nLevel: Build. Experience #
- 10 in experiences_v1.csv.\nNote: Full moon 24 Nov\; Grand Krathong Parade 
- 25 Nov. Dates from guide sites that agree.\nhttps://www.visit-thailand.org
- /culture/yi-peng-lantern-festival\nMore: https://buildwith.curiosta.com/ex
- periences/yi-peng-loy-krathong-chiang-mai/
-URL:https://www.visit-thailand.org/culture/yi-peng-lantern-festival
+SUMMARY:Hoi An Full Moon Lantern Night (Hội An Legendary Night)
+DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
+ orkshop.\nHow to join: The old town is lantern-lit on the 14th night of th
+ e lunar month.\nLevel: Build. Experience #9 in experiences_v1.csv.\nNote: 
+ 14th night of the lunar month (Hội An Creative City portal). Calendar da
+ te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
+ oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
+ ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
+ of-hoi-an
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -239,15 +231,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-9-2026-12-22-14@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-SUMMARY:Hoi An Full Moon Lantern Festival (+ lantern-making class)
-DESCRIPTION:What you build/use: Build a bamboo-and-silk lantern.\nHow to jo
- in: Book the class\; lantern night from about 6pm.\nLevel: Build. Experien
- ce #9 in experiences_v1.csv.\nNote: Lunar 14th-day date\; several calendar
- s agree.\nhttps://hoianlanternworkshop.com/\nMore: https://buildwith.curio
- sta.com/experiences/hoi-an-lantern-workshop/
-URL:https://hoianlanternworkshop.com/
+SUMMARY:Hoi An Full Moon Lantern Night (Hội An Legendary Night)
+DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
+ orkshop.\nHow to join: The old town is lantern-lit on the 14th night of th
+ e lunar month.\nLevel: Build. Experience #9 in experiences_v1.csv.\nNote: 
+ 14th night of the lunar month (Hội An Creative City portal). Calendar da
+ te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
+ oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
+ ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
+ of-hoi-an
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -270,66 +266,56 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-1-2027-01-14-16@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Uttarayan / Makar Sankranti\, Ahmedabad (kite-flying day)
 DESCRIPTION:What you build/use: Fly kites made by local makers (Patang Baza
  ar) from rooftops.\nHow to join: Buy kites and reels locally and join a ro
  oftop\; free IKF ground.\nLevel: Use. Experience #1 in experiences_v1.csv.
- \nNote: Festival date from a panchang (15 Jan is Vasi Uttarayan). The offi
- cial International Kite Festival 2027 dates are NOT announced.\nhttps://ik
- f.gujarattourism.com/index.html\nMore: https://buildwith.curiosta.com/expe
- riences/uttarayan-ahmedabad/
-URL:https://ikf.gujarattourism.com/index.html
+ \nNote: Makar Sankranti is 14 Jan 2027 (Government of India 2027 holiday l
+ ist). The official International Kite Festival 2027 dates are NOT announce
+ d.\nhttps://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_o
+ bserved_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.
+ pdf\nMore: https://buildwith.curiosta.com/experiences/uttarayan-ahmedabad/
+URL:https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_ob
+ served_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.p
+ df
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-9-2027-01-21-17@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
-SUMMARY:Hoi An Full Moon Lantern Festival (+ lantern-making class)
-DESCRIPTION:What you build/use: Build a bamboo-and-silk lantern.\nHow to jo
- in: Book the class\; lantern night from about 6pm.\nLevel: Build. Experien
- ce #9 in experiences_v1.csv.\nNote: Lunar 14th-day date (two independent c
- alendars).\nhttps://hoianlanternworkshop.com/\nMore: https://buildwith.cur
- iosta.com/experiences/hoi-an-lantern-workshop/
-URL:https://hoianlanternworkshop.com/
+SUMMARY:Hoi An Full Moon Lantern Night (Hội An Legendary Night)
+DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
+ orkshop.\nHow to join: The old town is lantern-lit on the 14th night of th
+ e lunar month.\nLevel: Build. Experience #9 in experiences_v1.csv.\nNote: 
+ 14th night of the lunar month (Hội An Creative City portal). Calendar da
+ te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
+ oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
+ ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
+ of-hoi-an
 CATEGORIES:Build,Event
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:buildwith-12-2027-02-05-18@curiosta.com
-DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20270205
-DTEND;VALUE=DATE:20270316
-SUMMARY:Las Fallas: Exposición del Ninot (vote for the figure saved from b
- urning)
-DESCRIPTION:What you build/use: See the ninot figures built by Valencia's f
- alla artists.\nHow to join: Visit the exhibition and cast a vote.\nLevel: 
- Watch. Experience #12 in experiences_v1.csv.\nNote: Dates per Levante-EMV 
- (published programme).\nhttps://www.levante-emv.com/fallas/2026/08/20/qued
- a-agenda-programa-fallas-2027-132071383.html\nMore: https://buildwith.curi
- osta.com/experiences/las-fallas-valencia/
-URL:https://www.levante-emv.com/fallas/2026/08/20/queda-agenda-programa-fal
- las-2027-132071383.html
-CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-22-2027-02-07-19@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270210
 SUMMARY:Rio Carnival: Special Group samba-school parades
 DESCRIPTION:What you build/use: Parade in a samba-school costume (fantasia)
-  made in the school's workshop.\nHow to join: Buy a costume from a school 
- or reseller\; the costume is your parade entry.\nLevel: Use. Experience #2
- 2 in experiences_v1.csv.\nNote: Sambadrome\, 7-9 Feb (LIESA). Costume sale
- s usually open around mid-October.\nhttps://liesa.org.br/noticias/260416.h
- tml\nMore: https://buildwith.curiosta.com/experiences/rio-carnival-samba-p
- arade/
+  made in the school's workshop.\nHow to join: Buy a wing costume through a
+  samba school's official channel.\nLevel: Use. Experience #22 in experienc
+ es_v1.csv.\nNote: Sambadrome\, 7-9 Feb (LIESA).\nhttps://liesa.org.br/noti
+ cias/260416.html\nMore: https://buildwith.curiosta.com/experiences/rio-car
+ nival-samba-parade/
 URL:https://liesa.org.br/noticias/260416.html
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -353,16 +339,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-9-2027-02-19-21@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
-SUMMARY:Hoi An Full Moon Lantern Festival: Nguyen Tieu (biggest of the year
- )
-DESCRIPTION:What you build/use: Build a bamboo-and-silk lantern.\nHow to jo
- in: Book the class\; lantern night from about 6pm.\nLevel: Build. Experien
- ce #9 in experiences_v1.csv.\nNote: Lunar 14th-day date (two independent c
- alendars).\nhttps://hoianlanternworkshop.com/\nMore: https://buildwith.cur
- iosta.com/experiences/hoi-an-lantern-workshop/
-URL:https://hoianlanternworkshop.com/
+SUMMARY:Hoi An lantern night at Nguyên Tiêu (first full moon of the lunar
+  year)
+DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
+ orkshop.\nHow to join: The old town is lantern-lit on the 14th night of th
+ e lunar month.\nLevel: Build. Experience #9 in experiences_v1.csv.\nNote: 
+ 14th night of the lunar month (Hội An Creative City portal). Calendar da
+ te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
+ oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
+ ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
+ of-hoi-an
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -384,17 +374,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-12-2027-03-15-23@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270320
 SUMMARY:Las Fallas\, Valencia
 DESCRIPTION:What you build/use: Giant satirical monuments built by local ar
  tists and casals.\nHow to join: Watch\; Cremà (the burning) on 19 Mar.\nL
- evel: Watch. Experience #12 in experiences_v1.csv.\nNote: Dates per Levant
- e-EMV and other guides.\nhttps://www.levante-emv.com/fallas/2026/08/20/que
- da-agenda-programa-fallas-2027-132071383.html\nMore: https://buildwith.cur
- iosta.com/experiences/las-fallas-valencia/
-URL:https://www.levante-emv.com/fallas/2026/08/20/queda-agenda-programa-fal
- las-2027-132071383.html
+ evel: Watch. Experience #12 in experiences_v1.csv.\nNote: Visit València:
+  15–19 March every year\; Cremà on the night of 19 Mar.\nhttps://www.vi
+ sitvalencia.com/en/events-valencia/festivities/the-fallas\nMore: https://b
+ uildwith.curiosta.com/experiences/las-fallas-valencia/
+URL:https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -524,35 +514,38 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-2-2027-09-04-32@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270905
 SUMMARY:Ganesh Chaturthi 2027 (eco clay-idol workshops run in the weeks bef
  ore)
 DESCRIPTION:What you build/use: Make your own shadu-clay Ganesha.\nHow to j
- oin: Join a civic or private workshop in Aug or early Sep (2027 schedules 
- TBC).\nLevel: Build. Experience #2 in experiences_v1.csv.\nNote: Festival 
- date from panchang calendars.\nhttps://www.mumbailive.com/en/civic/thane-m
- unicipal-corporation-organises-eco-friendly-ganpati-idol-making-workshops-
- 89399\nMore: https://buildwith.curiosta.com/experiences/ganesh-idol-worksh
- ops-mumbai/
-URL:https://www.mumbailive.com/en/civic/thane-municipal-corporation-organis
- es-eco-friendly-ganpati-idol-making-workshops-89399
+ oin: Join a clay-idol workshop in the weeks before (organisers and schedul
+ es: Unconfirmed: no official source).\nLevel: Build. Experience #2 in expe
+ riences_v1.csv.\nNote: Ganesh Chaturthi is 4 Sep 2027 (Government of India
+  2027 holiday list).\nhttps://sromarol.esic.gov.in/attachments/circularfil
+ e/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_20
+ 27_reg_1786507084.pdf\nMore: https://buildwith.curiosta.com/experiences/ga
+ nesh-idol-workshops-mumbai/
+URL:https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_ob
+ served_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.p
+ df
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-17-2027-09-05-33@curiosta.com
 DTSTAMP:20261003T184211Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:Corso Zundert 2027 flower parade
 DESCRIPTION:What you build/use: Help hamlet teams build giant dahlia floats
   in their tents in the weeks before.\nHow to join: Drop into the build ten
  ts (evenings and Saturdays)\; watch the parade.\nLevel: Build. Experience 
- #17 in experiences_v1.csv.\nNote: 5 Sep 2027 confirmed by Corso Zundert ne
- ws and local press.\nhttps://corsozundert.nl/en/praktisch/frequently-asked
- -questions/\nMore: https://buildwith.curiosta.com/experiences/corso-zunder
- t/
+ #17 in experiences_v1.csv.\nNote: 5 Sep 2027 (Corso Zundert).\nhttps://cor
+ sozundert.nl/en/praktisch/frequently-asked-questions/\nMore: https://build
+ with.curiosta.com/experiences/corso-zundert/
 URL:https://corsozundert.nl/en/praktisch/frequently-asked-questions/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
