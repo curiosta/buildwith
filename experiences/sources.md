@@ -5,7 +5,7 @@ Each card summarises one row of `experiences_v1.csv` (research pass 3 Oct 2026, 
 | Fact used | Source |
 |---|---|
 | International Kite Festival / Uttarayan: place, continent, usual months (Jan), levels (Use local gear, Watch & buy local), next date | https://ikf.gujarattourism.com/index.html · https://gujarattourism.com/fair-and-festival/international-kite-festival.html |
-| Eco-friendly Ganesh idol-making workshops: place, continent, usual months (Aug, Sep), levels (Workshop / open build), next date | https://www.mpcb.gov.in/sites/default/files/water-quality/water-quality-status/RevisedGuidelines09092021.pdf · https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf |
+| Eco-friendly Ganesh idol-making workshops: place, continent, usual months (Aug, Sep), levels (Workshop / open build), next date | https://www.mpcb.gov.in/sites/default/files/water-quality/water-quality-status/RevisedGuidelines09092021.pdf · https://dcdelhi.esic.gov.in/attachments/circularfile/Annexure_1764568541.pdf |
 | Kumartuli idol makers & Durga Puja: place, continent, usual months (Sep, Oct), levels (Watch & buy local), next date | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 · https://par.wb.gov.in/holidaylist.php |
 | Hornbill Festival (Craftscape): place, continent, usual months (Dec), levels (Watch & buy local), next date | https://hornbillfestival.com/events/ · https://tourism.nagaland.gov.in/entry-permits/ |
 | Weifang International Kite Festival: place, continent, usual months (Apr, May), levels (Use local gear, Team entry), next date | https://www.sdxc.gov.cn/whql/whqlsy/202603/t20260318_17551002.htm |

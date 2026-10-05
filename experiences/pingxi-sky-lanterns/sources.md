@@ -11,6 +11,8 @@ Row #8 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | Participation level: Use | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 (primary) ·  (secondary) |
 | Entry requirements / deadline: Festival release slots: not verified | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 (primary) ·  (secondary) |
 | Verification note (research pass): 2026 verified on Taiwan Tourism Administration site. | experiences_v1.csv |
+| Date: 27 Feb 2026: Pingxi Sky Lantern Festival 2026. Taiwan Tourism Administration: 27 Feb 2026. Build/use: Release a paper sky lantern made by Pingxi/Shifen shops. How to join: Buy a lantern locally; festival mass-release on the published dates. | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 |
+| Date: 3 Mar 2026: Pingxi Sky Lantern Festival 2026. Taiwan Tourism Administration: 3 Mar 2026. Build/use: Release a paper sky lantern made by Pingxi/Shifen shops. How to join: Buy a lantern locally; festival mass-release on the published dates. | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 |
 | Date: Feb 2027 · date TBC: Pingxi Sky Lantern Festival 2027 (around the Lantern Festival). 2027 dates not published (2026: 27 Feb and 3 Mar). | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 |
 | Take-part route "Release a lantern made in Shifen" (Use local gear): Buy a paper sky lantern from a Pingxi/Shifen shop (on sale year-round in Shifen), write your wishes on it and release it, or join the festival's mass releases. | Re-worded from the CSV row and the dated items above |
 | Check note: Festival lantern allocation and release-slot rules are not verified. | CSV verification notes / dated items above |

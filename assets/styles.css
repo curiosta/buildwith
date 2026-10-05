@@ -385,3 +385,13 @@ footer .more b{color:#cfe2ec;font-weight:600}
 @media (max-width:960px){.mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:760px){.skills-top,.skills-cols,.skill-index{grid-template-columns:1fr}}
 @media (max-width:640px){.mini-grid{grid-template-columns:1fr}.est{padding:14px}}
+
+/* ---- past events (Jan 2026 onward window) ---- */
+.past-tag{font:700 .64rem var(--mono);letter-spacing:.08em;text-transform:uppercase;background:#eef0f3;color:#4b5563;border:1px solid #c5cad3;border-radius:999px;padding:1px 7px;white-space:nowrap}
+.dated li.past{opacity:.72;background:#f7f7f5}
+.dated li.past .d{color:var(--muted)}
+.chip-ev.past{opacity:.55;filter:grayscale(.35)}
+.cal-dots .dot.past{opacity:.45}
+.past-toggle{margin:8px 0 0;font-size:.9rem}
+.past-toggle label{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.hide-past .dated li.past,.hide-past .chip-ev.past{display:none!important}

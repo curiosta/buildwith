@@ -1,11 +1,31 @@
 # buildwith · Calendar: sources
 
-All dates come from the buildwith date check of 4 Oct 2026 (IST), the source of truth for dates. Each item's source is linked in the table below. Dated items: 35; month-level TBC items: 31. The download `experiences_2026_2027.ics` is the calendar file produced by that date check, re-emitted after the 4 Oct 2026 source-rule audit (35 dated items): cost mentions removed from the descriptions (site convention: no prices), a link to each experience page added, and items whose source or date changed carry SEQUENCE:1. UIDs and DTSTAMP are unchanged. The audit moved two items to month-level TBC (Yi Peng 2026 and the 2027 Ninot Exhibition) because no official source publishes their dates, and corrected Durga Puja 2026 to 18–21 Oct (West Bengal Government holiday list).
+All dates come from the buildwith date check of 4–5 Oct 2026 (IST), the source of truth for dates. The window is pinned at January 2026 (past 2026 editions included) through December 2027. Each item's source is linked in the table below. Dated items: 55; month-level TBC items: 31. The downloads `experiences.ics` (stable alias) and `experiences_2026_2027.ics` (same content) are the calendar file produced by that date check, re-emitted after the 4–5 Oct 2026 source-rule audit and past-2026 extension (55 dated items): cost mentions removed from the descriptions (site convention: no prices), a link to each experience page added, and items whose source or date changed carry SEQUENCE:1. UIDs and DTSTAMP are unchanged. The audit moved two items to month-level TBC (Yi Peng 2026 and the 2027 Ninot Exhibition) because no official source publishes their dates, and corrected Durga Puja 2026 to 18–21 Oct (West Bengal Government holiday list).
 
 Level colours: team entry = coral, workshop/open build = teal, use local gear = sea blue, crew = amber, watch & buy local = grey. cal.py's 'Use' category is shown as Crew for the Balloon Fiesta (row 20), because you join as chase crew.
 
 | Fact used | Source |
 |---|---|
+| Date: 10–14 Jan 2026: International Kite Festival / Uttarayan 2026, Gujarat. Official IKF 2026 dates (statewide 10–14 Jan; Ahmedabad 12–14 Jan). | https://ikf.gujarattourism.com/index.html |
+| Date: 15–17 Feb 2026: Rio Carnival: Special Group samba-school parades 2026. Sambadrome, 15–17 Feb 2026 (LIESA Regulamento 2026). | https://liesa.org.br/downloads/carnaval/regulamento-2026.pdf |
+| Date: 27 Feb 2026: Pingxi Sky Lantern Festival 2026. Taiwan Tourism Administration: 27 Feb 2026. | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 |
+| Date: 3 Mar 2026: Pingxi Sky Lantern Festival 2026. Taiwan Tourism Administration: 3 Mar 2026. | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 |
+| Date: 15–19 Mar 2026: Las Fallas, Valencia 2026. Visit València: 15–19 March every year. | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas |
+| Date: 16–19 Apr 2026: Weifang International Kite Festival 2026 (World Kite Championship). Shandong provincial publicity department: championship 16–19 Apr; festival opened 18 Apr. | https://www.sdxc.gov.cn/whql/whqlsy/202603/t20260318_17551002.htm |
+| Date: 17–19 Apr 2026: Texas SandFest 2026. Port Aransas Chamber: 17–19 Apr 2026. | https://www.portaransas.org/sandfest/ |
+| Date: 20 Apr–5 May 2026: Weifang Open Flying Season 2026. Shandong provincial publicity department: open flying 20 Apr–5 May. | https://www.sdxc.gov.cn/whql/whqlsy/202603/t20260318_17551002.htm |
+| Date: 27 Apr–3 May 2026: AfrikaBurn 2026. Quaggafontein, Tankwa Karoo. Gate policy on the official ticketing site: opened Mon 27 Apr 2026. | https://tickets.afrikaburn.org/ |
+| Date: 16 May 2026: Red Bull Soapbox Race Los Angeles 2026. Official Red Bull Soapbox series page (past event). | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
+| Date: 23–25 May 2026: Kinetic Grand Championship 2026. Memorial Day weekend 2026; confirmed by the organiser's 2026 race-results page. | https://kineticgrandchampionship.com/ |
+| Date: 13 Jun 2026: Great Knaresborough Bed Race 2026. Official site: always the second Saturday in June; 2026 theme was The Swinging Sixties. | https://www.bedrace.co.uk/ |
+| Date: 14 Jun 2026: Red Bull Soapbox Race Denver 2026. Official Red Bull Soapbox series page (past event). | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
+| Date: 20 Jun 2026: Red Bull Soapbox Race London 2026. Alexandra Palace, 20 Jun 2026 (official Red Bull page). | https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026 |
+| Date: 2–7 Aug 2026: Aomori Nebuta Matsuri 2026 (dance as a haneto). Official site timetable: processions 2–7 Aug every year. | https://www.nebuta.jp/foreign/english.html |
+| Date: 15 Aug 2026: Henley-on-Todd Regatta 2026. Official FAQ: Saturday 15 Aug 2026. | https://www.henleyontodd.com.au/faqs |
+| Date: 31 Aug–7 Sep 2026: Burning Man 2026 (Axis Mundi). Official Event FAQ: 31 Aug–7 Sep 2026. | https://burningman.org/black-rock-city/preparation/faq/ |
+| Date: 6–7 Sep 2026: Corso Zundert 2026 flower parade. Official site: 6 & 7 Sep 2026 (Stuivezand won). | https://corsozundert.nl/en/ |
+| Date: 14 Sep 2026: Ganesh Chaturthi 2026 (eco clay-idol workshops run in the weeks before). Ganesh Chaturthi / Vinayak Chaturthi is 14 Sep 2026 (Government of India 2026 holiday list, DoPT). | https://dcdelhi.esic.gov.in/attachments/circularfile/Annexure_1764568541.pdf |
+| Date: 26 Sep 2026: Red Bull Flugtag Minneapolis 2026. Bohemian Flats Park, 26 Sep 2026 (official Red Bull page). | https://www.redbull.com/us-en/events/red-bull-flugtag-minneapolis |
 | Deadline (TBC, month only): Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens (official page: 'September XX, 2026'). Opening date TBA; check now. | https://www.texassandfest.org/amateur-competition |
 | Date: 3–11 Oct 2026: Albuquerque International Balloon Fiesta 2026. Official dates. Happening now. | https://www.balloonfiesta.com/plan-your-visit/faqs/ |
 | Date: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata). West Bengal Government 2026 holiday list. UNESCO: the eyes are painted onto the clay images on Mahalaya. | https://par.wb.gov.in/holidaylist.php |

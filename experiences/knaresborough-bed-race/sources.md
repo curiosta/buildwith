@@ -11,6 +11,7 @@ Row #15 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Participation level: Build-compete (lottery) | https://www.bedrace.co.uk/teams (primary) · https://www.bedrace.co.uk/visitor-info/faq (secondary) |
 | Entry requirements / deadline: Entry by end Feb; lottery (2026: 18 Mar) | https://www.bedrace.co.uk/teams (primary) · https://www.bedrace.co.uk/visitor-info/faq (secondary) |
 | Verification note (research pass): 2026 verified on official site; team size/fees not captured. | experiences_v1.csv |
+| Date: 13 Jun 2026: Great Knaresborough Bed Race 2026. Official site: always the second Saturday in June; 2026 theme was The Swinging Sixties. Build/use: Decorated racing bed over a 2.4-mile course with a river crossing. How to join: Team entry (lottery); held every second Saturday in June. | https://www.bedrace.co.uk/ |
 | Deadline: 1 Jan 2027: Knaresborough Bed Race 2027: entries OPEN. Official FAQ: entries open 1 Jan each year. Build/use: Build or decorate a racing bed (you must bring your own bed). How to join: Enter online between 1 Jan and 28 Feb; lottery if over 90 teams. | https://www.bedrace.co.uk/contact |
 | Deadline: 28 Feb 2027: Knaresborough Bed Race 2027 entries close (11:59pm). Official FAQ. Build/use: Racing bed + team. How to join: Enter online; a public lottery is held in March if oversubscribed. | https://www.bedrace.co.uk/contact |
 | Deadline: Mar 2027 · date TBC: Knaresborough Bed Race lottery (March). Only held if more than 90 entries; date TBC. | https://www.bedrace.co.uk/contact |

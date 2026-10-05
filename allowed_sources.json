@@ -1,6 +1,6 @@
 {
  "rule": "Manoj's source rule (buildwith, 4 Oct 2026 IST): official sources first (organiser, government, tourism board, governing body, UNESCO). Non-official sources only if the event community widely accepts them, with evidence (source_type community-accepted, why_accepted recorded). No blogs, SEO travel guides, listing sites, newspapers as primary sources, travel agencies or commercial sellers. Every external link on buildwith.curiosta.com must be on a domain listed here; test-all.js fails otherwise. Hosts are matched exactly after dropping a leading 'www.'.",
- "checked": "2026-10-04",
+ "checked": "2026-10-05",
  "domains": [
   {
    "domain": "afrikaburn.org",
@@ -186,6 +186,11 @@
    "domain": "sromarol.esic.gov.in",
    "source_type": "official",
    "owner": "Employees' State Insurance Corporation (Government of India); hosts the DoPT O.M. on Central Government holidays for 2027"
+  },
+  {
+   "domain": "dcdelhi.esic.gov.in",
+   "source_type": "official",
+   "owner": "Employees' State Insurance Corporation, Delhi (hosts a copy of the Government of India / DoPT 2026 holiday list)"
   },
   {
    "domain": "dste.py.gov.in",

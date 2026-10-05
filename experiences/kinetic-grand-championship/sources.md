@@ -11,6 +11,7 @@ Row #18 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Participation level: Build-compete | https://kineticgrandchampionship.com/racers (primary) ·  (secondary) |
 | Entry requirements / deadline: Fully human-powered; pilots 16+. 2027 registration dates not published | https://kineticgrandchampionship.com/racers (primary) ·  (secondary) |
 | Verification note (research pass): 2027 dates/fees UNVERIFIED. Source audit 4 Oct 2026: newspaper link removed. | experiences_v1.csv |
+| Date: 23–25 May 2026: Kinetic Grand Championship 2026. Memorial Day weekend 2026; confirmed by the organiser's 2026 race-results page. Build/use: Human-powered amphibious art sculpture, 50 miles. How to join: Enter a racer team or volunteer/spectate. | https://kineticgrandchampionship.com/ |
 | Date: 29–31 May 2027: Kinetic Grand Championship 2027. Arcata to Ferndale, Humboldt County, CA. Build/use: Human-powered amphibious art sculpture, 50 miles. How to join: Enter a racer team (2027 registration not open yet) or volunteer. | https://kineticgrandchampionship.com/ |
 | Take-part route "Race a human-powered amphibious sculpture" (Team entry): Enter a racer team with a fully human-powered art sculpture that crosses sand, mud and water over 50 miles. Pilots must be 16+. 2027 registration isn't open yet. | Re-worded from the CSV row and the dated items above |
 | Take-part route "Volunteer or spectate" (Watch & buy local): Volunteer or watch along the route. | Re-worded from the CSV row and the dated items above |

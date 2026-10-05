@@ -7,7 +7,7 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Fact used | Source |
 |---|---|
 | International Kite Festival / Uttarayan: summary, levels and next dates | https://ikf.gujarattourism.com/index.html · https://gujarattourism.com/fair-and-festival/international-kite-festival.html (details: experiences/uttarayan-ahmedabad/sources.md) |
-| Eco-friendly Ganesh idol-making workshops: summary, levels and next dates | https://www.mpcb.gov.in/sites/default/files/water-quality/water-quality-status/RevisedGuidelines09092021.pdf · https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf (details: experiences/ganesh-idol-workshops-mumbai/sources.md) |
+| Eco-friendly Ganesh idol-making workshops: summary, levels and next dates | https://www.mpcb.gov.in/sites/default/files/water-quality/water-quality-status/RevisedGuidelines09092021.pdf · https://dcdelhi.esic.gov.in/attachments/circularfile/Annexure_1764568541.pdf (details: experiences/ganesh-idol-workshops-mumbai/sources.md) |
 | Kumartuli idol makers & Durga Puja: summary, levels and next dates | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 · https://par.wb.gov.in/holidaylist.php (details: experiences/kumartuli-durga-puja-kolkata/sources.md) |
 | Hornbill Festival (Craftscape): summary, levels and next dates | https://hornbillfestival.com/events/ · https://tourism.nagaland.gov.in/entry-permits/ (details: experiences/hornbill-festival-nagaland/sources.md) |
 | Weifang International Kite Festival: summary, levels and next dates | https://www.sdxc.gov.cn/whql/whqlsy/202603/t20260318_17551002.htm (details: experiences/weifang-kite-festival/sources.md) |
@@ -46,4 +46,4 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 
 ## Counts
 
-- 27 experiences, 5 continents, 35 dated calendar items (Oct 2026 to Dec 2027), 31 month-level TBC items.
+- 27 experiences, 5 continents, 55 dated calendar items (Jan 2026 to Dec 2027), 31 month-level TBC items.

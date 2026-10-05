@@ -11,6 +11,7 @@ Row #21 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Participation level: Build-compete (open) | https://www.texassandfest.org/amateur-competition (primary) · https://www.texassandfest.org/knowbeforeyougo (secondary) |
 | Entry requirements / deadline: Registration opens Sep 2026 (date TBA), deadline 11 Apr 2027 or when plots fill | https://www.texassandfest.org/amateur-competition (primary) · https://www.texassandfest.org/knowbeforeyougo (secondary) |
 | Verification note (research pass): Verified on official page. | experiences_v1.csv |
+| Date: 17–19 Apr 2026: Texas SandFest 2026. Port Aransas Chamber: 17–19 Apr 2026. Build/use: Build a sand sculpture in your own plot (amateur categories). How to join: Register solo, team or family in the amateur competition. | https://www.portaransas.org/sandfest/ |
 | Deadline: Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens (official page: 'September XX, 2026'). Opening date TBA; check now. | https://www.texassandfest.org/amateur-competition |
 | Deadline: 11 Apr 2027: Texas SandFest amateur registration. Official page. Build/use: Sand sculpture in your own plot. How to join: Register solo, team or family; closes early if plots fill. | https://www.texassandfest.org/amateur-competition |
 | Date: 16–18 Apr 2027: Texas SandFest 2027 (amateur comp 16-17 Apr). Port Aransas, Texas. Build/use: Build a sand sculpture. How to join: 1-day amateur contest on 17 Apr; 2-day open contest 16-17 Apr. | https://www.texassandfest.org/amateur-competition |
