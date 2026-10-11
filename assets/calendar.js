@@ -5,6 +5,7 @@
   const DATA = JSON.parse(document.getElementById("bw-events").textContent);
   const EV = DATA.events, MONTHS = DATA.months, LVL = DATA.levels, EXP = DATA.exps, CONT = DATA.continents;
   const NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const DOW = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
   const pad = n => String(n).padStart(2, "0");
   const t = new Date(), today = `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}`;
   const q = new URLSearchParams(location.search);
@@ -37,17 +38,19 @@
     const lead = (first.getDay() + 6) % 7, a = `${cur}-01`, b = `${cur}-${pad(nd)}`;
     const ev = EV.filter(match);
     const dated = ev.filter(e => !e.tbc && e.start <= b && e.end >= a), tbc = ev.filter(e => e.tbc && e.month === cur);
-    let h = `<div class="cal-month"><h2>${NAMES[m - 1]} ${y}<small>${dated.length} dated · ${tbc.length} date TBC</small></h2><div class="cal-grid" role="grid" aria-label="${NAMES[m - 1]} ${y}">`;
-    for (const d of ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]) h += `<div class="cal-dow" role="columnheader">${d}</div>`;
+    let h = `<div class="cal-month"><h2>${NAMES[m - 1]} ${y}<small>${dated.length} dated · ${tbc.length} date TBC</small></h2><div class="cal-grid" role="group" aria-label="${NAMES[m - 1]} ${y}">`;
+    for (const d of ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]) h += `<div class="cal-dow" aria-hidden="true">${d}</div>`;
     for (let i = 0; i < lead; i++) h += '<div class="cal-day pad" aria-hidden="true"></div>';
     for (let d = 1; d <= nd; d++) {
       const iso = `${cur}-${pad(d)}`;
       const on = dated.filter(e => e.start <= iso && e.end >= iso).filter(e => {
         const span = (new Date(e.end) - new Date(e.start)) / 864e5; return span <= 10 || iso === e.start || iso === e.end || d === 1; });
-      const chips = on.map(e => `<span class="chip-ev ${e.level} lvx-${e.level}${e.kind === "deadline" ? " dl" : ""}${isPast(e) ? " past" : ""}" title="${esc(e.title)} (${esc(e.label)})${isPast(e) ? " · Past" : ""}">${e.kind === "deadline" ? "⏰ " : ""}${iso !== e.start ? "↳ " : ""}${esc(EXP[e.exp].short)}</span>`).join("");
+      const chips = on.map(e => `<span class="chip-ev ${e.level} lvx-${e.level}${e.kind === "deadline" ? " dl" : ""}${isPast(e) ? " past" : ""}" title="${esc(e.title)} (${esc(e.label)})${isPast(e) ? " · Past" : ""}">${e.kind === "deadline" ? "⏰ " : ""}${iso !== e.start ? "↳ " : ""}${esc(EXP[e.exp].short)}${isPast(e) ? '<span class="sr-only"> (past)</span>' : ""}<span class="sr-only">, </span></span>`).join("");
       const dots = on.map(e => `<span class="dot ${e.level} lvx-${e.level}${isPast(e) ? " past" : ""}"></span>`).join("");
-      const lab = `${d} ${NAMES[m - 1]}${on.length ? ": " + on.map(e => EXP[e.exp].short + (isPast(e) ? " (past)" : "")).join(", ") : ""}`;
-      h += on.length ? `<button type="button" class="cal-day${iso === today ? " today" : ""}" data-d="${iso}" aria-label="${esc(lab)}"><span class="n">${d}</span>${chips}<span class="cal-dots">${dots}</span></button>`
+      // accessible name comes from the content (no aria-label, so it always matches the visible text): weekday + date for
+      // screen readers, the visible chips on wide screens, and a screen-reader-only list where the chips give way to dots (<=760px)
+      const wd = DOW[(lead + d - 1) % 7], names = on.map(e => esc(EXP[e.exp].short) + (isPast(e) ? " (past)" : "")).join(", ");
+      h += on.length ? `<button type="button" class="cal-day${iso === today ? " today" : ""}" data-d="${iso}"><span class="n" aria-hidden="true">${d}</span><span class="sr-only">${wd} ${d} ${NAMES[m - 1]}${iso === today ? " (today)" : ""}: </span>${chips}<span class="cal-dots" aria-hidden="true">${dots}</span><span class="sr-mob">${names}</span></button>`
                      : `<div class="cal-day${iso === today ? " today" : ""}"><span class="n">${d}</span></div>`;
     }
     const tail = (7 - (lead + nd) % 7) % 7; for (let i = 0; i < tail; i++) h += '<div class="cal-day pad" aria-hidden="true"></div>';
