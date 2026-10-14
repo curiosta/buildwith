@@ -15,7 +15,7 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Aomori Nebuta Matsuri (dance as a haneto): summary, levels and next dates | https://www.nebuta.jp/info/haneto/sanka.html · https://www.nebuta.jp/foreign/english.html (details: experiences/aomori-nebuta-haneto/sources.md) |
 | Pingxi Sky Lantern Festival: summary, levels and next dates | https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019 (details: experiences/pingxi-sky-lanterns/sources.md) |
 | Hoi An lantern-making class + Full Moon Lantern Festival: summary, levels and next dates | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an · https://artsandculture.google.com/story/the-colorful-lanterns-of-hoi-an-quang-binh-tourism-department/OgVhzMzesu9PIA?hl=en (details: experiences/hoi-an-lantern-workshop/sources.md) |
-| Yi Peng / Loy Krathong: summary, levels and next dates | https://www.tatnews.org/2024/11/loi-krathong-festival-2024-experience-thailands-enchanting-festival-of-lights/ (details: experiences/yi-peng-loy-krathong-chiang-mai/sources.md) |
+| Yi Peng / Loy Krathong: summary, levels and next dates | https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/544713 · https://www.tatnews.org/2024/11/loi-krathong-festival-2024-experience-thailands-enchanting-festival-of-lights/ (details: experiences/yi-peng-loy-krathong-chiang-mai/sources.md) |
 | Dieppe International Kite Festival: summary, levels and next dates | https://www.dieppetourisme.com/agenda/festival-international-de-cerfs-volants/ · https://en.normandie-tourisme.fr/highlight/dieppe-kite-festival/ (details: experiences/dieppe-kite-festival/sources.md) |
 | Las Fallas: summary, levels and next dates | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas · https://ich.unesco.org/en/RL/valencia-fallas-festivity-00859 (details: experiences/las-fallas-valencia/sources.md) |
 | Red Bull Soapbox Race: summary, levels and next dates | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race · https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026 (details: experiences/red-bull-soapbox-race/sources.md) |
@@ -46,4 +46,4 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 
 ## Counts
 
-- 27 experiences, 5 continents, 55 dated calendar items (Jan 2026 to Dec 2027), 31 month-level TBC items.
+- 27 experiences, 5 continents, 56 dated calendar items (Jan 2026 to Dec 2027), 30 month-level TBC items.
