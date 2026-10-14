@@ -1,134 +1,62 @@
-// buildwith: /calendar/ month grid + list toggle, with continent / country / participation-level filters + past toggle.
-// Data: <script type="application/json" id="bw-events">. Without JS the server-rendered list shows everything (including past).
+// buildwith calendar (/calendar/), redesigned 14 Oct 2026 after kinetic.curiosta.com/calendar/:
+// one "Coming up" list in date order grouped by month, ended editions folded under "Already held", one continent chip row.
+// The page is fully server-rendered; this script only re-checks status against today's date, filters, and copies the subscribe link.
 (function () {
-  const root = document.getElementById("cal"); if (!root) return;
-  const DATA = JSON.parse(document.getElementById("bw-events").textContent);
-  const EV = DATA.events, MONTHS = DATA.months, LVL = DATA.levels, EXP = DATA.exps, CONT = DATA.continents;
+  "use strict";
+  const $ = (s, r) => (r || document).querySelector(s), $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+  const D = JSON.parse(document.getElementById("bw-events").textContent);
   const NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  const DOW = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-  const pad = n => String(n).padStart(2, "0");
-  const t = new Date(), today = `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}`;
-  const q = new URLSearchParams(location.search);
-  let view = q.get("view") === "list" ? "list" : "month";
-  let cur = MONTHS.includes(q.get("m")) ? q.get("m") : (MONTHS.includes(today.slice(0, 7)) ? today.slice(0, 7) : MONTHS[0]);
-  const countries = [...new Set(Object.values(EXP).map(x => x.country))];
-  const F = { continent: CONT.includes(q.get("continent")) ? q.get("continent") : "", country: countries.includes(q.get("country")) ? q.get("country") : "",
-              hide: new Set((q.get("hide") || "").split(",").filter(k => k in LVL)),
-              showPast: q.get("past") !== "0" };
-  if (F.continent && F.country && !Object.values(EXP).some(x => x.country === F.country && x.continents.includes(F.continent))) F.country = "";
-  const els = { month: document.getElementById("cal-month"), list: document.getElementById("cal-list"), sel: document.getElementById("cal-sel"),
-    prev: document.getElementById("cal-prev"), next: document.getElementById("cal-next"), mnav: document.getElementById("cal-mnav"),
-    country: document.getElementById("cal-country"), count: document.getElementById("cal-count"), past: document.getElementById("cal-past") };
-  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const href = e => "../experiences/" + EXP[e.exp].slug + "/";
-  const isPast = e => !e.tbc && e.end < today;
-  const geoOK = (x, cont = F.continent, ctry = F.country) => (!cont || x.continents.includes(cont)) && (!ctry || x.country === ctry);
-  const match = e => !F.hide.has(e.level) && geoOK(EXP[e.exp]) && (F.showPast || !isPast(e));
-  const filtering = () => !!(F.continent || F.country || F.hide.size || !F.showPast);
-  function item(e) {
-    const past = isPast(e);
-    const tags = (past ? '<span class="past-tag">Past</span>' : "") + (e.kind === "deadline" ? '<span class="dl-tag">Deadline / key date</span>' : "") + (e.tbc ? '<span class="tbc-tag">Date TBC</span>' : "") +
-      `<span class="lv ${e.level}">${LVL[e.level]}</span>`;
-    return `<li class="${e.level} lvx-${e.level}${e.tbc ? " tbc" : ""}${past ? " past" : ""}" data-start="${e.start}" data-end="${e.end}"><span class="d">${esc(e.label)}</span>` +
-      `<span class="t"><a href="${href(e)}">${esc(e.title)}</a></span><span class="s">${esc(EXP[e.exp].place)}${e.note ? " · " + esc(e.note) : ""}` +
-      ` · <a href="${esc(e.url)}" target="_blank" rel="noopener">source</a><span class="tags">${tags}</span></span></li>`;
-  }
-  function renderMonth() {
-    const [y, m] = cur.split("-").map(Number), first = new Date(y, m - 1, 1), nd = new Date(y, m, 0).getDate();
-    const lead = (first.getDay() + 6) % 7, a = `${cur}-01`, b = `${cur}-${pad(nd)}`;
-    const ev = EV.filter(match);
-    const dated = ev.filter(e => !e.tbc && e.start <= b && e.end >= a), tbc = ev.filter(e => e.tbc && e.month === cur);
-    let h = `<div class="cal-month"><h2>${NAMES[m - 1]} ${y}<small>${dated.length} dated · ${tbc.length} date TBC</small></h2><div class="cal-grid" role="group" aria-label="${NAMES[m - 1]} ${y}">`;
-    for (const d of ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]) h += `<div class="cal-dow" aria-hidden="true">${d}</div>`;
-    for (let i = 0; i < lead; i++) h += '<div class="cal-day pad" aria-hidden="true"></div>';
-    for (let d = 1; d <= nd; d++) {
-      const iso = `${cur}-${pad(d)}`;
-      const on = dated.filter(e => e.start <= iso && e.end >= iso).filter(e => {
-        const span = (new Date(e.end) - new Date(e.start)) / 864e5; return span <= 10 || iso === e.start || iso === e.end || d === 1; });
-      const chips = on.map(e => `<span class="chip-ev ${e.level} lvx-${e.level}${e.kind === "deadline" ? " dl" : ""}${isPast(e) ? " past" : ""}" title="${esc(e.title)} (${esc(e.label)})${isPast(e) ? " · Past" : ""}">${e.kind === "deadline" ? "⏰ " : ""}${iso !== e.start ? "↳ " : ""}${esc(EXP[e.exp].short)}${isPast(e) ? '<span class="sr-only"> (past)</span>' : ""}<span class="sr-only">, </span></span>`).join("");
-      const dots = on.map(e => `<span class="dot ${e.level} lvx-${e.level}${isPast(e) ? " past" : ""}"></span>`).join("");
-      // accessible name comes from the content (no aria-label, so it always matches the visible text): weekday + date for
-      // screen readers, the visible chips on wide screens, and a screen-reader-only list where the chips give way to dots (<=760px)
-      const wd = DOW[(lead + d - 1) % 7], names = on.map(e => esc(EXP[e.exp].short) + (isPast(e) ? " (past)" : "")).join(", ");
-      h += on.length ? `<button type="button" class="cal-day${iso === today ? " today" : ""}" data-d="${iso}"><span class="n" aria-hidden="true">${d}</span><span class="sr-only">${wd} ${d} ${NAMES[m - 1]}${iso === today ? " (today)" : ""}: </span>${chips}<span class="cal-dots" aria-hidden="true">${dots}</span><span class="sr-mob">${names}</span></button>`
-                     : `<div class="cal-day${iso === today ? " today" : ""}"><span class="n">${d}</span></div>`;
+  const pad = n => String(n).padStart(2, "0"), N = new Date();
+  const TODAY = N.getFullYear() + "-" + pad(N.getMonth() + 1) + "-" + pad(N.getDate()), YM = TODAY.slice(0, 7);
+  const up = $("#evup"), pastList = $("#evpastlist"), held = $("#held");
+  const setStatus = (li, cls, word) => { const s = $(".status", li); s.className = "status stw-" + cls; s.textContent = word; };
+  // ---------- status by today's date; regroup Coming up by month ----------
+  $$(".evi", up).forEach(li => {
+    const dl = li.dataset.kind === "deadline";
+    if (li.dataset.tbc) {
+      if (li.dataset.lastMonth < YM) { setStatus(li, "ended", "Not confirmed"); li.classList.add("isp"); pastList.appendChild(li); }
+      return;
     }
-    const tail = (7 - (lead + nd) % 7) % 7; for (let i = 0; i < tail; i++) h += '<div class="cal-day pad" aria-hidden="true"></div>';
-    h += "</div>";
-    if (tbc.length) h += '<div class="cal-tbc"><h3>This month, date TBC</h3><div class="pills">' + tbc.map(e =>
-      `<a class="pill lvx-${e.level}" href="${href(e)}" title="${esc(e.title)}"><span class="dot ${e.level}"></span>${e.kind === "deadline" ? "⏰ " : ""}<span class="tx">${esc(e.title)}</span></a>`).join("") + "</div></div>";
-    h += "</div>";
-    const all = ev.filter(e => (e.tbc && e.month === cur) || (!e.tbc && e.start <= b && e.end >= a));
-    h += `<div class="cal-agenda"><h3>Everything in ${NAMES[m - 1]} ${y}</h3>` + (all.length ? `<ul class="dated">${all.map(item).join("")}</ul>`
-      : `<p class="muted">${filtering() ? "Nothing this month matches the filters." : "Nothing scheduled."}</p>`) + "</div>";
-    els.month.innerHTML = h;
-    els.sel.value = cur; els.prev.disabled = MONTHS.indexOf(cur) === 0; els.next.disabled = MONTHS.indexOf(cur) === MONTHS.length - 1;
-    els.month.querySelectorAll("button.cal-day").forEach(btn => btn.addEventListener("click", () => {
-      const lis = [...els.month.querySelectorAll(".cal-agenda li")].filter(li => li.dataset.start <= btn.dataset.d && li.dataset.end >= btn.dataset.d && !li.classList.contains("tbc"));
-      els.month.querySelectorAll(".cal-agenda li.hl").forEach(li => li.classList.remove("hl"));
-      lis.forEach(li => li.classList.add("hl")); if (lis[0]) lis[0].scrollIntoView({ behavior: "smooth", block: "center" });
-    }));
-  }
-  // server-rendered lists (list view + deadlines): hide non-matching items, refresh per-month counts
-  function filterLists() {
-    const liOK = li => { const lv = Object.keys(LVL).find(k => li.classList.contains(k));
-      const past = li.classList.contains("past");
-      return !F.hide.has(lv) && (F.showPast || !past) && (!F.continent || li.dataset.continents.split(" ").includes(F.continent)) && (!F.country || li.dataset.country === F.country); };
-    document.querySelectorAll("#cal-list .month-group").forEach(g => {
-      const lis = [...g.querySelectorAll("li[data-country]")]; let d = 0, tb = 0;
-      lis.forEach(li => { const ok = liOK(li); li.hidden = !ok; if (ok) li.classList.contains("tbc") ? tb++ : d++; });
-      g.querySelector("[data-count]").textContent = `${d} dated · ${tb} date TBC`;
-      g.querySelector(".nomatch").hidden = !(lis.length && d + tb === 0);
-    });
-    const dls = [...document.querySelectorAll("#dl-list li[data-country]")]; let n = 0;
-    dls.forEach(li => { const ok = liOK(li); li.hidden = !ok; if (ok) n++; });
-    document.getElementById("dl-nomatch").hidden = n > 0;
-    const df = document.getElementById("dl-filtered"); df.hidden = !filtering();
-    df.textContent = filtering() ? `Filtered by the calendar filters above: ${n} of ${dls.length} deadlines shown.` : "";
-  }
-  function renderFilters() {
-    const lvOK = e => !F.hide.has(e.level) && (F.showPast || !isPast(e));
-    document.querySelectorAll(".chip[data-gf=continent]").forEach(b => {
-      b.setAttribute("aria-pressed", String(b.dataset.v === F.continent));
-      b.querySelector(".cnt").textContent = EV.filter(e => lvOK(e) && geoOK(EXP[e.exp], b.dataset.v, "")).length;
-    });
-    const opt = c => `<option value="${esc(c)}">${esc(c)} (${EV.filter(e => lvOK(e) && geoOK(EXP[e.exp], F.continent, c)).length})</option>`;
-    const sorted = list => [...list].sort((a, b) => (a === "Multi-city") - (b === "Multi-city") || a.localeCompare(b));
-    const inCont = c => sorted(new Set(Object.values(EXP).filter(x => x.continents.includes(c)).map(x => x.country)));
-    els.country.innerHTML = `<option value="">${F.continent ? "Any country in " + esc(F.continent) : "Any country"}</option>` +
-      (F.continent ? inCont(F.continent).map(opt).join("") : CONT.map(c => `<optgroup label="${c}">${inCont(c).map(opt).join("")}</optgroup>`).join(""));
-    els.country.value = F.country;
-    document.querySelectorAll(".legend input[data-lv]").forEach(c => { c.checked = !F.hide.has(c.dataset.lv); root.classList.toggle("hide-" + c.dataset.lv, !c.checked); });
-    if (els.past) els.past.checked = F.showPast;
-    root.classList.toggle("hide-past", !F.showPast);
-    const shown = EV.filter(match), d = shown.filter(e => !e.tbc).length;
-    els.count.textContent = `Showing ${shown.length} of ${EV.length} items (${d} dated, ${shown.length - d} date TBC)`;
-    document.getElementById("cal-reset").hidden = !filtering();
-  }
-  function sync() {
-    const p = new URLSearchParams(); if (view === "list") p.set("view", "list"); else p.set("m", cur);
-    if (F.continent) p.set("continent", F.continent); if (F.country) p.set("country", F.country); if (F.hide.size) p.set("hide", [...F.hide].join(","));
-    if (!F.showPast) p.set("past", "0");
-    history.replaceState(null, "", location.pathname + "?" + p + location.hash);
-  }
+    if (li.dataset.end < TODAY) { setStatus(li, "ended", dl ? "Deadline passed" : "Ended"); li.classList.add("isp"); pastList.appendChild(li); }
+    else if (li.dataset.start <= TODAY) setStatus(li, "now", dl ? "Deadline open" : "On now");
+  });
+  const ymOf = li => li.dataset.tbc ? null : (li.dataset.start < TODAY ? YM : li.dataset.start.slice(0, 7));
+  const items = $$(".evi", up), monthOf = new Map();
+  items.forEach(li => { const g = li.closest(".evmon").dataset.ym; monthOf.set(li, ymOf(li) || (g < YM ? YM : g)); });
+  items.sort((a, b) => { const x = monthOf.get(a), y = monthOf.get(b); if (x !== y) return x < y ? -1 : 1;
+    const sa = a.dataset.start || "9", sb = b.dataset.start || "9"; return sa < sb ? -1 : sa > sb ? 1 : 0; });
+  up.innerHTML = ""; let cur = null, ul = null;
+  items.forEach(li => { const ym = monthOf.get(li);
+    if (ym !== cur) { cur = ym; const g = document.createElement("li"); g.className = "evmon" + (ym === YM ? " now" : ""); g.dataset.ym = ym;
+      g.innerHTML = "<h4>" + NAMES[+ym.slice(5) - 1] + " " + ym.slice(0, 4) + "</h4><ul></ul>"; up.appendChild(g); ul = $("ul", g); }
+    ul.appendChild(li); });
+  $$(".evi", pastList).sort((a, b) => (b.dataset.end || b.dataset.lastMonth + "-99").localeCompare(a.dataset.end || a.dataset.lastMonth + "-99")).forEach(li => pastList.appendChild(li));
+  // ---------- continent filter (URL: ?continent=Asia) ----------
+  const chips = $$("#cal-controls .chip"), conts = chips.map(c => c.dataset.c);
+  let C = new URLSearchParams(location.search).get("continent") || ""; if (!conts.includes(C)) C = "";
   function render() {
-    renderFilters(); filterLists();
-    document.querySelectorAll("[data-view]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
-    els.month.hidden = view !== "month"; els.mnav.hidden = view !== "month"; els.list.hidden = view !== "list";
-    if (view === "month") renderMonth(); sync();
+    chips.forEach(c => c.setAttribute("aria-pressed", String(c.dataset.c === C)));
+    const ok = li => !C || li.dataset.continents.split(" ").includes(C);
+    $$(".evi", up).forEach(li => { li.hidden = !ok(li); });
+    $$(".evmon", up).forEach(m => { m.hidden = !$$(".evi", m).some(li => !li.hidden); });
+    const nUp = $$(".evi", up).filter(li => !li.hidden).length, past = $$(".evi", pastList);
+    past.forEach(li => { li.hidden = !ok(li); }); const nP = past.filter(li => !li.hidden).length;
+    $("#pcount").textContent = nP; held.hidden = !nP; $("#evnone").hidden = nUp > 0;
+    $("#st-up").textContent = $$(".evi", up).length; $("#st-past").textContent = past.length;
+    $("#cal-count").textContent = (C ? C + ": " : "") + nUp + " coming up · " + nP + " already held";
+    const p = new URLSearchParams(location.search); ["m", "view", "past", "hide", "country"].forEach(k => p.delete(k));
+    C ? p.set("continent", C) : p.delete("continent");
+    const q = p.toString(); history.replaceState(null, "", location.pathname + (q ? "?" + q : "") + location.hash);
   }
-  document.querySelectorAll("[data-view]").forEach(b => b.addEventListener("click", () => { view = b.dataset.view; render(); }));
-  els.sel.addEventListener("change", () => { cur = els.sel.value; render(); });
-  els.prev.addEventListener("click", () => { cur = MONTHS[Math.max(0, MONTHS.indexOf(cur) - 1)]; render(); });
-  els.next.addEventListener("click", () => { cur = MONTHS[Math.min(MONTHS.length - 1, MONTHS.indexOf(cur) + 1)]; render(); });
-  document.querySelectorAll(".chip[data-gf=continent]").forEach(b => b.addEventListener("click", () => {
-    F.continent = b.dataset.v;
-    if (F.country && !Object.values(EXP).some(x => x.country === F.country && geoOK(x, F.continent, F.country))) F.country = "";
-    render(); }));
-  els.country.addEventListener("change", () => { F.country = els.country.value; render(); });
-  document.querySelectorAll(".legend input[data-lv]").forEach(c => c.addEventListener("change", () => { c.checked ? F.hide.delete(c.dataset.lv) : F.hide.add(c.dataset.lv); render(); }));
-  if (els.past) els.past.addEventListener("change", () => { F.showPast = els.past.checked; render(); });
-  document.getElementById("cal-reset").addEventListener("click", () => { F.continent = ""; F.country = ""; F.hide.clear(); F.showPast = true; render(); });
-  document.getElementById("cal-controls").hidden = false;
-  render();
+  chips.forEach(c => c.addEventListener("click", () => { C = c.dataset.c; render(); }));
+  if (location.hash === "#held") held.open = true;
+  window.addEventListener("hashchange", () => { if (location.hash === "#held") held.open = true; });
+  $("#cal-controls").hidden = false; render();
+  // ---------- subscribe: inline "Copy link" (kinetic pattern, no pop-up) ----------
+  $$(".subs").forEach(box => { const b = $(".subs-copy", box), msg = $(".subs-msg", box); if (!b) return; b.hidden = false;
+    b.addEventListener("click", () => { const url = b.dataset.url;
+      const done = () => { msg.textContent = "Copied. In Google Calendar: Other calendars → From URL, then paste."; }, fail = () => { msg.textContent = "Couldn't copy. The link is: " + url; };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(url).then(done, fail);
+      else { const t = document.createElement("textarea"); t.value = url; t.style.position = "fixed"; t.style.opacity = "0"; document.body.appendChild(t); t.select();
+        try { document.execCommand("copy") ? done() : fail(); } catch (e) { fail(); } finally { t.remove(); } } }); });
 })();
