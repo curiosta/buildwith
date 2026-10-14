@@ -24,28 +24,28 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
 <script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="../../assets/styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E">
+<link rel="icon" href="../../favicon.ico" sizes="32x32">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="wordmark" href="../../" aria-label="buildwith. Baltimore kinetic race: home">
+    <a class="wordmark" href="../../" aria-label="buildwith home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg>
-      <span class="wm-text">buildwith<b>.</b></span><span class="wm-sub">Baltimore kinetic race</span>
+      <span class="wm-text">buildwith<b>.</b></span>
     </a>
-    <nav class="sectionnav" aria-label="Page sections">
-      <a href="#take-part">Take part</a>
-      <a href="#dates">Dates</a>
-      <a href="#skills">Skills</a>
-      <a href="#check">Check</a>
-      <a href="#links">Links</a>
-      <a href="../../experiences/">All experiences</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
+    <nav class="sectionnav" id="site-nav" aria-label="Main">
+      <a href="../../experiences/" class="active">Experiences</a>
       <a href="../../calendar/">Calendar</a>
+      <a href="../../skills/">Skills</a>
+      <a href="../../about/">About</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="main">
   <section class="hero page-hero" id="top">
     <div class="wrap">
       <div>
@@ -63,6 +63,8 @@
       </div>
     </div>
   </section>
+  <nav class="subnav" aria-label="On this page"><div class="wrap"><span class="subnav-l" aria-hidden="true">On this page</span><a href="#take-part">Take part</a><a href="#dates">Dates</a><a href="#skills">Skills you'll need</a><a href="#check">Check</a><a href="#links">Links</a></div></nav>
+
 
   <section class="block" id="take-part">
     <div class="wrap">
@@ -74,7 +76,7 @@
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
-          <h4>Race a human-powered amphibious sculpture</h4>
+          <h3 class="h4">Race a human-powered amphibious sculpture</h3>
           <p>Build a fully human-powered art sculpture with a team (pilots plus pit crew) that crosses city streets, sand, mud and the harbour, and enter it with AVAM. No motors, batteries or stored energy.</p>
         </div>
         <div class="card route watch">
@@ -112,7 +114,7 @@
         <h2>Skills you'll need</h2>
         <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       </div>
-      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h4>Building a human-powered amphibious vehicle (pedal drive, floats, brakes)</h4><p class="small muted">Also useful:</p><ul class="skill-more"><li>Art and costume design on a working machine</li><li>Team roles: pilots and pit crew</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Skilled team</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">several months of team build sessions</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
+      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Building a human-powered amphibious vehicle (pedal drive, floats, brakes)</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Art and costume design on a working machine</li><li>Team roles: pilots and pit crew</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Skilled team</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">several months of team build sessions</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Sculptures must be human-powered: no motors, batteries or stored energy for propulsion.</li><li>Water, wind, sun and gravity may help.</li><li>Required safety gear on board includes a life preserver for each person in the water, working brakes, a tow ring and a tow rope.</li><li>Inspections happen before the start, at the water entry and along the course.</li><li>The route runs about 8 hours through streets, the harbour, sand and mud.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Test flotation and steering in calm water before race day.</li><li>Ride the full distance on your machine at least once.</li><li>Rehearse the water entry with your pit crew.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Wear a life preserver in the water.</li><li>Working brakes are mandatory.</li><li>Heat and exhaustion over an 8-hour course.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules</span></div><h4><a href="https://www.avam.org/kinetic-rules" target="_blank" rel="noopener">Kinetic Sculpture Race Rules</a></h4><p>The official race rules and required safety equipment.</p><p class="pub"><span>Publisher:</span> American Visionary Art Museum (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official event page</span></div><h4><a href="https://www.avam.org/kinetic" target="_blank" rel="noopener">Baltimore Kinetic Sculpture Race</a></h4><p>Next race date, schedule and entry downloads.</p><p class="pub"><span>Publisher:</span> American Visionary Art Museum (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official tourism-board page</span></div><h4><a href="https://baltimore.org/event/kinetic-sculpture-race/" target="_blank" rel="noopener">Kinetic Sculpture Race</a></h4><p>Visitor overview of the race.</p><p class="pub"><span>Publisher:</span> Visit Baltimore (official destination marketing organisation)</p></div></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/human-powered-craft/">Human-powered craft →</a> · <a href="../../skills/">All skills guides</a></p>
@@ -126,7 +128,7 @@
         <h2>What we could and couldn't confirm</h2>
       </div>
       <div class="callout warn">
-        <h4>Before you book</h4>
+        <h3 class="h4">Before you book</h3>
         <ul><li>2027 entry details aren&#x27;t published yet; the 2026 rules are on AVAM&#x27;s site.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
     </div>
@@ -201,11 +203,9 @@
 <footer>
   <div class="wrap">
     <div class="more">
-      <a class="wordmark" href="../../" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
-      <div>Travel where you build it, or use what locals built · a Curiosta brand · <a href="../../">Home</a> · <a href="../../experiences/">All experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills guides</a> · <a href="../../about/">About</a></div>
-      <div class="small" style="margin-top:6px">Facts and dates checked 3–4 Oct 2026. Costs are not listed here: check each official site. Sources: see <a href="sources.md">sources.md</a>.</div>
-      <div class="small" style="margin-top:6px">Skills guides: <a href="../../skills/festival-build-safety-lnt/">Festival build safety</a> · <a href="../../skills/human-powered-craft/">Human-powered craft</a> · <a href="../../skills/kite-basics/">Kite basics</a> · <a href="../../skills/lanterns-and-floating-lights/">Lanterns & floating lights</a> · <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow & clay</a>.</div>
-      <div class="small" style="margin-top:6px">More experiences. <b>Asia:</b> <a href="../../experiences/uttarayan-ahmedabad/">Uttarayan kite festival</a> · <a href="../../experiences/ganesh-idol-workshops-mumbai/">Eco Ganesh idol workshops</a> · <a href="../../experiences/kumartuli-durga-puja-kolkata/">Kumartuli idol makers</a> · <a href="../../experiences/hornbill-festival-nagaland/">Hornbill Festival</a> · <a href="../../experiences/weifang-kite-festival/">Weifang kite festival</a> · <a href="../../experiences/harbin-snow-sculpture/">Harbin snow sculpture</a> · <a href="../../experiences/aomori-nebuta-haneto/">Nebuta haneto dancing</a> · <a href="../../experiences/pingxi-sky-lanterns/">Pingxi sky lanterns</a> · <a href="../../experiences/hoi-an-lantern-workshop/">Hoi An lantern workshop</a> · <a href="../../experiences/yi-peng-loy-krathong-chiang-mai/">Yi Peng / Loy Krathong</a> · <a href="../../experiences/robocup-world-championship/">RoboCup</a>; <b>Europe:</b> <a href="../../experiences/dieppe-kite-festival/">Dieppe kite festival</a> · <a href="../../experiences/las-fallas-valencia/">Las Fallas</a> · <a href="../../experiences/red-bull-soapbox-race/">Red Bull Soapbox Race</a> · <a href="../../experiences/knaresborough-bed-race/">Knaresborough Bed Race</a> · <a href="../../experiences/maker-faire-rome/">Maker Faire Rome</a> · <a href="../../experiences/corso-zundert/">Corso Zundert</a> · <a href="../../experiences/castells-tarragona/">Castells (human towers)</a>; <b>Americas:</b> <a href="../../experiences/red-bull-flugtag/">Red Bull Flugtag</a> · <a href="../../experiences/kinetic-grand-championship/">Kinetic Grand Championship</a> · <a href="../../experiences/burning-man/">Burning Man</a> · <a href="../../experiences/albuquerque-balloon-fiesta-crew/">Balloon Fiesta chase crew</a> · <a href="../../experiences/texas-sandfest/">Texas SandFest</a> · <a href="../../experiences/rio-carnival-samba-parade/">Rio Carnival samba parade</a> · <a href="../../experiences/sumpango-giant-kites/">Sumpango giant kites</a> · <a href="../../experiences/siu-cardboard-boat-regatta/">SIU cardboard boat regatta</a> · <a href="../../experiences/cannon-beach-sandcastle-contest/">Cannon Beach sandcastles</a> · <a href="../../experiences/port-townsend-wooden-boat-festival/">Port Townsend wooden boats</a>; <b>Africa:</b> <a href="../../experiences/afrikaburn/">AfrikaBurn</a> · <a href="../../experiences/cape-town-kite-festival/">Cape Town kite festival</a>; <b>Oceania:</b> <a href="../../experiences/darwin-beer-can-regatta/">Darwin Beer Can Regatta</a> · <a href="../../experiences/henley-on-todd-regatta/">Henley-on-Todd Regatta</a> · <a href="../../experiences/world-solar-challenge/">World Solar Challenge</a></div>
+      <a class="wordmark" href="../../" aria-label="buildwith home" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
+      <nav class="foot-nav" aria-label="Footer"><a href="../../experiences/">Experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills</a> · <a href="../../about/">About</a></nav>
+      <div class="small" style="margin-top:6px">A <a href="https://curiosta.com/" target="_blank" rel="noopener">Curiosta</a> brand · sister site: <a href="https://kinetic.curiosta.com/" target="_blank" rel="noopener">kinetic</a>, the physics behind adventure sports. Costs aren't listed here: check each official site.</div>
     </div>
     <div class="proto">Prototype - buildwith.curiosta.com</div>
   </div>

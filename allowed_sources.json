@@ -325,6 +325,11 @@
    "owner": "Nobodies Collective, organiser of Elsewhere (watch-list)"
   },
   {
+   "domain": "curiosta.com",
+   "source_type": "own-site",
+   "owner": "Curiosta (parent brand; footer link)"
+  },
+  {
    "domain": "kinetic.curiosta.com",
    "source_type": "own-site",
    "owner": "Curiosta (sister site)"

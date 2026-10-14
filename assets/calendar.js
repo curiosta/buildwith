@@ -28,7 +28,7 @@
   up.innerHTML = ""; let cur = null, ul = null;
   items.forEach(li => { const ym = monthOf.get(li);
     if (ym !== cur) { cur = ym; const g = document.createElement("li"); g.className = "evmon" + (ym === YM ? " now" : ""); g.dataset.ym = ym;
-      g.innerHTML = "<h4>" + NAMES[+ym.slice(5) - 1] + " " + ym.slice(0, 4) + "</h4><ul></ul>"; up.appendChild(g); ul = $("ul", g); }
+      g.innerHTML = "<h3 class=\"h4\">" + NAMES[+ym.slice(5) - 1] + " " + ym.slice(0, 4) + "</h3><ul></ul>"; up.appendChild(g); ul = $("ul", g); }
     ul.appendChild(li); });
   $$(".evi", pastList).sort((a, b) => (b.dataset.end || b.dataset.lastMonth + "-99").localeCompare(a.dataset.end || a.dataset.lastMonth + "-99")).forEach(li => pastList.appendChild(li));
   // ---------- continent filter (URL: ?continent=Asia) ----------

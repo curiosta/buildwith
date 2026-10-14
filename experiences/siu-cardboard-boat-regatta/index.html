@@ -24,28 +24,28 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
 <script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="../../assets/styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E">
+<link rel="icon" href="../../favicon.ico" sizes="32x32">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="wordmark" href="../../" aria-label="buildwith. SIU cardboard boat regatta: home">
+    <a class="wordmark" href="../../" aria-label="buildwith home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg>
-      <span class="wm-text">buildwith<b>.</b></span><span class="wm-sub">SIU cardboard boat regatta</span>
+      <span class="wm-text">buildwith<b>.</b></span>
     </a>
-    <nav class="sectionnav" aria-label="Page sections">
-      <a href="#take-part">Take part</a>
-      <a href="#dates">Dates</a>
-      <a href="#skills">Skills</a>
-      <a href="#check">Check</a>
-      <a href="#links">Links</a>
-      <a href="../../experiences/">All experiences</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
+    <nav class="sectionnav" id="site-nav" aria-label="Main">
+      <a href="../../experiences/" class="active">Experiences</a>
       <a href="../../calendar/">Calendar</a>
+      <a href="../../skills/">Skills</a>
+      <a href="../../about/">About</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="main">
   <section class="hero page-hero" id="top">
     <div class="wrap">
       <div>
@@ -63,6 +63,8 @@
       </div>
     </div>
   </section>
+  <nav class="subnav" aria-label="On this page"><div class="wrap"><span class="subnav-l" aria-hidden="true">On this page</span><a href="#take-part">Take part</a><a href="#dates">Dates</a><a href="#skills">Skills you'll need</a><a href="#check">Check</a><a href="#links">Links</a></div></nav>
+
 
   <section class="block" id="take-part">
     <div class="wrap">
@@ -74,7 +76,7 @@
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
-          <h4>Build a cardboard boat and race it</h4>
+          <h3 class="h4">Build a cardboard boat and race it</h3>
           <p>Build a muscle-powered boat from corrugated cardboard (the hull must be cardboard; one-part waterproofing only), then register and pass inspection on race morning. Races run on a U-shaped course of about 300 yards; up to 10 people per boat.</p>
         </div>
         <div class="card route build">
@@ -112,7 +114,7 @@
         <h2>Skills you'll need</h2>
         <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       </div>
-      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h4>Cardboard boat building: hull shape, layered corrugated sheets, glued and taped seams</h4><p class="small muted">Also useful:</p><ul class="skill-more"><li>Waterproofing with a one-part coating (no epoxy or fibreglass)</li><li>Paddling as a crew and getting out safely if the boat sinks</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">2–3 weekend build sessions (or none with an instant-boat kit)</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
+      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Cardboard boat building: hull shape, layered corrugated sheets, glued and taped seams</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Waterproofing with a one-part coating (no epoxy or fibreglass)</li><li>Paddling as a crew and getting out safely if the boat sinks</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">2–3 weekend build sessions (or none with an instant-boat kit)</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Everything structural must be corrugated cardboard, including the hull, superstructure and seats.</li><li>Glue, caulk, tape and staples are allowed as secondary supplies; waterproof the hull with a one-part product only.</li><li>Design for a quick exit: every crew member must be able to get out easily if the boat sinks.</li><li>Boats are muscle-powered from inside the boat; no swimming or pushing from outside.</li><li>The course is a U shape of about 300 yards: round each buoy on the outside.</li><li>Life jackets and paddles are provided and must be worn and used; wear water shoes.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Build a small test hull from 2–3 sheets and float it in a pool or bath before the full build.</li><li>Practise paddling in rhythm with your crew.</li><li>If you can&#x27;t build at home, plan on the instant-boat kit: about two hours to build on the day.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Wear the life jacket provided at all times on the water.</li><li>Design for an easy exit if the boat sinks.</li><li>Knives and box cutters: cut away from yourself.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official event page</span></div><h4><a href="https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php" target="_blank" rel="noopener">Great Cardboard Boat Regatta</a></h4><p>Date, time and location of the next regatta.</p><p class="pub"><span>Publisher:</span> Southern Illinois University Carbondale (Touch of Nature Outdoor Education Center)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules (PDF)</span></div><h4><a href="https://ton.siu.edu/_common/documents/the-great-cardboard-boat-regatta-info-form.pdf" target="_blank" rel="noopener">The Great Cardboard Boat Regatta: information form and rules (2026)</a></h4><p>Race rules, boat classes, instant-boat kits and building tips.</p><p class="pub"><span>Publisher:</span> Southern Illinois University Carbondale (Touch of Nature Outdoor Education Center)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official university news</span></div><h4><a href="https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php" target="_blank" rel="noopener">SIU&#x27;s Great Cardboard Boat Regatta begins a new half-century of fun April 18</a></h4><p>Who takes part and what to expect on the day.</p><p class="pub"><span>Publisher:</span> Southern Illinois University Carbondale (SIU News)</p></div></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/human-powered-craft/">Human-powered craft →</a> · <a href="../../skills/">All skills guides</a></p>
@@ -126,7 +128,7 @@
         <h2>What we could and couldn't confirm</h2>
       </div>
       <div class="callout warn">
-        <h4>Before you book</h4>
+        <h3 class="h4">Before you book</h3>
         <ul><li>Rules and classes come from the 2026 information form; check the 2027 form before you build.</li><li>Spectators are free.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
     </div>
@@ -201,11 +203,9 @@
 <footer>
   <div class="wrap">
     <div class="more">
-      <a class="wordmark" href="../../" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
-      <div>Travel where you build it, or use what locals built · a Curiosta brand · <a href="../../">Home</a> · <a href="../../experiences/">All experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills guides</a> · <a href="../../about/">About</a></div>
-      <div class="small" style="margin-top:6px">Facts and dates checked 3–4 Oct 2026. Costs are not listed here: check each official site. Sources: see <a href="sources.md">sources.md</a>.</div>
-      <div class="small" style="margin-top:6px">Skills guides: <a href="../../skills/festival-build-safety-lnt/">Festival build safety</a> · <a href="../../skills/human-powered-craft/">Human-powered craft</a> · <a href="../../skills/kite-basics/">Kite basics</a> · <a href="../../skills/lanterns-and-floating-lights/">Lanterns & floating lights</a> · <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow & clay</a>.</div>
-      <div class="small" style="margin-top:6px">More experiences. <b>Asia:</b> <a href="../../experiences/uttarayan-ahmedabad/">Uttarayan kite festival</a> · <a href="../../experiences/ganesh-idol-workshops-mumbai/">Eco Ganesh idol workshops</a> · <a href="../../experiences/kumartuli-durga-puja-kolkata/">Kumartuli idol makers</a> · <a href="../../experiences/hornbill-festival-nagaland/">Hornbill Festival</a> · <a href="../../experiences/weifang-kite-festival/">Weifang kite festival</a> · <a href="../../experiences/harbin-snow-sculpture/">Harbin snow sculpture</a> · <a href="../../experiences/aomori-nebuta-haneto/">Nebuta haneto dancing</a> · <a href="../../experiences/pingxi-sky-lanterns/">Pingxi sky lanterns</a> · <a href="../../experiences/hoi-an-lantern-workshop/">Hoi An lantern workshop</a> · <a href="../../experiences/yi-peng-loy-krathong-chiang-mai/">Yi Peng / Loy Krathong</a> · <a href="../../experiences/robocup-world-championship/">RoboCup</a>; <b>Europe:</b> <a href="../../experiences/dieppe-kite-festival/">Dieppe kite festival</a> · <a href="../../experiences/las-fallas-valencia/">Las Fallas</a> · <a href="../../experiences/red-bull-soapbox-race/">Red Bull Soapbox Race</a> · <a href="../../experiences/knaresborough-bed-race/">Knaresborough Bed Race</a> · <a href="../../experiences/maker-faire-rome/">Maker Faire Rome</a> · <a href="../../experiences/corso-zundert/">Corso Zundert</a> · <a href="../../experiences/castells-tarragona/">Castells (human towers)</a>; <b>Americas:</b> <a href="../../experiences/red-bull-flugtag/">Red Bull Flugtag</a> · <a href="../../experiences/kinetic-grand-championship/">Kinetic Grand Championship</a> · <a href="../../experiences/burning-man/">Burning Man</a> · <a href="../../experiences/albuquerque-balloon-fiesta-crew/">Balloon Fiesta chase crew</a> · <a href="../../experiences/texas-sandfest/">Texas SandFest</a> · <a href="../../experiences/rio-carnival-samba-parade/">Rio Carnival samba parade</a> · <a href="../../experiences/sumpango-giant-kites/">Sumpango giant kites</a> · <a href="../../experiences/cannon-beach-sandcastle-contest/">Cannon Beach sandcastles</a> · <a href="../../experiences/port-townsend-wooden-boat-festival/">Port Townsend wooden boats</a> · <a href="../../experiences/baltimore-kinetic-sculpture-race/">Baltimore kinetic race</a>; <b>Africa:</b> <a href="../../experiences/afrikaburn/">AfrikaBurn</a> · <a href="../../experiences/cape-town-kite-festival/">Cape Town kite festival</a>; <b>Oceania:</b> <a href="../../experiences/darwin-beer-can-regatta/">Darwin Beer Can Regatta</a> · <a href="../../experiences/henley-on-todd-regatta/">Henley-on-Todd Regatta</a> · <a href="../../experiences/world-solar-challenge/">World Solar Challenge</a></div>
+      <a class="wordmark" href="../../" aria-label="buildwith home" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
+      <nav class="foot-nav" aria-label="Footer"><a href="../../experiences/">Experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills</a> · <a href="../../about/">About</a></nav>
+      <div class="small" style="margin-top:6px">A <a href="https://curiosta.com/" target="_blank" rel="noopener">Curiosta</a> brand · sister site: <a href="https://kinetic.curiosta.com/" target="_blank" rel="noopener">kinetic</a>, the physics behind adventure sports. Costs aren't listed here: check each official site.</div>
     </div>
     <div class="proto">Prototype - buildwith.curiosta.com</div>
   </div>

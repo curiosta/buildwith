@@ -24,20 +24,19 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
 <script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="../assets/styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="wordmark" href="../" aria-label="buildwith. About: home">
+    <a class="wordmark" href="../" aria-label="buildwith home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg>
-      <span class="wm-text">buildwith<b>.</b></span><span class="wm-sub">About</span>
+      <span class="wm-text">buildwith<b>.</b></span>
     </a>
-    <nav class="sectionnav" aria-label="Site sections">
-      <a href="#what">What</a>
-      <a href="#levels">Levels</a>
-      <a href="#checks">How we check</a>
-      <a href="#watch">Watch-list</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
+    <nav class="sectionnav" id="site-nav" aria-label="Main">
       <a href="../experiences/">Experiences</a>
       <a href="../calendar/">Calendar</a>
       <a href="../skills/">Skills</a>
@@ -46,30 +45,32 @@
   </div>
 </header>
 
-<main>
+<main id="main">
   <section class="hero page-hero" id="top">
     <div class="wrap">
       <div>
         <div class="crumbs"><a href="../">buildwith</a> / about</div>
         <span class="eyebrow">About buildwith</span>
-        <h1>Travel where you <em>make</em> your way in.</h1>
-        <p class="lede">buildwith is a Curiosta guide to festivals, contests and workshops around the world that you join by building something, or by using something that local makers built.</p>
+        <h1>How we pick and <em>check</em> experiences.</h1>
+        <p class="lede">What makes the list, the ways a traveller can take part, and how every fact and date is checked against an official source.</p>
       </div>
     </div>
   </section>
+  <nav class="subnav" aria-label="On this page"><div class="wrap"><span class="subnav-l" aria-hidden="true">On this page</span><a href="#what">What it is</a><a href="#levels">Ways to take part</a><a href="#checks">How we check</a><a href="#uttarayan">Founding example</a><a href="#watch">Watch-list</a></div></nav>
+
 
   <section class="block" id="what">
     <div class="wrap narrow">
-      <div class="section-head"><span class="eyebrow">01 · What it is</span><h2>One rule: you have to build or use something</h2>
+      <div class="section-head"><span class="eyebrow">01 · What it is</span><h2>What makes the list</h2>
       <p>An experience makes the list only if a traveller can take part hands-on: by building (a lantern, a float, a sand sculpture, a boat) or by using something built by locals or makers (kites, costumes, lanterns, a hot-air balloon that needs a crew). Pure sightseeing doesn't count. Watch-only events stay in only when the craft is the point and you can buy the makers' work.</p>
-      <p>Right now buildwith is an inspiration site with 34 experiences across 5 continents. Curated trips and team entries may come later. There is nothing to buy here, no tracking and no analytics.</p></div>
+      <p>Right now buildwith is a free guide to 34 experiences across 5 continents. Curated trips and team entries may come later. There is nothing to buy here, no tracking and no analytics.</p></div>
     </div>
   </section>
 
   <section class="block alt" id="levels">
     <div class="wrap">
-      <div class="section-head"><span class="eyebrow">02 · Participation levels</span><h2>How you take part</h2><p>Every listing is tagged with one or more of these. The colours match the calendar.</p></div>
-      <div class="routes"><div class="card route team"><span class="lv team">Team entry</span><h4>Team entry</h4><p>Build something and enter it: some events are open, some by application, lottery or qualification.</p></div><div class="card route build"><span class="lv build">Workshop / open build</span><h4>Workshop / open build</h4><p>Book a class or turn up and build with locals or makers.</p></div><div class="card route use"><span class="lv use">Use local gear</span><h4>Use local gear</h4><p>Buy or rent what local makers built (kites, lanterns, costumes) and take part with it.</p></div><div class="card route crew"><span class="lv crew">Crew</span><h4>Crew</h4><p>Join the crew for someone else's build: launch, chase and pack down.</p></div><div class="card route watch"><span class="lv watch">Watch & buy local</span><h4>Watch & buy local</h4><p>Watch the makers at work, then buy their work. No entry needed.</p></div></div>
+      <div class="section-head"><span class="eyebrow">02 · Ways to take part</span><h2>How you take part</h2><p>Every listing is tagged with one or more of these. The colours match the calendar.</p></div>
+      <div class="routes"><div class="card route team"><h3 class="h4"><span class="lv team">Team entry</span></h3><p>Build something and enter it: some events are open, some by application, lottery or qualification.</p></div><div class="card route build"><h3 class="h4"><span class="lv build">Workshop / open build</span></h3><p>Book a class or turn up and build with locals or makers.</p></div><div class="card route use"><h3 class="h4"><span class="lv use">Use local gear</span></h3><p>Buy or rent what local makers built (kites, lanterns, costumes) and take part with it.</p></div><div class="card route crew"><h3 class="h4"><span class="lv crew">Crew</span></h3><p>Join the crew for someone else's build: launch, chase and pack down.</p></div><div class="card route watch"><h3 class="h4"><span class="lv watch">Watch & buy local</span></h3><p>Watch the makers at work, then buy their work. No entry needed.</p></div></div>
     </div>
   </section>
 
@@ -84,15 +85,21 @@
         <li>No costs are listed: they change, so we link to the official page instead.</li>
         <li>Research pass: 3 Oct 2026; date check, skills research and source audit: 4 Oct 2026 (IST).</li>
       </ul>
-      <div class="callout note"><h4>Comments</h4><p>Comments and corrections from travellers are planned for a later version.</p></div>
-      <p>Sister site: <a href="https://kinetic.curiosta.com/" target="_blank" rel="noopener">kinetic.curiosta.com</a>, the physics behind adventure sports.</p>
+      <div class="callout note"><h3 class="h4">Comments</h3><p>Comments and corrections from travellers are planned for a later version.</p></div>
     </div>
   </section>
 
-  <section class="block alt" id="watch">
+  <section class="block alt" id="uttarayan">
+    <div class="wrap narrow">
+      <div class="section-head"><span class="eyebrow">04 · Founding example</span><h2>🪁 Uttarayan in Ahmedabad</h2></div>
+      <p>Every January, for Makar Sankranti, Gujarat takes to its rooftops. You can't really join in by watching: you buy kites and reels from the makers at the Patang Bazaar, climb onto a rooftop with a local family and fly. That's the idea behind buildwith. <a href="../experiences/uttarayan-ahmedabad/">How to take part in Uttarayan →</a></p>
+    </div>
+  </section>
+
+  <section class="block" id="watch">
     <div class="wrap">
-      <div class="section-head"><span class="eyebrow">04 · Watch-list</span><h2>Researched, not listed yet</h2><p>These came close. They may join the list once a hands-on way in is confirmed.</p></div>
-      <div class="cards"><div class="card"><span class="tag in">Watch-list</span><h4>Sapporo Snow Festival, Japan</h4><p>2026 ran 4–11 Feb; 2027 is 4–11 Feb (official). Rechecked 14 Oct 2026 and kept in reserve: visitors mostly watch, and no open entry route to the International Snow Statue Contest was found.</p><a class="url" href="https://www.snowfes.com/news/948.html" target="_blank" rel="noopener">https://www.snowfes.com/news/948.html</a></div><div class="card"><span class="tag in">Watch-list</span><h4>Up Helly Aa, Lerwick, Shetland</h4><p>26 Jan 2027 (official). Checked 14 Oct 2026: a Viking galley and torches are built over the winter, but the build squads and guizers are local; visitors watch the procession and the burning, so it isn&#x27;t listed.</p><a class="url" href="https://www.uphellyaa.org/up-helly-aa-2027/" target="_blank" rel="noopener">https://www.uphellyaa.org/up-helly-aa-2027/</a></div><div class="card"><span class="tag in">Watch-list</span><h4>Ōtaki International Kite Festival, New Zealand</h4><p>Ran 14–15 Mar 2026. Mostly for watching; 2027 dates <mark class="flag">not published</mark>.</p><a class="url" href="https://www.visitkapiti.co.nz/events-feed/2026/march/otaki-kite-festival/" target="_blank" rel="noopener">https://www.visitkapiti.co.nz/events-feed/2026/march/otaki-kite-festival/</a></div><div class="card"><span class="tag in">Watch-list</span><h4>Elsewhere, Spain (regional burn)</h4><p>Successor to Nowhere; ran 7–12 Jul 2026 in Monegros. Could be added later.</p><a class="url" href="https://nobodies.team/" target="_blank" rel="noopener">https://nobodies.team/</a></div></div>
+      <div class="section-head"><span class="eyebrow">05 · Watch-list</span><h2>Researched, not listed yet</h2><p>These came close. They may join the list once a hands-on way in is confirmed.</p></div>
+      <div class="cards"><div class="card"><span class="tag in">Watch-list</span><h3 class="h4">Sapporo Snow Festival, Japan</h3><p>2026 ran 4–11 Feb; 2027 is 4–11 Feb (official). Rechecked 14 Oct 2026 and kept in reserve: visitors mostly watch, and no open entry route to the International Snow Statue Contest was found.</p><a class="url" href="https://www.snowfes.com/news/948.html" target="_blank" rel="noopener">https://www.snowfes.com/news/948.html</a></div><div class="card"><span class="tag in">Watch-list</span><h4>Up Helly Aa, Lerwick, Shetland</h4><p>26 Jan 2027 (official). Checked 14 Oct 2026: a Viking galley and torches are built over the winter, but the build squads and guizers are local; visitors watch the procession and the burning, so it isn&#x27;t listed.</p><a class="url" href="https://www.uphellyaa.org/up-helly-aa-2027/" target="_blank" rel="noopener">https://www.uphellyaa.org/up-helly-aa-2027/</a></div><div class="card"><span class="tag in">Watch-list</span><h4>Ōtaki International Kite Festival, New Zealand</h4><p>Ran 14–15 Mar 2026. Mostly for watching; 2027 dates <mark class="flag">not published</mark>.</p><a class="url" href="https://www.visitkapiti.co.nz/events-feed/2026/march/otaki-kite-festival/" target="_blank" rel="noopener">https://www.visitkapiti.co.nz/events-feed/2026/march/otaki-kite-festival/</a></div><div class="card"><span class="tag in">Watch-list</span><h4>Elsewhere, Spain (regional burn)</h4><p>Successor to Nowhere; ran 7–12 Jul 2026 in Monegros. Could be added later.</p><a class="url" href="https://nobodies.team/" target="_blank" rel="noopener">https://nobodies.team/</a></div></div>
     </div>
   </section>
 </main>
@@ -101,11 +108,9 @@
 <footer>
   <div class="wrap">
     <div class="more">
-      <a class="wordmark" href="../" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
-      <div>Travel where you build it, or use what locals built · a Curiosta brand · <a href="../">Home</a> · <a href="../experiences/">All experiences</a> · <a href="../calendar/">Calendar</a> · <a href="../skills/">Skills guides</a> · <a href="../about/">About</a></div>
-      <div class="small" style="margin-top:6px">Facts and dates checked 3–4 Oct 2026. Costs are not listed here: check each official site. Sources: see <a href="sources.md">sources.md</a>.</div>
-      <div class="small" style="margin-top:6px">Skills guides: <a href="../skills/festival-build-safety-lnt/">Festival build safety</a> · <a href="../skills/human-powered-craft/">Human-powered craft</a> · <a href="../skills/kite-basics/">Kite basics</a> · <a href="../skills/lanterns-and-floating-lights/">Lanterns & floating lights</a> · <a href="../skills/sculpting-sand-snow-clay/">Sculpting sand, snow & clay</a>.</div>
-      <div class="small" style="margin-top:6px">More experiences. <b>Asia:</b> <a href="../experiences/uttarayan-ahmedabad/">Uttarayan kite festival</a> · <a href="../experiences/ganesh-idol-workshops-mumbai/">Eco Ganesh idol workshops</a> · <a href="../experiences/kumartuli-durga-puja-kolkata/">Kumartuli idol makers</a> · <a href="../experiences/hornbill-festival-nagaland/">Hornbill Festival</a> · <a href="../experiences/weifang-kite-festival/">Weifang kite festival</a> · <a href="../experiences/harbin-snow-sculpture/">Harbin snow sculpture</a> · <a href="../experiences/aomori-nebuta-haneto/">Nebuta haneto dancing</a> · <a href="../experiences/pingxi-sky-lanterns/">Pingxi sky lanterns</a> · <a href="../experiences/hoi-an-lantern-workshop/">Hoi An lantern workshop</a> · <a href="../experiences/yi-peng-loy-krathong-chiang-mai/">Yi Peng / Loy Krathong</a> · <a href="../experiences/robocup-world-championship/">RoboCup</a>; <b>Europe:</b> <a href="../experiences/dieppe-kite-festival/">Dieppe kite festival</a> · <a href="../experiences/las-fallas-valencia/">Las Fallas</a> · <a href="../experiences/red-bull-soapbox-race/">Red Bull Soapbox Race</a> · <a href="../experiences/knaresborough-bed-race/">Knaresborough Bed Race</a> · <a href="../experiences/maker-faire-rome/">Maker Faire Rome</a> · <a href="../experiences/corso-zundert/">Corso Zundert</a> · <a href="../experiences/castells-tarragona/">Castells (human towers)</a>; <b>Americas:</b> <a href="../experiences/red-bull-flugtag/">Red Bull Flugtag</a> · <a href="../experiences/kinetic-grand-championship/">Kinetic Grand Championship</a> · <a href="../experiences/burning-man/">Burning Man</a> · <a href="../experiences/albuquerque-balloon-fiesta-crew/">Balloon Fiesta chase crew</a> · <a href="../experiences/texas-sandfest/">Texas SandFest</a> · <a href="../experiences/rio-carnival-samba-parade/">Rio Carnival samba parade</a> · <a href="../experiences/sumpango-giant-kites/">Sumpango giant kites</a> · <a href="../experiences/siu-cardboard-boat-regatta/">SIU cardboard boat regatta</a> · <a href="../experiences/cannon-beach-sandcastle-contest/">Cannon Beach sandcastles</a> · <a href="../experiences/port-townsend-wooden-boat-festival/">Port Townsend wooden boats</a> · <a href="../experiences/baltimore-kinetic-sculpture-race/">Baltimore kinetic race</a>; <b>Africa:</b> <a href="../experiences/afrikaburn/">AfrikaBurn</a> · <a href="../experiences/cape-town-kite-festival/">Cape Town kite festival</a>; <b>Oceania:</b> <a href="../experiences/darwin-beer-can-regatta/">Darwin Beer Can Regatta</a> · <a href="../experiences/henley-on-todd-regatta/">Henley-on-Todd Regatta</a> · <a href="../experiences/world-solar-challenge/">World Solar Challenge</a></div>
+      <a class="wordmark" href="../" aria-label="buildwith home" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
+      <nav class="foot-nav" aria-label="Footer"><a href="../experiences/">Experiences</a> · <a href="../calendar/">Calendar</a> · <a href="../skills/">Skills</a> · <a href="../about/">About</a></nav>
+      <div class="small" style="margin-top:6px">A <a href="https://curiosta.com/" target="_blank" rel="noopener">Curiosta</a> brand · sister site: <a href="https://kinetic.curiosta.com/" target="_blank" rel="noopener">kinetic</a>, the physics behind adventure sports. Costs aren't listed here: check each official site.</div>
     </div>
     <div class="proto">Prototype - buildwith.curiosta.com</div>
   </div>

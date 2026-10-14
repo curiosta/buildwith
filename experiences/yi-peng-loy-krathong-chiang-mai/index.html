@@ -24,28 +24,28 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
 <script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="../../assets/styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E">
+<link rel="icon" href="../../favicon.ico" sizes="32x32">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="wordmark" href="../../" aria-label="buildwith. Yi Peng / Loy Krathong: home">
+    <a class="wordmark" href="../../" aria-label="buildwith home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg>
-      <span class="wm-text">buildwith<b>.</b></span><span class="wm-sub">Yi Peng / Loy Krathong</span>
+      <span class="wm-text">buildwith<b>.</b></span>
     </a>
-    <nav class="sectionnav" aria-label="Page sections">
-      <a href="#take-part">Take part</a>
-      <a href="#dates">Dates</a>
-      <a href="#skills">Skills</a>
-      <a href="#check">Check</a>
-      <a href="#links">Links</a>
-      <a href="../../experiences/">All experiences</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
+    <nav class="sectionnav" id="site-nav" aria-label="Main">
+      <a href="../../experiences/" class="active">Experiences</a>
       <a href="../../calendar/">Calendar</a>
+      <a href="../../skills/">Skills</a>
+      <a href="../../about/">About</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="main">
   <section class="hero page-hero" id="top">
     <div class="wrap">
       <div>
@@ -63,6 +63,8 @@
       </div>
     </div>
   </section>
+  <nav class="subnav" aria-label="On this page"><div class="wrap"><span class="subnav-l" aria-hidden="true">On this page</span><a href="#take-part">Take part</a><a href="#dates">Dates</a><a href="#skills">Skills you'll need</a><a href="#check">Check</a><a href="#links">Links</a></div></nav>
+
 
   <section class="block" id="take-part">
     <div class="wrap">
@@ -74,7 +76,7 @@
       <div class="routes">
         <div class="card route build">
           <span class="lv build">Workshop / open build</span>
-          <h4>Make a krathong and float it</h4>
+          <h3 class="h4">Make a krathong and float it</h3>
           <p>Make a banana-leaf krathong and float it on the Ping River. TAT lists krathong contests, a traditional Lanna lantern competition and a krathong sai ceremony around Chiang Mai&#x27;s municipal area during Yi Peng.</p>
         </div>
         <div class="card route use">
@@ -112,7 +114,7 @@
         <h2>Skills you'll need</h2>
         <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       </div>
-      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h4>Folding a banana-leaf krathong: petal folds pinned around a banana-trunk base</h4><p class="small muted">Also useful:</p><ul class="skill-more"><li>Using only biodegradable materials and decorating with flowers, a candle and incense</li><li>Sky-lantern rules: release only at authorised events</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1 practice session (about 1 hour)</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
+      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Folding a banana-leaf krathong: petal folds pinned around a banana-trunk base</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Using only biodegradable materials and decorating with flowers, a candle and incense</li><li>Sky-lantern rules: release only at authorised events</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1 practice session (about 1 hour)</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Start with a round slice of banana trunk (or bread or another biodegradable base) as the float.</li><li>Cut banana-leaf strips and fold them into pointed petals; pin them in overlapping rows around the base with wooden pins or toothpicks, not staples or metal pins.</li><li>Top with flowers, one candle and three incense sticks; keep it small and light.</li><li>Test that it floats level in a bucket before taking it to the river.</li><li>Float it gently from a safe, lit spot on the Ping River; don&#x27;t lean over railings or step onto slippery banks.</li><li>Sky lanterns: release only at authorised events. An official Chiang Mai page on current restrictions: <mark class="flag">Unconfirmed: no official source</mark>.</li><li>TAT promotes biodegradable krathong workshops; joining one is the easiest way to learn the folds.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Fold petals from any large leaf (banana leaf is easy to find in South India) or paper strips and pin them around a foam-free base.</li><li>Practise one full krathong and float-test it in a bucket.</li><li>Watch for local Loy Krathong or Kartik Purnima diya-float events to practise floating safely.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Biodegradable materials only; no foam, plastic, staples or metal pins.</li><li>Take care at river edges at night.</li><li>Release sky lanterns only at authorised events (Chiang Mai&#x27;s rules: <mark class="flag">Unconfirmed: no official source</mark>).</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official tourism-board article</span></div><h4><a href="https://www.tatnews.org/2024/11/loi-krathong-festival-2024-experience-thailands-enchanting-festival-of-lights/" target="_blank" rel="noopener">Loi Krathong Festival 2024: Experience Thailand&#x27;s Enchanting Festival of Lights</a></h4><p>TAT overview including Chiang Mai&#x27;s Yi Peng programme and biodegradable krathong-making workshops.</p><p class="pub"><span>Publisher:</span> Tourism Authority of Thailand (TAT Newsroom)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official tourism-board article</span></div><h4><a href="https://www.tatnews.org/2025/11/thailand-marks-rivers-of-light-for-the-loi-krathong-festival-2025/" target="_blank" rel="noopener">Thailand marks rivers of light for the Loi Krathong Festival 2025</a></h4><p>Shows TAT&#x27;s eco-friendly banana-trunk krathong traditions (e.g. Mae Klong).</p><p class="pub"><span>Publisher:</span> Tourism Authority of Thailand (TAT Newsroom)</p></div></div><div class="callout note gap"><h4>No official resource yet</h4><p>No official krathong-folding guide yet, and no official Chiang Mai page on sky-lantern rules (<mark class="flag">Unconfirmed: no official source</mark>).</p></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/lanterns-and-floating-lights/">Lanterns &amp; floating lights →</a> · <a href="../../skills/">All skills guides</a></p>
@@ -126,7 +128,7 @@
         <h2>What we could and couldn't confirm</h2>
       </div>
       <div class="callout warn">
-        <h4>Before you book</h4>
+        <h3 class="h4">Before you book</h3>
         <ul><li>2026 dates: <mark class="flag">Unconfirmed: no official source</mark>. TAT says Loi Krathong falls on the full moon of the 12th Thai lunar month; its 2026 festival news isn&#x27;t out yet.</li><li>Sky-lantern restrictions in Chiang Mai: <mark class="flag">Unconfirmed: no official source</mark>. Release lanterns only at authorised events.</li><li>Many &#x27;official&#x27; lantern-ticket sites are commercial: we don&#x27;t link them.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
     </div>
@@ -201,11 +203,9 @@
 <footer>
   <div class="wrap">
     <div class="more">
-      <a class="wordmark" href="../../" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
-      <div>Travel where you build it, or use what locals built · a Curiosta brand · <a href="../../">Home</a> · <a href="../../experiences/">All experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills guides</a> · <a href="../../about/">About</a></div>
-      <div class="small" style="margin-top:6px">Facts and dates checked 3–4 Oct 2026. Costs are not listed here: check each official site. Sources: see <a href="sources.md">sources.md</a>.</div>
-      <div class="small" style="margin-top:6px">Skills guides: <a href="../../skills/festival-build-safety-lnt/">Festival build safety</a> · <a href="../../skills/human-powered-craft/">Human-powered craft</a> · <a href="../../skills/kite-basics/">Kite basics</a> · <a href="../../skills/lanterns-and-floating-lights/">Lanterns & floating lights</a> · <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow & clay</a>.</div>
-      <div class="small" style="margin-top:6px">More experiences. <b>Asia:</b> <a href="../../experiences/uttarayan-ahmedabad/">Uttarayan kite festival</a> · <a href="../../experiences/ganesh-idol-workshops-mumbai/">Eco Ganesh idol workshops</a> · <a href="../../experiences/kumartuli-durga-puja-kolkata/">Kumartuli idol makers</a> · <a href="../../experiences/hornbill-festival-nagaland/">Hornbill Festival</a> · <a href="../../experiences/weifang-kite-festival/">Weifang kite festival</a> · <a href="../../experiences/harbin-snow-sculpture/">Harbin snow sculpture</a> · <a href="../../experiences/aomori-nebuta-haneto/">Nebuta haneto dancing</a> · <a href="../../experiences/pingxi-sky-lanterns/">Pingxi sky lanterns</a> · <a href="../../experiences/hoi-an-lantern-workshop/">Hoi An lantern workshop</a> · <a href="../../experiences/robocup-world-championship/">RoboCup</a>; <b>Europe:</b> <a href="../../experiences/dieppe-kite-festival/">Dieppe kite festival</a> · <a href="../../experiences/las-fallas-valencia/">Las Fallas</a> · <a href="../../experiences/red-bull-soapbox-race/">Red Bull Soapbox Race</a> · <a href="../../experiences/knaresborough-bed-race/">Knaresborough Bed Race</a> · <a href="../../experiences/maker-faire-rome/">Maker Faire Rome</a> · <a href="../../experiences/corso-zundert/">Corso Zundert</a> · <a href="../../experiences/castells-tarragona/">Castells (human towers)</a>; <b>Americas:</b> <a href="../../experiences/red-bull-flugtag/">Red Bull Flugtag</a> · <a href="../../experiences/kinetic-grand-championship/">Kinetic Grand Championship</a> · <a href="../../experiences/burning-man/">Burning Man</a> · <a href="../../experiences/albuquerque-balloon-fiesta-crew/">Balloon Fiesta chase crew</a> · <a href="../../experiences/texas-sandfest/">Texas SandFest</a> · <a href="../../experiences/rio-carnival-samba-parade/">Rio Carnival samba parade</a> · <a href="../../experiences/sumpango-giant-kites/">Sumpango giant kites</a> · <a href="../../experiences/siu-cardboard-boat-regatta/">SIU cardboard boat regatta</a> · <a href="../../experiences/cannon-beach-sandcastle-contest/">Cannon Beach sandcastles</a> · <a href="../../experiences/port-townsend-wooden-boat-festival/">Port Townsend wooden boats</a> · <a href="../../experiences/baltimore-kinetic-sculpture-race/">Baltimore kinetic race</a>; <b>Africa:</b> <a href="../../experiences/afrikaburn/">AfrikaBurn</a> · <a href="../../experiences/cape-town-kite-festival/">Cape Town kite festival</a>; <b>Oceania:</b> <a href="../../experiences/darwin-beer-can-regatta/">Darwin Beer Can Regatta</a> · <a href="../../experiences/henley-on-todd-regatta/">Henley-on-Todd Regatta</a> · <a href="../../experiences/world-solar-challenge/">World Solar Challenge</a></div>
+      <a class="wordmark" href="../../" aria-label="buildwith home" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
+      <nav class="foot-nav" aria-label="Footer"><a href="../../experiences/">Experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills</a> · <a href="../../about/">About</a></nav>
+      <div class="small" style="margin-top:6px">A <a href="https://curiosta.com/" target="_blank" rel="noopener">Curiosta</a> brand · sister site: <a href="https://kinetic.curiosta.com/" target="_blank" rel="noopener">kinetic</a>, the physics behind adventure sports. Costs aren't listed here: check each official site.</div>
     </div>
     <div class="proto">Prototype - buildwith.curiosta.com</div>
   </div>

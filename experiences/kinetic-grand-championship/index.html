@@ -24,28 +24,28 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
 <script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="../../assets/styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E">
+<link rel="icon" href="../../favicon.ico" sizes="32x32">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="wordmark" href="../../" aria-label="buildwith. Kinetic Grand Championship: home">
+    <a class="wordmark" href="../../" aria-label="buildwith home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg>
-      <span class="wm-text">buildwith<b>.</b></span><span class="wm-sub">Kinetic Grand Championship</span>
+      <span class="wm-text">buildwith<b>.</b></span>
     </a>
-    <nav class="sectionnav" aria-label="Page sections">
-      <a href="#take-part">Take part</a>
-      <a href="#dates">Dates</a>
-      <a href="#skills">Skills</a>
-      <a href="#check">Check</a>
-      <a href="#links">Links</a>
-      <a href="../../experiences/">All experiences</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
+    <nav class="sectionnav" id="site-nav" aria-label="Main">
+      <a href="../../experiences/" class="active">Experiences</a>
       <a href="../../calendar/">Calendar</a>
+      <a href="../../skills/">Skills</a>
+      <a href="../../about/">About</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="main">
   <section class="hero page-hero" id="top">
     <div class="wrap">
       <div>
@@ -63,6 +63,8 @@
       </div>
     </div>
   </section>
+  <nav class="subnav" aria-label="On this page"><div class="wrap"><span class="subnav-l" aria-hidden="true">On this page</span><a href="#take-part">Take part</a><a href="#dates">Dates</a><a href="#skills">Skills you'll need</a><a href="#check">Check</a><a href="#links">Links</a></div></nav>
+
 
   <section class="block" id="take-part">
     <div class="wrap">
@@ -74,7 +76,7 @@
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
-          <h4>Race a human-powered amphibious sculpture</h4>
+          <h3 class="h4">Race a human-powered amphibious sculpture</h3>
           <p>Enter a racer team with a fully human-powered art sculpture that crosses sand, mud and water over 50 miles. Pilots must be 16+. 2027 registration isn&#x27;t open yet.</p>
         </div>
         <div class="card route watch">
@@ -112,7 +114,7 @@
         <h2>Skills you'll need</h2>
         <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       </div>
-      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h4>Designing a human-powered amphibious sculpture that crosses roads, sand, mud and open water</h4><p class="small muted">Also useful:</p><ul class="skill-more"><li>Flotation, traction and drivetrain design (pedal power on land and water)</li><li>Following the &#x27;Offishul Rules&#x27;, including ACE status, self-sufficiency and safe conduct</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Skilled team</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">3–6 months of design, build and water testing</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
+      <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Designing a human-powered amphibious sculpture that crosses roads, sand, mud and open water</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Flotation, traction and drivetrain design (pedal power on land and water)</li><li>Following the &#x27;Offishul Rules&#x27;, including ACE status, self-sufficiency and safe conduct</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Skilled team</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">3–6 months of design, build and water testing</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>All forward movement must be human-powered over the whole course; for ACE status no batteries or stored energy may drive forward movement, and tyre or pontoon inflation must use human-powered pumps.</li><li>Everything needed for normal operation (flotation, water propulsion, pumps, sand or mud traction aids, tools) must be carried on the sculpture all the way.</li><li>Design for three terrains: wide tyres or traction aids for sand and mud, gearing for hills, and flotation plus paddle wheels or propellers for water.</li><li>Safety rules prohibit projectiles, anchors, explosives and fireworks; fuel, compressed gas and lithium batteries must follow best practice (the rules point to Burning Man&#x27;s flame-effects guidance).</li><li>Read the engineering and art judging criteria early; the race rewards art and engineering as well as speed.</li><li>Team roles: captain, pilots, pit crew; everyone signs the waiver and code of conduct.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Read &#x27;How to Build a Kinetic&#x27; and sketch your drivetrain and flotation.</li><li>Test flotation of your pontoon design in a pool or lake with the full pilot load.</li><li>Build stamina with long cycling rides, including sand or mud if possible.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Flotation must carry the full pilot load; test before race day.</li><li>No projectiles, anchors, fireworks or explosives; handle fuels and lithium batteries to best practice.</li><li>All team members sign the waiver and code of conduct.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules (PDF)</span></div><h4><a href="https://kineticgrandchampionship.com/s/Rules-Schedule-Awards-2026.pdf" target="_blank" rel="noopener">Rules, Schedule, Awards 2026 (&#x27;Offishul Rules&#x27;)</a></h4><p>The full 2026 race rules: ACE, human power, self-sufficiency and safety.</p><p class="pub"><span>Publisher:</span> Kinetic Universe / Kinetic Grand Championship</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official participant page</span></div><h4><a href="https://kineticgrandchampionship.com/racers" target="_blank" rel="noopener">Racers page</a></h4><p>Registration, waivers and links to the rules and judging criteria.</p><p class="pub"><span>Publisher:</span> Kinetic Grand Championship</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official judging criteria (PDF)</span></div><h4><a href="https://kineticgrandchampionship.com/s/KGC23-ENG-Criteria.pdf" target="_blank" rel="noopener">KGC Engineering judging criteria</a></h4><p>What the engineering judges look for (2023 version, the latest linked).</p><p class="pub"><span>Publisher:</span> Kinetic Grand Championship</p></div><div class="card res comm"><div class="res-meta"><span class="badge community" title="Why accepted: Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance.">Community-accepted</span><span class="rtype">guide (PDF)</span></div><h4><a href="https://kineticgrandchampionship.com/s/HowtoBuildaKinetic_ElliotNaess.pdf" target="_blank" rel="noopener" title="Why accepted: Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance.">How to Build a Kinetic Sculpture – Elliot Naess</a></h4><p>A veteran racer&#x27;s design and build notes covering planning, flotation and drivetrains.</p><p class="pub"><span>Publisher:</span> Elliot Naess (experienced kinetic racer); hosted by Kinetic Grand Championship</p><p class="why-acc"><b>Why accepted:</b> Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance.</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official video channel</span></div><h4><a href="https://www.youtube.com/c/KineticGC" target="_blank" rel="noopener">Kinetic GC – YouTube</a></h4><p>Linked from the official site; footage of water and sand crossings.</p><p class="pub"><span>Publisher:</span> Kinetic Grand Championship (official channel)</p></div></div><div class="callout note gap"><h4>Note</h4><p>2027 registration and dates aren&#x27;t open yet.</p></div>
       <p class="see-also">See also the skills guides: <a href="../../skills/human-powered-craft/">Human-powered craft →</a> · <a href="../../skills/festival-build-safety-lnt/">Festival build safety &amp; Leave No Trace →</a> · <a href="../../skills/">All skills guides</a></p>
@@ -126,7 +128,7 @@
         <h2>What we could and couldn't confirm</h2>
       </div>
       <div class="callout warn">
-        <h4>Before you book</h4>
+        <h3 class="h4">Before you book</h3>
         <ul><li>2027 registration is <mark class="flag">not open yet</mark>.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
     </div>
@@ -201,11 +203,9 @@
 <footer>
   <div class="wrap">
     <div class="more">
-      <a class="wordmark" href="../../" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
-      <div>Travel where you build it, or use what locals built · a Curiosta brand · <a href="../../">Home</a> · <a href="../../experiences/">All experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills guides</a> · <a href="../../about/">About</a></div>
-      <div class="small" style="margin-top:6px">Facts and dates checked 3–4 Oct 2026. Costs are not listed here: check each official site. Sources: see <a href="sources.md">sources.md</a>.</div>
-      <div class="small" style="margin-top:6px">Skills guides: <a href="../../skills/festival-build-safety-lnt/">Festival build safety</a> · <a href="../../skills/human-powered-craft/">Human-powered craft</a> · <a href="../../skills/kite-basics/">Kite basics</a> · <a href="../../skills/lanterns-and-floating-lights/">Lanterns & floating lights</a> · <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow & clay</a>.</div>
-      <div class="small" style="margin-top:6px">More experiences. <b>Asia:</b> <a href="../../experiences/uttarayan-ahmedabad/">Uttarayan kite festival</a> · <a href="../../experiences/ganesh-idol-workshops-mumbai/">Eco Ganesh idol workshops</a> · <a href="../../experiences/kumartuli-durga-puja-kolkata/">Kumartuli idol makers</a> · <a href="../../experiences/hornbill-festival-nagaland/">Hornbill Festival</a> · <a href="../../experiences/weifang-kite-festival/">Weifang kite festival</a> · <a href="../../experiences/harbin-snow-sculpture/">Harbin snow sculpture</a> · <a href="../../experiences/aomori-nebuta-haneto/">Nebuta haneto dancing</a> · <a href="../../experiences/pingxi-sky-lanterns/">Pingxi sky lanterns</a> · <a href="../../experiences/hoi-an-lantern-workshop/">Hoi An lantern workshop</a> · <a href="../../experiences/yi-peng-loy-krathong-chiang-mai/">Yi Peng / Loy Krathong</a> · <a href="../../experiences/robocup-world-championship/">RoboCup</a>; <b>Europe:</b> <a href="../../experiences/dieppe-kite-festival/">Dieppe kite festival</a> · <a href="../../experiences/las-fallas-valencia/">Las Fallas</a> · <a href="../../experiences/red-bull-soapbox-race/">Red Bull Soapbox Race</a> · <a href="../../experiences/knaresborough-bed-race/">Knaresborough Bed Race</a> · <a href="../../experiences/maker-faire-rome/">Maker Faire Rome</a> · <a href="../../experiences/corso-zundert/">Corso Zundert</a> · <a href="../../experiences/castells-tarragona/">Castells (human towers)</a>; <b>Americas:</b> <a href="../../experiences/red-bull-flugtag/">Red Bull Flugtag</a> · <a href="../../experiences/burning-man/">Burning Man</a> · <a href="../../experiences/albuquerque-balloon-fiesta-crew/">Balloon Fiesta chase crew</a> · <a href="../../experiences/texas-sandfest/">Texas SandFest</a> · <a href="../../experiences/rio-carnival-samba-parade/">Rio Carnival samba parade</a> · <a href="../../experiences/sumpango-giant-kites/">Sumpango giant kites</a> · <a href="../../experiences/siu-cardboard-boat-regatta/">SIU cardboard boat regatta</a> · <a href="../../experiences/cannon-beach-sandcastle-contest/">Cannon Beach sandcastles</a> · <a href="../../experiences/port-townsend-wooden-boat-festival/">Port Townsend wooden boats</a> · <a href="../../experiences/baltimore-kinetic-sculpture-race/">Baltimore kinetic race</a>; <b>Africa:</b> <a href="../../experiences/afrikaburn/">AfrikaBurn</a> · <a href="../../experiences/cape-town-kite-festival/">Cape Town kite festival</a>; <b>Oceania:</b> <a href="../../experiences/darwin-beer-can-regatta/">Darwin Beer Can Regatta</a> · <a href="../../experiences/henley-on-todd-regatta/">Henley-on-Todd Regatta</a> · <a href="../../experiences/world-solar-challenge/">World Solar Challenge</a></div>
+      <a class="wordmark" href="../../" aria-label="buildwith home" style="margin-bottom:8px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0a3554"/><path d="M16 5l8 10-8 12-8-12z" stroke="#11b5a4" stroke-width="2.6" stroke-linejoin="round" fill="none"/><path d="M16 27v-12M8 15h16" stroke="#11b5a4" stroke-width="1.6"/><circle cx="25" cy="25" r="2.4" fill="#ff6b4a"/></svg><span class="wm-text">buildwith<b>.</b></span></a>
+      <nav class="foot-nav" aria-label="Footer"><a href="../../experiences/">Experiences</a> · <a href="../../calendar/">Calendar</a> · <a href="../../skills/">Skills</a> · <a href="../../about/">About</a></nav>
+      <div class="small" style="margin-top:6px">A <a href="https://curiosta.com/" target="_blank" rel="noopener">Curiosta</a> brand · sister site: <a href="https://kinetic.curiosta.com/" target="_blank" rel="noopener">kinetic</a>, the physics behind adventure sports. Costs aren't listed here: check each official site.</div>
     </div>
     <div class="proto">Prototype - buildwith.curiosta.com</div>
   </div>

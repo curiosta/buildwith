@@ -40,16 +40,11 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Port Townsend Wooden Boat Festival: summary, levels and next dates | https://woodenboat.org/2025-home/ · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (details: experiences/port-townsend-wooden-boat-festival/sources.md) |
 | Baltimore Kinetic Sculpture Race: summary, levels and next dates | https://www.avam.org/kinetic · https://baltimore.org/event/kinetic-sculpture-race/ (details: experiences/baltimore-kinetic-sculpture-race/sources.md) |
 | Bridgestone World Solar Challenge: summary, levels and next dates | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced · https://worldsolarchallenge.org/2027-event/team-registration (details: experiences/world-solar-challenge/sources.md) |
-| Coming up: Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens (official page: 'September XX, 2026') | https://www.texassandfest.org/amateur-competition |
-| Coming up: 3–11 Oct 2026: Albuquerque International Balloon Fiesta 2026 | https://www.balloonfiesta.com/plan-your-visit/faqs/ |
-| Coming up: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata) | https://par.wb.gov.in/holidaylist.php |
 | Coming up: 18–21 Oct 2026: Durga Puja, Kolkata (Maha Saptami to Vijaya Dashami) | https://par.wb.gov.in/holidaylist.php |
 | Coming up: 23 Oct 2026: Hoi An Full Moon Lantern Night (Hội An Legendary Night) | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Coming up: 23–25 Oct 2026: Maker Faire Rome 2026 | https://makerfairerome.eu/en/call/call-for-makers/ |
 | Coming up: 23 Oct 2026: AfrikaBurn 2027 Creative Grant applications (midnight) | https://www.afrikaburn.org/event/participation/artworks-performances/ |
 | Coming up: 24–25 Oct 2026: Cape Town International Kite Festival 2026 | https://www.capementalhealth.co.za/colourthesky/ |
-| Coming up: 29 Oct 2026: Burning Man 2027 Honoraria art-grant Letter of Intent (5pm PDT) | https://burningman.org/black-rock-city/bring-your-art/art-grants-programs/brc-honoraria/submit_grant/ |
-| Coming up: 31 Oct 2026: Red Bull Flugtag Miami 2026 | https://www.redbull.com/us-en/events/flugtag-miami/ft-miami-faqs |
 
 ## Counts
 

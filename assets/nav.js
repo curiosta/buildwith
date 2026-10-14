@@ -1,26 +1,16 @@
-// buildwith: shared page script. Mobile nav block copied from kinetic-tools/build/nav-mobile.js.
+// buildwith: shared page script. Phone menu (UAT 14 Oct 2026, after founder.curiosta.com): a Menu button with aria-expanded
+// opens the four site links; Esc, a second tap, a tap outside or choosing a link closes it. Without JavaScript the button
+// is hidden by CSS (it only shows under html.js, set inline before first paint, so it never shifts the layout) and the four links wrap under the wordmark, so nothing is ever unreachable.
 document.documentElement.classList.add("js");
-  // ---------- MOBILE NAV: edge fades + keep the active link in view ----------
-  (function () {
-    const snav = document.querySelector(".sectionnav");
-    if (!snav) return;
-    const fades = () => {
-      const max = snav.scrollWidth - snav.clientWidth;
-      snav.classList.toggle("fade-l", max > 4 && snav.scrollLeft > 4);
-      snav.classList.toggle("fade-r", max > 4 && snav.scrollLeft < max - 4);
-    };
-    snav.addEventListener("scroll", fades, { passive: true });
-    window.addEventListener("resize", fades);
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fades);
-    fades();
-    const keep = () => {
-      const a = snav.querySelector("a.active");
-      if (!a || snav.scrollWidth <= snav.clientWidth + 4) return;
-      const r = a.getBoundingClientRect(), n = snav.getBoundingClientRect();
-      if (r.left < n.left + 16 || r.right > n.right - 40) snav.scrollBy({ left: r.left - n.left - 20, behavior: "smooth" });
-    };
-    if ("MutationObserver" in window) {
-      const mo = new MutationObserver(keep);
-      snav.querySelectorAll("a").forEach(a => mo.observe(a, { attributes: true, attributeFilter: ["class"] }));
-    }
-  })();
+(function () {
+  const bar = document.querySelector(".topbar"), btn = bar && bar.querySelector(".nav-toggle"), nav = document.getElementById("site-nav");
+  if (!btn || !nav) return;
+  const set = open => { bar.classList.toggle("open", open); btn.setAttribute("aria-expanded", String(open)); };
+  btn.addEventListener("click", () => set(btn.getAttribute("aria-expanded") !== "true"));
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape" && bar.classList.contains("open")) { set(false); btn.focus(); } });
+  document.addEventListener("click", ev => { if (bar.classList.contains("open") && !bar.contains(ev.target)) set(false); });
+  nav.addEventListener("click", ev => { if (ev.target.closest("a")) set(false); });
+  const mq = window.matchMedia("(min-width:641px)");
+  const onMq = () => { if (mq.matches) set(false); };
+  mq.addEventListener ? mq.addEventListener("change", onMq) : mq.addListener(onMq);
+})();
