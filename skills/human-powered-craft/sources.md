@@ -20,3 +20,6 @@ Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), a
 | Applies to: Kinetic Grand Championship | experiences/kinetic-grand-championship/ (skills research applies_to / see_also_guides) |
 | Applies to: Darwin Lions Beer Can Regatta | experiences/darwin-beer-can-regatta/ (skills research applies_to / see_also_guides) |
 | Applies to: Henley-on-Todd Regatta | experiences/henley-on-todd-regatta/ (skills research applies_to / see_also_guides) |
+| Applies to: Great Cardboard Boat Regatta (SIU Carbondale) | experiences/siu-cardboard-boat-regatta/ (skills research applies_to / see_also_guides) |
+| Applies to: Port Townsend Wooden Boat Festival | experiences/port-townsend-wooden-boat-festival/ (skills research applies_to / see_also_guides) |
+| Applies to: Baltimore Kinetic Sculpture Race | experiences/baltimore-kinetic-sculpture-race/ (skills research applies_to / see_also_guides) |

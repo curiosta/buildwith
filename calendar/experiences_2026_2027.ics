@@ -289,7 +289,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:buildwith-1-2027-01-14-16@curiosta.com
 DTSTAMP:20261003T184211Z
-SEQUENCE:1
+SEQUENCE:2
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Uttarayan / Makar Sankranti\, Ahmedabad (kite-flying day)
@@ -297,10 +297,11 @@ DESCRIPTION:What you build/use: Fly kites made by local makers (Patang Baza
  ar) from rooftops.\nHow to join: Buy kites and reels locally and join a ro
  oftop\; free IKF ground.\nLevel: Use. Experience #1 in experiences_v1.csv.
  \nNote: Makar Sankranti is 14 Jan 2027 (Government of India 2027 holiday l
- ist). The official International Kite Festival 2027 dates are NOT announce
- d.\nhttps://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_o
- bserved_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.
- pdf\nMore: https://buildwith.curiosta.com/experiences/uttarayan-ahmedabad/
+ ist). The International Kite Festival 2027 runs 10–14 Jan 2027 at Sabarm
+ ati Riverfront\, Ahmedabad (Incredible India\, source: Gujarat Tourism).\n
+ https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_obser
+ ved_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf\
+ nMore: https://buildwith.curiosta.com/experiences/uttarayan-ahmedabad/
 URL:https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_ob
  served_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.p
  df
@@ -943,6 +944,216 @@ DESCRIPTION:What you build/use: Human-powered flying machine launched off a
  .com/us-en/events/red-bull-flugtag-minneapolis\nMore: https://buildwith.cu
  riosta.com/experiences/red-bull-flugtag/
 URL:https://www.redbull.com/us-en/events/red-bull-flugtag-minneapolis
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-1-2027-01-10-57@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270115
+SUMMARY:International Kite Festival 2027\, Gujarat (Sabarmati Riverfront\, 
+ Ahmedabad)
+DESCRIPTION:What you build/use: Fly kites made by local makers (Patang Baza
+ ar)\; watch invited international kite flyers at the riverfront ground.\nH
+ ow to join: Buy kites and reels locally and join a rooftop\; free IKF grou
+ nd.\nLevel: Use. Experience #1 in experiences_v1.csv.\nNote: Official: 10-
+ 14 Jan 2027\, Sabarmati Riverfront\, Ahmedabad (Incredible India\, Ministr
+ y of Tourism\, source: Gujarat Tourism).\nhttps://www.incredibleindia.gov.
+ in/en/festivals-and-events/gujarat/International-Kite-Festival0\nMore: htt
+ ps://buildwith.curiosta.com/experiences/uttarayan-ahmedabad/
+URL:https://www.incredibleindia.gov.in/en/festivals-and-events/gujarat/Inte
+ rnational-Kite-Festival0
+CATEGORIES:Use,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-28-2026-04-18-58@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:Great Cardboard Boat Regatta 2026 (51st)\, SIU Carbondale
+DESCRIPTION:What you build/use: Muscle-powered cardboard boat.\nHow to join
+ : Register and pass inspection on race morning\; instant-boat kits on site
+ .\nLevel: Team entry. Experience #28 in experiences_v1.csv.\nNote: SIU off
+ icial: Sat 18 Apr 2026\, Campus Lake\; races from 1pm.\nhttps://news.siu.e
+ du/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-cent
+ ury-of-fun-april-18.php\nMore: https://buildwith.curiosta.com/experiences/
+ siu-cardboard-boat-regatta/
+URL:https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-b
+ egins-a-new-half-century-of-fun-april-18.php
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-28-2027-04-24-59@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Great Cardboard Boat Regatta 2027\, SIU Carbondale
+DESCRIPTION:What you build/use: Muscle-powered cardboard boat.\nHow to join
+ : Register and pass inspection on race morning\; instant-boat kits on site
+ .\nLevel: Team entry. Experience #28 in experiences_v1.csv.\nNote: SIU Tou
+ ch of Nature official page: 24 Apr 2027\; races begin at 1pm.\nhttps://ton
+ .siu.edu/campus-programs/carbondale-boat-regatta.php\nMore: https://buildw
+ ith.curiosta.com/experiences/siu-cardboard-boat-regatta/
+URL:https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-29-2027-06-12-60@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Cannon Beach Sandcastle Contest 2027
+DESCRIPTION:What you build/use: Sand sculpture in your own plot.\nHow to jo
+ in: Register in a division (details due Feb 2027).\nLevel: Team entry. Exp
+ erience #29 in experiences_v1.csv.\nNote: Cannon Beach Chamber of Commerce
+ : contest Sat 12 Jun 2027 (festival weekend 11-13 Jun).\nhttps://www.canno
+ nbeach.org/events-and-festivals/sandcastle-contest/\nMore: https://buildwi
+ th.curiosta.com/experiences/cannon-beach-sandcastle-contest/
+URL:https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-30-2026-09-27-61@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:XXX Concurs de Castells 2026: Torredembarra day
+DESCRIPTION:What you build/use: Human towers built by 12 colles.\nHow to jo
+ in: Watch in the Plaça del Castell.\nLevel: Watch. Experience #30 in expe
+ riences_v1.csv.\nNote: Ajuntament de Tarragona official agenda: Sun 27 Sep
+  2026.\nhttps://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs
+ -de-castells-jornada-de-torredembarra\nMore: https://buildwith.curiosta.co
+ m/experiences/castells-tarragona/
+URL:https://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs-de-c
+ astells-jornada-de-torredembarra
+CATEGORIES:Watch,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-30-2026-10-03-62@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:XXX Concurs de Castells 2026\, Tarraco Arena Plaça
+DESCRIPTION:What you build/use: Human towers built by the top 30 colles.\nH
+ ow to join: Tickets by public draw (July).\nLevel: Watch. Experience #30 i
+ n experiences_v1.csv.\nNote: Official Concurs site: Sat 3 Oct (18 colles) 
+ and Sun 4 Oct (top 12).\nhttps://www.concursdecastells.cat/\nMore: https:/
+ /buildwith.curiosta.com/experiences/castells-tarragona/
+URL:https://www.concursdecastells.cat/
+CATEGORIES:Watch,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-31-2026-06-30-63@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260707
+SUMMARY:RoboCup 2026\, Incheon
+DESCRIPTION:What you build/use: Autonomous robots.\nHow to join: Teams qual
+ ify per league\; visitors watch.\nLevel: Team entry. Experience #31 in exp
+ eriences_v1.csv.\nNote: RoboCup Federation: 30 Jun-6 Jul 2026\, Incheon\, 
+ South Korea.\nhttps://www.robocup.org/events/80\nMore: https://buildwith.c
+ uriosta.com/experiences/robocup-world-championship/
+URL:https://www.robocup.org/events/80
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-31-2027-06-17-64@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270622
+SUMMARY:RoboCup 2027\, Nuremberg
+DESCRIPTION:What you build/use: Autonomous robots.\nHow to join: Teams qual
+ ify per league\; public visitor days 17-20 Jun.\nLevel: Team entry. Experi
+ ence #31 in experiences_v1.csv.\nNote: RoboCup 2027 official site: 17-21 J
+ un 2027\, Nuremberg Exhibition Center.\nhttps://2027.robocup.org/\nMore: h
+ ttps://buildwith.curiosta.com/experiences/robocup-world-championship/
+URL:https://2027.robocup.org/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-32-2026-09-11-65@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+SUMMARY:Port Townsend Wooden Boat Festival 2026
+DESCRIPTION:What you build/use: Hands-on woodworking\; wooden boats on the 
+ water.\nHow to join: Festival ticket.\nLevel: Build. Experience #32 in exp
+ eriences_v1.csv.\nNote: Northwest Maritime: 11-13 Sep 2026.\nhttps://nwmar
+ itime.org/nwmc-events/signature-events/wooden-boat-festival/\nMore: https:
+ //buildwith.curiosta.com/experiences/port-townsend-wooden-boat-festival/
+URL:https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festiva
+ l/
+CATEGORIES:Build,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-32-2027-09-10-66@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270913
+SUMMARY:Port Townsend Wooden Boat Festival 2027 (50th)
+DESCRIPTION:What you build/use: Hands-on woodworking\; wooden boats on the 
+ water.\nHow to join: Festival ticket.\nLevel: Build. Experience #32 in exp
+ eriences_v1.csv.\nNote: Official festival site: 10-12 Sep 2027.\nhttps://w
+ oodenboat.org/2025-home/\nMore: https://buildwith.curiosta.com/experiences
+ /port-townsend-wooden-boat-festival/
+URL:https://woodenboat.org/2025-home/
+CATEGORIES:Build,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-33-2026-05-02-67@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:Baltimore Kinetic Sculpture Race 2026
+DESCRIPTION:What you build/use: Human-powered amphibious art sculpture.\nHo
+ w to join: Team entry with AVAM\; free to watch.\nLevel: Team entry. Exper
+ ience #33 in experiences_v1.csv.\nNote: Visit Baltimore: 2 May 2026\, 9am-
+ 7pm.\nhttps://baltimore.org/event/kinetic-sculpture-race/\nMore: https://b
+ uildwith.curiosta.com/experiences/baltimore-kinetic-sculpture-race/
+URL:https://baltimore.org/event/kinetic-sculpture-race/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-33-2027-05-01-68@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Baltimore Kinetic Sculpture Race 2027
+DESCRIPTION:What you build/use: Human-powered amphibious art sculpture.\nHo
+ w to join: Team entry with AVAM\; free to watch.\nLevel: Team entry. Exper
+ ience #33 in experiences_v1.csv.\nNote: AVAM: next race Sat 1 May 2027.\nh
+ ttps://www.avam.org/kinetic\nMore: https://buildwith.curiosta.com/experien
+ ces/baltimore-kinetic-sculpture-race/
+URL:https://www.avam.org/kinetic
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-34-2027-08-22-69@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270830
+SUMMARY:Bridgestone World Solar Challenge 2027
+DESCRIPTION:What you build/use: Solar-powered car\, Darwin to Adelaide.\nHo
+ w to join: Team application for entry\; volunteer crew.\nLevel: Team entry
+ . Experience #34 in experiences_v1.csv.\nNote: Official: 22-29 Aug 2027 (s
+ tart 22 Aug in Darwin\; finish line opens 26 Aug\; awards 29 Aug).\nhttps:
+ //worldsolarchallenge.org/latest-news/2027-dates-regulations-announced\nMo
+ re: https://buildwith.curiosta.com/experiences/world-solar-challenge/
+URL:https://worldsolarchallenge.org/latest-news/2027-dates-regulations-anno
+ unced
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -33,6 +33,13 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Cape Town International Kite Festival: summary, levels and next dates | https://www.capementalhealth.co.za/colourthesky/ · https://www.capementalhealth.co.za/couragetofly/ (details: experiences/cape-town-kite-festival/sources.md) |
 | Darwin Lions Beer Can Regatta: summary, levels and next dates | https://beercanregatta.org.au/registration/ · https://beercanregatta.org.au/rules/ (details: experiences/darwin-beer-can-regatta/sources.md) |
 | Henley-on-Todd Regatta: summary, levels and next dates | https://www.henleyontodd.com.au/faqs · https://www.henleyontodd.com.au/competitors (details: experiences/henley-on-todd-regatta/sources.md) |
+| Great Cardboard Boat Regatta (SIU Carbondale): summary, levels and next dates | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php · https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php (details: experiences/siu-cardboard-boat-regatta/sources.md) |
+| Cannon Beach Sandcastle Contest: summary, levels and next dates | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ · https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/ (details: experiences/cannon-beach-sandcastle-contest/sources.md) |
+| Castells: human towers and the Concurs de Castells: summary, levels and next dates | https://castellscat.cat/en/els-castells · https://www.concursdecastells.cat/ (details: experiences/castells-tarragona/sources.md) |
+| RoboCup (world championship): summary, levels and next dates | https://2027.robocup.org/ · https://www.robocup.org/events/80 (details: experiences/robocup-world-championship/sources.md) |
+| Port Townsend Wooden Boat Festival: summary, levels and next dates | https://woodenboat.org/2025-home/ · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (details: experiences/port-townsend-wooden-boat-festival/sources.md) |
+| Baltimore Kinetic Sculpture Race: summary, levels and next dates | https://www.avam.org/kinetic · https://baltimore.org/event/kinetic-sculpture-race/ (details: experiences/baltimore-kinetic-sculpture-race/sources.md) |
+| Bridgestone World Solar Challenge: summary, levels and next dates | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced · https://worldsolarchallenge.org/2027-event/team-registration (details: experiences/world-solar-challenge/sources.md) |
 | Coming up: Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens (official page: 'September XX, 2026') | https://www.texassandfest.org/amateur-competition |
 | Coming up: 3–11 Oct 2026: Albuquerque International Balloon Fiesta 2026 | https://www.balloonfiesta.com/plan-your-visit/faqs/ |
 | Coming up: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata) | https://par.wb.gov.in/holidaylist.php |
@@ -46,4 +53,4 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 
 ## Counts
 
-- 27 experiences, 5 continents, 56 dated calendar items (Jan 2026 to Dec 2027), 30 month-level TBC items.
+- 34 experiences, 5 continents, 69 dated calendar items (Jan 2026 to Dec 2027), 29 month-level TBC items.

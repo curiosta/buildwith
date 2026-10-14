@@ -18,3 +18,4 @@ Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), a
 | Applies to: Harbin International Snow Sculpture Competition (Ice & Snow Festival) | experiences/harbin-snow-sculpture/ (skills research applies_to / see_also_guides) |
 | Applies to: Corso Zundert flower parade | experiences/corso-zundert/ (skills research applies_to / see_also_guides) |
 | Applies to: Texas SandFest (amateur competition) | experiences/texas-sandfest/ (skills research applies_to / see_also_guides) |
+| Applies to: Cannon Beach Sandcastle Contest | experiences/cannon-beach-sandcastle-contest/ (skills research applies_to / see_also_guides) |
