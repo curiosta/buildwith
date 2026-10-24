@@ -31,7 +31,7 @@ Level colours: team entry = coral, workshop/open build = teal, use local gear = 
 | Date: 14 Sep 2026: Ganesh Chaturthi 2026 (eco clay-idol workshops run in the weeks before). Ganesh Chaturthi / Vinayak Chaturthi is 14 Sep 2026 (Government of India 2026 holiday list, DoPT). | https://dcdelhi.esic.gov.in/attachments/circularfile/Annexure_1764568541.pdf |
 | Date: 26 Sep 2026: Red Bull Flugtag Minneapolis 2026. Bohemian Flats Park, 26 Sep 2026 (official Red Bull page). | https://www.redbull.com/us-en/events/red-bull-flugtag-minneapolis |
 | Date: 27 Sep 2026: XXX Concurs de Castells 2026: Torredembarra day. Ajuntament de Tarragona official agenda: Sun 27 Sep 2026. | https://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs-de-castells-jornada-de-torredembarra |
-| Deadline (TBC, month only): Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens (official page: 'September XX, 2026'). Opening date TBA; check now. | https://www.texassandfest.org/amateur-competition |
+| Deadline (TBC, month only): Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens. Opening date TBA; check now. | https://www.texassandfest.org/amateur-competition |
 | Date: 3–11 Oct 2026: Albuquerque International Balloon Fiesta 2026. Official dates. Happening now. | https://www.balloonfiesta.com/plan-your-visit/faqs/ |
 | Date: 3–4 Oct 2026: XXX Concurs de Castells 2026, Tarraco Arena Plaça. Official Concurs site: Sat 3 Oct (18 colles) and Sun 4 Oct (top 12). | https://www.concursdecastells.cat/ |
 | Date: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata). West Bengal Government 2026 holiday list. UNESCO: the eyes are painted onto the clay images on Mahalaya. | https://par.wb.gov.in/holidaylist.php |

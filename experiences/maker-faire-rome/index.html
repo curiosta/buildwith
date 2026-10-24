@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Apply via Call for Makers; or visit.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Apply via Call for Makers; or visit.</p>
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>Call for Makers deadline 30 Jun 2026 (2026 edition)</dd>
         <dt>Where</dt><dd>Rome (Gazometro Ostiense), Italy</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: October. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: October. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="team lvx-team" data-start="2026-10-23" data-end="2026-10-25"><span class="d">23–25 Oct 2026</span><span class="t">Maker Faire Rome 2026</span><span class="s">Gazometro Ostiense, Rome. · <a class="src" href="https://makerfairerome.eu/en/call/call-for-makers/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv team">Team entry</span></span></span></li><li class="team lvx-team tbc" data-start="2027-10-01" data-end="2027-10-31"><span class="d">Oct 2027 · date TBC</span><span class="t">Maker Faire Rome 2027 (usually October; call for makers usually closes ~June)</span><span class="s">2027 dates <mark class="flag">not published</mark>. · <a class="src" href="https://makerfairerome.eu/en/call/call-for-makers/" target="_blank" rel="noopener">source</a><span class="tags"><span class="tbc-tag">Date TBC</span><span class="lv team">Team entry</span></span></span></li></ul>
       
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Preparing a maker project for public exhibition (working demo, safety, power needs)</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Writing a strong Call for Makers application</li><li>Running an interactive stand and explaining your project to visitors</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Some practice (you need a working project)</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">2–6 weeks to polish an existing project for exhibition</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Read the Call for Makers regulations: projects are selected partly on novelty and also on technical, logistical and safety requirements for the in-person event.</li><li>Write the application around what visitors will see and do: a clear photo or video, what&#x27;s new about it, and the space and power you need.</li><li>Make the exhibit safe to stand next to: guard moving parts, hot surfaces and batteries; tidy cables; plan for crowds and children.</li><li>Make the stand self-explanatory: signs, process photos and something people can touch or try.</li><li>Stand in front of your table, greet people, and have a 30-second story ready: why you built it, what you learned, what&#x27;s next.</li><li>Plan set-up and take-down, spares and a repair kit; demos break.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Demo your project to friends or at a local makerspace or college fest and note the questions they ask.</li><li>Write your 30-second pitch and a one-page project sign.</li><li>Run your project for 6–8 hours straight to find failure points.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Guard moving parts, hot surfaces and battery packs; follow organiser electrical rules.</li><li>Keep walkways clear of cables.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official application page</span></div><h4><a href="https://makerfairerome.eu/en/call/call-for-makers/" target="_blank" rel="noopener">Call for Makers</a></h4><p>Who can apply and how.</p><p class="pub"><span>Publisher:</span> Maker Faire Rome (Innova Camera / Rome Chamber of Commerce)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules</span></div><h4><a href="https://makerfairerome.eu/en/call/call-for-makers/call-for-makers-regulation/" target="_blank" rel="noopener">Call for Makers 2026 Regulations</a></h4><p>Selection criteria including safety and logistics.</p><p class="pub"><span>Publisher:</span> Maker Faire Rome</p></div><div class="card res comm"><div class="res-meta"><span class="badge community" title="Why accepted: Make: founded Maker Faire and owns the brand that Maker Faire Rome is licensed under; its boothing tips are the standard advice for Maker Faire exhibitors.">Community-accepted</span><span class="rtype">article (Make: magazine)</span></div><h4><a href="https://makezine.com/article/education/tips-for-makers-the-basics-of-boothing/" target="_blank" rel="noopener" title="Why accepted: Make: founded Maker Faire and owns the brand that Maker Faire Rome is licensed under; its boothing tips are the standard advice for Maker Faire exhibitors.">Tips for Makers: The Basics of Boothing</a></h4><p>Practical advice on signage, interaction and staffing an exhibit.</p><p class="pub"><span>Publisher:</span> Make: Community (Make: magazine)</p><p class="why-acc"><b>Why accepted:</b> Make: founded Maker Faire and owns the brand that Maker Faire Rome is licensed under; its boothing tips are the standard advice for Maker Faire exhibitors.</p></div><div class="card res comm"><div class="res-meta"><span class="badge community" title="Why accepted: Published on makerfaire.com by the Maker Faire brand owner as the reference toolkit for exhibiting makers.">Community-accepted</span><span class="rtype">exhibitor guide</span></div><h4><a href="https://makerfaire.com/bay-area/maker-toolkit/" target="_blank" rel="noopener" title="Why accepted: Published on makerfaire.com by the Maker Faire brand owner as the reference toolkit for exhibiting makers.">Maker Toolkit – Maker Faire Bay Area</a></h4><p>The flagship Maker Faire&#x27;s exhibitor toolkit (logistics, safety, signage). Bay Area-specific details won&#x27;t apply to Rome.</p><p class="pub"><span>Publisher:</span> Make: Community (makerfaire.com)</p><p class="why-acc"><b>Why accepted:</b> Published on makerfaire.com by the Maker Faire brand owner as the reference toolkit for exhibiting makers.</p></div></div><div class="callout note gap"><h4>Note</h4><p>2027 dates and the call for makers aren&#x27;t published yet.</p></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/festival-build-safety-lnt/">Festival build safety &amp; Leave No Trace →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>2027 dates and call are <mark class="flag">not published</mark> yet.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://makerfairerome.eu/en/call/call-for-makers/" target="_blank" rel="noopener">https://makerfairerome.eu/en/call/call-for-makers/</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://makerfairerome.eu/en/call/call-for-makers/call-for-makers-regulation/" target="_blank" rel="noopener">https://makerfairerome.eu/en/call/call-for-makers/call-for-makers-regulation/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/harbin-snow-sculpture/" id="exp-harbin-snow-sculpture" data-continents="Asia" data-months="12 1" data-levels="team watch">
           <div class="ico" aria-hidden="true">❄️</div>
@@ -148,7 +160,7 @@
           <div class="loc">Sun Island, Harbin, Heilongjiang, China</div>
           <div class="lv-row"><span class="lv team">Team entry</span><span class="lv watch">Watch & buy local</span></div>
           <p>BUILD a large snow sculpture as a team</p>
-          <div class="when"><span>📅 Jan 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-01&quot;,&quot;e&quot;:&quot;2027-01-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jan 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Jan 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-soapbox-race/" id="exp-red-bull-soapbox-race" data-continents="Europe Americas" data-months="5 6" data-levels="team">
@@ -157,7 +169,7 @@
           <div class="loc">Multi-city (2026: Los Angeles, Denver, London)</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human/gravity-powered soapbox kart</p>
-          <div class="when"><span>📅 May 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-05-01&quot;,&quot;e&quot;:&quot;2027-05-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;May 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-06-01&quot;,&quot;e&quot;:&quot;2027-06-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jun 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually May 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-flugtag/" id="exp-red-bull-flugtag" data-continents="Americas" data-months="9 10" data-levels="team">
@@ -166,10 +178,12 @@
           <div class="loc">Multi-city (2026: Minneapolis, Miami), USA</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human-powered &#x27;flying&#x27; machine launched off a 30-ft deck into water</p>
-          <div class="when"><span>📅 31 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-10-31&quot;,&quot;e&quot;:&quot;2026-10-31&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;31 Oct 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-01&quot;,&quot;e&quot;:&quot;2027-09-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Sep 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-10-01&quot;,&quot;e&quot;:&quot;2027-10-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Oct 2027&quot;}]"><span>📅 31 Oct 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

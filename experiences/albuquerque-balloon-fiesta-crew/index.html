@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Register as chase crew (online from mid-July; on-site daily 5:30-7:30am &amp; 4:30-6:30pm at Crew Corral); Navigator volunteer apps Feb-Aug.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Register as chase crew (online from mid-July; on-site daily 5:30-7:30am &amp; 4:30-6:30pm at Crew Corral); Navigator volunteer apps Feb-Aug.</p>
       <div class="routes">
         <div class="card route crew">
           <span class="lv crew">Crew</span>
@@ -91,58 +90,73 @@
         <dt>Entry and deadlines</dt><dd>Volunteer Navigators: min 5 shifts/25 hrs; apps 2 Feb-15 Aug (2026)</dd>
         <dt>Where</dt><dd>Albuquerque, New Mexico, USA</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Early October. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Early October. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="crew lvx-crew" data-start="2027-10-02" data-end="2027-10-10"><span class="d">2–10 Oct 2027</span><span class="t">Albuquerque International Balloon Fiesta 2027</span><span class="s">Official future-dates list. · <a class="src" href="https://www.balloonfiesta.com/plan-your-visit/faqs/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv crew">Crew</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 3–11 Oct 2026: Albuquerque International Balloon Fiesta 2026.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Ground-crewing a hot-air balloon: layout, cold and hot inflation (holding the mouth, crown line), launch</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Chase and retrieval: tracking the balloon, landowner courtesy, pack-down</li><li>Crew safety: gloves, clothing, never wrapping lines around hands</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner (physical, early starts)</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1–2 hours reading</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Chase crews help the pilot inflate, launch, chase, deflate and pack the balloon. You register online in advance or sign up at the Chase Crew tower on the field.</li><li>Listen to the pilot&#x27;s crew briefing: every pilot assigns roles (crown line, holding the mouth, basket) and you do only your role.</li><li>Wear smooth leather gloves (loose and easy to remove), natural-fibre layers, sturdy closed shoes, a hat and eye protection. Mornings are cold and the sun is strong at altitude.</li><li>Never wrap a rope or line around your hand or body; if the balloon lifts, let go.</li><li>During chase, keep the balloon in sight, obey traffic laws, and never drive onto private land without permission; respect crops and livestock.</li><li>At pack-down, squeeze air out from the crown towards the mouth and fold or bag the envelope as the pilot directs.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Read Chapter 6 of the FAA Balloon Flying Handbook (Layout to Launch), especially the crew sections.</li><li>Practise rope handling and knots, and lifting bulky soft loads with a partner.</li><li>Get used to 5 am starts in the week before.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Leather gloves; never wrap lines around hands; let go if lifted.</li><li>Dress in natural-fibre layers; sun and eye protection.</li><li>Respect private land and traffic rules during chase.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official FAQ</span></div><h4><a href="https://www.balloonfiesta.com/plan-your-visit/faqs/" target="_blank" rel="noopener">Balloon Fiesta FAQs (incl. &#x27;What do chase crews do?&#x27;)</a></h4><p>Explains chase-crew sign-up (online or at the Chase Crew tower) and what to wear.</p><p class="pub"><span>Publisher:</span> Albuquerque International Balloon Fiesta, Inc.</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official participant page</span></div><h4><a href="https://www.balloonfiesta.com/pilots-and-crews/" target="_blank" rel="noopener">Pilots and Crews</a></h4><p>Hub for crew registration and pilot and crew videos.</p><p class="pub"><span>Publisher:</span> Albuquerque International Balloon Fiesta, Inc.</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official FAQ</span></div><h4><a href="https://www.balloonfiesta.com/get-involved/volunteer-faq/" target="_blank" rel="noopener">Volunteer FAQ</a></h4><p>Physical demands, clothing and the volunteer and Navigator options.</p><p class="pub"><span>Publisher:</span> Albuquerque International Balloon Fiesta, Inc.</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official handbook (government)</span></div><h4><a href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/Balloon_Flying_Handbook_FAA-H-8083-11B/bfh_chapter_6.pdf" target="_blank" rel="noopener">Balloon Flying Handbook – Chapter 6: Layout to Launch (FAA-H-8083-11B)</a></h4><p>Authoritative crew briefing, inflation and launch procedures, including gloves, clothing and line safety.</p><p class="pub"><span>Publisher:</span> Federal Aviation Administration (US government)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official training framework (governing body)</span></div><h4><a href="https://bfa.net/index.php/education-training/pilot-and-crew-achievement-programs/crew-achievement" target="_blank" rel="noopener">Crew Achievement Award Program (CAAP)</a></h4><p>The national balloon body&#x27;s crew skill levels, from apprentice to master crew chief.</p><p class="pub"><span>Publisher:</span> Balloon Federation of America (US national governing body for ballooning)</p></div></div><div class="callout note gap"><h4>Note</h4><p>The 2027 crew-registration window isn&#x27;t published yet.</p></div>
       <p class="see-also"><a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>Crew registration details come from the official 2026 guest guide (via a search summary).</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://www.balloonfiesta.com/wp-content/uploads/2026/09/Guest-Guide-2026.pdf" target="_blank" rel="noopener">https://www.balloonfiesta.com/wp-content/uploads/2026/09/Guest-Guide-2026.pdf</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://www.balloonfiesta.com/get-involved/volunteers-aibf/" target="_blank" rel="noopener">https://www.balloonfiesta.com/get-involved/volunteers-aibf/</a></div><div class="card"><span class="tag">Date source</span><p>Albuquerque International Balloon Fiesta 2026</p><a class="url" href="https://www.balloonfiesta.com/plan-your-visit/faqs/" target="_blank" rel="noopener">https://www.balloonfiesta.com/plan-your-visit/faqs/</a></div></div>
       
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -185,5 +199,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

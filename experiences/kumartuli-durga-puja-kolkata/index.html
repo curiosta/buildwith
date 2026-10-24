@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -55,7 +53,7 @@
         <p class="lede">USE/observe: clay Durga idols and pandals built by Kumartuli artisans.</p>
         <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
         <div class="hero-facts">
-          <div class="hero-stat"><span class="n">18–21 Oct 2026</span><span class="l">Next date</span></div>
+          <div class="hero-stat"><span class="n">Oct 2027 (TBC)</span><span class="l">Next date</span></div>
           <div class="hero-stat"><span class="n">None listed</span><span class="l">Next deadline / key date</span></div>
           <div class="hero-stat"><span class="n">Sep-Oct</span><span class="l">Usual timing</span></div>
           <div class="hero-stat"><span class="n">Kumartuli, Kolkata, India</span><span class="l">Where</span></div>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Watch artisans finish the clay idols in Kumartuli&#x27;s workshops in the weeks before Durga Puja, then go pandal-hopping; hands-on sculpting with an artisan <mark class="flag">not verified</mark>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Watch artisans finish the clay idols in Kumartuli&#x27;s workshops in the weeks before Durga Puja, then go pandal-hopping; hands-on sculpting with an artisan <mark class="flag">not verified</mark>.</p>
       <div class="routes">
         <div class="card route watch">
           <span class="lv watch">Watch & buy local</span>
@@ -86,56 +85,69 @@
         <dt>Entry and deadlines</dt><dd>None known. Guided walks: <mark class="flag">Unconfirmed: no official source</mark></dd>
         <dt>Where</dt><dd>Kolkata (Kumartuli, Shobhabazar), India</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Sep-Oct. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
-      <ul class="dated"><li class="watch lvx-watch" data-start="2026-10-18" data-end="2026-10-21"><span class="d">18–21 Oct 2026</span><span class="t">Durga Puja, Kolkata (Maha Saptami to Vijaya Dashami)</span><span class="s">West Bengal Government 2026 holiday list: Saptami 18 Oct to Dashami 21 Oct. · <a class="src" href="https://par.wb.gov.in/holidaylist.php" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv watch">Watch & buy local</span></span></span></li><li class="watch lvx-watch tbc" data-start="2027-10-01" data-end="2027-10-31"><span class="d">Oct 2027 · date TBC</span><span class="t">Durga Puja 2027, Kolkata (idol-making in the weeks before; dates TBC)</span><span class="s">Government of India 2027 holiday list: Saptami 6 Oct to Vijaya Dashami 9 Oct. West Bengal&#x27;s 2027 list is <mark class="flag">not out yet</mark>. · <a class="src" href="https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf" target="_blank" rel="noopener">source</a><span class="tags"><span class="tbc-tag">Date TBC</span><span class="lv watch">Watch & buy local</span></span></span></li></ul>
-      <p class="small muted" style="margin-top:14px">Already passed this season: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata).</p>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Sep-Oct. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
+      <ul class="dated"><li class="watch lvx-watch tbc" data-start="2027-10-01" data-end="2027-10-31"><span class="d">Oct 2027 · date TBC</span><span class="t">Durga Puja 2027, Kolkata (idol-making in the weeks before; dates TBC)</span><span class="s">Government of India 2027 holiday list: Saptami 6 Oct to Vijaya Dashami 9 Oct. West Bengal&#x27;s 2027 list is <mark class="flag">not out yet</mark>. · <a class="src" href="https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf" target="_blank" rel="noopener">source</a><span class="tags"><span class="tbc-tag">Date TBC</span><span class="lv watch">Watch & buy local</span></span></span></li></ul>
+      <p class="small muted" style="margin-top:14px">Already passed this season: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata); 18–21 Oct 2026: Durga Puja, Kolkata (Maha Saptami to Vijaya Dashami).</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Reading the stages of a Kumartuli clay idol (frame, clay layers, painting, eye-painting on Mahalaya)</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Respectful behaviour and photography in working artisan studios</li><li>Pandal-hopping: moving safely through Durga Puja crowds</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1 hour reading and route planning</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Kumartuli is a working quarter: artisans sculpt Durga and her family from unfired river clay in the months before the festival. You are a guest in their workplace.</li><li>Learn the sequence so you can follow what you see: a frame, clay applied in layers, drying, painting, then the eyes painted on Mahalaya to &#x27;bring the goddess to life&#x27;.</li><li>Ask before photographing artisans or entering a studio; don&#x27;t touch drying idols; keep lanes clear for workers carrying heavy pieces.</li><li>Buying a small clay piece directly from an artisan is the best way to take part.</li><li>During Puja, plan pandal routes, go early or late, and agree a meeting point with your group in case you get separated.</li><li>On immersion days, watch from designated spots; riverbanks get crowded and slippery.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Read the UNESCO description so you know what you are looking at.</li><li>Model a small clay figure at home to understand layering and drying.</li><li>Pick 5–6 pandals on a map in advance and plan a walking route.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Ask before photographing people; don&#x27;t touch idols.</li><li>Crowds peak at night during Puja; agree a meeting point.</li><li>Take care on riverbanks on immersion days.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official heritage listing (UNESCO)</span></div><h4><a href="https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703" target="_blank" rel="noopener">Durga Puja in Kolkata – UNESCO Intangible Cultural Heritage</a></h4><p>Authoritative description of the clay-idol craft, Mahalaya eye-painting and immersion.</p><p class="pub"><span>Publisher:</span> UNESCO Intangible Cultural Heritage Section</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official article (UNESCO)</span></div><h4><a href="https://www.unesco.org/en/articles/durga-puja-inscribed-unesco-representative-list-intangible-cultural-heritage-humanity" target="_blank" rel="noopener">Durga Puja inscribed on the UNESCO Representative List</a></h4><p>Short UNESCO explainer on why the festival and its crafts were recognised.</p><p class="pub"><span>Publisher:</span> UNESCO</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official press release (Government of India)</span></div><h4><a href="https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1781868" target="_blank" rel="noopener">PIB release: UNESCO inscribes &#x27;Durga Puja in Kolkata&#x27;</a></h4><p>Government of India&#x27;s account of the inscription and its cultural significance.</p><p class="pub"><span>Publisher:</span> Press Information Bureau, Ministry of Culture, Government of India</p></div></div><div class="callout note gap"><h4>No official resource yet</h4><p>No official etiquette or photography guide for Kumartuli yet. Hands-on sculpting with an artisan is <mark class="flag">unverified</mark>.</p></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow &amp; clay →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>Hands-on sculpting with an artisan is <mark class="flag">UNVERIFIED</mark>.</li><li>Kumartuli as Kolkata&#x27;s main idol-makers&#x27; quarter is widely known, but we found no official tourism page for it: <mark class="flag">Unconfirmed: no official source</mark>.</li><li>2026 dates come from the West Bengal Government holiday list: Mahalaya 10 Oct, Maha Saptami 18 Oct to Vijaya Dashami 21 Oct.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703" target="_blank" rel="noopener">https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://par.wb.gov.in/holidaylist.php" target="_blank" rel="noopener">https://par.wb.gov.in/holidaylist.php</a></div><div class="card"><span class="tag">Date source</span><p>Durga Puja 2027, Kolkata (idol-making in the weeks before; dates TBC)</p><a class="url" href="https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf" target="_blank" rel="noopener">https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/hornbill-festival-nagaland/" id="exp-hornbill-festival-nagaland" data-continents="Asia" data-months="12" data-levels="watch">
           <div class="ico" aria-hidden="true">🧺</div>
@@ -143,7 +155,7 @@
           <div class="loc">Kisama Heritage Village, near Kohima, Nagaland, India</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
           <p>USE/buy Naga crafts (bamboo, cane, beadwork, weaving, wood carving); craft demonstrations</p>
-          <div class="when"><span>📅 1–10 Dec 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-01&quot;,&quot;e&quot;:&quot;2026-12-10&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;1–10 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-12-01&quot;,&quot;e&quot;:&quot;2027-12-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Dec 2027&quot;}]"><span>📅 1–10 Dec 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/dieppe-kite-festival/" id="exp-dieppe-kite-festival" data-continents="Europe" data-months="9" data-levels="watch use">
@@ -152,7 +164,7 @@
           <div class="loc">Dieppe, Normandy, France</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span><span class="lv use">Use local gear</span></div>
           <p>USE/observe giant kites by international makers; fly your own on the seafront lawns</p>
-          <div class="when"><span>📅 11–19 Sep 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-11&quot;,&quot;e&quot;:&quot;2027-09-19&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;11–19 Sep 2027&quot;}]"><span>📅 11–19 Sep 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/las-fallas-valencia/" id="exp-las-fallas-valencia" data-continents="Europe" data-months="2 3" data-levels="watch">
@@ -161,10 +173,12 @@
           <div class="loc">Valencia, Spain</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
           <p>USE/observe: giant satirical falla monuments built by local artists &amp; neighbourhood casals</p>
-          <div class="when"><span>📅 Feb 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-02-01&quot;,&quot;e&quot;:&quot;2027-02-28&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Feb 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-03-15&quot;,&quot;e&quot;:&quot;2027-03-19&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;15–19 Mar 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-03-01&quot;,&quot;e&quot;:&quot;2027-03-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Mar 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Feb 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -207,5 +221,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

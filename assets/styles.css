@@ -395,7 +395,9 @@ footer .more b{color:#cfe2ec;font-weight:600}
 /* header: four site links, 44 px tap targets, constant wordmark */
 .sectionnav{overflow:visible;flex-wrap:wrap}
 .sectionnav a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px}
-.sectionnav a.active:not([aria-current]){background:rgba(17,181,164,.22);color:#fff}
+.sectionnav a.active{background:var(--teal);color:var(--sea-900)}
+/* home has no nav item: its wordmark is the current page */
+.topbar .wordmark[aria-current="page"] .wm-text{text-decoration:underline;text-decoration-color:var(--coral);text-decoration-thickness:3px;text-underline-offset:6px}
 .topbar .wordmark{min-height:44px}
 .nav-toggle{display:none}
 @media (max-width:640px){
@@ -447,3 +449,19 @@ footer .foot-nav a{display:inline-flex;align-items:center;min-height:44px;paddin
   .ways .card.way .h4,.ways .card.way p,.ways .card.way .go{grid-column:2;margin:0}
   .ways .card.way p{font-size:.95rem}
 }
+/* QC 24 Oct 2026: inline links in the footer line and the homepage trust strip get a 44 px tap height (the text keeps its look) */
+footer .more .small a,section.trust p a{display:inline-flex;align-items:center;min-height:44px;vertical-align:middle}
+
+/* ---- collapsible experience sections (phones) ---- */
+details.sec>summary{list-style:none;cursor:pointer;position:relative;display:block;padding:6px 52px 6px 0;min-height:44px;border-radius:8px}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary:focus-visible{outline:3px solid var(--coral);outline-offset:4px}
+details.sec>summary .eyebrow,details.sec>summary h2{margin-bottom:0}
+.sec-chev{position:absolute;right:4px;top:50%;width:40px;height:40px;margin-top:-20px;border:1.5px solid currentColor;border-radius:50%;opacity:.8}
+.sec-chev::after{content:"";position:absolute;left:14px;top:12px;width:9px;height:9px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .15s}
+details.sec[open]>summary .sec-chev::after{transform:rotate(-135deg);top:16px}
+details.sec[open]>summary{margin-bottom:18px}
+.sec-body>p:first-child{margin-top:0}
+@media(min-width:721px){details.sec>summary{cursor:default;pointer-events:none}.sec-chev{display:none}}
+@media(max-width:720px){.block:has(>.wrap>details.sec:not([open])){padding:10px 0}.block:has(>.wrap>details.sec[open]){padding:28px 0}}
+@media(prefers-reduced-motion:reduce){.sec-chev::after{transition:none}}

@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Go to an open rehearsal (assaig) of a local colla castellera and join the pinya; watch the Concurs, where the top colles compete (tickets by public draw).</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Go to an open rehearsal (assaig) of a local colla castellera and join the pinya; watch the Concurs, where the top colles compete (tickets by public draw).</p>
       <div class="routes">
         <div class="card route build">
           <span class="lv build">Workshop / open build</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>Colles are open associations that anyone can join. The Concurs is by invitation only, for 42 colles chosen by ranking; Concurs tickets were allocated by public draw in July 2026</dd>
         <dt>Where</dt><dd>Tarragona, Catalonia, Spain</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Colles rehearse year-round; the Concurs is every two years in late Sep / early Oct. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Colles rehearse year-round; the Concurs is every two years in late Sep / early Oct. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <p class="muted">No upcoming date has been published yet.</p>
       <p class="small muted" style="margin-top:14px">Already passed this season: 27 Sep 2026: XXX Concurs de Castells 2026: Torredembarra day; 3–4 Oct 2026: XXX Concurs de Castells 2026, Tarraco Arena Plaça.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Pinya basics: where to stand, how to brace and when to push</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Following the cap de colla&#x27;s calls and the gralla music</li><li>Body safety: posture, the faixa (sash) and no jewellery</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner (pinya)</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1–2 rehearsals to learn a pinya position</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Newcomers start in the pinya, the crowd at the base that supports the tower and cushions any fall.</li><li>Push only when asked from the front; listen for the calls.</li><li>Take advice from experienced castellers: everyone had a first time.</li><li>The music of the gralla sets the rhythm the tower is built to.</li><li>Rehearsals (assajos) are where you learn; colles practise weekly and the knowledge is passed on by practice.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Read the CCCC&#x27;s guide to castells and the pinya before your first rehearsal.</li><li>Contact a local colla and ask when its next rehearsal is.</li><li>Watch a performance first to see how the pinya works.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Follow the colla&#x27;s instructions exactly; never climb unless asked.</li><li>Remove watches, rings and anything hard.</li><li>Children who climb wear helmets designed for castells.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official federation guide</span></div><h4><a href="https://castellscat.cat/en/els-castells" target="_blank" rel="noopener">Els Castells</a></h4><p>What castells are, how the pinya works, and why anyone can join a colla.</p><p class="pub"><span>Publisher:</span> Coordinadora de Colles Castelleres de Catalunya (CCCC)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official city festival programme</span></div><h4><a href="https://www.tarragona.cat/cultura/festes-i-cultura-popular/santa-tecla/activitats/2026/divendres-18-de-setembre/assajos-oberts-de-la-colla-jove-xiquets-de-tarragona" target="_blank" rel="noopener">Assajos oberts de la Colla Jove Xiquets de Tarragona</a></h4><p>Example of an open rehearsal where the public was invited to take part (Sep 2026).</p><p class="pub"><span>Publisher:</span> Ajuntament de Tarragona (Santa Tecla festival programme)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">UNESCO Intangible Cultural Heritage</span></div><h4><a href="https://ich.unesco.org/en/RL/human-towers-00364" target="_blank" rel="noopener">Human towers</a></h4><p>UNESCO&#x27;s description of castells and how the skills are passed on.</p><p class="pub"><span>Publisher:</span> UNESCO</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official competition site</span></div><h4><a href="https://www.concursdecastells.cat/" target="_blank" rel="noopener">Concurs de Castells</a></h4><p>Concurs dates, rules and results.</p><p class="pub"><span>Publisher:</span> Concurs de Castells de Tarragona (Ajuntament de Tarragona)</p></div></div>
       <p class="see-also"><a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>The next Concurs is in 2028; its dates are <mark class="flag">not announced</mark>.</li><li>Rehearsal days and times vary by colla: check the colla&#x27;s own channels.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://castellscat.cat/en/els-castells" target="_blank" rel="noopener">https://castellscat.cat/en/els-castells</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://www.concursdecastells.cat/" target="_blank" rel="noopener">https://www.concursdecastells.cat/</a></div><div class="card"><span class="tag">Date source</span><p>XXX Concurs de Castells 2026: Torredembarra day</p><a class="url" href="https://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs-de-castells-jornada-de-torredembarra" target="_blank" rel="noopener">https://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs-de-castells-jornada-de-torredembarra</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/ganesh-idol-workshops-mumbai/" id="exp-ganesh-idol-workshops-mumbai" data-continents="Asia" data-months="8 9" data-levels="build">
           <div class="ico" aria-hidden="true">🐘</div>
@@ -148,7 +160,7 @@
           <div class="loc">Mumbai, Thane and Pune, India</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span></div>
           <p>BUILD your own shadu-clay Ganesha idol</p>
-          <div class="when"><span>📅 4 Sep 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-04&quot;,&quot;e&quot;:&quot;2027-09-04&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;4 Sep 2027&quot;}]"><span>📅 4 Sep 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/hoi-an-lantern-workshop/" id="exp-hoi-an-lantern-workshop" data-continents="Asia" data-months="1 2 3 4 5 6 7 8 9 10 11 12" data-levels="build">
@@ -157,7 +169,7 @@
           <div class="loc">Hoi An Ancient Town, Vietnam</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span></div>
           <p>BUILD a bamboo-and-silk lantern with local artisans</p>
-          <div class="when"><span>📅 23 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-11-22&quot;,&quot;e&quot;:&quot;2026-11-22&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;22 Nov 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-03&quot;,&quot;e&quot;:&quot;2026-12-06&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;3–6 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-22&quot;,&quot;e&quot;:&quot;2026-12-22&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;22 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-21&quot;,&quot;e&quot;:&quot;2027-01-21&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;21 Jan 2027&quot;}]"><span>📅 22 Nov 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/yi-peng-loy-krathong-chiang-mai/" id="exp-yi-peng-loy-krathong-chiang-mai" data-continents="Asia" data-months="11" data-levels="build use">
@@ -166,10 +178,12 @@
           <div class="loc">Chiang Mai, Thailand</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span><span class="lv use">Use local gear</span></div>
           <p>BUILD a banana-leaf krathong (or buy one from local makers) and float it; sky lanterns only at authorised events</p>
-          <div class="when"><span>📅 23–25 Nov 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-11-23&quot;,&quot;e&quot;:&quot;2026-11-25&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;23–25 Nov 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-11-01&quot;,&quot;e&quot;:&quot;2027-11-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Nov 2027&quot;}]"><span>📅 23–25 Nov 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

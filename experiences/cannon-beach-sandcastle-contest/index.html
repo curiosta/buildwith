@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Enter a division (individual, small or large group, teen, junior, family) when registration opens, then sculpt in your plot during the build window before the tide comes in.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Enter a division (individual, small or large group, teen, junior, family) when registration opens, then sculpt in your plot during the build window before the tide comes in.</p>
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
@@ -86,56 +85,69 @@
         <dt>Entry and deadlines</dt><dd>2027 registration details are due in February 2027 (official registration page)</dd>
         <dt>Where</dt><dd>Cannon Beach (beach off the &#x27;Presidential&#x27; streets, near Madison St), Oregon, USA</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: June (a low-tide Saturday). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: June (a low-tide Saturday). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="team lvx-team" data-start="2027-06-12" data-end="2027-06-12"><span class="d">12 Jun 2027</span><span class="t">Cannon Beach Sandcastle Contest 2027</span><span class="s">Cannon Beach Chamber of Commerce: contest Sat 12 Jun 2027 (festival weekend 11-13 Jun). · <a class="src" href="https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv team">Team entry</span></span></span></li></ul>
       
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Sand sculpting: packing wet sand into a dense block</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Carving top-down and keeping the sand moist</li><li>Working to the rules: your plot only, sand and water only, beach-native decoration</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner to Some practice</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">2–3 beach or sand-pit practice sessions</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>One plot per entry; sand may not be added to or taken out of your plot.</li><li>Only water may be added: no paint, flour, sugar, starch, cement or glue.</li><li>Decorate only with things native to the beach, such as seaweed, driftwood and shells.</li><li>Pack wet sand well before you carve, and carve from the top down.</li><li>Keep your tools inside your plot, and clear them away to show judges you&#x27;ve finished.</li><li>Leave the sculpture for the tide; remove everything else.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Practise packing and carving on any beach or in a sand pit with a bucket and simple kitchen tools.</li><li>Read the organiser&#x27;s how-to page and watch its live-demonstration link before the day.</li><li>Time a practice build to match the contest&#x27;s build window.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Sun, wind and cold on an open Pacific beach: dress for coastal weather.</li><li>Watch the tide.</li><li>Fill holes and clear your plot.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules</span></div><h4><a href="https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/sandcastle-contest-rules-and-judging/" target="_blank" rel="noopener">Rules of the Cannon Beach Sandcastle Contest</a></h4><p>Plot, materials, decoration and judging rules.</p><p class="pub"><span>Publisher:</span> Cannon Beach Chamber of Commerce (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official how-to</span></div><h4><a href="https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/how-to-build-a-sandcastle/" target="_blank" rel="noopener">How to Build a Sandcastle</a></h4><p>The organiser&#x27;s sandcastle-building basics.</p><p class="pub"><span>Publisher:</span> Cannon Beach Chamber of Commerce (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official registration page</span></div><h4><a href="https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/" target="_blank" rel="noopener">Register for the Cannon Beach Sandcastle Contest</a></h4><p>Divisions and when registration details are published.</p><p class="pub"><span>Publisher:</span> Cannon Beach Chamber of Commerce (organiser)</p></div></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow &amp; clay →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>2027 registration details are due in February 2027.</li><li>The Masters Division is by invitation; contact the organiser through the official page.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/" target="_blank" rel="noopener">https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/" target="_blank" rel="noopener">https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/harbin-snow-sculpture/" id="exp-harbin-snow-sculpture" data-continents="Asia" data-months="12 1" data-levels="team watch">
           <div class="ico" aria-hidden="true">❄️</div>
@@ -143,7 +155,7 @@
           <div class="loc">Sun Island, Harbin, Heilongjiang, China</div>
           <div class="lv-row"><span class="lv team">Team entry</span><span class="lv watch">Watch & buy local</span></div>
           <p>BUILD a large snow sculpture as a team</p>
-          <div class="when"><span>📅 Jan 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-01&quot;,&quot;e&quot;:&quot;2027-01-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jan 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Jan 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-soapbox-race/" id="exp-red-bull-soapbox-race" data-continents="Europe Americas" data-months="5 6" data-levels="team">
@@ -152,7 +164,7 @@
           <div class="loc">Multi-city (2026: Los Angeles, Denver, London)</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human/gravity-powered soapbox kart</p>
-          <div class="when"><span>📅 May 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-05-01&quot;,&quot;e&quot;:&quot;2027-05-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;May 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-06-01&quot;,&quot;e&quot;:&quot;2027-06-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jun 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually May 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-flugtag/" id="exp-red-bull-flugtag" data-continents="Americas" data-months="9 10" data-levels="team">
@@ -161,10 +173,12 @@
           <div class="loc">Multi-city (2026: Minneapolis, Miami), USA</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human-powered &#x27;flying&#x27; machine launched off a 30-ft deck into water</p>
-          <div class="when"><span>📅 31 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-10-31&quot;,&quot;e&quot;:&quot;2026-10-31&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;31 Oct 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-01&quot;,&quot;e&quot;:&quot;2027-09-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Sep 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-10-01&quot;,&quot;e&quot;:&quot;2027-10-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Oct 2027&quot;}]"><span>📅 31 Oct 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -207,5 +221,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

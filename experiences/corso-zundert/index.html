@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Drop into hamlet build tents (evenings/Saturdays, more access near parade); visitors welcome to help.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Drop into hamlet build tents (evenings/Saturdays, more access near parade); visitors welcome to help.</p>
       <div class="routes">
         <div class="card route build">
           <span class="lv build">Workshop / open build</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>None to drop in; volunteer contact</dd>
         <dt>Where</dt><dd>Zundert, North Brabant, Netherlands</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: 1st Sunday of September. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: 1st Sunday of September. Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="build lvx-build" data-start="2027-09-05" data-end="2027-09-05"><span class="d">5 Sep 2027</span><span class="t">Corso Zundert 2027 flower parade</span><span class="s">5 Sep 2027 (Corso Zundert). · <a class="src" href="https://corsozundert.nl/en/praktisch/frequently-asked-questions/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv build">Workshop / open build</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 6–7 Sep 2026: Corso Zundert 2026 flower parade.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Helping a hamlet build team: papier-mâché over a steel and wire frame</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Dahlia work: sorting and pinning thousands of flowers in the final weekend</li><li>Fitting in with a volunteer build crew</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">30 minutes reading; optional 1 papier-mâché practice</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Every hamlet builds its float in its own tent (19 tents across Zundert). Tents are freely open while builders work: weekday evenings from about 7 pm and Saturdays (in August also Sundays).</li><li>The official FAQ says everyone is allowed to help; walk in, introduce yourself and ask the hamlet what needs doing.</li><li>Floats are built as a steel frame, then shaped concrete-reinforcing wire, then about seven layers of papier-mâché; fine details use foam (tempex). Expect gluing, papering and cutting jobs.</li><li>In the last weekend the hamlets fix the dahlias (grown in their own fields) to the float, which is where many extra hands are needed.</li><li>Wear clothes you don&#x27;t mind ruining, closed shoes, and gloves around wire and steel; follow the build leader&#x27;s instructions on ladders and scaffolds.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Make a small papier-mâché shape over a wire mesh form at home.</li><li>Practise pinning or gluing flower heads (marigolds work) in tight rows on foam.</li><li>Learn a few Dutch phrases; most builders also speak English.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Gloves around wire and steel; closed shoes.</li><li>Follow the build leader on ladders and scaffolds.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official FAQ</span></div><h4><a href="https://corsozundert.nl/en/praktisch/frequently-asked-questions/" target="_blank" rel="noopener">Frequently asked questions (incl. &#x27;Is everyone allowed to help?&#x27;)</a></h4><p>Confirms anyone can help, gives tent opening times and explains how floats are built.</p><p class="pub"><span>Publisher:</span> Stichting Corso Zundert (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official visitor guide</span></div><h4><a href="https://corsozundert.nl/en/praktisch/visit-the-tents/" target="_blank" rel="noopener">Visit the tents</a></h4><p>When tents are open and the ways to see the build (open tent day, tours).</p><p class="pub"><span>Publisher:</span> Stichting Corso Zundert</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official volunteer page</span></div><h4><a href="https://corsozundert.nl/en/our-corso/volunteers/" target="_blank" rel="noopener">Volunteers</a></h4><p>How to volunteer with the organisation itself.</p><p class="pub"><span>Publisher:</span> Stichting Corso Zundert</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official video channel</span></div><h4><a href="https://www.youtube.com/user/bloemencorsozundert" target="_blank" rel="noopener">Corso Zundert – YouTube</a></h4><p>Linked from the official site; build and parade footage.</p><p class="pub"><span>Publisher:</span> Stichting Corso Zundert (official channel linked from corsozundert.nl)</p></div></div>
       <p class="see-also">See also the skills guides: <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow &amp; clay →</a> · <a href="../../skills/festival-build-safety-lnt/">Festival build safety &amp; Leave No Trace →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>No sign-up is needed to drop in; for volunteering, use the contact route on the official site.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://corsozundert.nl/en/praktisch/frequently-asked-questions/" target="_blank" rel="noopener">https://corsozundert.nl/en/praktisch/frequently-asked-questions/</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://corsozundert.nl/en/praktisch/visit-the-tents/" target="_blank" rel="noopener">https://corsozundert.nl/en/praktisch/visit-the-tents/</a></div><div class="card"><span class="tag">Date source</span><p>Corso Zundert 2026 flower parade</p><a class="url" href="https://corsozundert.nl/en/" target="_blank" rel="noopener">https://corsozundert.nl/en/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/ganesh-idol-workshops-mumbai/" id="exp-ganesh-idol-workshops-mumbai" data-continents="Asia" data-months="8 9" data-levels="build">
           <div class="ico" aria-hidden="true">🐘</div>
@@ -148,7 +160,7 @@
           <div class="loc">Mumbai, Thane and Pune, India</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span></div>
           <p>BUILD your own shadu-clay Ganesha idol</p>
-          <div class="when"><span>📅 4 Sep 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-04&quot;,&quot;e&quot;:&quot;2027-09-04&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;4 Sep 2027&quot;}]"><span>📅 4 Sep 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/hoi-an-lantern-workshop/" id="exp-hoi-an-lantern-workshop" data-continents="Asia" data-months="1 2 3 4 5 6 7 8 9 10 11 12" data-levels="build">
@@ -157,7 +169,7 @@
           <div class="loc">Hoi An Ancient Town, Vietnam</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span></div>
           <p>BUILD a bamboo-and-silk lantern with local artisans</p>
-          <div class="when"><span>📅 23 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-11-22&quot;,&quot;e&quot;:&quot;2026-11-22&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;22 Nov 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-03&quot;,&quot;e&quot;:&quot;2026-12-06&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;3–6 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-22&quot;,&quot;e&quot;:&quot;2026-12-22&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;22 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-21&quot;,&quot;e&quot;:&quot;2027-01-21&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;21 Jan 2027&quot;}]"><span>📅 22 Nov 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/yi-peng-loy-krathong-chiang-mai/" id="exp-yi-peng-loy-krathong-chiang-mai" data-continents="Asia" data-months="11" data-levels="build use">
@@ -166,10 +178,12 @@
           <div class="loc">Chiang Mai, Thailand</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span><span class="lv use">Use local gear</span></div>
           <p>BUILD a banana-leaf krathong (or buy one from local makers) and float it; sky lanterns only at authorised events</p>
-          <div class="when"><span>📅 23–25 Nov 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-11-23&quot;,&quot;e&quot;:&quot;2026-11-25&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;23–25 Nov 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-11-01&quot;,&quot;e&quot;:&quot;2027-11-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Nov 2027&quot;}]"><span>📅 23–25 Nov 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

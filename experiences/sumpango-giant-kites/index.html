@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Attend; public kite-flying at the festival: <mark class="flag">Unconfirmed: no official source</mark>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Attend; public kite-flying at the festival: <mark class="flag">Unconfirmed: no official source</mark>.</p>
       <div class="routes">
         <div class="card route watch">
           <span class="lv watch">Watch & buy local</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>Free entry</dd>
         <dt>Where</dt><dd>Sumpango, Sacatepéquez, Guatemala</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: 1 November (annual, Día de Todos los Santos). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: 1 November (annual, Día de Todos los Santos). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="watch lvx-watch" data-start="2026-11-01" data-end="2026-11-01"><span class="d">1 Nov 2026</span><span class="t">Sumpango Giant Kite Festival (Barriletes Gigantes)</span><span class="s">Held every 1 November (Govt of Guatemala). The 2026 programme isn&#x27;t published yet. · <a class="src" href="https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv watch">Watch & buy local</span></span></span></li><li class="watch lvx-watch" data-start="2027-11-01" data-end="2027-11-01"><span class="d">1 Nov 2027</span><span class="t">Sumpango Giant Kite Festival (Barriletes Gigantes)</span><span class="s">Held every 1 November (Govt of Guatemala). · <a class="src" href="https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv watch">Watch & buy local</span></span></span></li></ul>
       
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Understanding giant-kite (barrilete) construction: tissue-paper canvas, bamboo frame, fringes, tail and &#x27;brakes&#x27;</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Flying your own kite (public flying at the festival: <mark class="flag">Unconfirmed: no official source</mark>)</li><li>Crowd safety near giant kite launches</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner (spectator plus your own kite)</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1 hour reading; optional kite-making evening</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Barrilete groups work from July to 31 October: they agree a design, scale it up, make the canvas from coloured tissue paper (papel de china), add a lined edge with cord, then lash it to a bamboo (caña de castilla) frame overnight on 31 Oct–1 Nov.</li><li>Fringes and a tail give stability, and rope &#x27;brakes&#x27; help control flight; giants (2–22 m) may be exhibited rather than flown.</li><li>The kites carry community messages and honour the ancestors on All Saints&#x27; Day; treat the field and the nearby cemetery with respect.</li><li>Watch launches from behind the marked lines: big kites can fall unpredictably.</li><li>For your own kite: open space, back to the wind, gloves for strong pull, and never fly near the giant-kite area or power lines.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Make a small hexagonal tissue-paper-and-bamboo kite at home to understand the technique.</li><li>Fly a simple kite in a park in gusty wind to practise control.</li><li>Read the Ministry of Culture&#x27;s description of the technique (Spanish).</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Stay behind lines at giant-kite launches.</li><li>Large crowds; plan transport and meeting points.</li><li>Respect the cemetery and the ceremonies on 1 November.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official event site (Spanish)</span></div><h4><a href="https://www.festivaldesumpango.com/" target="_blank" rel="noopener">Festival de Sumpango – barriletes gigantes</a></h4><p>The organising committee&#x27;s site: groups, history, programme updates.</p><p class="pub"><span>Publisher:</span> Comité Permanente de Barriletes Gigantes de Sumpango (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official government article (Spanish)</span></div><h4><a href="https://noticias.mcd.gob.gt/2024/05/28/barriletes-sumpango/" target="_blank" rel="noopener">Técnica de elaboración de los barriletes gigantes de Santiago y Sumpango</a></h4><p>Step-by-step description of how the giant kites are designed and built.</p><p class="pub"><span>Publisher:</span> Ministerio de Cultura y Deportes de Guatemala</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official heritage listing (UNESCO)</span></div><h4><a href="https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991" target="_blank" rel="noopener">Technique of making the giant kites of Santiago Sacatepéquez and Sumpango – UNESCO</a></h4><p>English description of the craft and its meaning (inscribed 2024).</p><p class="pub"><span>Publisher:</span> UNESCO Intangible Cultural Heritage Section</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official safety page (national association)</span></div><h4><a href="https://www.kite.org/about-kites/kite-safety/" target="_blank" rel="noopener">Kite Safety</a></h4><p>General kite-field safety for flying your own kite.</p><p class="pub"><span>Publisher:</span> American Kitefliers Association (AKA), US national kite association</p></div></div><div class="callout note gap"><h4>Note</h4><p>The 2026 programme isn&#x27;t published yet.</p></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/kite-basics/">Kite basics →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>Held every 1 November; the 2026 programme isn&#x27;t published yet.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://www.festivaldesumpango.com" target="_blank" rel="noopener">https://www.festivaldesumpango.com</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991" target="_blank" rel="noopener">https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991</a></div><div class="card"><span class="tag">Date source</span><p>Sumpango Giant Kite Festival (Barriletes Gigantes)</p><a class="url" href="https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/" target="_blank" rel="noopener">https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/kumartuli-durga-puja-kolkata/" id="exp-kumartuli-durga-puja-kolkata" data-continents="Asia" data-months="9 10" data-levels="watch">
           <div class="ico" aria-hidden="true">🎨</div>
@@ -148,7 +160,7 @@
           <div class="loc">Kumartuli, Kolkata, India</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
           <p>USE/observe: clay Durga idols and pandals built by Kumartuli artisans</p>
-          <div class="when"><span>📅 18–21 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-10-01&quot;,&quot;e&quot;:&quot;2027-10-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Oct 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Oct 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/hornbill-festival-nagaland/" id="exp-hornbill-festival-nagaland" data-continents="Asia" data-months="12" data-levels="watch">
@@ -157,7 +169,7 @@
           <div class="loc">Kisama Heritage Village, near Kohima, Nagaland, India</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
           <p>USE/buy Naga crafts (bamboo, cane, beadwork, weaving, wood carving); craft demonstrations</p>
-          <div class="when"><span>📅 1–10 Dec 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-01&quot;,&quot;e&quot;:&quot;2026-12-10&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;1–10 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-12-01&quot;,&quot;e&quot;:&quot;2027-12-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Dec 2027&quot;}]"><span>📅 1–10 Dec 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/dieppe-kite-festival/" id="exp-dieppe-kite-festival" data-continents="Europe" data-months="9" data-levels="watch use">
@@ -166,10 +178,12 @@
           <div class="loc">Dieppe, Normandy, France</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span><span class="lv use">Use local gear</span></div>
           <p>USE/observe giant kites by international makers; fly your own on the seafront lawns</p>
-          <div class="when"><span>📅 11–19 Sep 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-11&quot;,&quot;e&quot;:&quot;2027-09-19&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;11–19 Sep 2027&quot;}]"><span>📅 11–19 Sep 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

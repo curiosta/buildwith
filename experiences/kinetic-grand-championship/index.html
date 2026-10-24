@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Enter as a racer team, or volunteer/spectate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Enter as a racer team, or volunteer/spectate.</p>
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>Fully human-powered; pilots 16+. 2027 registration dates <mark class="flag">not published</mark></dd>
         <dt>Where</dt><dd>Arcata to Ferndale, Humboldt County, California, USA</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Memorial Day weekend (late May). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Memorial Day weekend (late May). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="team lvx-team" data-start="2027-05-29" data-end="2027-05-31"><span class="d">29–31 May 2027</span><span class="t">Kinetic Grand Championship 2027</span><span class="s">Arcata to Ferndale, Humboldt County, CA. · <a class="src" href="https://kineticgrandchampionship.com/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv team">Team entry</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 23–25 May 2026: Kinetic Grand Championship 2026.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Designing a human-powered amphibious sculpture that crosses roads, sand, mud and open water</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Flotation, traction and drivetrain design (pedal power on land and water)</li><li>Following the &#x27;Offishul Rules&#x27;, including ACE status, self-sufficiency and safe conduct</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Skilled team</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">3–6 months of design, build and water testing</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>All forward movement must be human-powered over the whole course; for ACE status no batteries or stored energy may drive forward movement, and tyre or pontoon inflation must use human-powered pumps.</li><li>Everything needed for normal operation (flotation, water propulsion, pumps, sand or mud traction aids, tools) must be carried on the sculpture all the way.</li><li>Design for three terrains: wide tyres or traction aids for sand and mud, gearing for hills, and flotation plus paddle wheels or propellers for water.</li><li>Safety rules prohibit projectiles, anchors, explosives and fireworks; fuel, compressed gas and lithium batteries must follow best practice (the rules point to Burning Man&#x27;s flame-effects guidance).</li><li>Read the engineering and art judging criteria early; the race rewards art and engineering as well as speed.</li><li>Team roles: captain, pilots, pit crew; everyone signs the waiver and code of conduct.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Read &#x27;How to Build a Kinetic&#x27; and sketch your drivetrain and flotation.</li><li>Test flotation of your pontoon design in a pool or lake with the full pilot load.</li><li>Build stamina with long cycling rides, including sand or mud if possible.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Flotation must carry the full pilot load; test before race day.</li><li>No projectiles, anchors, fireworks or explosives; handle fuels and lithium batteries to best practice.</li><li>All team members sign the waiver and code of conduct.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules (PDF)</span></div><h4><a href="https://kineticgrandchampionship.com/s/Rules-Schedule-Awards-2026.pdf" target="_blank" rel="noopener">Rules, Schedule, Awards 2026 (&#x27;Offishul Rules&#x27;)</a></h4><p>The full 2026 race rules: ACE, human power, self-sufficiency and safety.</p><p class="pub"><span>Publisher:</span> Kinetic Universe / Kinetic Grand Championship</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official participant page</span></div><h4><a href="https://kineticgrandchampionship.com/racers" target="_blank" rel="noopener">Racers page</a></h4><p>Registration, waivers and links to the rules and judging criteria.</p><p class="pub"><span>Publisher:</span> Kinetic Grand Championship</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official judging criteria (PDF)</span></div><h4><a href="https://kineticgrandchampionship.com/s/KGC23-ENG-Criteria.pdf" target="_blank" rel="noopener">KGC Engineering judging criteria</a></h4><p>What the engineering judges look for (2023 version, the latest linked).</p><p class="pub"><span>Publisher:</span> Kinetic Grand Championship</p></div><div class="card res comm"><div class="res-meta"><span class="badge community" title="Why accepted: Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance.">Community-accepted</span><span class="rtype">guide (PDF)</span></div><h4><a href="https://kineticgrandchampionship.com/s/HowtoBuildaKinetic_ElliotNaess.pdf" target="_blank" rel="noopener" title="Why accepted: Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance.">How to Build a Kinetic Sculpture – Elliot Naess</a></h4><p>A veteran racer&#x27;s design and build notes covering planning, flotation and drivetrains.</p><p class="pub"><span>Publisher:</span> Elliot Naess (experienced kinetic racer); hosted by Kinetic Grand Championship</p><p class="why-acc"><b>Why accepted:</b> Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance.</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official video channel</span></div><h4><a href="https://www.youtube.com/c/KineticGC" target="_blank" rel="noopener">Kinetic GC – YouTube</a></h4><p>Linked from the official site; footage of water and sand crossings.</p><p class="pub"><span>Publisher:</span> Kinetic Grand Championship (official channel)</p></div></div><div class="callout note gap"><h4>Note</h4><p>2027 registration and dates aren&#x27;t open yet.</p></div>
       <p class="see-also">See also the skills guides: <a href="../../skills/human-powered-craft/">Human-powered craft →</a> · <a href="../../skills/festival-build-safety-lnt/">Festival build safety &amp; Leave No Trace →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>2027 registration is <mark class="flag">not open yet</mark>.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://kineticgrandchampionship.com/racers" target="_blank" rel="noopener">https://kineticgrandchampionship.com/racers</a></div><div class="card"><span class="tag">Date source</span><p>Kinetic Grand Championship 2026</p><a class="url" href="https://kineticgrandchampionship.com/" target="_blank" rel="noopener">https://kineticgrandchampionship.com/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/harbin-snow-sculpture/" id="exp-harbin-snow-sculpture" data-continents="Asia" data-months="12 1" data-levels="team watch">
           <div class="ico" aria-hidden="true">❄️</div>
@@ -148,7 +160,7 @@
           <div class="loc">Sun Island, Harbin, Heilongjiang, China</div>
           <div class="lv-row"><span class="lv team">Team entry</span><span class="lv watch">Watch & buy local</span></div>
           <p>BUILD a large snow sculpture as a team</p>
-          <div class="when"><span>📅 Jan 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-01&quot;,&quot;e&quot;:&quot;2027-01-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jan 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Jan 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-soapbox-race/" id="exp-red-bull-soapbox-race" data-continents="Europe Americas" data-months="5 6" data-levels="team">
@@ -157,7 +169,7 @@
           <div class="loc">Multi-city (2026: Los Angeles, Denver, London)</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human/gravity-powered soapbox kart</p>
-          <div class="when"><span>📅 May 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-05-01&quot;,&quot;e&quot;:&quot;2027-05-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;May 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-06-01&quot;,&quot;e&quot;:&quot;2027-06-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jun 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually May 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-flugtag/" id="exp-red-bull-flugtag" data-continents="Americas" data-months="9 10" data-levels="team">
@@ -166,10 +178,12 @@
           <div class="loc">Multi-city (2026: Minneapolis, Miami), USA</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human-powered &#x27;flying&#x27; machine launched off a 30-ft deck into water</p>
-          <div class="when"><span>📅 31 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-10-31&quot;,&quot;e&quot;:&quot;2026-10-31&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;31 Oct 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-01&quot;,&quot;e&quot;:&quot;2027-09-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Sep 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-10-01&quot;,&quot;e&quot;:&quot;2027-10-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Oct 2027&quot;}]"><span>📅 31 Oct 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

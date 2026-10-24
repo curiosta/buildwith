@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Buy a wing (ala) costume through a samba school&#x27;s official channel; the costume is your place in the parade.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Buy a wing (ala) costume through a samba school&#x27;s official channel; the costume is your place in the parade.</p>
       <div class="routes">
         <div class="card route use">
           <span class="lv use">Use local gear</span>
@@ -86,56 +85,69 @@
         <dt>Entry and deadlines</dt><dd>Each school sells its own costumes; Mangueira&#x27;s 2027 wing costumes were already sold out when we checked (4 Oct 2026)</dd>
         <dt>Where</dt><dd>Rio de Janeiro (Sambadrome), Brazil</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Feb/Mar (pre-Lent). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Feb/Mar (pre-Lent). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="use lvx-use" data-start="2027-02-07" data-end="2027-02-09"><span class="d">7–9 Feb 2027</span><span class="t">Rio Carnival: Special Group samba-school parades</span><span class="s">Sambadrome, 7-9 Feb (LIESA). · <a class="src" href="https://liesa.org.br/noticias/260416.html" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv use">Use local gear</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 15–17 Feb 2026: Rio Carnival: Special Group samba-school parades 2026.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Basic samba stepping and stamina to keep moving for the whole parade</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Wearing and carrying a full fantasia (costume) through a long Sambadrome parade</li><li>Singing along to your school&#x27;s samba-enredo and following your ala (wing) leaders</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner (physically demanding)</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">3–6 weeks of light stamina practice plus learning the song</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>To parade, you buy a costume for an ala (wing) of a samba school; the costume is your entry. Schools publish costumes once the year&#x27;s theme is out.</li><li>Learn the samba-enredo (the school&#x27;s theme song) for your year; singing along matters to the judges&#x27; impression of your wing.</li><li>Practise a simple samba step you can keep up with: a light, bouncy three-step weight change on the balls of the feet. You don&#x27;t need to be a dancer, but you must keep moving forward.</li><li>Wear the costume exactly as issued, with no extra bags or visible personal items; follow your ala leader&#x27;s instructions on timing and spacing.</li><li>Arrive early at the concentration area, hydrate, and eat before; parades run late at night in heat and humidity.</li><li>Behind-the-scenes tours at Cidade do Samba (promoted by Visit Brasil) let you see costume and float workshops and try a few steps.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Learn your school&#x27;s samba-enredo lyrics from its official channels.</li><li>Do 30–45 minutes of continuous light samba stepping to music several times a week before Carnival.</li><li>Practise moving in a heavy or bulky costume, e.g. with a weighted backpack and headgear.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Heat and dehydration: drink water before and after.</li><li>Break in comfortable footwear that suits your costume.</li><li>Keep valuables out of the parade; no bags allowed in wings.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official tourism-board article</span></div><h4><a href="https://visitbrasil.com/en/discover-the-secrets-of-the-worlds-largest-carnival/" target="_blank" rel="noopener">Discover the Secrets of the World&#x27;s Largest Carnival</a></h4><p>Visit Brasil on Cidade do Samba tours: float and costume workshops plus a samba lesson.</p><p class="pub"><span>Publisher:</span> Visit Brasil (Embratur, Brazilian Tourism Board)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official FAQ (Portuguese)</span></div><h4><a href="https://www.liesa.com.br/carnaval/faq.html" target="_blank" rel="noopener">LIESA – Perguntas Frequentes</a></h4><p>The Special Group league&#x27;s official FAQ: Sambadrome access, prohibited items, gate times.</p><p class="pub"><span>Publisher:</span> LIESA – Liga Independente das Escolas de Samba do Rio de Janeiro</p></div></div><div class="callout note gap"><h4>No official resource yet</h4><p>No official samba-step tutorial or guide to parading in an ala yet. We don&#x27;t link commercial costume sellers or guides.</p></div>
       <p class="see-also"><a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>There is no single sales date: each school sells its own costumes. Mangueira&#x27;s 2027 wing costumes were already sold out when we checked on 4 Oct 2026.</li><li>Buy only through a school&#x27;s official channel. We removed the commercial guides we used to link.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://liesa.org.br/noticias/260416.html" target="_blank" rel="noopener">https://liesa.org.br/noticias/260416.html</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://mangueira.com.br/site/fantasias-2027/" target="_blank" rel="noopener">https://mangueira.com.br/site/fantasias-2027/</a></div><div class="card"><span class="tag">Date source</span><p>Rio Carnival: Special Group samba-school parades 2026</p><a class="url" href="https://liesa.org.br/downloads/carnaval/regulamento-2026.pdf" target="_blank" rel="noopener">https://liesa.org.br/downloads/carnaval/regulamento-2026.pdf</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/uttarayan-ahmedabad/" id="exp-uttarayan-ahmedabad" data-continents="Asia" data-months="1" data-levels="use watch">
           <div class="ico" aria-hidden="true">🪁</div>
@@ -143,7 +155,7 @@
           <div class="loc">Ahmedabad, Gujarat, India</div>
           <div class="lv-row"><span class="lv use">Use local gear</span><span class="lv watch">Watch & buy local</span></div>
           <p>USE locally made patang kites &amp; firki reels; fly from rooftops during Uttarayan</p>
-          <div class="when"><span>📅 10–14 Jan 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-10&quot;,&quot;e&quot;:&quot;2027-01-14&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;10–14 Jan 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-14&quot;,&quot;e&quot;:&quot;2027-01-14&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;14 Jan 2027&quot;}]"><span>📅 10–14 Jan 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/weifang-kite-festival/" id="exp-weifang-kite-festival" data-continents="Asia" data-months="4 5" data-levels="use team">
@@ -152,7 +164,7 @@
           <div class="loc">World Kite Park, Weifang, Shandong, China</div>
           <div class="lv-row"><span class="lv use">Use local gear</span><span class="lv team">Team entry</span></div>
           <p>BUILD/fly your own kite or USE Weifang-made kites</p>
-          <div class="when"><span>📅 Apr 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-04-01&quot;,&quot;e&quot;:&quot;2027-04-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Apr 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Apr 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/aomori-nebuta-haneto/" id="exp-aomori-nebuta-haneto" data-continents="Asia" data-months="8" data-levels="use">
@@ -161,10 +173,12 @@
           <div class="loc">Aomori, Japan</div>
           <div class="lv-row"><span class="lv use">Use local gear</span></div>
           <p>USE: dance alongside giant illuminated nebuta floats built by local nebuta masters, wearing a haneto costume</p>
-          <div class="when"><span>📅 2–7 Aug 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-08-02&quot;,&quot;e&quot;:&quot;2027-08-07&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;2–7 Aug 2027&quot;}]"><span>📅 2–7 Aug 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -207,5 +221,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

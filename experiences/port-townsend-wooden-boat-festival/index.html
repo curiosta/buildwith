@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Buy a festival ticket, make something in the Woodworking Tent (open daily), join the workshops and get on the water in boats built by local builders.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Buy a festival ticket, make something in the Woodworking Tent (open daily), join the workshops and get on the water in boats built by local builders.</p>
       <div class="routes">
         <div class="card route build">
           <span class="lv build">Workshop / open build</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>Festival ticket; boat owners apply to show their boats</dd>
         <dt>Where</dt><dd>Point Hudson, Port Townsend, Washington, USA</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: September (second weekend). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: September (second weekend). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="build lvx-build" data-start="2027-09-10" data-end="2027-09-12"><span class="d">10–12 Sep 2027</span><span class="t">Port Townsend Wooden Boat Festival 2027 (50th)</span><span class="s">Official festival site: 10-12 Sep 2027. · <a class="src" href="https://woodenboat.org/2025-home/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv build">Workshop / open build</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 11–13 Sep 2026: Port Townsend Wooden Boat Festival 2026.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Hand woodworking basics: shave horse and drawknife, simple joinery</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Boat handling basics for small wooden boats</li><li>Reading a boat: hull types and how wooden boats are built</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">none needed; one woodworking class helps</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>The Woodworking Tent is open daily with activities for beginners and experienced makers.</li><li>You can try a shave horse and drawknife, build a wooden pen, or make and brand a keepsake.</li><li>Workshops and talks run throughout the festival.</li><li>On the water, follow the volunteers&#x27; instructions and wear a life jacket.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Try a beginner woodworking class near you before the festival.</li><li>Read the festival&#x27;s hands-on page and plan which activities to join.</li><li>Learn basic rowing or small-boat sailing if you want to get on the water.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Sharp hand tools: cut away from yourself.</li><li>Wear a life jacket on the water.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official festival page</span></div><h4><a href="https://woodenboat.org/hands-on-activities/" target="_blank" rel="noopener">Hands-on Activities</a></h4><p>What you can make and try in the Woodworking Tent.</p><p class="pub"><span>Publisher:</span> Wooden Boat Festival (Northwest Maritime)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official organiser page</span></div><h4><a href="https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/" target="_blank" rel="noopener">Wooden Boat Festival</a></h4><p>About the festival and its organiser.</p><p class="pub"><span>Publisher:</span> Northwest Maritime (organiser)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official festival site</span></div><h4><a href="https://woodenboat.org/2025-home/" target="_blank" rel="noopener">Port Townsend Wooden Boat Festival</a></h4><p>Next festival dates and visitor information.</p><p class="pub"><span>Publisher:</span> Wooden Boat Festival (Northwest Maritime)</p></div></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/human-powered-craft/">Human-powered craft →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>2027 is the 50th festival; the 2027 programme isn&#x27;t published yet.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://woodenboat.org/2025-home/" target="_blank" rel="noopener">https://woodenboat.org/2025-home/</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/" target="_blank" rel="noopener">https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/ganesh-idol-workshops-mumbai/" id="exp-ganesh-idol-workshops-mumbai" data-continents="Asia" data-months="8 9" data-levels="build">
           <div class="ico" aria-hidden="true">🐘</div>
@@ -148,7 +160,7 @@
           <div class="loc">Mumbai, Thane and Pune, India</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span></div>
           <p>BUILD your own shadu-clay Ganesha idol</p>
-          <div class="when"><span>📅 4 Sep 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-04&quot;,&quot;e&quot;:&quot;2027-09-04&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;4 Sep 2027&quot;}]"><span>📅 4 Sep 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/hoi-an-lantern-workshop/" id="exp-hoi-an-lantern-workshop" data-continents="Asia" data-months="1 2 3 4 5 6 7 8 9 10 11 12" data-levels="build">
@@ -157,7 +169,7 @@
           <div class="loc">Hoi An Ancient Town, Vietnam</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span></div>
           <p>BUILD a bamboo-and-silk lantern with local artisans</p>
-          <div class="when"><span>📅 23 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-11-22&quot;,&quot;e&quot;:&quot;2026-11-22&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;22 Nov 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-03&quot;,&quot;e&quot;:&quot;2026-12-06&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;3–6 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-12-22&quot;,&quot;e&quot;:&quot;2026-12-22&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;22 Dec 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-21&quot;,&quot;e&quot;:&quot;2027-01-21&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;21 Jan 2027&quot;}]"><span>📅 22 Nov 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/yi-peng-loy-krathong-chiang-mai/" id="exp-yi-peng-loy-krathong-chiang-mai" data-continents="Asia" data-months="11" data-levels="build use">
@@ -166,10 +178,12 @@
           <div class="loc">Chiang Mai, Thailand</div>
           <div class="lv-row"><span class="lv build">Workshop / open build</span><span class="lv use">Use local gear</span></div>
           <p>BUILD a banana-leaf krathong (or buy one from local makers) and float it; sky lanterns only at authorised events</p>
-          <div class="when"><span>📅 23–25 Nov 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-11-23&quot;,&quot;e&quot;:&quot;2026-11-25&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;23–25 Nov 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-11-01&quot;,&quot;e&quot;:&quot;2027-11-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Nov 2027&quot;}]"><span>📅 23–25 Nov 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

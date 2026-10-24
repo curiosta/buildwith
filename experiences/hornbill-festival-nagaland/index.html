@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Attend; buy from artisan stalls; craft demos in morungs. Hands-on workshop slots for visitors <mark class="flag">not confirmed</mark> for 2026.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Attend; buy from artisan stalls; craft demos in morungs. Hands-on workshop slots for visitors <mark class="flag">not confirmed</mark> for 2026.</p>
       <div class="routes">
         <div class="card route watch">
           <span class="lv watch">Watch & buy local</span>
@@ -86,56 +85,69 @@
         <dt>Entry and deadlines</dt><dd>Inner Line Permit needed for non-Nagaland Indians; Protected Area/registration rules for foreigners (check before travel)</dd>
         <dt>Where</dt><dd>Kisama Heritage Village, near Kohima, Nagaland, India</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: 1-10 December (annual). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: 1-10 December (annual). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="watch lvx-watch" data-start="2026-12-01" data-end="2026-12-10"><span class="d">1–10 Dec 2026</span><span class="t">Hornbill Festival 2026 (Craftscape)</span><span class="s">Kisama, near Kohima. Inner Line Permit / registration rules apply. · <a class="src" href="https://hornbillfestival.com/events/" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv watch">Watch & buy local</span></span></span></li><li class="watch lvx-watch tbc" data-start="2027-12-01" data-end="2027-12-31"><span class="d">Dec 2027 · date TBC</span><span class="t">Hornbill Festival 2027 (usually 1-10 Dec)</span><span class="s">2027 <mark class="flag">not announced</mark>. · <a class="src" href="https://hornbillfestival.com/events/" target="_blank" rel="noopener">source</a><span class="tags"><span class="tbc-tag">Date TBC</span><span class="lv watch">Watch & buy local</span></span></span></li></ul>
       
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Recognising Naga craft forms: bamboo and cane, loin-loom weaving, beadwork, wood carving</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Buying respectfully from artisan stalls and craft demonstrations</li><li>Permits and logistics: Inner Line Permit (Indian visitors) or Protected Area Permit (foreign visitors)</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1 hour reading plus permit application lead time</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Hornbill showcases the work of all Naga tribes at Kisama; crafts include handwoven textiles, bamboo and cane, beadwork, wood carving and paintings.</li><li>Each tribe&#x27;s motifs and shawls carry meaning; ask the maker about the pattern before buying and treat ceremonial items with respect.</li><li>Ask before photographing performers, morung interiors or people in traditional dress.</li><li>Indian visitors from outside Nagaland need an Inner Line Permit (apply online); foreign nationals follow the Protected Area Permit route. Apply well before December.</li><li>A day-wise event list is released by the government shortly before the festival, so check it for craft demonstrations.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Read the official events page and shortlist craft demonstrations and the bamboo carnival.</li><li>Apply for your ILP online in advance and keep a printed copy.</li><li>Learn the names of a few tribes and their textile traditions so conversations with artisans go further.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Carry your ILP/PAP at all times in Nagaland.</li><li>Ask before photographing people or ceremonies.</li><li>December evenings at Kisama are cold; dress in layers.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official event site</span></div><h4><a href="https://hornbillfestival.com/events/" target="_blank" rel="noopener">Hornbill Festival – Events/Activities</a></h4><p>Official overview of crafts, exhibitions-cum-sale and daily events; notes the government releases the day-wise list each year.</p><p class="pub"><span>Publisher:</span> Government of Nagaland (site states &#x27;Organized by the Govt. of Nagaland&#x27;)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official tourism-board page</span></div><h4><a href="https://tourism.nagaland.gov.in/entry-permits/" target="_blank" rel="noopener">Entry Permits – Tourism Nagaland</a></h4><p>Where and how to get the ILP or PAP before travelling.</p><p class="pub"><span>Publisher:</span> Directorate of Tourism, Government of Nagaland</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official permit portal</span></div><h4><a href="https://ilp.nagaland.gov.in/faq" target="_blank" rel="noopener">Nagaland ILP – FAQ</a></h4><p>Official answers on who needs a permit and how to apply online.</p><p class="pub"><span>Publisher:</span> Government of Nagaland</p></div></div><div class="callout note gap"><h4>No official resource yet</h4><p>We found no official resource for learning a Naga craft; hands-on visitor workshops for 2026 are unconfirmed. Beware the lookalike domain hornbilfestival.com (one &#x27;l&#x27;).</p></div>
       <p class="see-also"><a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>Hands-on workshop slots for visitors are <mark class="flag">not confirmed</mark> for 2026; the 2026 Craftscape schedule is <mark class="flag">not out yet</mark>.</li><li>Indian visitors from outside Nagaland need an Inner Line Permit; foreigners have Protected Area / registration rules. Check before you travel (permit details not re-verified).</li><li>Beware the lookalike domain hornbilfestival.com (one &#x27;l&#x27;).</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://hornbillfestival.com/events/" target="_blank" rel="noopener">https://hornbillfestival.com/events/</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://tourism.nagaland.gov.in/entry-permits/" target="_blank" rel="noopener">https://tourism.nagaland.gov.in/entry-permits/</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/kumartuli-durga-puja-kolkata/" id="exp-kumartuli-durga-puja-kolkata" data-continents="Asia" data-months="9 10" data-levels="watch">
           <div class="ico" aria-hidden="true">🎨</div>
@@ -143,7 +155,7 @@
           <div class="loc">Kumartuli, Kolkata, India</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
           <p>USE/observe: clay Durga idols and pandals built by Kumartuli artisans</p>
-          <div class="when"><span>📅 18–21 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-10-01&quot;,&quot;e&quot;:&quot;2027-10-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Oct 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Oct 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/dieppe-kite-festival/" id="exp-dieppe-kite-festival" data-continents="Europe" data-months="9" data-levels="watch use">
@@ -152,7 +164,7 @@
           <div class="loc">Dieppe, Normandy, France</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span><span class="lv use">Use local gear</span></div>
           <p>USE/observe giant kites by international makers; fly your own on the seafront lawns</p>
-          <div class="when"><span>📅 11–19 Sep 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-11&quot;,&quot;e&quot;:&quot;2027-09-19&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;11–19 Sep 2027&quot;}]"><span>📅 11–19 Sep 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/las-fallas-valencia/" id="exp-las-fallas-valencia" data-continents="Europe" data-months="2 3" data-levels="watch">
@@ -161,10 +173,12 @@
           <div class="loc">Valencia, Spain</div>
           <div class="lv-row"><span class="lv watch">Watch & buy local</span></div>
           <p>USE/observe: giant satirical falla monuments built by local artists &amp; neighbourhood casals</p>
-          <div class="when"><span>📅 Feb 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-02-01&quot;,&quot;e&quot;:&quot;2027-02-28&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Feb 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-03-15&quot;,&quot;e&quot;:&quot;2027-03-19&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;15–19 Mar 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-03-01&quot;,&quot;e&quot;:&quot;2027-03-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Mar 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Feb 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -207,5 +221,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

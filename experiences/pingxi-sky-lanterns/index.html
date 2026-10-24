@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Buy a lantern locally (year-round in Shifen) or join festival mass releases (festival lantern allocation rules <mark class="flag">not verified</mark>).</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Buy a lantern locally (year-round in Shifen) or join festival mass releases (festival lantern allocation rules <mark class="flag">not verified</mark>).</p>
       <div class="routes">
         <div class="card route use">
           <span class="lv use">Use local gear</span>
@@ -86,56 +85,69 @@
         <dt>Entry and deadlines</dt><dd>Festival release slots: <mark class="flag">not verified</mark></dd>
         <dt>Where</dt><dd>Pingxi / Shifen, New Taipei, Taiwan</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Lantern Festival (Feb/Mar). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Lantern Festival (Feb/Mar). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="use lvx-use tbc" data-start="2027-02-01" data-end="2027-02-28"><span class="d">Feb 2027 · date TBC</span><span class="t">Pingxi Sky Lantern Festival 2027 (around the Lantern Festival)</span><span class="s">2027 dates <mark class="flag">not published</mark> (2026: 27 Feb and 3 Mar). · <a class="src" href="https://eng.taiwan.net.tw/m1.aspx?lid=081737&amp;sNo=0002019" target="_blank" rel="noopener">source</a><span class="tags"><span class="tbc-tag">Date TBC</span><span class="lv use">Use local gear</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 27 Feb 2026: Pingxi Sky Lantern Festival 2026; 3 Mar 2026: Pingxi Sky Lantern Festival 2026.</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Preparing and releasing a paper sky lantern (writing wishes, lighting, a controlled two-person release)</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Knowing Pingxi&#x27;s legal release zone and hours</li><li>Fire safety around open-flame lanterns</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">30 minutes reading</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Buy a lantern from a Shifen or Pingxi shop; staff usually help you write wishes on the panels and hold it during lighting.</li><li>Two people hold the lantern upright by the edges while the fuel pad is lit, then wait until the hot air makes it lift on its own before letting go. Never throw it up.</li><li>Release only in calm conditions and only where it&#x27;s legal: New Taipei limits releases to a designated stretch of Pingxi (Shifen Visitor Center to Yikang Bridge, within 200 m of the Keelung River and County Road 106) between 6 am and 10 pm.</li><li>Keep away from overhead wires, trees, roofs and anything flammable, and keep hair and loose sleeves away from the flame.</li><li>Festival mass releases are run by the city in waves; follow staff instructions (allocation rules weren&#x27;t verified).</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Practise lettering your wishes with a brush pen (four panels) so you&#x27;re quick on the day.</li><li>Read New Taipei&#x27;s release rules and pick the zone you&#x27;ll use.</li><li>Rehearse the two-person hold and release with an unlit paper bag.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Release only in Pingxi&#x27;s designated zone, 6 am–10 pm; fines apply otherwise.</li><li>Never release in wind or near wires, trees or buildings.</li><li>Tie back hair and loose clothing near the flame.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official tourism-board event page</span></div><h4><a href="https://eng.taiwan.net.tw/m1.aspx?lid=081737&amp;sNo=0002019" target="_blank" rel="noopener">2026 Pingxi Sky Lantern Festival</a></h4><p>Official festival dates, venues and organiser (New Taipei City Tourism and Travel Department).</p><p class="pub"><span>Publisher:</span> Tourism Administration, Republic of China (Taiwan)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official government regulation summary (Chinese)</span></div><h4><a href="https://wedid.ntpc.gov.tw/governance/detail/bRpVL3p8l5qj" target="_blank" rel="noopener">訂定新北市天燈施放管理辦法 (New Taipei sky-lantern release regulations)</a></h4><p>Defines the legal release zone, the night-time ban and the fines for violations.</p><p class="pub"><span>Publisher:</span> New Taipei City Government (Fire Department as competent authority)</p></div></div><div class="callout note gap"><h4>No official resource yet</h4><p>No official how-to video for releasing a lantern yet; festival allocation rules aren&#x27;t verified.</p></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/lanterns-and-floating-lights/">Lanterns &amp; floating lights →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>Festival lantern allocation and release-slot rules are <mark class="flag">not verified</mark>.</li><li>2027 dates are <mark class="flag">NOT published</mark> yet (2026: 27 Feb and 3 Mar).</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://eng.taiwan.net.tw/m1.aspx?lid=081737&amp;sNo=0002019" target="_blank" rel="noopener">https://eng.taiwan.net.tw/m1.aspx?lid=081737&amp;sNo=0002019</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/uttarayan-ahmedabad/" id="exp-uttarayan-ahmedabad" data-continents="Asia" data-months="1" data-levels="use watch">
           <div class="ico" aria-hidden="true">🪁</div>
@@ -143,7 +155,7 @@
           <div class="loc">Ahmedabad, Gujarat, India</div>
           <div class="lv-row"><span class="lv use">Use local gear</span><span class="lv watch">Watch & buy local</span></div>
           <p>USE locally made patang kites &amp; firki reels; fly from rooftops during Uttarayan</p>
-          <div class="when"><span>📅 10–14 Jan 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-10&quot;,&quot;e&quot;:&quot;2027-01-14&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;10–14 Jan 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-14&quot;,&quot;e&quot;:&quot;2027-01-14&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;14 Jan 2027&quot;}]"><span>📅 10–14 Jan 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/weifang-kite-festival/" id="exp-weifang-kite-festival" data-continents="Asia" data-months="4 5" data-levels="use team">
@@ -152,7 +164,7 @@
           <div class="loc">World Kite Park, Weifang, Shandong, China</div>
           <div class="lv-row"><span class="lv use">Use local gear</span><span class="lv team">Team entry</span></div>
           <p>BUILD/fly your own kite or USE Weifang-made kites</p>
-          <div class="when"><span>📅 Apr 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-04-01&quot;,&quot;e&quot;:&quot;2027-04-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Apr 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Apr 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/aomori-nebuta-haneto/" id="exp-aomori-nebuta-haneto" data-continents="Asia" data-months="8" data-levels="use">
@@ -161,10 +173,12 @@
           <div class="loc">Aomori, Japan</div>
           <div class="lv-row"><span class="lv use">Use local gear</span></div>
           <p>USE: dance alongside giant illuminated nebuta floats built by local nebuta masters, wearing a haneto costume</p>
-          <div class="when"><span>📅 2–7 Aug 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-08-02&quot;,&quot;e&quot;:&quot;2027-08-07&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;2–7 Aug 2027&quot;}]"><span>📅 2–7 Aug 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -207,5 +221,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

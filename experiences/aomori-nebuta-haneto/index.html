@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>No registration: rent/buy a haneto costume, assemble at the haneto meeting point before your chosen float departs.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>No registration: rent/buy a haneto costume, assemble at the haneto meeting point before your chosen float departs.</p>
       <div class="routes">
         <div class="card route use">
           <span class="lv use">Use local gear</span>
@@ -86,56 +85,69 @@
         <dt>Entry and deadlines</dt><dd>Proper haneto costume (hanagasa hat etc.) required; no pre-registration</dd>
         <dt>Where</dt><dd>Aomori, Japan</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: Early August (2-7 Aug). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: Early August (2-7 Aug). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="use lvx-use" data-start="2027-08-02" data-end="2027-08-07"><span class="d">2–7 Aug 2027</span><span class="t">Aomori Nebuta Matsuri (dance as a haneto)</span><span class="s">Official site: held 2-7 Aug every year. No separate 2027 notice yet. · <a class="src" href="https://www.nebuta.jp/info/haneto/sanka.html" target="_blank" rel="noopener">source</a><span class="tags"><span class="lv use">Use local gear</span></span></span></li></ul>
       <p class="small muted" style="margin-top:14px">Already passed this season: 2–7 Aug 2026: Aomori Nebuta Matsuri 2026 (dance as a haneto).</p>
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">The haneto hop-dance: bouncing, running and jumping to the Nebuta bayashi drums while chanting &#x27;Rassera&#x27;</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Wearing the full haneto costume correctly (hanagasa hat, tasuki sash, yukata, okoshi, tabi and zori)</li><li>Parade etiquette and the official haneto rules</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Beginner</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">1 hour reading plus a few short stamina and hop practice sessions</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Anyone in the full formal haneto costume can join; there is no registration. Rent or buy a costume in Aomori, and book rentals early.</li><li>Costume checklist from the official site: flower hat (hanagasa), bright sash (tasuki), shigoki waist sash with a small tin cup, white yukata hitched to the knee over a pink or blue okoshi, white tabi with zori tied on with a mameshibori cloth so they don&#x27;t come off.</li><li>Rental shops usually help you dress; the official &#x27;how to wear&#x27; page and its video walk through each step.</li><li>Gather at the haneto assembly point before your chosen float departs; joining midway can be refused when it&#x27;s crowded.</li><li>Dance with energy: hop and bounce to the drums, follow the leader&#x27;s whistle and calls, and shout &#x27;Rassera!&#x27; with the group.</li><li>Follow the official rules: obey parade staff, don&#x27;t move backwards against the parade, no unrelated whistles, no fireworks, firecrackers, big sake bottles or throwing cans, clear the road for emergency vehicles, and disperse after one full loop.</li><li>Expect a long, hot, tiring night; pace yourself and drink water.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Watch the official Aomori Nebuta Festival YouTube channel to learn the rhythm and the hop.</li><li>Practise a light skipping hop to drum music for 20–30 minutes to build stamina.</li><li>Practise walking and hopping in zori with the cloth-tie trick before the night.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Heat and exhaustion: hydrate and pace yourself.</li><li>Tie zori on securely to avoid falls.</li><li>No fireworks, firecrackers or glass bottles in the procession; make way for emergency vehicles.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official rules (Japanese)</span></div><h4><a href="https://www.nebuta.jp/info/haneto/sanka.html" target="_blank" rel="noopener">跳人参加方法・ルール (How to join as a haneto, and the rules)</a></h4><p>The official participation steps, the haneto rules and the costume checklist.</p><p class="pub"><span>Publisher:</span> Aomori Nebuta Festival Executive Committee / Aomori Tourism &amp; Convention Association</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official guide (Japanese, with English video link)</span></div><h4><a href="https://www.nebuta.jp/info/haneto/costume.html" target="_blank" rel="noopener">ハネトの衣装の着方 (How to wear the haneto costume)</a></h4><p>Step-by-step dressing instructions with links to official dressing videos, including an English version.</p><p class="pub"><span>Publisher:</span> Aomori Nebuta Festival Executive Committee</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official guide (Japanese)</span></div><h4><a href="https://www.nebuta.jp/info/haneto/wear.html" target="_blank" rel="noopener">ハネトの衣装の購入・レンタル方法 (Buying or renting the costume)</a></h4><p>The official list of costume rental and sale shops for the current year.</p><p class="pub"><span>Publisher:</span> Aomori Nebuta Festival Executive Committee</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official event site (English)</span></div><h4><a href="https://www.nebuta.jp/foreign/english.html" target="_blank" rel="noopener">Aomori Nebuta Festival – English page</a></h4><p>English overview, route and schedule pattern.</p><p class="pub"><span>Publisher:</span> Aomori Nebuta Festival Executive Committee</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official government tourism text (English)</span></div><h4><a href="https://www.mlit.go.jp/tagengo-db/en/R1-01056.html" target="_blank" rel="noopener">Participating in the Festival (Haneto)</a></h4><p>English explanation of costume rental, dressing help and how haneto join a float.</p><p class="pub"><span>Publisher:</span> Japan Tourism Agency multilingual database (text prepared with Aomori Nebuta Festival Executive Committee)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official video channel</span></div><h4><a href="https://youtube.com/@aomorinebutafestival" target="_blank" rel="noopener">青森ねぶた祭 official YouTube channel</a></h4><p>Linked from the official costume page; watch the dancing and dressing before you go.</p><p class="pub"><span>Publisher:</span> Aomori Nebuta Festival (official channel linked from nebuta.jp)</p></div></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/lanterns-and-floating-lights/">Lanterns &amp; floating lights →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>A proper haneto costume is required.</li><li>Held 2–7 Aug every year per the official site; no separate 2027 notice yet.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://www.nebuta.jp/info/haneto/sanka.html" target="_blank" rel="noopener">https://www.nebuta.jp/info/haneto/sanka.html</a></div><div class="card"><span class="tag">Secondary source</span><p></p><a class="url" href="https://www.nebuta.jp/foreign/english.html" target="_blank" rel="noopener">https://www.nebuta.jp/foreign/english.html</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/uttarayan-ahmedabad/" id="exp-uttarayan-ahmedabad" data-continents="Asia" data-months="1" data-levels="use watch">
           <div class="ico" aria-hidden="true">🪁</div>
@@ -143,7 +155,7 @@
           <div class="loc">Ahmedabad, Gujarat, India</div>
           <div class="lv-row"><span class="lv use">Use local gear</span><span class="lv watch">Watch & buy local</span></div>
           <p>USE locally made patang kites &amp; firki reels; fly from rooftops during Uttarayan</p>
-          <div class="when"><span>📅 10–14 Jan 2027</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-10&quot;,&quot;e&quot;:&quot;2027-01-14&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;10–14 Jan 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-01-14&quot;,&quot;e&quot;:&quot;2027-01-14&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;14 Jan 2027&quot;}]"><span>📅 10–14 Jan 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/weifang-kite-festival/" id="exp-weifang-kite-festival" data-continents="Asia" data-months="4 5" data-levels="use team">
@@ -152,7 +164,7 @@
           <div class="loc">World Kite Park, Weifang, Shandong, China</div>
           <div class="lv-row"><span class="lv use">Use local gear</span><span class="lv team">Team entry</span></div>
           <p>BUILD/fly your own kite or USE Weifang-made kites</p>
-          <div class="when"><span>📅 Apr 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-04-01&quot;,&quot;e&quot;:&quot;2027-04-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Apr 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Apr 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/pingxi-sky-lanterns/" id="exp-pingxi-sky-lanterns" data-continents="Asia" data-months="2 3" data-levels="use">
@@ -161,10 +173,12 @@
           <div class="loc">Pingxi and Shifen, New Taipei, Taiwan</div>
           <div class="lv-row"><span class="lv use">Use local gear</span></div>
           <p>USE paper sky lanterns made by Pingxi/Shifen shops; write wishes and release</p>
-          <div class="when"><span>📅 Feb 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-02-01&quot;,&quot;e&quot;:&quot;2027-02-28&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Feb 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually Feb 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -207,5 +221,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>

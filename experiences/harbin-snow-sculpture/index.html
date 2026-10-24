@@ -19,10 +19,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"></noscript>
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");var bwf=0;function bwfonts(){if(bwf++)return;var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap";document.head.appendChild(l)}try{new PerformanceObserver(bwfonts).observe({type:"paint",buffered:true})}catch(e){}addEventListener("load",function(){setTimeout(bwfonts,3000)})</script>
 <link rel="stylesheet" href="../../assets/styles.css">
 <link rel="icon" href="../../favicon.ico" sizes="32x32">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306243a'/%3E%3Cpath d='M16 5l8 10-8 12-8-12z' stroke='%2311b5a4' stroke-width='2.6' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='25' cy='25' r='2.4' fill='%23ff6b4a'/%3E%3C/svg%3E" type="image/svg+xml">
@@ -37,7 +35,7 @@
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
     <nav class="sectionnav" id="site-nav" aria-label="Main">
-      <a href="../../experiences/" class="active">Experiences</a>
+      <a href="../../experiences/" class="active" aria-current="true">Experiences</a>
       <a href="../../calendar/">Calendar</a>
       <a href="../../skills/">Skills</a>
       <a href="../../about/">About</a>
@@ -68,11 +66,12 @@
 
   <section class="block" id="take-part">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">01 · How to take part</span>
         <h2>Your way in</h2>
-        <p>Enter as a team of qualified snow sculptors (entry rules: <mark class="flag">Unconfirmed: no official source</mark>); everyone else visits Sun Island.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Enter as a team of qualified snow sculptors (entry rules: <mark class="flag">Unconfirmed: no official source</mark>); everyone else visits Sun Island.</p>
       <div class="routes">
         <div class="card route team">
           <span class="lv team">Team entry</span>
@@ -91,56 +90,69 @@
         <dt>Entry and deadlines</dt><dd>Entry rules, team size and deadline: <mark class="flag">Unconfirmed: no official source</mark></dd>
         <dt>Where</dt><dd>Harbin (Sun Island), Heilongjiang, China</dd>
       </dl>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="dates">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">02 · Dates</span>
         <h2>Dates and deadlines, Jan 2026 to Dec 2027</h2>
-        <p>Usual timing: January (2025 competition held in early January). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>Usual timing: January (2025 competition held in early January). Dates are only shown where a source publishes them; everything else is marked TBC.</p>
       <ul class="dated"><li class="team lvx-team tbc" data-start="2027-01-01" data-end="2027-01-31"><span class="d">Jan 2027 · date TBC</span><span class="t">Harbin Intl Snow Sculpture Competition 2027 (early January, dates TBC)</span><span class="s">Held in early January at Sun Island (2025: 27th edition, State Council portal). 2027 dates <mark class="flag">TBC</mark>. · <a class="src" href="https://english.www.gov.cn/news/202501/08/content_WS677dc80cc6d0868f4e8ee96d.html" target="_blank" rel="noopener">source</a><span class="tags"><span class="tbc-tag">Date TBC</span><span class="lv team">Team entry</span></span></span></li></ul>
       
       <p style="margin-top:22px"><a class="btn btn-dark" href="../../calendar/">See it on the calendar →</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block skills" id="skills">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">03 · Skills you'll need</span>
         <h2>Skills you'll need</h2>
-        <p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>What to learn and practise before you go. Each resource is marked <b>Official</b> or <b>Community-accepted</b> and names its publisher. Difficulty and prep time are our estimate.</p>
       <div class="skills-top"><div class="card skill-core"><span class="tag">Core skill</span><h3 class="h4">Snow carving: blocking out a form from a packed snow block using hand tools</h3><p class="small muted">Also useful:</p><ul class="skill-more"><li>Team planning: scale model (maquette), cut plan and division of work</li><li>Working safely for long hours in extreme cold</li></ul></div><div class="est"><div class="est-item"><span class="l">Difficulty <em>our estimate</em></span><span class="n">Skilled team (qualified sculptors only)</span></div><div class="est-item"><span class="l">Prep time <em>our estimate</em></span><span class="n">several months of team design and carving practice</span></div><p class="small muted">Difficulty and prep time are Curiosta editorial estimates for a first-timer, not organiser figures.</p></div></div>
       <div class="skills-cols"><div><h3>Refresher</h3><ol class="steps"><li>Start with a small scale model (in clay or plasticine) of your design and work out how it fits the block from every side.</li><li>Mark key points on the block, then remove big masses first, working from the top down so debris falls away from finished areas.</li><li>Design for snow: avoid thin, unsupported parts; keep weight over a solid base; snow is strong in compression, weak in overhangs.</li><li>Use hand tools (saws, shovels, chisels, rasps, scrapers); peer competitions such as Breckenridge allow hand tools only and ban power tools.</li><li>Refine and add texture last; spray or smooth only as the rules allow.</li><li>Cold safety: dress in layers, protect hands and feet, take warm breaks, drink water, and use scaffolds and ladders carefully on icy footing.</li></ol></div><div><h3>Practise before you go</h3><ul class="practise"><li>Carve a design into a block of packed sand, soap or floral foam at home to rehearse removing masses top-down.</li><li>Build a small snow or crushed-ice test piece if you can reach a snowfield (e.g. Gulmarg or Himachal in winter).</li><li>Make the maquette and a cut plan with your team long before the trip.</li></ul><div class="callout warn safety"><h4>Safety notes</h4><ul><li>Frostbite and hypothermia risk: layers, insulated gloves, regular warm breaks.</li><li>Icy scaffolds and ladders: three points of contact, secure footing.</li><li>Saws and chisels: keep blades guarded when not in use.</li></ul></div></div></div>
       <h3 class="res-h">Resources</h3><div class="cards res-cards"><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official government news page</span></div><h4><a href="https://english.www.gov.cn/news/202501/08/content_WS677dc80cc6d0868f4e8ee96d.html" target="_blank" rel="noopener">27th Harbin int&#x27;l snow sculpture competition</a></h4><p>Confirms the competition format and international teams on Sun Island (context, not rules).</p><p class="pub"><span>Publisher:</span> The State Council of the People&#x27;s Republic of China (english.www.gov.cn)</p></div><div class="card res"><div class="res-meta"><span class="badge official">Official</span><span class="rtype">official event page (peer competition, not Harbin)</span></div><h4><a href="https://gobreck.com/event/international-snow-sculpture-championships/" target="_blank" rel="noopener">International Snow Sculpture Championships – Breckenridge</a></h4><p>Shows how a major snow-sculpting contest works: 12-ft blocks, roughly 100 hours, hand tools only. Useful for planning, but these are not Harbin&#x27;s rules.</p><p class="pub"><span>Publisher:</span> Breckenridge Tourism Office (GoBreck)</p></div></div><div class="callout note gap"><h4>No official resource yet</h4><p>We found no official resource for the competition&#x27;s entry rules or for snow-carving technique (<mark class="flag">Unconfirmed: no official source</mark>). The Breckenridge page is a different competition, linked for context only.</p></div>
       <p class="see-also">See also the skills guide: <a href="../../skills/sculpting-sand-snow-clay/">Sculpting sand, snow &amp; clay →</a> · <a href="../../skills/">All skills guides</a></p>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block alt" id="check">
     <div class="wrap narrow">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">04 · Check before you go</span>
         <h2>What we could and couldn't confirm</h2>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body">
       <div class="callout warn">
         <h3 class="h4">Before you book</h3>
         <ul><li>Entry rules, team size and the application deadline: <mark class="flag">Unconfirmed: no official source</mark>. The only page we had was a travel agency&#x27;s, so we removed it.</li><li>2027 festival opening and competition dates are <mark class="flag">TBC</mark>.</li><li>Costs are not listed on buildwith. Check them, and the latest dates, on the official site.</li></ul>
       </div>
+        </div>
+      </details>
     </div>
   </section>
 
   <section class="block" id="links">
     <div class="wrap">
-      <div class="section-head">
+      <details class="sec" open>
+        <summary class="section-head">
         <span class="eyebrow">05 · Links</span>
         <h2>Official and source links</h2>
-        <p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
-      </div>
+        <span class="sec-chev" aria-hidden="true"></span></summary>
+        <div class="sec-body"><p>All links open in a new tab. Every fact on this page is logged in <a href="sources.md">sources.md</a>.</p>
       <div class="cards"><div class="card"><span class="tag">Official / primary source</span><p></p><a class="url" href="https://english.www.gov.cn/news/202501/08/content_WS677dc80cc6d0868f4e8ee96d.html" target="_blank" rel="noopener">https://english.www.gov.cn/news/202501/08/content_WS677dc80cc6d0868f4e8ee96d.html</a></div></div>
       <h3 style="margin-top:44px">More ways to take part like this</h3><div class="exp-grid" style="margin-top:14px">        <a class="card exp-card" href="../../experiences/red-bull-soapbox-race/" id="exp-red-bull-soapbox-race" data-continents="Europe Americas" data-months="5 6" data-levels="team">
           <div class="ico" aria-hidden="true">🏎️</div>
@@ -148,7 +160,7 @@
           <div class="loc">Multi-city (2026: Los Angeles, Denver, London)</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human/gravity-powered soapbox kart</p>
-          <div class="when"><span>📅 May 2027  <mark class=flag>TBC</mark></span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-05-01&quot;,&quot;e&quot;:&quot;2027-05-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;May 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-06-01&quot;,&quot;e&quot;:&quot;2027-06-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Jun 2027&quot;}]"><span>📅 <mark class="flag">TBC</mark> dates not announced yet, usually May 2027</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/red-bull-flugtag/" id="exp-red-bull-flugtag" data-continents="Americas" data-months="9 10" data-levels="team">
@@ -157,7 +169,7 @@
           <div class="loc">Multi-city (2026: Minneapolis, Miami), USA</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD a human-powered &#x27;flying&#x27; machine launched off a 30-ft deck into water</p>
-          <div class="when"><span>📅 31 Oct 2026</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2026-10-31&quot;,&quot;e&quot;:&quot;2026-10-31&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;31 Oct 2026&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-09-01&quot;,&quot;e&quot;:&quot;2027-09-30&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Sep 2027&quot;},{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-10-01&quot;,&quot;e&quot;:&quot;2027-10-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Oct 2027&quot;}]"><span>📅 31 Oct 2026</span></div>
           <span class="go">How to take part →</span>
         </a>
         <a class="card exp-card" href="../../experiences/knaresborough-bed-race/" id="exp-knaresborough-bed-race" data-continents="Europe" data-months="6" data-levels="team">
@@ -166,10 +178,12 @@
           <div class="loc">Knaresborough, North Yorkshire, UK</div>
           <div class="lv-row"><span class="lv team">Team entry</span></div>
           <p>BUILD/decorate a racing bed; team pushes it on a course incl. a river crossing</p>
-          <div class="when"><span>📅 12 Jun 2027</span><span>⏰ 1 Jan 2027: Knaresborough Bed Race 2027: entries OPEN</span></div>
+          <div class="when" data-when="[{&quot;k&quot;:&quot;e&quot;,&quot;s&quot;:&quot;2027-06-12&quot;,&quot;e&quot;:&quot;2027-06-12&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;12 Jun 2027&quot;},{&quot;k&quot;:&quot;d&quot;,&quot;s&quot;:&quot;2027-01-01&quot;,&quot;e&quot;:&quot;2027-01-01&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;1 Jan 2027&quot;,&quot;n&quot;:&quot;Knaresborough Bed Race 2027: entries OPEN&quot;},{&quot;k&quot;:&quot;d&quot;,&quot;s&quot;:&quot;2027-02-28&quot;,&quot;e&quot;:&quot;2027-02-28&quot;,&quot;t&quot;:0,&quot;l&quot;:&quot;28 Feb 2027&quot;,&quot;n&quot;:&quot;Knaresborough Bed Race 2027 entries close (11:59pm)&quot;},{&quot;k&quot;:&quot;d&quot;,&quot;s&quot;:&quot;2027-03-01&quot;,&quot;e&quot;:&quot;2027-03-31&quot;,&quot;t&quot;:1,&quot;l&quot;:&quot;Mar 2027&quot;,&quot;n&quot;:&quot;Knaresborough Bed Race lottery (March)&quot;}]"><span>📅 12 Jun 2027</span><span>⏰ 1 Jan 2027: Knaresborough Bed Race 2027: entries OPEN</span></div>
           <span class="go">How to take part →</span>
         </a>
 </div>
+        </div>
+      </details>
     </div>
   </section>
 </main>
@@ -212,5 +226,6 @@
 </footer>
 
 <script src="../../assets/nav.js" defer></script>
+<script src="../../assets/collapse.js" defer></script>
 </body>
 </html>
