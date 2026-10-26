@@ -1,4 +1,4 @@
-# buildwith · About: sources
+# Nomad · About: sources
 
 | Fact used | Source |
 |---|---|
@@ -10,3 +10,4 @@
 | Watch-list: Ōtaki International Kite Festival, New Zealand: Ran 14–15 Mar 2026. Mostly for watching; 2027 dates not published. | https://www.visitkapiti.co.nz/events-feed/2026/march/otaki-kite-festival/ |
 | Watch-list: Elsewhere, Spain (regional burn): Successor to Nowhere; ran 7–12 Jul 2026 in Monegros. Could be added later. | https://nobodies.team/ |
 | Sister site | https://kinetic.curiosta.com/ |
+| Positioning 'Don't just watch. Take part.' and the sixth way 'Learn the skill' (no listing carries it yet) | Manoj's decision in chat, 26 Oct 2026 |

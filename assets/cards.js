@@ -1,4 +1,4 @@
-// buildwith: experience cards re-check "next date" and "next deadline" against the visitor's day. The page is built with the
+// Nomad: experience cards re-check "next date" and "next deadline" against the visitor's day. The page is built with the
 // build day's view (correct without JavaScript); if the visitor's day is later, the next dates are picked again from the
 // candidates in each card's data-when. Same rule as build.py: earliest month, dated before month-only, then earliest start.
 (function () {

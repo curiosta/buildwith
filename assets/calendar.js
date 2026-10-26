@@ -1,4 +1,4 @@
-// buildwith calendar (/calendar/), redesigned 14 Oct 2026 after kinetic.curiosta.com/calendar/:
+// Nomad calendar (/calendar/), redesigned 14 Oct 2026 after kinetic.curiosta.com/calendar/:
 // one "Coming up" list in date order grouped by month, ended editions folded under "Already held", one continent chip row.
 // The page is fully server-rendered; this script only re-checks status against today's date, filters, and copies the subscribe link.
 (function () {

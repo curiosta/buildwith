@@ -1,10 +1,12 @@
-// buildwith: filter the experience cards by continent, month and participation level (state kept in the URL query).
+// Nomad: filter the experience cards by continent, month and participation level (state kept in the URL query).
 (function () {
   const grid = document.getElementById("exp-grid"); if (!grid) return;
   const cards = [...grid.querySelectorAll(".exp-card")];
   const state = { continent: "", level: "", month: "" };
   const q = new URLSearchParams(location.search);
   for (const k in state) if (q.get(k)) state[k] = q.get(k);
+  // a way with no listings has no chip: ignore a ?level= link to it instead of showing an empty list
+  if (state.level && !document.querySelector(`.chip[data-f="level"][data-v="${CSS.escape(state.level)}"]`)) state.level = "";
   const count = document.getElementById("f-count"), empty = document.getElementById("f-empty"), msel = document.getElementById("f-month");
   function apply() {
     let n = 0;

@@ -1,4 +1,4 @@
-# buildwith · Experiences list: sources
+# Nomad · Experiences list: sources
 
 Each card summarises one row of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Next dates come from `cal.py` (date check 4 Oct 2026, IST). Participation levels are our grouping of the CSV's `participation_level` and `how_a_traveller_participates` columns. Full per-fact sources are in each experience's own `sources.md`.
 

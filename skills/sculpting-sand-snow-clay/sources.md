@@ -1,4 +1,4 @@
-# buildwith · Skills guide: Sculpting sand, snow and clay: sources
+# Nomad · Skills guide: Sculpting sand, snow and clay: sources
 
 Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), after the 4 Oct 2026 source-rule audit. Every resource URL shown on the page is logged below. Difficulty and prep time are Curiosta editorial estimates.
 

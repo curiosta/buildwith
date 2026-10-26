@@ -1,4 +1,4 @@
-# buildwith · Kinetic Grand Championship: sources
+# Nomad · Kinetic Grand Championship: sources
 
 Row #18 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
 

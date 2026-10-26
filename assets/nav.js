@@ -1,4 +1,4 @@
-// buildwith: shared page script. Phone menu (UAT 14 Oct 2026, after founder.curiosta.com): a Menu button with aria-expanded
+// Nomad: shared page script. Phone menu (UAT 14 Oct 2026, after founder.curiosta.com): a Menu button with aria-expanded
 // opens the four site links; Esc, a second tap, a tap outside or choosing a link closes it. Without JavaScript the button
 // is hidden by CSS (it only shows under html.js, set inline before first paint, so it never shifts the layout) and the four links wrap under the wordmark, so nothing is ever unreachable.
 document.documentElement.classList.add("js");

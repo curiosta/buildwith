@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//curiosta//buildwith calendar v1//EN
+PRODID:-//curiosta//Nomad calendar v1//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:buildwith.curiosta.com 2026-2027
+X-WR-CALNAME:nomad.curiosta.com 2026-2027
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:buildwith-20-2026-10-03-0@curiosta.com
@@ -15,8 +15,8 @@ DESCRIPTION:What you build/use: Crew a hot-air balloon (inflate\, chase\, p
  ack down).\nHow to join: Register as chase crew online or at the Chase Cre
  w tower / Crew Corral on the field.\nLevel: Use. Experience #20 in experie
  nces_v1.csv.\nNote: Official dates. Happening now.\nhttps://www.balloonfie
- sta.com/plan-your-visit/faqs/\nMore: https://buildwith.curiosta.com/experi
- ences/albuquerque-balloon-fiesta-crew/
+ sta.com/plan-your-visit/faqs/\nMore: https://nomad.curiosta.com/experience
+ s/albuquerque-balloon-fiesta-crew/
 URL:https://www.balloonfiesta.com/plan-your-visit/faqs/
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -33,8 +33,8 @@ DESCRIPTION:What you build/use: Watch artisans finish the clay Durga idols
  ask before photographing).\nLevel: Watch. Experience #3 in experiences_v1.
  csv.\nNote: West Bengal Government 2026 holiday list. UNESCO: the eyes are
   painted onto the clay images on Mahalaya.\nhttps://par.wb.gov.in/holidayl
- ist.php\nMore: https://buildwith.curiosta.com/experiences/kumartuli-durga-
- puja-kolkata/
+ ist.php\nMore: https://nomad.curiosta.com/experiences/kumartuli-durga-puja
+ -kolkata/
 URL:https://par.wb.gov.in/holidaylist.php
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -50,8 +50,8 @@ DESCRIPTION:What you build/use: See the finished idols and the pandals buil
  t by local artisans.\nHow to join: Pandal-hopping\, open to all.\nLevel: W
  atch. Experience #3 in experiences_v1.csv.\nNote: West Bengal Government 2
  026 holiday list: Saptami 18 Oct to Dashami 21 Oct.\nhttps://par.wb.gov.in
- /holidaylist.php\nMore: https://buildwith.curiosta.com/experiences/kumartu
- li-durga-puja-kolkata/
+ /holidaylist.php\nMore: https://nomad.curiosta.com/experiences/kumartuli-d
+ urga-puja-kolkata/
 URL:https://par.wb.gov.in/holidaylist.php
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -69,7 +69,7 @@ DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
  14th night of the lunar month (Hội An Creative City portal). Calendar da
  te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
  oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
- ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+ ore: https://nomad.curiosta.com/experiences/hoi-an-lantern-workshop/
 URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
  of-hoi-an
 CATEGORIES:Build,Event
@@ -85,8 +85,8 @@ DESCRIPTION:DEADLINE. What you build/use: Grant towards your artwork or per
  formance at AfrikaBurn.\nHow to join: Register your project\, then submit 
  the grant form.\nLevel: Build. Experience #24 in experiences_v1.csv.\nNote
  : Official timeline: 23 October\, midnight (SAST).\nhttps://www.afrikaburn
- .org/event/participation/artworks-performances/\nMore: https://buildwith.c
- uriosta.com/experiences/afrikaburn/
+ .org/event/participation/artworks-performances/\nMore: https://nomad.curio
+ sta.com/experiences/afrikaburn/
 URL:https://www.afrikaburn.org/event/participation/artworks-performances/
 CATEGORIES:Build,Deadline
 TRANSP:TRANSPARENT
@@ -101,8 +101,7 @@ DESCRIPTION:What you build/use: Exhibit your own project (the Call for Make
  rs closed 30 Jun 2026).\nHow to join: Visit\; exhibit by applying to next 
  year's call.\nLevel: Team entry. Experience #16 in experiences_v1.csv.\nNo
  te: Gazometro Ostiense\, Rome.\nhttps://makerfairerome.eu/en/call/call-for
- -makers/\nMore: https://buildwith.curiosta.com/experiences/maker-faire-rom
- e/
+ -makers/\nMore: https://nomad.curiosta.com/experiences/maker-faire-rome/
 URL:https://makerfairerome.eu/en/call/call-for-makers/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -116,8 +115,8 @@ SUMMARY:Cape Town International Kite Festival 2026
 DESCRIPTION:What you build/use: Kite-making workshops (offered in 2025)\, k
  ite flying.\nHow to join: Buy a ticket.\nLevel: Build. Experience #25 in e
  xperiences_v1.csv.\nNote: Youngsfield Military Base\, Ottery.\nhttps://www
- .capementalhealth.co.za/colourthesky/\nMore: https://buildwith.curiosta.co
- m/experiences/cape-town-kite-festival/
+ .capementalhealth.co.za/colourthesky/\nMore: https://nomad.curiosta.com/ex
+ periences/cape-town-kite-festival/
 URL:https://www.capementalhealth.co.za/colourthesky/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -133,8 +132,8 @@ DESCRIPTION:DEADLINE. What you build/use: Funding for an art installation i
  n Black Rock City 2027.\nHow to join: Submit a Letter of Intent online.\nL
  evel: Build. Experience #19 in experiences_v1.csv.\nNote: 5pm PDT on 29 Oc
  t = 5:30am IST on 30 Oct.\nhttps://burningman.org/black-rock-city/bring-yo
- ur-art/art-grants-programs/brc-honoraria/submit_grant/\nMore: https://buil
- dwith.curiosta.com/experiences/burning-man/
+ ur-art/art-grants-programs/brc-honoraria/submit_grant/\nMore: https://noma
+ d.curiosta.com/experiences/burning-man/
 URL:https://burningman.org/black-rock-city/bring-your-art/art-grants-progra
  ms/brc-honoraria/submit_grant/
 CATEGORIES:Build,Deadline
@@ -150,8 +149,8 @@ DESCRIPTION:What you build/use: Human-powered flying machine launched off a
   deck into Biscayne Bay.\nHow to join: Teams were selected earlier\; free 
  to watch.\nLevel: Team entry. Experience #14 in experiences_v1.csv.\nNote:
   Bayfront Park\, Miami.\nhttps://www.redbull.com/us-en/events/flugtag-miam
- i/ft-miami-faqs\nMore: https://buildwith.curiosta.com/experiences/red-bull
- -flugtag/
+ i/ft-miami-faqs\nMore: https://nomad.curiosta.com/experiences/red-bull-flu
+ gtag/
 URL:https://www.redbull.com/us-en/events/flugtag-miami/ft-miami-faqs
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -169,7 +168,7 @@ DESCRIPTION:What you build/use: Giant tissue-paper kites built by local gro
  d every 1 November (Govt of Guatemala). The 2026 programme isn't published
   yet.\nhttps://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-
  tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/\n
- More: https://buildwith.curiosta.com/experiences/sumpango-giant-kites/
+ More: https://nomad.curiosta.com/experiences/sumpango-giant-kites/
 URL:https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-trad
  icion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/
 CATEGORIES:Watch,Event
@@ -188,7 +187,7 @@ DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
  14th night of the lunar month (Hội An Creative City portal). Calendar da
  te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
  oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
- ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+ ore: https://nomad.curiosta.com/experiences/hoi-an-lantern-workshop/
 URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
  of-hoi-an
 CATEGORIES:Build,Event
@@ -210,8 +209,8 @@ DESCRIPTION:What you build/use: Make (or buy) a banana-leaf krathong and fl
  ng Parade contest on the Tha Phae Gate to City Hall route\; 25 Nov is the 
  usual parade night\, but the official page does not name the day (not conf
  irmed).\nhttps://radiochiangmai.prd.go.th/th/content/category/detail/id/57
- /iid/544713\nMore: https://buildwith.curiosta.com/experiences/yi-peng-loy-
- krathong-chiang-mai/
+ /iid/544713\nMore: https://nomad.curiosta.com/experiences/yi-peng-loy-krat
+ hong-chiang-mai/
 URL:https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/5
  44713
 CATEGORIES:Build,Event
@@ -227,8 +226,8 @@ DESCRIPTION:What you build/use: Naga crafts: bamboo\, cane\, beadwork\, wea
  ving.\nHow to join: Attend and buy from artisans\; the 2026 Craftscape sch
  edule isn't out yet.\nLevel: Watch. Experience #4 in experiences_v1.csv.\n
  Note: Kisama\, near Kohima. Inner Line Permit / registration rules apply.\
- nhttps://hornbillfestival.com/events/\nMore: https://buildwith.curiosta.co
- m/experiences/hornbill-festival-nagaland/
+ nhttps://hornbillfestival.com/events/\nMore: https://nomad.curiosta.com/ex
+ periences/hornbill-festival-nagaland/
 URL:https://hornbillfestival.com/events/
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -244,8 +243,8 @@ DESCRIPTION:What you build/use: Lantern installations\; a hands-on lantern-
  vel: Build. Experience #9 in experiences_v1.csv.\nNote: First edition (Da 
  Nang city tourism portal). New find\, not one of the original 27 rows.\nht
  tps://danangfantasticity.com/en/news/hoi-an-international-lantern-festival
- -2026-heritage-in-a-kaleidoscope-of-colors\nMore: https://buildwith.curios
- ta.com/experiences/hoi-an-lantern-workshop/
+ -2026-heritage-in-a-kaleidoscope-of-colors\nMore: https://nomad.curiosta.c
+ om/experiences/hoi-an-lantern-workshop/
 URL:https://danangfantasticity.com/en/news/hoi-an-international-lantern-fes
  tival-2026-heritage-in-a-kaleidoscope-of-colors
 CATEGORIES:Build,Event
@@ -264,7 +263,7 @@ DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
  14th night of the lunar month (Hội An Creative City portal). Calendar da
  te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
  oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
- ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+ ore: https://nomad.curiosta.com/experiences/hoi-an-lantern-workshop/
 URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
  of-hoi-an
 CATEGORIES:Build,Event
@@ -280,8 +279,8 @@ DESCRIPTION:DEADLINE. What you build/use: Build or decorate a racing bed (y
  ou must bring your own bed).\nHow to join: Enter online between 1 Jan and 
  28 Feb\; lottery if over 90 teams.\nLevel: Team entry. Experience #15 in e
  xperiences_v1.csv.\nNote: Official FAQ: entries open 1 Jan each year.\nhtt
- ps://www.bedrace.co.uk/contact\nMore: https://buildwith.curiosta.com/exper
- iences/knaresborough-bed-race/
+ ps://www.bedrace.co.uk/contact\nMore: https://nomad.curiosta.com/experienc
+ es/knaresborough-bed-race/
 URL:https://www.bedrace.co.uk/contact
 CATEGORIES:Team entry,Deadline
 TRANSP:TRANSPARENT
@@ -301,7 +300,7 @@ DESCRIPTION:What you build/use: Fly kites made by local makers (Patang Baza
  ati Riverfront\, Ahmedabad (Incredible India\, source: Gujarat Tourism).\n
  https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_obser
  ved_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf\
- nMore: https://buildwith.curiosta.com/experiences/uttarayan-ahmedabad/
+ nMore: https://nomad.curiosta.com/experiences/uttarayan-ahmedabad/
 URL:https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_ob
  served_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.p
  df
@@ -321,7 +320,7 @@ DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
  14th night of the lunar month (Hội An Creative City portal). Calendar da
  te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
  oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
- ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+ ore: https://nomad.curiosta.com/experiences/hoi-an-lantern-workshop/
 URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
  of-hoi-an
 CATEGORIES:Build,Event
@@ -338,8 +337,8 @@ DESCRIPTION:What you build/use: Parade in a samba-school costume (fantasia)
   made in the school's workshop.\nHow to join: Buy a wing costume through a
   samba school's official channel.\nLevel: Use. Experience #22 in experienc
  es_v1.csv.\nNote: Sambadrome\, 7-9 Feb (LIESA).\nhttps://liesa.org.br/noti
- cias/260416.html\nMore: https://buildwith.curiosta.com/experiences/rio-car
- nival-samba-parade/
+ cias/260416.html\nMore: https://nomad.curiosta.com/experiences/rio-carniva
+ l-samba-parade/
 URL:https://liesa.org.br/noticias/260416.html
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -354,8 +353,8 @@ DESCRIPTION:DEADLINE. What you build/use: Project details for burn\, sound
  and lights approvals.\nHow to join: Submit Art Form II.\nLevel: Build. Exp
  erience #24 in experiences_v1.csv.\nNote: Official timeline says '15 Feb'.
   Burn/sound pieces must be registered by end of Feb.\nhttps://www.afrikabu
- rn.org/event/participation/artworks-performances/\nMore: https://buildwith
- .curiosta.com/experiences/afrikaburn/
+ rn.org/event/participation/artworks-performances/\nMore: https://nomad.cur
+ iosta.com/experiences/afrikaburn/
 URL:https://www.afrikaburn.org/event/participation/artworks-performances/
 CATEGORIES:Build,Deadline
 TRANSP:TRANSPARENT
@@ -374,7 +373,7 @@ DESCRIPTION:What you build/use: Make a bamboo-and-silk lantern at a local w
  14th night of the lunar month (Hội An Creative City portal). Calendar da
  te: our lunar-calendar check\; Unconfirmed: no official source.\nhttps://h
  oiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an\nM
- ore: https://buildwith.curiosta.com/experiences/hoi-an-lantern-workshop/
+ ore: https://nomad.curiosta.com/experiences/hoi-an-lantern-workshop/
 URL:https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-
  of-hoi-an
 CATEGORIES:Build,Event
@@ -389,8 +388,8 @@ SUMMARY:DEADLINE: Knaresborough Bed Race 2027 entries close (11:59pm)
 DESCRIPTION:DEADLINE. What you build/use: Racing bed + team.\nHow to join: 
  Enter online\; a public lottery is held in March if oversubscribed.\nLevel
  : Team entry. Experience #15 in experiences_v1.csv.\nNote: Official FAQ.\n
- https://www.bedrace.co.uk/contact\nMore: https://buildwith.curiosta.com/ex
- periences/knaresborough-bed-race/
+ https://www.bedrace.co.uk/contact\nMore: https://nomad.curiosta.com/experi
+ ences/knaresborough-bed-race/
 URL:https://www.bedrace.co.uk/contact
 CATEGORIES:Team entry,Deadline
 TRANSP:TRANSPARENT
@@ -406,8 +405,8 @@ DESCRIPTION:What you build/use: Giant satirical monuments built by local ar
  tists and casals.\nHow to join: Watch\; Cremà (the burning) on 19 Mar.\nL
  evel: Watch. Experience #12 in experiences_v1.csv.\nNote: Visit València:
   15–19 March every year\; Cremà on the night of 19 Mar.\nhttps://www.vi
- sitvalencia.com/en/events-valencia/festivities/the-fallas\nMore: https://b
- uildwith.curiosta.com/experiences/las-fallas-valencia/
+ sitvalencia.com/en/events-valencia/festivities/the-fallas\nMore: https://n
+ omad.curiosta.com/experiences/las-fallas-valencia/
 URL:https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -421,8 +420,8 @@ SUMMARY:DEADLINE: Texas SandFest amateur registration
 DESCRIPTION:DEADLINE. What you build/use: Sand sculpture in your own plot.\
  nHow to join: Register solo\, team or family\; closes early if plots fill.
  \nLevel: Team entry. Experience #21 in experiences_v1.csv.\nNote: Official
-  page.\nhttps://www.texassandfest.org/amateur-competition\nMore: https://b
- uildwith.curiosta.com/experiences/texas-sandfest/
+  page.\nhttps://www.texassandfest.org/amateur-competition\nMore: https://n
+ omad.curiosta.com/experiences/texas-sandfest/
 URL:https://www.texassandfest.org/amateur-competition
 CATEGORIES:Team entry,Deadline
 TRANSP:TRANSPARENT
@@ -436,8 +435,8 @@ SUMMARY:Texas SandFest 2027 (amateur comp 16-17 Apr)
 DESCRIPTION:What you build/use: Build a sand sculpture.\nHow to join: 1-day
   amateur contest on 17 Apr\; 2-day open contest 16-17 Apr.\nLevel: Team en
  try. Experience #21 in experiences_v1.csv.\nNote: Port Aransas\, Texas.\nh
- ttps://www.texassandfest.org/amateur-competition\nMore: https://buildwith.
- curiosta.com/experiences/texas-sandfest/
+ ttps://www.texassandfest.org/amateur-competition\nMore: https://nomad.curi
+ osta.com/experiences/texas-sandfest/
 URL:https://www.texassandfest.org/amateur-competition
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -451,8 +450,8 @@ SUMMARY:AfrikaBurn 2027
 DESCRIPTION:What you build/use: Artworks\, theme camps\, mutant vehicles.\n
  How to join: Buy a ticket and bring or build something.\nLevel: Build. Exp
  erience #24 in experiences_v1.csv.\nNote: Tankwa Karoo\, South Africa.\nht
- tps://tickets.afrikaburn.org/afrikaburn-2027-theme/\nMore: https://buildwi
- th.curiosta.com/experiences/afrikaburn/
+ tps://tickets.afrikaburn.org/afrikaburn-2027-theme/\nMore: https://nomad.c
+ uriosta.com/experiences/afrikaburn/
 URL:https://tickets.afrikaburn.org/afrikaburn-2027-theme/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -467,8 +466,8 @@ DESCRIPTION:What you build/use: Human-powered amphibious art sculpture\, 50
   miles.\nHow to join: Enter a racer team (2027 registration not open yet) 
  or volunteer.\nLevel: Team entry. Experience #18 in experiences_v1.csv.\nN
  ote: Arcata to Ferndale\, Humboldt County\, CA.\nhttps://kineticgrandchamp
- ionship.com/\nMore: https://buildwith.curiosta.com/experiences/kinetic-gra
- nd-championship/
+ ionship.com/\nMore: https://nomad.curiosta.com/experiences/kinetic-grand-c
+ hampionship/
 URL:https://kineticgrandchampionship.com/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -482,8 +481,8 @@ SUMMARY:Great Knaresborough Bed Race 2027
 DESCRIPTION:What you build/use: Decorated racing bed over a 2.4-mile course
   with a river crossing.\nHow to join: Team entry (lottery)\; the race star
  ts at 3pm.\nLevel: Team entry. Experience #15 in experiences_v1.csv.\nNote
- : Official site.\nhttps://www.bedrace.co.uk/\nMore: https://buildwith.curi
- osta.com/experiences/knaresborough-bed-race/
+ : Official site.\nhttps://www.bedrace.co.uk/\nMore: https://nomad.curiosta
+ .com/experiences/knaresborough-bed-race/
 URL:https://www.bedrace.co.uk/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -498,8 +497,8 @@ DESCRIPTION:What you build/use: Dance beside giant lantern floats built by
  nebuta masters.\nHow to join: Rent a haneto costume\; no registration need
  ed.\nLevel: Use. Experience #7 in experiences_v1.csv.\nNote: Official site
  : held 2-7 Aug every year. No separate 2027 notice yet.\nhttps://www.nebut
- a.jp/info/haneto/sanka.html\nMore: https://buildwith.curiosta.com/experien
- ces/aomori-nebuta-haneto/
+ a.jp/info/haneto/sanka.html\nMore: https://nomad.curiosta.com/experiences/
+ aomori-nebuta-haneto/
 URL:https://www.nebuta.jp/info/haneto/sanka.html
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -514,8 +513,8 @@ DESCRIPTION:What you build/use: Bring-your-own bottomless boat\, or use the
   boats provided\, on a dry riverbed.\nHow to join: Buy a ticket\; register
   online or on the day.\nLevel: Team entry. Experience #27 in experiences_v
  1.csv.\nNote: Snow Kenna Park\, Alice Springs.\nhttps://www.henleyontodd.c
- om.au/\nMore: https://buildwith.curiosta.com/experiences/henley-on-todd-re
- gatta/
+ om.au/\nMore: https://nomad.curiosta.com/experiences/henley-on-todd-regatt
+ a/
 URL:https://www.henleyontodd.com.au/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -529,8 +528,8 @@ SUMMARY:Burning Man 2027 (Spellbound)
 DESCRIPTION:What you build/use: Art\, art cars\, theme camps.\nHow to join:
   Tickets (2027 sale dates TBA)\; theme-camp placement.\nLevel: Build. Expe
  rience #19 in experiences_v1.csv.\nNote: Black Rock City\, Nevada.\nhttps:
- //burningman.org/black-rock-city/black-rock-city-2027/\nMore: https://buil
- dwith.curiosta.com/experiences/burning-man/
+ //burningman.org/black-rock-city/black-rock-city-2027/\nMore: https://noma
+ d.curiosta.com/experiences/burning-man/
 URL:https://burningman.org/black-rock-city/black-rock-city-2027/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -549,8 +548,8 @@ DESCRIPTION:What you build/use: Make your own shadu-clay Ganesha.\nHow to j
  riences_v1.csv.\nNote: Ganesh Chaturthi is 4 Sep 2027 (Government of India
   2027 holiday list).\nhttps://sromarol.esic.gov.in/attachments/circularfil
  e/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_20
- 27_reg_1786507084.pdf\nMore: https://buildwith.curiosta.com/experiences/ga
- nesh-idol-workshops-mumbai/
+ 27_reg_1786507084.pdf\nMore: https://nomad.curiosta.com/experiences/ganesh
+ -idol-workshops-mumbai/
 URL:https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_ob
  served_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.p
  df
@@ -568,8 +567,8 @@ DESCRIPTION:What you build/use: Help hamlet teams build giant dahlia floats
   in their tents in the weeks before.\nHow to join: Drop into the build ten
  ts (evenings and Saturdays)\; watch the parade.\nLevel: Build. Experience 
  #17 in experiences_v1.csv.\nNote: 5 Sep 2027 (Corso Zundert).\nhttps://cor
- sozundert.nl/en/praktisch/frequently-asked-questions/\nMore: https://build
- with.curiosta.com/experiences/corso-zundert/
+ sozundert.nl/en/praktisch/frequently-asked-questions/\nMore: https://nomad
+ .curiosta.com/experiences/corso-zundert/
 URL:https://corsozundert.nl/en/praktisch/frequently-asked-questions/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -584,8 +583,8 @@ DESCRIPTION:What you build/use: Giant kites by international makers\; fly y
  our own.\nHow to join: Free.\nLevel: Watch. Experience #11 in experiences_
  v1.csv.\nNote: Normandy Tourism. A third-party site's Oct 2026 claim is tr
  eated as unreliable.\nhttps://en.normandie-tourisme.fr/highlight/dieppe-ki
- te-festival/\nMore: https://buildwith.curiosta.com/experiences/dieppe-kite
- -festival/
+ te-festival/\nMore: https://nomad.curiosta.com/experiences/dieppe-kite-fes
+ tival/
 URL:https://en.normandie-tourisme.fr/highlight/dieppe-kite-festival/
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -599,8 +598,8 @@ SUMMARY:Albuquerque International Balloon Fiesta 2027
 DESCRIPTION:What you build/use: Crew a hot-air balloon.\nHow to join: Regis
  ter as chase crew online or on the field.\nLevel: Use. Experience #20 in e
  xperiences_v1.csv.\nNote: Official future-dates list.\nhttps://www.balloon
- fiesta.com/plan-your-visit/faqs/\nMore: https://buildwith.curiosta.com/exp
- eriences/albuquerque-balloon-fiesta-crew/
+ fiesta.com/plan-your-visit/faqs/\nMore: https://nomad.curiosta.com/experie
+ nces/albuquerque-balloon-fiesta-crew/
 URL:https://www.balloonfiesta.com/plan-your-visit/faqs/
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -615,8 +614,8 @@ DESCRIPTION:What you build/use: Giant tissue-paper kites built by local gro
  ups.\nHow to join: Free entry.\nLevel: Watch. Experience #23 in experience
  s_v1.csv.\nNote: Held every 1 November (Govt of Guatemala).\nhttps://guate
  mala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color
- -que-caracteriza-a-sumpango-y-santiago-sacatepequez/\nMore: https://buildw
- ith.curiosta.com/experiences/sumpango-giant-kites/
+ -que-caracteriza-a-sumpango-y-santiago-sacatepequez/\nMore: https://nomad.
+ curiosta.com/experiences/sumpango-giant-kites/
 URL:https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-trad
  icion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/
 CATEGORIES:Watch,Event
@@ -633,8 +632,8 @@ DESCRIPTION:What you build/use: Fly kites made by local makers (Patang Baza
  unds.\nHow to join: Buy kites and reels locally and join a rooftop\; free 
  IKF ground.\nLevel: Use. Experience #1 in experiences_v1.csv.\nNote: Offic
  ial IKF 2026 dates (statewide 10–14 Jan\; Ahmedabad 12–14 Jan).\nhttps
- ://ikf.gujarattourism.com/index.html\nMore: https://buildwith.curiosta.com
- /experiences/uttarayan-ahmedabad/
+ ://ikf.gujarattourism.com/index.html\nMore: https://nomad.curiosta.com/exp
+ eriences/uttarayan-ahmedabad/
 URL:https://ikf.gujarattourism.com/index.html
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -650,7 +649,7 @@ DESCRIPTION:What you build/use: Parade in a samba-school costume (fantasia)
   samba school's official channel.\nLevel: Use. Experience #22 in experienc
  es_v1.csv.\nNote: Sambadrome\, 15–17 Feb 2026 (LIESA Regulamento 2026).\
  nhttps://liesa.org.br/downloads/carnaval/regulamento-2026.pdf\nMore: https
- ://buildwith.curiosta.com/experiences/rio-carnival-samba-parade/
+ ://nomad.curiosta.com/experiences/rio-carnival-samba-parade/
 URL:https://liesa.org.br/downloads/carnaval/regulamento-2026.pdf
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -665,8 +664,8 @@ DESCRIPTION:What you build/use: Release a paper sky lantern made by Pingxi/
  Shifen shops.\nHow to join: Buy a lantern locally\; festival mass-release 
  on the published dates.\nLevel: Use. Experience #8 in experiences_v1.csv.\
  nNote: Taiwan Tourism Administration: 27 Feb 2026.\nhttps://eng.taiwan.net
- .tw/m1.aspx?lid=081737&sNo=0002019\nMore: https://buildwith.curiosta.com/e
- xperiences/pingxi-sky-lanterns/
+ .tw/m1.aspx?lid=081737&sNo=0002019\nMore: https://nomad.curiosta.com/exper
+ iences/pingxi-sky-lanterns/
 URL:https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -681,8 +680,8 @@ DESCRIPTION:What you build/use: Release a paper sky lantern made by Pingxi/
  Shifen shops.\nHow to join: Buy a lantern locally\; festival mass-release 
  on the published dates.\nLevel: Use. Experience #8 in experiences_v1.csv.\
  nNote: Taiwan Tourism Administration: 3 Mar 2026.\nhttps://eng.taiwan.net.
- tw/m1.aspx?lid=081737&sNo=0002019\nMore: https://buildwith.curiosta.com/ex
- periences/pingxi-sky-lanterns/
+ tw/m1.aspx?lid=081737&sNo=0002019\nMore: https://nomad.curiosta.com/experi
+ ences/pingxi-sky-lanterns/
 URL:https://eng.taiwan.net.tw/m1.aspx?lid=081737&sNo=0002019
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -697,8 +696,8 @@ DESCRIPTION:What you build/use: Giant satirical monuments built by local ar
  tists and casals.\nHow to join: Watch\; Cremà (the burning) on the night 
  of 19 Mar.\nLevel: Watch. Experience #12 in experiences_v1.csv.\nNote: Vis
  it València: 15–19 March every year.\nhttps://www.visitvalencia.com/en/
- events-valencia/festivities/the-fallas\nMore: https://buildwith.curiosta.c
- om/experiences/las-fallas-valencia/
+ events-valencia/festivities/the-fallas\nMore: https://nomad.curiosta.com/e
+ xperiences/las-fallas-valencia/
 URL:https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -714,8 +713,8 @@ DESCRIPTION:What you build/use: Fly or compete with Weifang-made kites at W
  workshops and markets.\nLevel: Use. Experience #5 in experiences_v1.csv.\n
  Note: Shandong provincial publicity department: championship 16–19 Apr\;
   festival opened 18 Apr.\nhttps://www.sdxc.gov.cn/whql/whqlsy/202603/t2026
- 0318_17551002.htm\nMore: https://buildwith.curiosta.com/experiences/weifan
- g-kite-festival/
+ 0318_17551002.htm\nMore: https://nomad.curiosta.com/experiences/weifang-ki
+ te-festival/
 URL:https://www.sdxc.gov.cn/whql/whqlsy/202603/t20260318_17551002.htm
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -730,8 +729,7 @@ DESCRIPTION:What you build/use: Build a sand sculpture in your own plot (am
  ateur categories).\nHow to join: Register solo\, team or family in the ama
  teur competition.\nLevel: Team entry. Experience #21 in experiences_v1.csv
  .\nNote: Port Aransas Chamber: 17–19 Apr 2026.\nhttps://www.portaransas.
- org/sandfest/\nMore: https://buildwith.curiosta.com/experiences/texas-sand
- fest/
+ org/sandfest/\nMore: https://nomad.curiosta.com/experiences/texas-sandfest/
 URL:https://www.portaransas.org/sandfest/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -746,8 +744,8 @@ DESCRIPTION:What you build/use: Fly your own kite at World Kite Park.\nHow
  to join: Open to the public during the flying season.\nLevel: Use. Experie
  nce #5 in experiences_v1.csv.\nNote: Shandong provincial publicity departm
  ent: open flying 20 Apr–5 May.\nhttps://www.sdxc.gov.cn/whql/whqlsy/2026
- 03/t20260318_17551002.htm\nMore: https://buildwith.curiosta.com/experience
- s/weifang-kite-festival/
+ 03/t20260318_17551002.htm\nMore: https://nomad.curiosta.com/experiences/we
+ ifang-kite-festival/
 URL:https://www.sdxc.gov.cn/whql/whqlsy/202603/t20260318_17551002.htm
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -762,8 +760,8 @@ DESCRIPTION:What you build/use: Artworks\, theme camps\, mutant vehicles.\n
  How to join: Buy a ticket and bring or build something.\nLevel: Build. Exp
  erience #24 in experiences_v1.csv.\nNote: Quaggafontein\, Tankwa Karoo. Ga
  te policy on the official ticketing site: opened Mon 27 Apr 2026.\nhttps:/
- /tickets.afrikaburn.org/\nMore: https://buildwith.curiosta.com/experiences
- /afrikaburn/
+ /tickets.afrikaburn.org/\nMore: https://nomad.curiosta.com/experiences/afr
+ ikaburn/
 URL:https://tickets.afrikaburn.org/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -778,8 +776,8 @@ DESCRIPTION:What you build/use: Human/gravity-powered soapbox kart.\nHow to
   join: Teams were selected earlier\; free to watch.\nLevel: Team entry. Ex
  perience #13 in experiences_v1.csv.\nNote: Official Red Bull Soapbox serie
  s page (past event).\nhttps://www.redbull.com/int-en/event-series/red-bull
- -soapbox-race\nMore: https://buildwith.curiosta.com/experiences/red-bull-s
- oapbox-race/
+ -soapbox-race\nMore: https://nomad.curiosta.com/experiences/red-bull-soapb
+ ox-race/
 URL:https://www.redbull.com/int-en/event-series/red-bull-soapbox-race
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -794,8 +792,8 @@ DESCRIPTION:What you build/use: Human-powered amphibious art sculpture\, 50
   miles.\nHow to join: Enter a racer team or volunteer/spectate.\nLevel: Te
  am entry. Experience #18 in experiences_v1.csv.\nNote: Memorial Day weeken
  d 2026\; confirmed by the organiser's 2026 race-results page.\nhttps://kin
- eticgrandchampionship.com/\nMore: https://buildwith.curiosta.com/experienc
- es/kinetic-grand-championship/
+ eticgrandchampionship.com/\nMore: https://nomad.curiosta.com/experiences/k
+ inetic-grand-championship/
 URL:https://kineticgrandchampionship.com/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -810,8 +808,8 @@ DESCRIPTION:What you build/use: Decorated racing bed over a 2.4-mile course
   with a river crossing.\nHow to join: Team entry (lottery)\; held every se
  cond Saturday in June.\nLevel: Team entry. Experience #15 in experiences_v
  1.csv.\nNote: Official site: always the second Saturday in June\; 2026 the
- me was The Swinging Sixties.\nhttps://www.bedrace.co.uk/\nMore: https://bu
- ildwith.curiosta.com/experiences/knaresborough-bed-race/
+ me was The Swinging Sixties.\nhttps://www.bedrace.co.uk/\nMore: https://no
+ mad.curiosta.com/experiences/knaresborough-bed-race/
 URL:https://www.bedrace.co.uk/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -826,8 +824,8 @@ DESCRIPTION:What you build/use: Human/gravity-powered soapbox kart.\nHow to
   join: Teams were selected earlier\; free to watch.\nLevel: Team entry. Ex
  perience #13 in experiences_v1.csv.\nNote: Official Red Bull Soapbox serie
  s page (past event).\nhttps://www.redbull.com/int-en/event-series/red-bull
- -soapbox-race\nMore: https://buildwith.curiosta.com/experiences/red-bull-s
- oapbox-race/
+ -soapbox-race\nMore: https://nomad.curiosta.com/experiences/red-bull-soapb
+ ox-race/
 URL:https://www.redbull.com/int-en/event-series/red-bull-soapbox-race
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -842,8 +840,8 @@ DESCRIPTION:What you build/use: Human/gravity-powered soapbox kart.\nHow to
   join: Teams were selected earlier\; free to watch.\nLevel: Team entry. Ex
  perience #13 in experiences_v1.csv.\nNote: Alexandra Palace\, 20 Jun 2026 
  (official Red Bull page).\nhttps://www.redbull.com/gb-en/events/red-bull-s
- oapbox-race-london-2026\nMore: https://buildwith.curiosta.com/experiences/
- red-bull-soapbox-race/
+ oapbox-race-london-2026\nMore: https://nomad.curiosta.com/experiences/red-
+ bull-soapbox-race/
 URL:https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -858,8 +856,8 @@ DESCRIPTION:What you build/use: Dance beside giant lantern floats built by
  nebuta masters.\nHow to join: Rent a haneto costume\; no registration need
  ed.\nLevel: Use. Experience #7 in experiences_v1.csv.\nNote: Official site
   timetable: processions 2–7 Aug every year.\nhttps://www.nebuta.jp/forei
- gn/english.html\nMore: https://buildwith.curiosta.com/experiences/aomori-n
- ebuta-haneto/
+ gn/english.html\nMore: https://nomad.curiosta.com/experiences/aomori-nebut
+ a-haneto/
 URL:https://www.nebuta.jp/foreign/english.html
 CATEGORIES:Use,Event
 TRANSP:TRANSPARENT
@@ -874,8 +872,8 @@ DESCRIPTION:What you build/use: Bring-your-own bottomless boat\, or use the
   boats provided\, on a dry riverbed.\nHow to join: Buy a ticket\; register
   online or on the day.\nLevel: Team entry. Experience #27 in experiences_v
  1.csv.\nNote: Official FAQ: Saturday 15 Aug 2026.\nhttps://www.henleyontod
- d.com.au/faqs\nMore: https://buildwith.curiosta.com/experiences/henley-on-
- todd-regatta/
+ d.com.au/faqs\nMore: https://nomad.curiosta.com/experiences/henley-on-todd
+ -regatta/
 URL:https://www.henleyontodd.com.au/faqs
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -890,7 +888,7 @@ DESCRIPTION:What you build/use: Art\, art cars\, theme camps.\nHow to join:
   Tickets via official sales\; theme-camp placement.\nLevel: Build. Experie
  nce #19 in experiences_v1.csv.\nNote: Official Event FAQ: 31 Aug–7 Sep 2
  026.\nhttps://burningman.org/black-rock-city/preparation/faq/\nMore: https
- ://buildwith.curiosta.com/experiences/burning-man/
+ ://nomad.curiosta.com/experiences/burning-man/
 URL:https://burningman.org/black-rock-city/preparation/faq/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -905,8 +903,7 @@ DESCRIPTION:What you build/use: Help hamlet teams build giant dahlia floats
   in their tents in the weeks before.\nHow to join: Drop into the build ten
  ts\; watch the parade.\nLevel: Build. Experience #17 in experiences_v1.csv
  .\nNote: Official site: 6 & 7 Sep 2026 (Stuivezand won).\nhttps://corsozun
- dert.nl/en/\nMore: https://buildwith.curiosta.com/experiences/corso-zunder
- t/
+ dert.nl/en/\nMore: https://nomad.curiosta.com/experiences/corso-zundert/
 URL:https://corsozundert.nl/en/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -924,8 +921,8 @@ DESCRIPTION:What you build/use: Make your own shadu-clay Ganesha.\nHow to j
  es: Unconfirmed: no official source).\nLevel: Build. Experience #2 in expe
  riences_v1.csv.\nNote: Ganesh Chaturthi / Vinayak Chaturthi is 14 Sep 2026
   (Government of India 2026 holiday list\, DoPT).\nhttps://dcdelhi.esic.gov
- .in/attachments/circularfile/Annexure_1764568541.pdf\nMore: https://buildw
- ith.curiosta.com/experiences/ganesh-idol-workshops-mumbai/
+ .in/attachments/circularfile/Annexure_1764568541.pdf\nMore: https://nomad.
+ curiosta.com/experiences/ganesh-idol-workshops-mumbai/
 URL:https://dcdelhi.esic.gov.in/attachments/circularfile/Annexure_176456854
  1.pdf
 CATEGORIES:Build,Event
@@ -941,8 +938,8 @@ DESCRIPTION:What you build/use: Human-powered flying machine launched off a
   deck into water.\nHow to join: Teams were selected earlier\; free to watc
  h.\nLevel: Team entry. Experience #14 in experiences_v1.csv.\nNote: Bohemi
  an Flats Park\, 26 Sep 2026 (official Red Bull page).\nhttps://www.redbull
- .com/us-en/events/red-bull-flugtag-minneapolis\nMore: https://buildwith.cu
- riosta.com/experiences/red-bull-flugtag/
+ .com/us-en/events/red-bull-flugtag-minneapolis\nMore: https://nomad.curios
+ ta.com/experiences/red-bull-flugtag/
 URL:https://www.redbull.com/us-en/events/red-bull-flugtag-minneapolis
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -961,7 +958,7 @@ DESCRIPTION:What you build/use: Fly kites made by local makers (Patang Baza
  14 Jan 2027\, Sabarmati Riverfront\, Ahmedabad (Incredible India\, Ministr
  y of Tourism\, source: Gujarat Tourism).\nhttps://www.incredibleindia.gov.
  in/en/festivals-and-events/gujarat/International-Kite-Festival0\nMore: htt
- ps://buildwith.curiosta.com/experiences/uttarayan-ahmedabad/
+ ps://nomad.curiosta.com/experiences/uttarayan-ahmedabad/
 URL:https://www.incredibleindia.gov.in/en/festivals-and-events/gujarat/Inte
  rnational-Kite-Festival0
 CATEGORIES:Use,Event
@@ -978,8 +975,8 @@ DESCRIPTION:What you build/use: Muscle-powered cardboard boat.\nHow to join
  .\nLevel: Team entry. Experience #28 in experiences_v1.csv.\nNote: SIU off
  icial: Sat 18 Apr 2026\, Campus Lake\; races from 1pm.\nhttps://news.siu.e
  du/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-cent
- ury-of-fun-april-18.php\nMore: https://buildwith.curiosta.com/experiences/
- siu-cardboard-boat-regatta/
+ ury-of-fun-april-18.php\nMore: https://nomad.curiosta.com/experiences/siu-
+ cardboard-boat-regatta/
 URL:https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-b
  egins-a-new-half-century-of-fun-april-18.php
 CATEGORIES:Team entry,Event
@@ -995,8 +992,8 @@ DESCRIPTION:What you build/use: Muscle-powered cardboard boat.\nHow to join
  : Register and pass inspection on race morning\; instant-boat kits on site
  .\nLevel: Team entry. Experience #28 in experiences_v1.csv.\nNote: SIU Tou
  ch of Nature official page: 24 Apr 2027\; races begin at 1pm.\nhttps://ton
- .siu.edu/campus-programs/carbondale-boat-regatta.php\nMore: https://buildw
- ith.curiosta.com/experiences/siu-cardboard-boat-regatta/
+ .siu.edu/campus-programs/carbondale-boat-regatta.php\nMore: https://nomad.
+ curiosta.com/experiences/siu-cardboard-boat-regatta/
 URL:https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -1011,8 +1008,8 @@ DESCRIPTION:What you build/use: Sand sculpture in your own plot.\nHow to jo
  in: Register in a division (details due Feb 2027).\nLevel: Team entry. Exp
  erience #29 in experiences_v1.csv.\nNote: Cannon Beach Chamber of Commerce
  : contest Sat 12 Jun 2027 (festival weekend 11-13 Jun).\nhttps://www.canno
- nbeach.org/events-and-festivals/sandcastle-contest/\nMore: https://buildwi
- th.curiosta.com/experiences/cannon-beach-sandcastle-contest/
+ nbeach.org/events-and-festivals/sandcastle-contest/\nMore: https://nomad.c
+ uriosta.com/experiences/cannon-beach-sandcastle-contest/
 URL:https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -1027,8 +1024,8 @@ DESCRIPTION:What you build/use: Human towers built by 12 colles.\nHow to jo
  in: Watch in the Plaça del Castell.\nLevel: Watch. Experience #30 in expe
  riences_v1.csv.\nNote: Ajuntament de Tarragona official agenda: Sun 27 Sep
   2026.\nhttps://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs
- -de-castells-jornada-de-torredembarra\nMore: https://buildwith.curiosta.co
- m/experiences/castells-tarragona/
+ -de-castells-jornada-de-torredembarra\nMore: https://nomad.curiosta.com/ex
+ periences/castells-tarragona/
 URL:https://www.tarragona.cat/cultura/agenda/2026/setembre/xxx-concurs-de-c
  astells-jornada-de-torredembarra
 CATEGORIES:Watch,Event
@@ -1044,7 +1041,7 @@ DESCRIPTION:What you build/use: Human towers built by the top 30 colles.\nH
  ow to join: Tickets by public draw (July).\nLevel: Watch. Experience #30 i
  n experiences_v1.csv.\nNote: Official Concurs site: Sat 3 Oct (18 colles) 
  and Sun 4 Oct (top 12).\nhttps://www.concursdecastells.cat/\nMore: https:/
- /buildwith.curiosta.com/experiences/castells-tarragona/
+ /nomad.curiosta.com/experiences/castells-tarragona/
 URL:https://www.concursdecastells.cat/
 CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
@@ -1058,8 +1055,8 @@ SUMMARY:RoboCup 2026\, Incheon
 DESCRIPTION:What you build/use: Autonomous robots.\nHow to join: Teams qual
  ify per league\; visitors watch.\nLevel: Team entry. Experience #31 in exp
  eriences_v1.csv.\nNote: RoboCup Federation: 30 Jun-6 Jul 2026\, Incheon\, 
- South Korea.\nhttps://www.robocup.org/events/80\nMore: https://buildwith.c
- uriosta.com/experiences/robocup-world-championship/
+ South Korea.\nhttps://www.robocup.org/events/80\nMore: https://nomad.curio
+ sta.com/experiences/robocup-world-championship/
 URL:https://www.robocup.org/events/80
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -1074,7 +1071,7 @@ DESCRIPTION:What you build/use: Autonomous robots.\nHow to join: Teams qual
  ify per league\; public visitor days 17-20 Jun.\nLevel: Team entry. Experi
  ence #31 in experiences_v1.csv.\nNote: RoboCup 2027 official site: 17-21 J
  un 2027\, Nuremberg Exhibition Center.\nhttps://2027.robocup.org/\nMore: h
- ttps://buildwith.curiosta.com/experiences/robocup-world-championship/
+ ttps://nomad.curiosta.com/experiences/robocup-world-championship/
 URL:https://2027.robocup.org/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -1089,7 +1086,7 @@ DESCRIPTION:What you build/use: Hands-on woodworking\; wooden boats on the
  water.\nHow to join: Festival ticket.\nLevel: Build. Experience #32 in exp
  eriences_v1.csv.\nNote: Northwest Maritime: 11-13 Sep 2026.\nhttps://nwmar
  itime.org/nwmc-events/signature-events/wooden-boat-festival/\nMore: https:
- //buildwith.curiosta.com/experiences/port-townsend-wooden-boat-festival/
+ //nomad.curiosta.com/experiences/port-townsend-wooden-boat-festival/
 URL:https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festiva
  l/
 CATEGORIES:Build,Event
@@ -1104,8 +1101,8 @@ SUMMARY:Port Townsend Wooden Boat Festival 2027 (50th)
 DESCRIPTION:What you build/use: Hands-on woodworking\; wooden boats on the 
  water.\nHow to join: Festival ticket.\nLevel: Build. Experience #32 in exp
  eriences_v1.csv.\nNote: Official festival site: 10-12 Sep 2027.\nhttps://w
- oodenboat.org/2025-home/\nMore: https://buildwith.curiosta.com/experiences
- /port-townsend-wooden-boat-festival/
+ oodenboat.org/2025-home/\nMore: https://nomad.curiosta.com/experiences/por
+ t-townsend-wooden-boat-festival/
 URL:https://woodenboat.org/2025-home/
 CATEGORIES:Build,Event
 TRANSP:TRANSPARENT
@@ -1119,8 +1116,8 @@ SUMMARY:Baltimore Kinetic Sculpture Race 2026
 DESCRIPTION:What you build/use: Human-powered amphibious art sculpture.\nHo
  w to join: Team entry with AVAM\; free to watch.\nLevel: Team entry. Exper
  ience #33 in experiences_v1.csv.\nNote: Visit Baltimore: 2 May 2026\, 9am-
- 7pm.\nhttps://baltimore.org/event/kinetic-sculpture-race/\nMore: https://b
- uildwith.curiosta.com/experiences/baltimore-kinetic-sculpture-race/
+ 7pm.\nhttps://baltimore.org/event/kinetic-sculpture-race/\nMore: https://n
+ omad.curiosta.com/experiences/baltimore-kinetic-sculpture-race/
 URL:https://baltimore.org/event/kinetic-sculpture-race/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -1134,8 +1131,8 @@ SUMMARY:Baltimore Kinetic Sculpture Race 2027
 DESCRIPTION:What you build/use: Human-powered amphibious art sculpture.\nHo
  w to join: Team entry with AVAM\; free to watch.\nLevel: Team entry. Exper
  ience #33 in experiences_v1.csv.\nNote: AVAM: next race Sat 1 May 2027.\nh
- ttps://www.avam.org/kinetic\nMore: https://buildwith.curiosta.com/experien
- ces/baltimore-kinetic-sculpture-race/
+ ttps://www.avam.org/kinetic\nMore: https://nomad.curiosta.com/experiences/
+ baltimore-kinetic-sculpture-race/
 URL:https://www.avam.org/kinetic
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
@@ -1151,7 +1148,7 @@ DESCRIPTION:What you build/use: Solar-powered car\, Darwin to Adelaide.\nHo
  . Experience #34 in experiences_v1.csv.\nNote: Official: 22-29 Aug 2027 (s
  tart 22 Aug in Darwin\; finish line opens 26 Aug\; awards 29 Aug).\nhttps:
  //worldsolarchallenge.org/latest-news/2027-dates-regulations-announced\nMo
- re: https://buildwith.curiosta.com/experiences/world-solar-challenge/
+ re: https://nomad.curiosta.com/experiences/world-solar-challenge/
 URL:https://worldsolarchallenge.org/latest-news/2027-dates-regulations-anno
  unced
 CATEGORIES:Team entry,Event

@@ -1,4 +1,4 @@
-// buildwith homepage: "Coming up" re-checked against the visitor's date. The page is built with the build day's view
+// Nomad homepage: "Coming up" re-checked against the visitor's date. The page is built with the build day's view
 // (correct without JavaScript); here ended items are dropped, statuses updated and the first N still to come are shown.
 (function () {
   "use strict";

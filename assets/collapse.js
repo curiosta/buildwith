@@ -1,4 +1,4 @@
-// buildwith: on phones an experience page opens "Your way in" and "Check before you go"; the other sections are one tap away.
+// Nomad: on phones an experience page opens "Your way in" and "Check before you go"; the other sections are one tap away.
 // Without JavaScript every <details> stays open, so nothing is ever hidden. Desktop keeps everything open.
 (function () {
   var mq = window.matchMedia("(max-width:720px)");

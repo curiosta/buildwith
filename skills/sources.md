@@ -1,4 +1,4 @@
-# buildwith · Skills hub: sources
+# Nomad · Skills hub: sources
 
 Skills research of 4 Oct 2026 (IST), after the source-rule audit (official sources first; community-accepted sources only with evidence). Every resource URL is logged in the sources.md of the guide or experience page that shows it. Difficulty and prep time are Curiosta editorial estimates.
 
