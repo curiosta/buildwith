@@ -23,3 +23,4 @@ Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), a
 | Applies to: Great Cardboard Boat Regatta (SIU Carbondale) | experiences/siu-cardboard-boat-regatta/ (skills research applies_to / see_also_guides) |
 | Applies to: Port Townsend Wooden Boat Festival | experiences/port-townsend-wooden-boat-festival/ (skills research applies_to / see_also_guides) |
 | Applies to: Baltimore Kinetic Sculpture Race | experiences/baltimore-kinetic-sculpture-race/ (skills research applies_to / see_also_guides) |
+| Applies to: Queen Lili'uokalani Canoe Races (outrigger) | experiences/queen-liliuokalani-canoe-races/ (skills research applies_to / see_also_guides) |

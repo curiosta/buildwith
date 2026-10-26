@@ -40,12 +40,22 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Port Townsend Wooden Boat Festival: summary, levels and next dates | https://woodenboat.org/2025-home/ · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (details: experiences/port-townsend-wooden-boat-festival/sources.md) |
 | Baltimore Kinetic Sculpture Race: summary, levels and next dates | https://www.avam.org/kinetic · https://baltimore.org/event/kinetic-sculpture-race/ (details: experiences/baltimore-kinetic-sculpture-race/sources.md) |
 | Bridgestone World Solar Challenge: summary, levels and next dates | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced · https://worldsolarchallenge.org/2027-event/team-registration (details: experiences/world-solar-challenge/sources.md) |
+| The Tall Ships Races (sail training): summary, levels and next dates | https://sailtraininginternational.org/event/the-tall-ships-races-2027/ · https://sailtraininginternational.org/a-guide-to-booking-your-voyage/ (details: experiences/tall-ships-races/sources.md) |
+| Iditarod Trail Sled Dog Race: volunteers: summary, levels and next dates | https://iditarod.com/volunteers/ · https://iditarod.com/ (details: experiences/iditarod-volunteers/sources.md) |
+| Audubon Christmas Bird Count: summary, levels and next dates | https://www.audubon.org/community-science/christmas-bird-count/join-christmas-bird-count · https://www.audubon.org/community-science/christmas-bird-count (details: experiences/christmas-bird-count/sources.md) |
+| City Nature Challenge: summary, levels and next dates | https://www.citynaturechallenge.org/participate · https://www.citynaturechallenge.org/ (details: experiences/city-nature-challenge/sources.md) |
+| EAA AirVenture Oshkosh: summary, levels and next dates | https://www.eaa.org/airventure · https://www.eaa.org/airventure/features-and-attractions/workshops-and-presentations (details: experiences/eaa-airventure/sources.md) |
+| Queen Lili'uokalani Canoe Races (outrigger): summary, levels and next dates | https://www.qlcanoerace.com/ · https://www.qlcanoerace.com/ql-event-schedule.asp (details: experiences/queen-liliuokalani-canoe-races/sources.md) |
+| Rallye Aïcha des Gazelles (Morocco): summary, levels and next dates | https://www.rallyeaichadesgazelles.com/en/ · https://www.rallyeaichadesgazelles.com/en/become-a-gazelle/the-steps/ (details: experiences/rallye-aicha-des-gazelles/sources.md) |
+| ARC Atlantic Rally for Cruisers: summary, levels and next dates | https://worldcruising.com/events/arc · https://worldcruising.com/crew (details: experiences/arc-atlantic-crossing/sources.md) |
+| Vasaloppet Öppet Spår Sunday: summary, levels and next dates | https://vasaloppet.se/en/ski/oppet-spar-sunday/ · https://vasaloppet.se/en/rules/ (details: experiences/vasaloppet-oppet-spar/sources.md) |
+| Basic Mountaineering Course, Nehru Institute of Mountaineering: summary, levels and next dates | https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf · https://www.nimindia.net/basic-mountaineering-course-bmc (details: experiences/nim-basic-mountaineering/sources.md) |
 | Coming up: 29 Oct 2026: Burning Man 2027 Honoraria art-grant Letter of Intent (5pm PDT) | https://burningman.org/black-rock-city/bring-your-art/art-grants-programs/brc-honoraria/submit_grant/ |
 | Coming up: 31 Oct 2026: Red Bull Flugtag Miami 2026 | https://www.redbull.com/us-en/events/flugtag-miami/ft-miami-faqs |
 | Coming up: 1 Nov 2026: Sumpango Giant Kite Festival (Barriletes Gigantes) | https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/ |
 | Coming up: 22 Nov 2026: Hoi An Full Moon Lantern Night (Hội An Legendary Night) | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
-| Coming up: 23–25 Nov 2026: Yi Peng / Loy Krathong, Chiang Mai | https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/544713 |
+| Coming up: 22 Nov 2026: ARC 2026: start from Las Palmas | https://worldcruising.com/events/arc/arc-2026 |
 
 ## Counts
 
-- 34 experiences, 5 continents, 69 dated calendar items (Jan 2026 to Dec 2027), 29 month-level TBC items.
+- 44 experiences, 5 continents, 86 dated calendar items (Jan 2026 to Dec 2027), 31 month-level TBC items.

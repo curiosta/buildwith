@@ -2,7 +2,7 @@
 
 | Fact used | Source |
 |---|---|
-| 34 experiences, 5 continents; participation levels | experiences_v1.csv / experiences_v1.md (research pass 3 Oct 2026, IST) |
+| 44 experiences, 5 continents; participation levels | experiences_v1.csv / experiences_v1.md (research pass 3 Oct 2026, IST) |
 | Research and date-check dates | experiences_v1.md header; cal.py / calendar_view.md (4 Oct 2026) |
 | Source rule: official sources first; community-accepted sources only with evidence; no blogs, SEO travel guides, listing sites, newspapers as primary, travel agencies or commercial sellers | Manoj's source rule (4 Oct 2026); domain list: allowed_sources.json |
 | Watch-list: Sapporo Snow Festival, Japan: 2026 ran 4–11 Feb; 2027 is 4–11 Feb (official). Rechecked 14 Oct 2026 and kept in reserve: visitors mostly watch, and no open entry route to the International Snow Statue Contest was found. | https://www.snowfes.com/news/948.html |

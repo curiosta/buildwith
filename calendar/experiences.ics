@@ -1154,4 +1154,284 @@ URL:https://worldsolarchallenge.org/latest-news/2027-dates-regulations-anno
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-35-2027-07-08-70@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270802
+SUMMARY:The Tall Ships Races 2027: Bordeaux\, A Coruña\, Sines
+DESCRIPTION:What you build/use: Sail as trainee crew on a tall ship (sails\
+ , steering\, watch-keeping).\nHow to join: Book a trainee berth on a parti
+ cipating ship (mainly ages 15-25\; no experience needed).\nLevel: Learn. E
+ xperience #35 in experiences_v1.csv.\nNote: Sail Training International: 8
+  Jul-1 Aug 2027. Bordeaux 8-11 Jul\, A Coruña 16-19 Jul\, Sines 29 Jul-1 
+ Aug.\nhttps://sailtraininginternational.org/event/the-tall-ships-races-202
+ 7/\nMore: https://nomad.curiosta.com/experiences/tall-ships-races/
+URL:https://sailtraininginternational.org/event/the-tall-ships-races-2027/
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-36-2027-03-06-71@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Iditarod 2027: Ceremonial Start\, Anchorage
+DESCRIPTION:What you build/use: Volunteer on the race: pre-race supplies\, 
+ headquarters\, trail\, dog care.\nHow to join: Register on the volunteer p
+ age when 2027 registration opens (November 2026).\nLevel: Team entry. Expe
+ rience #36 in experiences_v1.csv.\nNote: Iditarod Trail Committee: Next Ra
+ ce 6 Mar 2027. The Official Restart in Willow is the next day.\nhttps://id
+ itarod.com/\nMore: https://nomad.curiosta.com/experiences/iditarod-volunte
+ ers/
+URL:https://iditarod.com/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-37-2026-12-14-72@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20270106
+SUMMARY:Christmas Bird Count 2026-27: count window (each circle picks its d
+ ay)
+DESCRIPTION:What you build/use: Count wild birds as a field or feeder count
+ er.\nHow to join: Find a local count circle and register with it.\nLevel: 
+ Team entry. Experience #37 in experiences_v1.csv.\nNote: Audubon: counts r
+ un 14 Dec to 5 Jan each year\; each circle sets its count day.\nhttps://ww
+ w.audubon.org/community-science/christmas-bird-count/join-christmas-bird-c
+ ount\nMore: https://nomad.curiosta.com/experiences/christmas-bird-count/
+URL:https://www.audubon.org/community-science/christmas-bird-count/join-chr
+ istmas-bird-count
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-38-2027-04-30-73@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270504
+SUMMARY:City Nature Challenge 2027: observation days
+DESCRIPTION:What you build/use: Photograph wild plants and animals in your 
+ city.\nHow to join: Join your city's challenge once the city list is poste
+ d (early 2027).\nLevel: Team entry. Experience #38 in experiences_v1.csv.\
+ nNote: Organisers: 30 Apr-3 May 2027.\nhttps://www.citynaturechallenge.org
+ /\nMore: https://nomad.curiosta.com/experiences/city-nature-challenge/
+URL:https://www.citynaturechallenge.org/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-38-2027-05-04-74@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270517
+SUMMARY:City Nature Challenge 2027: identification days
+DESCRIPTION:What you build/use: Upload observations and help identify them.
+ \nHow to join: Share observations on your city's platform.\nLevel: Team en
+ try. Experience #38 in experiences_v1.csv.\nNote: Organisers: 4-16 May 202
+ 7.\nhttps://www.citynaturechallenge.org/\nMore: https://nomad.curiosta.com
+ /experiences/city-nature-challenge/
+URL:https://www.citynaturechallenge.org/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-38-2027-05-20-75@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:City Nature Challenge 2027: results announced
+DESCRIPTION:What you build/use: See which cities found the most.\nHow to jo
+ in: Results are public.\nLevel: Team entry. Experience #38 in experiences_
+ v1.csv.\nNote: Organisers: results announcement 20 May 2027.\nhttps://www.
+ citynaturechallenge.org/\nMore: https://nomad.curiosta.com/experiences/cit
+ y-nature-challenge/
+URL:https://www.citynaturechallenge.org/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-39-2027-07-26-76@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270802
+SUMMARY:EAA AirVenture Oshkosh 2027
+DESCRIPTION:What you build/use: Try hands-on aircraft-building workshops\; 
+ volunteer on the show crew.\nHow to join: Workshops are included with admi
+ ssion (no reservation)\; volunteers sign up through EAA.\nLevel: Learn. Ex
+ perience #39 in experiences_v1.csv.\nNote: EAA: 26 Jul-1 Aug 2027. The 202
+ 7 workshop schedule is not published yet.\nhttps://www.eaa.org/airventure\
+ nMore: https://nomad.curiosta.com/experiences/eaa-airventure/
+URL:https://www.eaa.org/airventure
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-40-2026-09-03-77@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260908
+SUMMARY:Queen Lili'uokalani Canoe Races 2026 (past)
+DESCRIPTION:What you build/use: Outrigger canoe crews: sprint relay\, 18-mi
+ le ocean race and shorter races.\nHow to join: Join a canoe club crew or u
+ se the race blog's 'Need a Crew / Need a Paddler' category.\nLevel: Team e
+ ntry. Experience #40 in experiences_v1.csv.\nNote: Race schedule page: Thu
+  3-Mon 7 Sep 2026. Saturday is the 18-mile race. No 2027 dates yet.\nhttps
+ ://www.qlcanoerace.com/ql-event-schedule.asp\nMore: https://nomad.curiosta
+ .com/experiences/queen-liliuokalani-canoe-races/
+URL:https://www.qlcanoerace.com/ql-event-schedule.asp
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-41-2027-03-20-78@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270404
+SUMMARY:Rallye Aïcha des Gazelles 2027
+DESCRIPTION:What you build/use: Navigate the Moroccan desert with map\, com
+ pass and ruler (no GPS).\nHow to join: Women over 18 enter as a pair\; a t
+ raining weekend comes first (confirm eligibility with the organiser).\nLev
+ el: Team entry. Experience #41 in experiences_v1.csv.\nNote: Rally site: 2
+ 0 Mar-3 Apr 2027\; competition stages 26 Mar-1 Apr.\nhttps://www.rallyeaic
+ hadesgazelles.com/en/2027-edition/dates-2027/\nMore: https://nomad.curiost
+ a.com/experiences/rallye-aicha-des-gazelles/
+URL:https://www.rallyeaichadesgazelles.com/en/2027-edition/dates-2027/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-42-2026-11-22-79@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ARC 2026: start from Las Palmas
+DESCRIPTION:What you build/use: Cross the Atlantic as crew on a cruising ya
+ cht.\nHow to join: Join a skipper who has entered\; trained crew are expec
+ ted.\nLevel: Team entry. Experience #42 in experiences_v1.csv.\nNote: Worl
+ d Cruising Club: start 22 Nov 2026\; prizegiving in Saint Lucia 19 Dec 202
+ 6.\nhttps://worldcruising.com/events/arc/arc-2026\nMore: https://nomad.cur
+ iosta.com/experiences/arc-atlantic-crossing/
+URL:https://worldcruising.com/events/arc/arc-2026
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-42-2027-11-21-80@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
+SUMMARY:ARC 2027: start from Las Palmas
+DESCRIPTION:What you build/use: Cross the Atlantic as crew on a cruising ya
+ cht.\nHow to join: Join a skipper who has entered\; trained crew are expec
+ ted.\nLevel: Team entry. Experience #42 in experiences_v1.csv.\nNote: Worl
+ d Cruising Club: start 21 Nov 2027\; prizegiving in Saint Lucia 18 Dec 202
+ 7.\nhttps://worldcruising.com/events/arc\nMore: https://nomad.curiosta.com
+ /experiences/arc-atlantic-crossing/
+URL:https://worldcruising.com/events/arc
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-43-2027-02-28-81@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Vasaloppet Öppet Spår Sunday 2027
+DESCRIPTION:What you build/use: Ski the 90 km classic Vasaloppet course at 
+ your own pace.\nHow to join: Register online and choose a start time\; cla
+ ssic technique only.\nLevel: Learn. Experience #43 in experiences_v1.csv.\
+ nNote: Vasaloppet: Sun 28 Feb 2027\, first start 06:50\, Sälen to Mora.\n
+ https://vasaloppet.se/en/ski/oppet-spar-sunday/\nMore: https://nomad.curio
+ sta.com/experiences/vasaloppet-oppet-spar/
+URL:https://vasaloppet.se/en/ski/oppet-spar-sunday/
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-44-2027-03-22-82@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270419
+SUMMARY:NIM Basic Mountaineering Course\, Serial 296 (mixed)
+DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
+  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
+ vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
+  programme: 22 Mar-18 Apr 2027\, ages 16-40.\nhttps://www.nimindia.net/_fi
+ les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
+ uriosta.com/experiences/nim-basic-mountaineering/
+URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
+ defe.pdf
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-44-2027-04-22-83@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270520
+SUMMARY:NIM Basic Mountaineering Course\, Serial 297 (mixed)
+DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
+  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
+ vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
+  programme: 22 Apr-19 May 2027\, ages 16-40.\nhttps://www.nimindia.net/_fi
+ les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
+ uriosta.com/experiences/nim-basic-mountaineering/
+URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
+ defe.pdf
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-44-2027-05-23-84@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270620
+SUMMARY:NIM Basic Mountaineering Course\, Serial 298 (ladies)
+DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
+  ice movement (women's batch).\nHow to join: Apply online\; arrive the eve
+ ning before.\nLevel: Learn. Experience #44 in experiences_v1.csv.\nNote: N
+ IM 2027 training programme: 23 May-19 Jun 2027\, ages 16-40.\nhttps://www.
+ nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore:
+  https://nomad.curiosta.com/experiences/nim-basic-mountaineering/
+URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
+ defe.pdf
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-44-2027-09-18-85@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20271016
+SUMMARY:NIM Basic Mountaineering Course\, Serial 299 (mixed\, ages 20-55)
+DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
+  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
+ vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
+  programme: 18 Sep-15 Oct 2027\, ages 20-55.\nhttps://www.nimindia.net/_fi
+ les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
+ uriosta.com/experiences/nim-basic-mountaineering/
+URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
+ defe.pdf
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-44-2027-10-19-86@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271116
+SUMMARY:NIM Basic Mountaineering Course\, Serial 300 (mixed)
+DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
+  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
+ vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
+  programme: 19 Oct-15 Nov 2027\, ages 16-40.\nhttps://www.nimindia.net/_fi
+ les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
+ uriosta.com/experiences/nim-basic-mountaineering/
+URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
+ defe.pdf
+CATEGORIES:Learn,Event
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
