@@ -17,6 +17,7 @@ Row #42 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Check note: This is not a beginner route: you need offshore sailing experience or recognised safety training. | CSV verification notes / dated items above |
 | Check note: The crossing is about 2,700 nautical miles and takes around 18-21 days. | CSV verification notes / dated items above |
 | Check note: ARC 2026 starts 22 Nov 2026; ARC 2027 starts 21 Nov 2027. | CSV verification notes / dated items above |
+| Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on sailing | https://kinetic.curiosta.com/sailing/ |
 
 ## Skills you'll need (section 03)
 

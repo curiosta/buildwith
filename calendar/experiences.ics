@@ -1334,104 +1334,58 @@ CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:buildwith-43-2027-02-28-81@curiosta.com
+UID:buildwith-45-2026-01-15-87@curiosta.com
 DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-SUMMARY:Vasaloppet Öppet Spår Sunday 2027
-DESCRIPTION:What you build/use: Ski the 90 km classic Vasaloppet course at 
- your own pace.\nHow to join: Register online and choose a start time\; cla
- ssic technique only.\nLevel: Learn. Experience #43 in experiences_v1.csv.\
- nNote: Vasaloppet: Sun 28 Feb 2027\, first start 06:50\, Sälen to Mora.\n
- https://vasaloppet.se/en/ski/oppet-spar-sunday/\nMore: https://nomad.curio
- sta.com/experiences/vasaloppet-oppet-spar/
-URL:https://vasaloppet.se/en/ski/oppet-spar-sunday/
-CATEGORIES:Learn,Event
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260119
+SUMMARY:Tamil Nadu International Balloon Festival 2026\, 11th edition (past
+ )
+DESCRIPTION:What you build/use: Watch hot-air balloons displayed or tethere
+ d at dusk\, with a shopping expo and food court.\nHow to join: Buy an entr
+ y pass\; children under 12 enter free\; rides are limited and weather-depe
+ ndent.\nLevel: Watch. Experience #45 in experiences_v1.csv.\nNote: Organis
+ er: 15-18 Jan 2026\, Jallikattu Grounds\, L&T Bypass Road\, Coimbatore. No
+  2027 dates yet.\nhttps://tnibf.com/\nMore: https://nomad.curiosta.com/exp
+ eriences/tamil-nadu-balloon-festival/
+URL:https://tnibf.com/
+CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:buildwith-44-2027-03-22-82@curiosta.com
+UID:buildwith-46-2026-03-26-88@curiosta.com
 DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20270322
-DTEND;VALUE=DATE:20270419
-SUMMARY:NIM Basic Mountaineering Course\, Serial 296 (mixed)
-DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
-  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
- vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
-  programme: 22 Mar-18 Apr 2027\, ages 16-40.\nhttps://www.nimindia.net/_fi
- les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
- uriosta.com/experiences/nim-basic-mountaineering/
-URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
- defe.pdf
-CATEGORIES:Learn,Event
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260328
+SUMMARY:Zanskar Winter Sports and Tourism Festival 2026\, 5th edition (past
+ )
+DESCRIPTION:What you build/use: Watch snow skiing\, snowshoe and rally race
+ s\, archery and cultural performances\; browse local stalls.\nHow to join:
+  Travel to Padum\; open festival run by the Ladakh administration.\nLevel:
+  Watch. Experience #46 in experiences_v1.csv.\nNote: UT Ladakh reports: op
+ ened 26 Mar\, closed 27 Mar 2026\, Sports Stadium\, Padum. No 2027 dates y
+ et.\nhttps://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-con
+ cludes-with-enthusiasm-and-grandeur/\nMore: https://nomad.curiosta.com/exp
+ eriences/zanskar-winter-festival/
+URL:https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concl
+ udes-with-enthusiasm-and-grandeur/
+CATEGORIES:Watch,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:buildwith-44-2027-04-22-83@curiosta.com
+UID:buildwith-47-2026-12-06-89@curiosta.com
 DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270520
-SUMMARY:NIM Basic Mountaineering Course\, Serial 297 (mixed)
-DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
-  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
- vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
-  programme: 22 Apr-19 May 2027\, ages 16-40.\nhttps://www.nimindia.net/_fi
- les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
- uriosta.com/experiences/nim-basic-mountaineering/
-URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
- defe.pdf
-CATEGORIES:Learn,Event
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:buildwith-44-2027-05-23-84@curiosta.com
-DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20270523
-DTEND;VALUE=DATE:20270620
-SUMMARY:NIM Basic Mountaineering Course\, Serial 298 (ladies)
-DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
-  ice movement (women's batch).\nHow to join: Apply online\; arrive the eve
- ning before.\nLevel: Learn. Experience #44 in experiences_v1.csv.\nNote: N
- IM 2027 training programme: 23 May-19 Jun 2027\, ages 16-40.\nhttps://www.
- nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore:
-  https://nomad.curiosta.com/experiences/nim-basic-mountaineering/
-URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
- defe.pdf
-CATEGORIES:Learn,Event
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:buildwith-44-2027-09-18-85@curiosta.com
-DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20270918
-DTEND;VALUE=DATE:20271016
-SUMMARY:NIM Basic Mountaineering Course\, Serial 299 (mixed\, ages 20-55)
-DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
-  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
- vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
-  programme: 18 Sep-15 Oct 2027\, ages 20-55.\nhttps://www.nimindia.net/_fi
- les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
- uriosta.com/experiences/nim-basic-mountaineering/
-URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
- defe.pdf
-CATEGORIES:Learn,Event
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:buildwith-44-2027-10-19-86@curiosta.com
-DTSTAMP:20261003T184211Z
-DTSTART;VALUE=DATE:20271019
-DTEND;VALUE=DATE:20271116
-SUMMARY:NIM Basic Mountaineering Course\, Serial 300 (mixed)
-DESCRIPTION:What you build/use: 28-day foundation course in rock\, snow and
-  ice movement.\nHow to join: Apply online\; arrive the evening before.\nLe
- vel: Learn. Experience #44 in experiences_v1.csv.\nNote: NIM 2027 training
-  programme: 19 Oct-15 Nov 2027\, ages 16-40.\nhttps://www.nimindia.net/_fi
- les/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf\nMore: https://nomad.c
- uriosta.com/experiences/nim-basic-mountaineering/
-URL:https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317b
- defe.pdf
-CATEGORIES:Learn,Event
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261213
+SUMMARY:Tour of the Nilgiris 2026 (TFN\, 17th edition): riding days
+DESCRIPTION:What you build/use: Ride a seven-day supported cycling tour int
+ o the Nilgiri hills on your own bicycle.\nHow to join: Register with the o
+ rganiser\; pre-tour briefing and registration on 5 Dec.\nLevel: Team entry
+ . Experience #47 in experiences_v1.csv.\nNote: Organiser: flag-off 6 Dec\,
+  last day 12 Dec 2026 in Ooty\; pre-tour briefing 5 Dec\; hotel check-out 
+ 13 Dec.\nhttps://www.tourofnilgiris.com/\nMore: https://nomad.curiosta.com
+ /experiences/tour-of-the-nilgiris/
+URL:https://www.tourofnilgiris.com/
+CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

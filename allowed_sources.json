@@ -495,14 +495,24 @@
    "owner": "World Cruising Club (organiser of the ARC)"
   },
   {
-   "domain": "vasaloppet.se",
+   "domain": "tnibf.com",
    "source_type": "official",
-   "owner": "Vasaloppet (organiser)"
+   "owner": "Tamil Nadu International Balloon Festival (organiser)"
   },
   {
-   "domain": "nimindia.net",
+   "domain": "ladakh.gov.in",
    "source_type": "official",
-   "owner": "Nehru Institute of Mountaineering, Uttarkashi (Government of India institute)"
+   "owner": "Administration of Union Territory of Ladakh (official government site)"
+  },
+  {
+   "domain": "tourofnilgiris.com",
+   "source_type": "official",
+   "owner": "Tour of the Nilgiris, Breakaway Sports Unlimited Pvt Ltd (organiser)"
+  },
+  {
+   "domain": "tamilnadutourism.tn.gov.in",
+   "source_type": "official",
+   "owner": "Tamil Nadu Tourism Department (official government site)"
   }
  ]
 }

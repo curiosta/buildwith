@@ -16,6 +16,7 @@ Row #20 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Take-part route "Crew a hot-air balloon" (Crew): Register as chase crew (online from mid-July, or on site daily 5:30–7:30am and 4:30–6:30pm at the Crew Corral) and help launch, chase and pack down a balloon. Crew is unpaid. | Re-worded from the CSV row and the dated items above |
 | Take-part route "Volunteer as a Navigator" (Crew): Navigator volunteers commit to at least 5 shifts / 25 hours; applications ran 2 Feb–15 Aug in 2026. | Re-worded from the CSV row and the dated items above |
 | Check note: Crew registration details come from the official 2026 guest guide (via a search summary). | CSV verification notes / dated items above |
+| Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on recreational flying | https://kinetic.curiosta.com/recreational-flying/ |
 
 ## Skills you'll need (section 03)
 

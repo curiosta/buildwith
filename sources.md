@@ -48,8 +48,9 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Queen Lili'uokalani Canoe Races (outrigger): summary, levels and next dates | https://www.qlcanoerace.com/ · https://www.qlcanoerace.com/ql-event-schedule.asp (details: experiences/queen-liliuokalani-canoe-races/sources.md) |
 | Rallye Aïcha des Gazelles (Morocco): summary, levels and next dates | https://www.rallyeaichadesgazelles.com/en/ · https://www.rallyeaichadesgazelles.com/en/become-a-gazelle/the-steps/ (details: experiences/rallye-aicha-des-gazelles/sources.md) |
 | ARC Atlantic Rally for Cruisers: summary, levels and next dates | https://worldcruising.com/events/arc · https://worldcruising.com/crew (details: experiences/arc-atlantic-crossing/sources.md) |
-| Vasaloppet Öppet Spår Sunday: summary, levels and next dates | https://vasaloppet.se/en/ski/oppet-spar-sunday/ · https://vasaloppet.se/en/rules/ (details: experiences/vasaloppet-oppet-spar/sources.md) |
-| Basic Mountaineering Course, Nehru Institute of Mountaineering: summary, levels and next dates | https://www.nimindia.net/_files/ugd/25f551_b8d5fd23fa7b4c59bc058509317bdefe.pdf · https://www.nimindia.net/basic-mountaineering-course-bmc (details: experiences/nim-basic-mountaineering/sources.md) |
+| Tamil Nadu International Balloon Festival: summary, levels and next dates | https://tnibf.com/ (details: experiences/tamil-nadu-balloon-festival/sources.md) |
+| Zanskar Winter Sports and Tourism Festival: summary, levels and next dates | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ · https://ladakh.gov.in/zanskar-winter-festival-2026-inaugurated-with-cultural-splendour-walkathon-and-tourism-push/ (details: experiences/zanskar-winter-festival/sources.md) |
+| Tour of the Nilgiris (TFN): summary, levels and next dates | https://www.tourofnilgiris.com/ · https://www.tourofnilgiris.com/route (details: experiences/tour-of-the-nilgiris/sources.md) |
 | Coming up: 29 Oct 2026: Burning Man 2027 Honoraria art-grant Letter of Intent (5pm PDT) | https://burningman.org/black-rock-city/bring-your-art/art-grants-programs/brc-honoraria/submit_grant/ |
 | Coming up: 31 Oct 2026: Red Bull Flugtag Miami 2026 | https://www.redbull.com/us-en/events/flugtag-miami/ft-miami-faqs |
 | Coming up: 1 Nov 2026: Sumpango Giant Kite Festival (Barriletes Gigantes) | https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/ |
@@ -58,4 +59,4 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 
 ## Counts
 
-- 44 experiences, 5 continents, 86 dated calendar items (Jan 2026 to Dec 2027), 31 month-level TBC items.
+- 45 experiences, 5 continents, 83 dated calendar items (Jan 2026 to Dec 2027), 33 month-level TBC items.
