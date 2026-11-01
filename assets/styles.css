@@ -377,12 +377,12 @@ footer .more b{color:#cfe2ec;font-weight:600}
 .evpast summary:focus-visible{outline:3px solid var(--coral);outline-offset:2px}
 .evpast summary .pc{font-weight:500;font-size:.9rem;color:var(--muted)}
 .evpast .pnote{color:var(--muted);font-size:.88rem;margin:0 0 6px}
-.subs{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:22px}
-.subs-copy{font:600 .9rem var(--sans);background:none;border:0;padding:0;color:#cfe2ec;text-decoration:underline;text-underline-offset:3px;cursor:pointer;min-height:24px}
-.subs-copy:hover{color:#fff}
-.subs-copy:focus-visible{outline:3px solid var(--coral);outline-offset:2px}
-.subs-msg{flex-basis:100%;color:#cfe2ec;font-size:.85rem}
-.subs-msg:empty{display:none}
+.subs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:22px}
+.subs-lead{color:#cfe2ec;font-size:.88rem;font-weight:600;margin-right:2px}
+.subs .btn{min-height:44px;padding:0 14px;gap:6px;white-space:nowrap;font-size:.92rem}
+.subs-ic{flex:0 0 auto;width:18px;height:18px}
+.subs-hint{flex-basis:100%;margin:0;color:#cfe2ec;font-size:.88rem}
+@media (max-width:480px){.subs{gap:8px 6px}.subs-lead{flex-basis:100%}.subs .btn{padding:0 10px;gap:5px;font-size:.88rem}.subs-ic{width:16px;height:16px}}
 .cal-stats{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:24px;max-width:760px}
 @media (max-width:760px){
   .evi{grid-template-columns:minmax(0,1fr);gap:2px}

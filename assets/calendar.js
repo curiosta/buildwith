@@ -52,11 +52,4 @@
   if (location.hash === "#held") held.open = true;
   window.addEventListener("hashchange", () => { if (location.hash === "#held") held.open = true; });
   $("#cal-controls").hidden = false; render();
-  // ---------- subscribe: inline "Copy link" (kinetic pattern, no pop-up) ----------
-  $$(".subs").forEach(box => { const b = $(".subs-copy", box), msg = $(".subs-msg", box); if (!b) return; b.hidden = false;
-    b.addEventListener("click", () => { const url = b.dataset.url;
-      const done = () => { msg.textContent = "Copied. In Google Calendar: Other calendars → From URL, then paste."; }, fail = () => { msg.textContent = "Couldn't copy. The link is: " + url; };
-      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(url).then(done, fail);
-      else { const t = document.createElement("textarea"); t.value = url; t.style.position = "fixed"; t.style.opacity = "0"; document.body.appendChild(t); t.select();
-        try { document.execCommand("copy") ? done() : fail(); } catch (e) { fail(); } finally { t.remove(); } } }); });
 })();

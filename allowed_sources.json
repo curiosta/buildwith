@@ -602,6 +602,11 @@
    "domain": "berck.fr",
    "source_type": "official",
    "owner": "Ville de Berck-sur-Mer (town hall)"
+  },
+  {
+   "domain": "calendar.google.com",
+   "source_type": "infrastructure",
+   "owner": "Google Calendar (the \"Google\" subscribe button on /calendar/, release 2026-11-01b; a tool, not a source)"
   }
  ]
 }
