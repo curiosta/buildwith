@@ -471,3 +471,38 @@ details.sec[open]>summary{margin-bottom:18px}
 @media(min-width:721px){details.sec>summary{cursor:default;pointer-events:none}.sec-chev{display:none}}
 @media(max-width:720px){.block:has(>.wrap>details.sec:not([open])){padding:10px 0}.block:has(>.wrap>details.sec[open]){padding:28px 0}}
 @media(prefers-reduced-motion:reduce){.sec-chev::after{transition:none}}
+/* Travel Kit (release 2026-10-30): checklists with ticks, source lines, travel hacks, empty-by-default kit picks, print stylesheet */
+.tk-home{margin:14px 0 0;font-weight:600}
+.tk-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.tk-groups{display:grid;gap:18px}
+.tk-group{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+.tk-group h4,.tk-group .h4{margin:0 0 10px}
+.tk-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.tk-list li{display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-items:start;border-top:1px solid var(--line);padding-top:12px}
+.tk-list li:first-child{border-top:0;padding-top:0}
+.tk-list input{width:22px;height:22px;margin:2px 0 0;accent-color:var(--sea-800);cursor:pointer}
+.tk-list label{cursor:pointer;line-height:1.5}
+.tk-list input:checked+label{color:var(--ink-2);text-decoration:line-through;text-decoration-color:var(--sea-500)}
+.tk-src{grid-column:2;margin:6px 0 0;font-size:.82rem;color:var(--ink-2);overflow-wrap:anywhere}
+.tk-src-l{font:600 .68rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tk-tip{display:inline-block;font:700 .62rem var(--mono);letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:2px 8px;background:var(--teal-soft);color:var(--sea-900)}
+.limit{font-weight:700;white-space:nowrap}
+.tk-hacks-h{margin-top:30px}
+.tk-hacks{display:grid;gap:8px;padding-left:1.2em}
+.kit-picks{margin-top:12px;border-top:1px dashed var(--line);padding-top:10px}
+.kit-picks h4,.kit-picks .h4{font-size:.9rem;margin:0 0 6px}
+.tk-disclosure{font-size:.9rem;background:#fffaf0;border-left:3px solid #d99a00;padding:6px 10px;border-radius:6px}
+@media print{
+  .topbar,.subnav,footer,.skip,.no-print,.tk-actions,.hero .cta,#comments,#sources,#how{display:none!important}
+  body[data-print="from-india"] #to-india,body[data-print="to-india"] #from-india{display:none!important}
+  body[data-print] .hero{display:none!important}
+  body{background:#fff!important;color:#000!important}
+  .block,.block.alt,.hero{background:#fff!important;color:#000!important;padding:10px 0!important}
+  .hero h1,.hero .lede,.hero .eyebrow,.hero .crumbs{color:#000!important}
+  .tk-group{box-shadow:none;border:1px solid #999;break-inside:avoid}
+  .tk-list input{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .tk-src a::after{content:" (" attr(href) ")";font-size:.75em;overflow-wrap:anywhere}
+  .tk-path{break-before:page}
+  body[data-print] .tk-path{break-before:auto}
+  a{color:#000!important}
+}

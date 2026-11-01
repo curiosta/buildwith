@@ -1388,4 +1388,54 @@ URL:https://www.tourofnilgiris.com/
 CATEGORIES:Team entry,Event
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-48-2027-09-24-90@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270927
+SUMMARY:Maker Faire Bay Area 2027
+DESCRIPTION:What you build/use: Exhibit your own project\, present\, perfor
+ m or run a workshop\; or visit.\nHow to join: Apply through the Call for M
+ akers (2027 call not published yet)\; or visit.\nLevel: Team entry. Experi
+ ence #48 in experiences_v1.csv.\nNote: Organiser: returns to Mare Island 2
+ 4-26 Sep 2027. Hours and the 2027 call TBC.\nhttps://makerfaire.com/bay-ar
+ ea/\nMore: https://nomad.curiosta.com/experiences/maker-faire-bay-area/
+URL:https://makerfaire.com/bay-area/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-49-2027-09-11-91@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270913
+SUMMARY:Maker Faire Orange County 2027
+DESCRIPTION:What you build/use: Exhibit your own project\; or visit.\nHow t
+ o join: Apply through the Call for Makers (2027 call not published yet)\; 
+ volunteer\; or visit.\nLevel: Team entry. Experience #49 in experiences_v1
+ .csv.\nNote: Organiser: 11-12 Sep 2027\, OC Fair & Event Center\, Costa Me
+ sa. The 2027 call TBC.\nhttps://oc.makerfaire.com/\nMore: https://nomad.cu
+ riosta.com/experiences/maker-faire-orange-county/
+URL:https://oc.makerfaire.com/
+CATEGORIES:Team entry,Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buildwith-50-2027-04-17-92@curiosta.com
+DTSTAMP:20261003T184211Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270426
+SUMMARY:Berck-sur-Mer International Kite Festival 2027 (40th edition)
+DESCRIPTION:What you build/use: Giant kites\, kite ballets and aerial displ
+ ays by flyers from around the world.\nHow to join: Watch on the beach\; pr
+ ogramme not published yet.\nLevel: Watch. Experience #50 in experiences_v1
+ .csv.\nNote: Berck-sur-Mer tourist office: 40th edition\, 17-25 Apr 2027. 
+ Programme TBC.\nhttps://www.berck-tourisme.com/fr/decouvrir/les-rencontres
+ -internationales-de-cerfs-volants-2027\nMore: https://nomad.curiosta.com/e
+ xperiences/berck-kite-festival/
+URL:https://www.berck-tourisme.com/fr/decouvrir/les-rencontres-internationa
+ les-de-cerfs-volants-2027
+CATEGORIES:Watch,Event
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

@@ -18,3 +18,4 @@ Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), a
 | Applies to: Dieppe International Kite Festival | experiences/dieppe-kite-festival/ (skills research applies_to / see_also_guides) |
 | Applies to: Sumpango Giant Kite Festival (Barriletes Gigantes) | experiences/sumpango-giant-kites/ (skills research applies_to / see_also_guides) |
 | Applies to: Cape Town International Kite Festival | experiences/cape-town-kite-festival/ (skills research applies_to / see_also_guides) |
+| Applies to: Berck-sur-Mer International Kite Festival (Rencontres Internationales de Cerfs-Volants) | experiences/berck-kite-festival/ (skills research applies_to / see_also_guides) |

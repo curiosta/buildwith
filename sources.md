@@ -51,12 +51,15 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Tamil Nadu International Balloon Festival: summary, levels and next dates | https://tnibf.com/ (details: experiences/tamil-nadu-balloon-festival/sources.md) |
 | Zanskar Winter Sports and Tourism Festival: summary, levels and next dates | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ · https://ladakh.gov.in/zanskar-winter-festival-2026-inaugurated-with-cultural-splendour-walkathon-and-tourism-push/ (details: experiences/zanskar-winter-festival/sources.md) |
 | Tour of the Nilgiris (TFN): summary, levels and next dates | https://www.tourofnilgiris.com/ · https://www.tourofnilgiris.com/route (details: experiences/tour-of-the-nilgiris/sources.md) |
-| Coming up: 29 Oct 2026: Burning Man 2027 Honoraria art-grant Letter of Intent (5pm PDT) | https://burningman.org/black-rock-city/bring-your-art/art-grants-programs/brc-honoraria/submit_grant/ |
-| Coming up: 31 Oct 2026: Red Bull Flugtag Miami 2026 | https://www.redbull.com/us-en/events/flugtag-miami/ft-miami-faqs |
+| Maker Faire Bay Area: summary, levels and next dates | https://makerfaire.com/bay-area/ · https://makerfaire.com/bay-area/call-for-makers/ (details: experiences/maker-faire-bay-area/sources.md) |
+| Maker Faire Orange County: summary, levels and next dates | https://oc.makerfaire.com/ · https://oc.makerfaire.com/call-for-makers/ (details: experiences/maker-faire-orange-county/sources.md) |
+| Berck-sur-Mer International Kite Festival (Rencontres Internationales de Cerfs-Volants): summary, levels and next dates | https://www.berck-tourisme.com/fr/decouvrir/les-rencontres-internationales-de-cerfs-volants-2027 · https://www.cerf-volant-berck.com/actualites/save-the-date (details: experiences/berck-kite-festival/sources.md) |
 | Coming up: 1 Nov 2026: Sumpango Giant Kite Festival (Barriletes Gigantes) | https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/ |
 | Coming up: 22 Nov 2026: Hoi An Full Moon Lantern Night (Hội An Legendary Night) | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Coming up: 22 Nov 2026: ARC 2026: start from Las Palmas | https://worldcruising.com/events/arc/arc-2026 |
+| Coming up: 23–25 Nov 2026: Yi Peng / Loy Krathong, Chiang Mai | https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/544713 |
+| Coming up: 1–10 Dec 2026: Hornbill Festival 2026 (Craftscape) | https://hornbillfestival.com/events/ |
 
 ## Counts
 
-- 45 experiences, 5 continents, 83 dated calendar items (Jan 2026 to Dec 2027), 33 month-level TBC items.
+- 48 experiences, 5 continents, 86 dated calendar items (Jan 2026 to Dec 2027), 33 month-level TBC items.

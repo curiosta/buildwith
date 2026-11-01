@@ -1,6 +1,6 @@
 {
  "rule": "Manoj's source rule (4 Oct 2026 IST): official sources first (organiser, government, tourism board, governing body, UNESCO). Non-official sources only if the event community widely accepts them, with evidence (source_type community-accepted, why_accepted recorded). No blogs, SEO travel guides, listing sites, newspapers as primary sources, travel agencies or commercial sellers. Every external link on nomad.curiosta.com must be on a domain listed here; test-all.js fails otherwise. Hosts are matched exactly after dropping a leading 'www.'.",
- "checked": "2026-10-26",
+ "checked": "2026-11-01",
  "domains": [
   {
    "domain": "afrikaburn.org",
@@ -225,9 +225,8 @@
   },
   {
    "domain": "makerfaire.com",
-   "source_type": "community-accepted",
-   "owner": "Make: Community (makerfaire.com)",
-   "why_accepted": "Maker Faire brand owner's maker toolkit, used across Maker Faires worldwide"
+   "source_type": "official",
+   "owner": "Make: Community LLC (Maker Faire brand owner; organiser of Maker Faire Bay Area)"
   },
   {
    "domain": "eng.taiwan.net.tw",
@@ -513,6 +512,96 @@
    "domain": "tamilnadutourism.tn.gov.in",
    "source_type": "official",
    "owner": "Tamil Nadu Tourism Department (official government site)"
+  },
+  {
+   "domain": "passportindia.gov.in",
+   "source_type": "official",
+   "owner": "Consular, Passport & Visa Division, Ministry of External Affairs, Government of India"
+  },
+  {
+   "domain": "mea.gov.in",
+   "source_type": "official",
+   "owner": "Ministry of External Affairs, Government of India"
+  },
+  {
+   "domain": "rbi.org.in",
+   "source_type": "official",
+   "owner": "Reserve Bank of India"
+  },
+  {
+   "domain": "indiabudget.gov.in",
+   "source_type": "official",
+   "owner": "Central Board of Indirect Taxes and Customs, Ministry of Finance, Government of India"
+  },
+  {
+   "domain": "mumbaicustomszone3.gov.in",
+   "source_type": "official",
+   "owner": "Mumbai Customs Zone III (Airport), CBIC, Government of India"
+  },
+  {
+   "domain": "indianvisaonline.gov.in",
+   "source_type": "official",
+   "owner": "Bureau of Immigration, Ministry of Home Affairs, Government of India"
+  },
+  {
+   "domain": "airsuvidha.civilaviation.gov.in",
+   "source_type": "official",
+   "owner": "Ministry of Civil Aviation, Government of India"
+  },
+  {
+   "domain": "ihpoe.mohfw.gov.in",
+   "source_type": "official",
+   "owner": "IHR Points of Entry, Ministry of Health and Family Welfare, Government of India"
+  },
+  {
+   "domain": "who.int",
+   "source_type": "official",
+   "owner": "World Health Organization"
+  },
+  {
+   "domain": "wwwnc.cdc.gov",
+   "source_type": "official",
+   "owner": "US Centers for Disease Control and Prevention"
+  },
+  {
+   "domain": "dot.gov.in",
+   "source_type": "official",
+   "owner": "Department of Telecommunications, Government of India"
+  },
+  {
+   "domain": "cgisf.gov.in",
+   "source_type": "official",
+   "owner": "Consulate General of India, San Francisco (Ministry of External Affairs)"
+  },
+  {
+   "domain": "bis.gov.in",
+   "source_type": "official",
+   "owner": "Bureau of Indian Standards, Government of India"
+  },
+  {
+   "domain": "mha.gov.in",
+   "source_type": "official",
+   "owner": "Ministry of Home Affairs, Government of India"
+  },
+  {
+   "domain": "oc.makerfaire.com",
+   "source_type": "official",
+   "owner": "Maker Faire Orange County, OCreate LLC (organiser, under licence from Make: Community)"
+  },
+  {
+   "domain": "berck-tourisme.com",
+   "source_type": "official",
+   "owner": "Office de Tourisme de Berck-sur-Mer (official tourist office)"
+  },
+  {
+   "domain": "cerf-volant-berck.com",
+   "source_type": "official",
+   "owner": "Rencontres Internationales de Cerfs-Volants, Berck-sur-Mer (organiser: Ville de Berck-sur-Mer)"
+  },
+  {
+   "domain": "berck.fr",
+   "source_type": "official",
+   "owner": "Ville de Berck-sur-Mer (town hall)"
   }
  ]
 }
