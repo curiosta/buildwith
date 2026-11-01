@@ -1,6 +1,6 @@
 # Nomad · Audubon Christmas Bird Count: sources
 
-Row #37 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #37 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Find a local count circle with the circle finder, register for it, and join a field group or count the birds at a feeder | https://www.audubon.org/community-science/christmas-bird-count/join-christmas-bird-count (primary) · https://www.audubon.org/community-science/christmas-bird-count (secondary) |
 | Participation level: Team entry (join a count) | https://www.audubon.org/community-science/christmas-bird-count/join-christmas-bird-count (primary) · https://www.audubon.org/community-science/christmas-bird-count (secondary) |
 | Entry requirements / deadline: Free and open to all skill levels; register with a circle; many counts have equipment to borrow | https://www.audubon.org/community-science/christmas-bird-count/join-christmas-bird-count (primary) · https://www.audubon.org/community-science/christmas-bird-count (secondary) |
-| Verification note (research pass): Window dates from Audubon's Christmas Bird Count pages (checked 26 Oct 2026). Audubon says it is developing new tools for this year's count and to check back soon, so the circle finder may not list 2026-27 counts yet. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Window dates from Audubon's Christmas Bird Count pages (checked 26 Oct 2026). Audubon says it is developing new tools for this year's count and to check back soon, so the circle finder may not list 2026-27 counts yet. | Our research notes (3 Oct 2026, IST) |
 | Date: 14 Dec 2026–5 Jan 2027: Christmas Bird Count 2026-27: count window (each circle picks its day). Audubon: counts run 14 Dec to 5 Jan each year; each circle sets its count day. Build/use: Count wild birds as a field or feeder counter. How to join: Find a local count circle and register with it. | https://www.audubon.org/community-science/christmas-bird-count/join-christmas-bird-count |
-| Take-part route "Join a count circle" (Team entry): Find a local count circle, register with its organiser, and count birds in a field group or from your own feeder inside the circle on its count day. All skill levels are welcome. | Re-worded from the CSV row and the dated items above |
-| Check note: The count window is 14 Dec-5 Jan; each circle chooses its own count day. | CSV verification notes / dated items above |
-| Check note: Audubon says it is developing new tools for this year's count, so the circle finder may not show 2026-27 counts yet. | CSV verification notes / dated items above |
-| Check note: Participation is free; many circles have binoculars to borrow. | CSV verification notes / dated items above |
+| Take-part route "Join a count circle" (Team entry): Find a local count circle, register with its organiser, and count birds in a field group or from your own feeder inside the circle on its count day. All skill levels are welcome. | Our summary of the research notes and the dated items above |
+| Check note: The count window is 14 Dec-5 Jan; each circle chooses its own count day. | Our research notes / dated items above |
+| Check note: Audubon says it is developing new tools for this year's count, so the circle finder may not show 2026-27 counts yet. | Our research notes / dated items above |
+| Check note: Participation is free; many circles have binoculars to borrow. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -37,5 +37,5 @@ Row #37 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Team entry (join a count)").
+- Levels shown: Team entry (our grouping of the researched participation level "Team entry (join a count)").
 - Usual months used by the month filter: Dec, Jan.

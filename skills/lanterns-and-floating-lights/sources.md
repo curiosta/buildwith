@@ -11,7 +11,7 @@ Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), a
 | Resource (Official; publisher: Hội An Creative City portal (city government)): Hội An Legendary Night: a unique brand of Hội An: Official description of the monthly lantern night: on the 14th night of every lunar month the old town swaps electric lights for lanterns (since 1998). | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Resource (Official; publisher: New Taipei City Government): 訂定新北市天燈施放管理辦法 (New Taipei sky-lantern regulations): The legal zone, hours and fines for sky lanterns in Pingxi. | https://wedid.ntpc.gov.tw/governance/detail/bRpVL3p8l5qj |
 | Resource (Official; publisher: Tourism Authority of Thailand): Loi Krathong Festival 2024 (TAT Newsroom): TAT on Yi Peng and biodegradable krathong-making workshops. | https://www.tatnews.org/2024/11/loi-krathong-festival-2024-experience-thailands-enchanting-festival-of-lights/ |
-| No official resource yet: No official krathong-folding or lantern-release how-to video yet. | Skills research (gap recorded) |
+| No official resource yet: No official krathong-folding or lantern-release how-to video yet. | Gap noted during research |
 | Applies to: Aomori Nebuta Matsuri (dance as a haneto) | experiences/aomori-nebuta-haneto/ (skills research applies_to / see_also_guides) |
 | Applies to: Pingxi Sky Lantern Festival | experiences/pingxi-sky-lanterns/ (skills research applies_to / see_also_guides) |
 | Applies to: Hoi An lantern-making class + Full Moon Lantern Festival | experiences/hoi-an-lantern-workshop/ (skills research applies_to / see_also_guides) |

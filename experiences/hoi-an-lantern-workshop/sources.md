@@ -1,6 +1,6 @@
 # Nomad · Hoi An lantern-making class + Full Moon Lantern Festival: sources
 
-Row #9 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,7 +10,7 @@ Row #9 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | How a traveller takes part: Make a lantern at one of Hoi An's lantern workshops, then walk the lantern-lit old town on the 14th night of the lunar month | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an (primary) · https://artsandculture.google.com/story/the-colorful-lanterns-of-hoi-an-quang-binh-tourism-department/OgVhzMzesu9PIA?hl=en (secondary) |
 | Participation level: Build (workshop) | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an (primary) · https://artsandculture.google.com/story/the-colorful-lanterns-of-hoi-an-quang-binh-tourism-department/OgVhzMzesu9PIA?hl=en (secondary) |
 | Entry requirements / deadline: Class booking varies by workshop (we don't link individual operators) | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an (primary) · https://artsandculture.google.com/story/the-colorful-lanterns-of-hoi-an-quang-binh-tourism-department/OgVhzMzesu9PIA?hl=en (secondary) |
-| Verification note (research pass): Source audit 4 Oct 2026: the operator site (branded HAPPY TOWN, with leftover spa links) and a hotel blog were removed. Monthly lantern night from Hội An's official Creative City portal; workshops from the provincial tourism department's story. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Source audit 4 Oct 2026: the operator site (branded HAPPY TOWN, with leftover spa links) and a hotel blog were removed. Monthly lantern night from Hội An's official Creative City portal; workshops from the provincial tourism department's story. | Our research notes (3 Oct 2026, IST) |
 | Date: 23 Oct 2026: Hoi An Full Moon Lantern Night (Hội An Legendary Night). 14th night of the lunar month (Hội An Creative City portal). Calendar date: our lunar-calendar check; Unconfirmed: no official source. Build/use: Make a bamboo-and-silk lantern at a local workshop. How to join: The old town is lantern-lit on the 14th night of the lunar month. | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Date: 22 Nov 2026: Hoi An Full Moon Lantern Night (Hội An Legendary Night). 14th night of the lunar month (Hội An Creative City portal). Calendar date: our lunar-calendar check; Unconfirmed: no official source. Build/use: Make a bamboo-and-silk lantern at a local workshop. How to join: The old town is lantern-lit on the 14th night of the lunar month. | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Date: 3–6 Dec 2026: Hoi An International Lantern Festival 2026. First edition (Da Nang city tourism portal). New find, not one of the original 27 rows. Build/use: Lantern installations; a hands-on lantern-making area was reported. How to join: Attend; join a lantern class. | https://danangfantasticity.com/en/news/hoi-an-international-lantern-festival-2026-heritage-in-a-kaleidoscope-of-colors |
@@ -27,10 +27,10 @@ Row #9 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | Date: Oct 2027 · date TBC: Hoi An Full Moon Lantern Night: monthly, Mar-Dec 2027 (dates TBC). Held on the 14th night of every lunar month (Hội An Creative City portal); 2027 dates TBC. | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Date: Nov 2027 · date TBC: Hoi An Full Moon Lantern Night: monthly, Mar-Dec 2027 (dates TBC). Held on the 14th night of every lunar month (Hội An Creative City portal); 2027 dates TBC. | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Date: Dec 2027 · date TBC: Hoi An Full Moon Lantern Night: monthly, Mar-Dec 2027 (dates TBC). Held on the 14th night of every lunar month (Hội An Creative City portal); 2027 dates TBC. | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
-| Take-part route "Make a bamboo-and-silk lantern" (Workshop / open build): Hoi An has more than 30 lantern workshops (provincial tourism department). Make a lantern with a local artisan, then walk the old town on Hội An Legendary Night, held on the 14th night of every lunar month, when lanterns replace the street lights. Class times and booking vary by workshop: we don't link a single operator. | Re-worded from the CSV row and the dated items above |
-| Take-part route "New: Hoi An International Lantern Festival (3–6 Dec 2026)" (Workshop / open build): A first edition with lantern installations; a hands-on lantern-making area was reported by the Da Nang city tourism portal. | Re-worded from the CSV row and the dated items above |
-| Check note: The monthly lantern night is official (Hội An Creative City portal). Exact calendar dates are our check of the 14th lunar day: Unconfirmed: no official source. | CSV verification notes / dated items above |
-| Check note: We removed the workshop operator we used to link: its site was branded HAPPY TOWN and carried leftover spa links, so it wasn't clearly a legitimate lantern workshop. | CSV verification notes / dated items above |
+| Take-part route "Make a bamboo-and-silk lantern" (Workshop / open build): Hoi An has more than 30 lantern workshops (provincial tourism department). Make a lantern with a local artisan, then walk the old town on Hội An Legendary Night, held on the 14th night of every lunar month, when lanterns replace the street lights. Class times and booking vary by workshop: we don't link a single operator. | Our summary of the research notes and the dated items above |
+| Take-part route "New: Hoi An International Lantern Festival (3–6 Dec 2026)" (Workshop / open build): A first edition with lantern installations; a hands-on lantern-making area was reported by the Da Nang city tourism portal. | Our summary of the research notes and the dated items above |
+| Check note: The monthly lantern night is official (Hội An Creative City portal). Exact calendar dates are our check of the 14th lunar day: Unconfirmed: no official source. | Our research notes / dated items above |
+| Check note: We removed the workshop operator we used to link: its site was branded HAPPY TOWN and carried leftover spa links, so it wasn't clearly a legitimate lantern workshop. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -42,7 +42,7 @@ Row #9 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | Resource (Official; publisher: Hội An Creative City portal (city government)): Hội An Legendary Night: a unique brand of Hội An: Official description of the monthly lantern night: on the 14th night of every lunar month the old town swaps electric lights for lanterns (since 1998). | https://hoiancreativecity.com/en/hoi-an-legendary-night-a-unique-brand-of-hoi-an |
 | Resource (Official; publisher: Vietnamese provincial tourism department, published on Google Arts & Culture (partner label: Quang Binh Tourism Department; credits: Quang Nam Province Department of Culture, Sports and Tourism)): The Colorful Lanterns of Hoi An: Illustrated, step-by-step account of bamboo preparation, frame-making and silk covering. | https://artsandculture.google.com/story/the-colorful-lanterns-of-hoi-an-quang-binh-tourism-department/OgVhzMzesu9PIA?hl=en |
 | Resource (Official; publisher: Da Nang City Tourism (Danang Fantasticity, official tourism portal)): Hoi An International Lantern Festival 2026: Official note on the festival's hands-on lantern-making booths and artisan exchanges. | https://danangfantasticity.com/en/news/hoi-an-international-lantern-festival-2026-heritage-in-a-kaleidoscope-of-colors |
-| No official resource yet: No official video tutorial yet. | Skills research (gap recorded) |
+| No official resource yet: No official video tutorial yet. | Gap noted during research |
 
 See also: skills guide `skills/lanterns-and-floating-lights/`
 
@@ -60,5 +60,5 @@ Official sources first; non-official sources only if the event community widely 
 
 ## Our grouping
 
-- Levels shown: Workshop / open build (our grouping of the CSV participation level "Build (workshop)").
+- Levels shown: Workshop / open build (our grouping of the researched participation level "Build (workshop)").
 - Usual months used by the month filter: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec.

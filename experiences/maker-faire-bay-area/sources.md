@@ -1,6 +1,6 @@
 # Nomad · Maker Faire Bay Area: sources
 
-Row #48 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #48 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Apply through the Call for Makers to exhibit, present, perform or run a workshop; or visit the faire | https://makerfaire.com/bay-area/ (primary) · https://makerfaire.com/bay-area/call-for-makers/ (secondary) |
 | Participation level: Build-exhibit (application) | https://makerfaire.com/bay-area/ (primary) · https://makerfaire.com/bay-area/call-for-makers/ (secondary) |
 | Entry requirements / deadline: 2027 Call for Makers not published yet (2026: priority-review deadline 15 Jul) | https://makerfaire.com/bay-area/ (primary) · https://makerfaire.com/bay-area/call-for-makers/ (secondary) |
-| Verification note (research pass): Dates from the organiser's Bay Area page ('returns to Mare Island September 24-26, 2027') (checked 1 Nov 2026). The call for makers, FAQ and maker toolkit pages still describe the 2026 edition; 2027 details TBC. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from the organiser's Bay Area page ('returns to Mare Island September 24-26, 2027') (checked 1 Nov 2026). The call for makers, FAQ and maker toolkit pages still describe the 2026 edition; 2027 details TBC. | Our research notes (3 Oct 2026, IST) |
 | Date: 24–26 Sep 2027: Maker Faire Bay Area 2027. Organiser: returns to Mare Island 24-26 Sep 2027. Hours and the 2027 call TBC. Build/use: Exhibit your own project, present, perform or run a workshop; or visit. How to join: Apply through the Call for Makers (2027 call not published yet); or visit. | https://makerfaire.com/bay-area/ |
-| Take-part route "Exhibit, present or perform" (Team entry): Apply through the Call for Makers to show a project, give a talk, perform or run a workshop. The 2027 call is not published yet; in 2026 the priority-review deadline was 15 Jul. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Visit the faire" (Watch & buy local): Three days of robots, rockets, art cars, electronics, crafts and hands-on activities at Mare Island; meet the makers and try things. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 dates: 24-26 Sep 2027 at Mare Island (organiser's page). Hours, the 2027 call for makers and ticket details are not published yet. | CSV verification notes / dated items above |
-| Check note: The 2026 faire (its 20th year) was 25-27 Sep at the Mare Island Naval Shipyard in Vallejo; its Friday was a Field Trip Day for school groups. | CSV verification notes / dated items above |
-| Check note: The organiser's FAQ says volunteer places are available through a form on its site. | CSV verification notes / dated items above |
+| Take-part route "Exhibit, present or perform" (Team entry): Apply through the Call for Makers to show a project, give a talk, perform or run a workshop. The 2027 call is not published yet; in 2026 the priority-review deadline was 15 Jul. | Our summary of the research notes and the dated items above |
+| Take-part route "Visit the faire" (Watch & buy local): Three days of robots, rockets, art cars, electronics, crafts and hands-on activities at Mare Island; meet the makers and try things. | Our summary of the research notes and the dated items above |
+| Check note: 2027 dates: 24-26 Sep 2027 at Mare Island (organiser's page). Hours, the 2027 call for makers and ticket details are not published yet. | Our research notes / dated items above |
+| Check note: The 2026 faire (its 20th year) was 25-27 Sep at the Mare Island Naval Shipyard in Vallejo; its Friday was a Field Trip Day for school groups. | Our research notes / dated items above |
+| Check note: The organiser's FAQ says volunteer places are available through a form on its site. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -39,5 +39,5 @@ Row #48 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry, Watch & buy local (our grouping of the CSV participation level "Build-exhibit (application)").
+- Levels shown: Team entry, Watch & buy local (our grouping of the researched participation level "Build-exhibit (application)").
 - Usual months used by the month filter: Sep.

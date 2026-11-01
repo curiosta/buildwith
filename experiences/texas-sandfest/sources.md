@@ -1,6 +1,6 @@
 # Nomad · Texas SandFest (amateur competition): sources
 
-Row #21 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #21 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Register solo/team/family in amateur categories | https://www.texassandfest.org/amateur-competition (primary) · https://www.texassandfest.org/knowbeforeyougo (secondary) |
 | Participation level: Build-compete (open) | https://www.texassandfest.org/amateur-competition (primary) · https://www.texassandfest.org/knowbeforeyougo (secondary) |
 | Entry requirements / deadline: Registration opens Sep 2026 (date TBA), deadline 11 Apr 2027 or when plots fill | https://www.texassandfest.org/amateur-competition (primary) · https://www.texassandfest.org/knowbeforeyougo (secondary) |
-| Verification note (research pass): Verified on official page. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Verified on official page. | Our research notes (3 Oct 2026, IST) |
 | Date: 17–19 Apr 2026: Texas SandFest 2026. Port Aransas Chamber: 17–19 Apr 2026. Build/use: Build a sand sculpture in your own plot (amateur categories). How to join: Register solo, team or family in the amateur competition. | https://www.portaransas.org/sandfest/ |
 | Deadline: Oct 2026 · date TBC: Texas SandFest 2027 amateur registration opens. Checked 1 Nov 2026: the official page still shows only a placeholder day in September 2026, and registration is closed; opening date TBA. | https://www.texassandfest.org/amateur-competition |
 | Deadline: 11 Apr 2027: Texas SandFest amateur registration. Official page. Build/use: Sand sculpture in your own plot. How to join: Register solo, team or family; closes early if plots fill. | https://www.texassandfest.org/amateur-competition |
 | Date: 16–18 Apr 2027: Texas SandFest 2027 (amateur comp 16-17 Apr). Port Aransas, Texas. Build/use: Build a sand sculpture. How to join: 1-day amateur contest on 17 Apr; 2-day open contest 16-17 Apr. | https://www.texassandfest.org/amateur-competition |
-| Take-part route "Sculpt in the amateur competition" (Team entry): Register solo, as a team or as a family in the amateur categories and build a sand sculpture in your own plot: a 1-day contest on 17 Apr or a 2-day open contest on 16–17 Apr 2027. Registration closes 11 Apr 2027, or earlier if plots fill. | Re-worded from the CSV row and the dated items above |
-| Check note: Registration was due to open in September 2026 (exact date TBA on the official page). | CSV verification notes / dated items above |
+| Take-part route "Sculpt in the amateur competition" (Team entry): Register solo, as a team or as a family in the amateur categories and build a sand sculpture in your own plot: a 1-day contest on 17 Apr or a 2-day open contest on 16–17 Apr 2027. Registration closes 11 Apr 2027, or earlier if plots fill. | Our summary of the research notes and the dated items above |
+| Check note: Registration was due to open in September 2026 (exact date TBA on the official page). | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -30,7 +30,7 @@ Row #21 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: Port Aransas & Mustang Island Chamber of Commerce / Tourist Bureau): Register for the Amateur Competition – Texas SandFest: Local tourism board's summary of the amateur rules and how to register. | https://www.portaransas.org/texas-sandfest/sculptors/register-for-the-amateur-competition/ |
 | Resource (Official; publisher: Texas SandFest): Know Before You Go – Texas SandFest: Logistics: parking, shuttles, what to expect on the beach. | https://www.texassandfest.org/knowbeforeyougo |
 | Also consulted for the skills section | https://www.texassandfest.org/faq |
-| No official resource yet: No official SandFest video tutorial yet. | Skills research (gap recorded) |
+| No official resource yet: No official SandFest video tutorial yet. | Gap noted during research |
 
 See also: skills guide `skills/sculpting-sand-snow-clay/`
 
@@ -40,5 +40,5 @@ See also: skills guide `skills/sculpting-sand-snow-clay/`
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Build-compete (open)").
+- Levels shown: Team entry (our grouping of the researched participation level "Build-compete (open)").
 - Usual months used by the month filter: Apr.

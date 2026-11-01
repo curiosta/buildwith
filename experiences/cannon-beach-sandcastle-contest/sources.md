@@ -1,6 +1,6 @@
 # Nomad · Cannon Beach Sandcastle Contest: sources
 
-Row #29 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,11 +10,11 @@ Row #29 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Enter a division (individual, small or large group, teen, junior, family) when registration opens, then sculpt in your plot during the build window before the tide comes in | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ (primary) · https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/ (secondary) |
 | Participation level: Build-compete (open divisions; Masters by invitation) | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ (primary) · https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/ (secondary) |
 | Entry requirements / deadline: 2027 registration details are due in February 2027 (official registration page) | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ (primary) · https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/ (secondary) |
-| Verification note (research pass): 2027 date from the Cannon Beach Chamber of Commerce (organiser). The 2026 date is no longer on an official page, so it is not listed. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): 2027 date from the Cannon Beach Chamber of Commerce (organiser). The 2026 date is no longer on an official page, so it is not listed. | Our research notes (3 Oct 2026, IST) |
 | Date: 12 Jun 2027: Cannon Beach Sandcastle Contest 2027. Cannon Beach Chamber of Commerce: contest Sat 12 Jun 2027 (festival weekend 11-13 Jun). Build/use: Sand sculpture in your own plot. How to join: Register in a division (details due Feb 2027). | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ |
-| Take-part route "Sculpt in your own plot" (Team entry): Register in a division (individual, small or large group, teen, junior or family) and build in your plot on contest day. Only sand and water; decorate only with things native to the beach (seaweed, driftwood, shells). The evening tide washes the sculptures away. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 registration details are due in February 2027. | CSV verification notes / dated items above |
-| Check note: The Masters Division is by invitation; contact the organiser through the official page. | CSV verification notes / dated items above |
+| Take-part route "Sculpt in your own plot" (Team entry): Register in a division (individual, small or large group, teen, junior or family) and build in your plot on contest day. Only sand and water; decorate only with things native to the beach (seaweed, driftwood, shells). The evening tide washes the sculptures away. | Our summary of the research notes and the dated items above |
+| Check note: 2027 registration details are due in February 2027. | Our research notes / dated items above |
+| Check note: The Masters Division is by invitation; contact the organiser through the official page. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -37,5 +37,5 @@ See also: skills guide `skills/sculpting-sand-snow-clay/`
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Build-compete (open divisions; Masters by invitation)").
+- Levels shown: Team entry (our grouping of the researched participation level "Build-compete (open divisions; Masters by invitation)").
 - Usual months used by the month filter: Jun.

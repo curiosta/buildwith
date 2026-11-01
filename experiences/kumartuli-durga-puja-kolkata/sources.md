@@ -1,6 +1,6 @@
 # Nomad · Kumartuli idol makers & Durga Puja: sources
 
-Row #3 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,14 +10,14 @@ Row #3 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | How a traveller takes part: Watch artisans finish the clay idols in Kumartuli's workshops in the weeks before Durga Puja, then go pandal-hopping; hands-on sculpting with an artisan not verified | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 (primary) · https://par.wb.gov.in/holidaylist.php (secondary) |
 | Participation level: Observe (spectator) | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 (primary) · https://par.wb.gov.in/holidaylist.php (secondary) |
 | Entry requirements / deadline: None known. Guided walks: Unconfirmed: no official source | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 (primary) · https://par.wb.gov.in/holidaylist.php (secondary) |
-| Verification note (research pass): Source audit 4 Oct 2026: event-listing and puja-calendar links removed. Dates from the West Bengal Government 2026 holiday list (No. 4188-F(P2), 27 Nov 2025); idol-making from UNESCO. Hands-on workshop UNVERIFIED. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Source audit 4 Oct 2026: event-listing and puja-calendar links removed. Dates from the West Bengal Government 2026 holiday list (No. 4188-F(P2), 27 Nov 2025); idol-making from UNESCO. Hands-on workshop UNVERIFIED. | Our research notes (3 Oct 2026, IST) |
 | Date: 10 Oct 2026: Mahalaya: the Durga Puja season begins (Kolkata). West Bengal Government 2026 holiday list. UNESCO: the eyes are painted onto the clay images on Mahalaya. Build/use: Watch artisans finish the clay Durga idols in Kumartuli's workshops. How to join: Visit the workshops respectfully (ask before photographing). | https://par.wb.gov.in/holidaylist.php |
 | Date: 18–21 Oct 2026: Durga Puja, Kolkata (Maha Saptami to Vijaya Dashami). West Bengal Government 2026 holiday list: Saptami 18 Oct to Dashami 21 Oct. Build/use: See the finished idols and the pandals built by local artisans. How to join: Pandal-hopping, open to all. | https://par.wb.gov.in/holidaylist.php |
 | Date: Oct 2027 · date TBC: Durga Puja 2027, Kolkata (idol-making in the weeks before; dates TBC). Government of India 2027 holiday list: Saptami 6 Oct to Vijaya Dashami 9 Oct. West Bengal's 2027 list is not out yet. | https://sromarol.esic.gov.in/attachments/circularfile/Holidays_to_be_observed_in_Central_Government_Offices_during_the_year_2027_reg_1786507084.pdf |
-| Take-part route "Watch the idol-makers, then go pandal-hopping" (Watch & buy local): In the months before Durga Puja, small artisan workshops sculpt Durga from unfired river clay, and the eyes are painted on at Mahalaya (UNESCO). Visit Kumartuli's workshops respectfully in the weeks before the Puja, then see the pandals during the festival. Guided walks: Unconfirmed: no official source. | Re-worded from the CSV row and the dated items above |
-| Check note: Hands-on sculpting with an artisan is UNVERIFIED. | CSV verification notes / dated items above |
-| Check note: Kumartuli as Kolkata's main idol-makers' quarter is widely known, but we found no official tourism page for it: Unconfirmed: no official source. | CSV verification notes / dated items above |
-| Check note: 2026 dates come from the West Bengal Government holiday list: Mahalaya 10 Oct, Maha Saptami 18 Oct to Vijaya Dashami 21 Oct. | CSV verification notes / dated items above |
+| Take-part route "Watch the idol-makers, then go pandal-hopping" (Watch & buy local): In the months before Durga Puja, small artisan workshops sculpt Durga from unfired river clay, and the eyes are painted on at Mahalaya (UNESCO). Visit Kumartuli's workshops respectfully in the weeks before the Puja, then see the pandals during the festival. Guided walks: Unconfirmed: no official source. | Our summary of the research notes and the dated items above |
+| Check note: Hands-on sculpting with an artisan is UNVERIFIED. | Our research notes / dated items above |
+| Check note: Kumartuli as Kolkata's main idol-makers' quarter is widely known, but we found no official tourism page for it: Unconfirmed: no official source. | Our research notes / dated items above |
+| Check note: 2026 dates come from the West Bengal Government holiday list: Mahalaya 10 Oct, Maha Saptami 18 Oct to Vijaya Dashami 21 Oct. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -29,7 +29,7 @@ Row #3 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | Resource (Official; publisher: UNESCO Intangible Cultural Heritage Section): Durga Puja in Kolkata – UNESCO Intangible Cultural Heritage: Authoritative description of the clay-idol craft, Mahalaya eye-painting and immersion. | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 |
 | Resource (Official; publisher: UNESCO): Durga Puja inscribed on the UNESCO Representative List: Short UNESCO explainer on why the festival and its crafts were recognised. | https://www.unesco.org/en/articles/durga-puja-inscribed-unesco-representative-list-intangible-cultural-heritage-humanity |
 | Resource (Official; publisher: Press Information Bureau, Ministry of Culture, Government of India): PIB release: UNESCO inscribes 'Durga Puja in Kolkata': Government of India's account of the inscription and its cultural significance. | https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1781868 |
-| No official resource yet: No official etiquette or photography guide for Kumartuli yet. Hands-on sculpting with an artisan is unverified. | Skills research (gap recorded) |
+| No official resource yet: No official etiquette or photography guide for Kumartuli yet. Hands-on sculpting with an artisan is unverified. | Gap noted during research |
 
 See also: skills guide `skills/sculpting-sand-snow-clay/`
 
@@ -48,5 +48,5 @@ Official sources first; non-official sources only if the event community widely 
 
 ## Our grouping
 
-- Levels shown: Watch & buy local (our grouping of the CSV participation level "Observe (spectator)").
+- Levels shown: Watch & buy local (our grouping of the researched participation level "Observe (spectator)").
 - Usual months used by the month filter: Sep, Oct.

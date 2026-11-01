@@ -1,6 +1,6 @@
 # Nomad · Zanskar Winter Sports and Tourism Festival: sources
 
-Row #46 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #46 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Travel to Padum in late winter and attend; the official reports describe an open festival and mention no registration; the dates are set by the local administration | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ (primary) · https://ladakh.gov.in/zanskar-winter-festival-2026-inaugurated-with-cultural-splendour-walkathon-and-tourism-push/ (secondary) |
 | Participation level: Watch & buy local | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ (primary) · https://ladakh.gov.in/zanskar-winter-festival-2026-inaugurated-with-cultural-splendour-walkathon-and-tourism-push/ (secondary) |
 | Entry requirements / deadline: Open festival run by the Ladakh administration; severe winter cold and a difficult road: plan travel and check the dates with the Ladakh administration | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ (primary) · https://ladakh.gov.in/zanskar-winter-festival-2026-inaugurated-with-cultural-splendour-walkathon-and-tourism-push/ (secondary) |
-| Verification note (research pass): Official Union Territory of Ladakh pages: opening report (26 Mar 2026), closing report (27 Mar 2026) and the 2025 edition report (checked 26 Oct 2026). Kinetic's list had only the closing day (27 Mar 2026); the official reports show a two-day festival, 26-27 Mar. 2025 edition: 20 Mar at Atting village. The official name is 'Zanskar Winter Sports and Tourism Festival'; the Chadar trek is a separate trek and is not listed here. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Official Union Territory of Ladakh pages: opening report (26 Mar 2026), closing report (27 Mar 2026) and the 2025 edition report (checked 26 Oct 2026). Kinetic's list had only the closing day (27 Mar 2026); the official reports show a two-day festival, 26-27 Mar. 2025 edition: 20 Mar at Atting village. The official name is 'Zanskar Winter Sports and Tourism Festival'; the Chadar trek is a separate trek and is not listed here. | Our research notes (3 Oct 2026, IST) |
 | Date: 26–27 Mar 2026: Zanskar Winter Sports and Tourism Festival 2026, 5th edition (past). UT Ladakh reports: opened 26 Mar, closed 27 Mar 2026, Sports Stadium, Padum. No 2027 dates yet. Build/use: Watch snow skiing, snowshoe and rally races, archery and cultural performances; browse local stalls. How to join: Travel to Padum; open festival run by the Ladakh administration. | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ |
 | Date: Mar 2027 · date TBC: Zanskar Winter Sports and Tourism Festival 2027 (dates not announced; held in late March in recent years). 2027 dates not announced. The last two editions were 20 Mar 2025 and 26-27 Mar 2026. | https://ladakh.gov.in/zanskar-winter-sports-tourism-festival-2026-concludes-with-enthusiasm-and-grandeur/ |
-| Take-part route "Watch the winter sports and local culture" (Watch & buy local): Two days of snow skiing, snowshoe and snow rally races, traditional archery, volleyball, snow yoga and snow sculptures, with folk songs and dances and stalls of local self-help groups selling produce and crafts. | Re-worded from the CSV row and the dated items above |
-| Check note: The 2027 dates are not announced. The 5th edition ran 26-27 Mar 2026 at the Sports Stadium, Padum; the 2025 edition was on 20 Mar at Atting village. | CSV verification notes / dated items above |
-| Check note: At the 2026 opening, the local councillor asked for the festival dates to be fixed well in advance. | CSV verification notes / dated items above |
-| Check note: Travel to Zanskar in late winter is hard: officials describe the harsh cold and difficult road. Check conditions and dates with the Ladakh administration before you plan. | CSV verification notes / dated items above |
+| Take-part route "Watch the winter sports and local culture" (Watch & buy local): Two days of snow skiing, snowshoe and snow rally races, traditional archery, volleyball, snow yoga and snow sculptures, with folk songs and dances and stalls of local self-help groups selling produce and crafts. | Our summary of the research notes and the dated items above |
+| Check note: The 2027 dates are not announced. The 5th edition ran 26-27 Mar 2026 at the Sports Stadium, Padum; the 2025 edition was on 20 Mar at Atting village. | Our research notes / dated items above |
+| Check note: At the 2026 opening, the local councillor asked for the festival dates to be fixed well in advance. | Our research notes / dated items above |
+| Check note: Travel to Zanskar in late winter is hard: officials describe the harsh cold and difficult road. Check conditions and dates with the Ladakh administration before you plan. | Our research notes / dated items above |
 | Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on skiing and snowboarding | https://kinetic.curiosta.com/skiing-snowboarding/ |
 
 ## Skills you'll need (section 03)
@@ -38,5 +38,5 @@ Row #46 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Watch & buy local (our grouping of the CSV participation level "Watch & buy local").
+- Levels shown: Watch & buy local (our grouping of the researched participation level "Watch & buy local").
 - Usual months used by the month filter: Mar.

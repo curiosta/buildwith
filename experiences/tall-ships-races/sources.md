@@ -1,6 +1,6 @@
 # Nomad · The Tall Ships Races (sail training): sources
 
-Row #35 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #35 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Book a trainee berth on a participating ship through Sail Training International or the ship itself; no sailing experience needed | https://sailtraininginternational.org/event/the-tall-ships-races-2027/ (primary) · https://sailtraininginternational.org/a-guide-to-booking-your-voyage/ (secondary) |
 | Participation level: Learn (trainee crew) | https://sailtraininginternational.org/event/the-tall-ships-races-2027/ (primary) · https://sailtraininginternational.org/a-guide-to-booking-your-voyage/ (secondary) |
 | Entry requirements / deadline: Trainees are mainly aged 15-25; each ship sets its own booking terms, ages and kit list | https://sailtraininginternational.org/event/the-tall-ships-races-2027/ (primary) · https://sailtraininginternational.org/a-guide-to-booking-your-voyage/ (secondary) |
-| Verification note (research pass): Dates and ports from Sail Training International's 2027 event page (checked 26 Oct 2026). Ship-by-ship details are on the ships' own pages. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates and ports from Sail Training International's 2027 event page (checked 26 Oct 2026). Ship-by-ship details are on the ships' own pages. | Our research notes (3 Oct 2026, IST) |
 | Date: 8 Jul–1 Aug 2027: The Tall Ships Races 2027: Bordeaux, A Coruña, Sines. Sail Training International: 8 Jul-1 Aug 2027. Bordeaux 8-11 Jul, A Coruña 16-19 Jul, Sines 29 Jul-1 Aug. Build/use: Sail as trainee crew on a tall ship (sails, steering, watch-keeping). How to join: Book a trainee berth on a participating ship (mainly ages 15-25; no experience needed). | https://sailtraininginternational.org/event/the-tall-ships-races-2027/ |
-| Take-part route "Sail as a trainee on a tall ship" (Learn on the spot): Book a berth as trainee crew on a ship in the race fleet. You do not need sailing experience: each ship has a permanent crew, and you take your turn at hoisting sails, steering and maintenance in a watch system. | Re-worded from the CSV row and the dated items above |
-| Check note: Trainees are mainly aged 15-25, with some older people; each ship sets its own terms, so check the ship's own page. | CSV verification notes / dated items above |
-| Check note: Pack in a soft bag, not a suitcase: space on board is tight. | CSV verification notes / dated items above |
-| Check note: The 2027 series runs 8 Jul-1 Aug: Bordeaux 8-11 Jul, A Coruña 16-19 Jul, Sines 29 Jul-1 Aug. | CSV verification notes / dated items above |
+| Take-part route "Sail as a trainee on a tall ship" (Learn on the spot): Book a berth as trainee crew on a ship in the race fleet. You do not need sailing experience: each ship has a permanent crew, and you take your turn at hoisting sails, steering and maintenance in a watch system. | Our summary of the research notes and the dated items above |
+| Check note: Trainees are mainly aged 15-25, with some older people; each ship sets its own terms, so check the ship's own page. | Our research notes / dated items above |
+| Check note: Pack in a soft bag, not a suitcase: space on board is tight. | Our research notes / dated items above |
+| Check note: The 2027 series runs 8 Jul-1 Aug: Bordeaux 8-11 Jul, A Coruña 16-19 Jul, Sines 29 Jul-1 Aug. | Our research notes / dated items above |
 | Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on sailing | https://kinetic.curiosta.com/sailing/ |
 
 ## Skills you'll need (section 03)
@@ -38,5 +38,5 @@ Row #35 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Learn on the spot (our grouping of the CSV participation level "Learn (trainee crew)").
+- Levels shown: Learn on the spot (our grouping of the researched participation level "Learn (trainee crew)").
 - Usual months used by the month filter: Jul, Aug.

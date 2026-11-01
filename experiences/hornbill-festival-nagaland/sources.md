@@ -1,6 +1,6 @@
 # Nomad · Hornbill Festival (Craftscape): sources
 
-Row #4 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #4 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | How a traveller takes part: Attend; buy from artisan stalls; craft demos in morungs. Hands-on workshop slots for visitors not confirmed for 2026 | https://hornbillfestival.com/events/ (primary) · https://tourism.nagaland.gov.in/entry-permits/ (secondary) |
 | Participation level: Spectator+ (buy local-made) | https://hornbillfestival.com/events/ (primary) · https://tourism.nagaland.gov.in/entry-permits/ (secondary) |
 | Entry requirements / deadline: Inner Line Permit needed for non-Nagaland Indians; Protected Area/registration rules for foreigners (check before travel) | https://hornbillfestival.com/events/ (primary) · https://tourism.nagaland.gov.in/entry-permits/ (secondary) |
-| Verification note (research pass): 2026 Craftscape schedule not yet released. Beware lookalike domain hornbilfestival.com (one 'l'). Permit details not re-verified this pass. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): 2026 Craftscape schedule not yet released. Beware lookalike domain hornbilfestival.com (one 'l'). Permit details not re-verified this pass. | Our research notes (3 Oct 2026, IST) |
 | Date: 1–10 Dec 2026: Hornbill Festival 2026 (Craftscape). Kisama, near Kohima. Inner Line Permit / registration rules apply. Build/use: Naga crafts: bamboo, cane, beadwork, weaving. How to join: Attend and buy from artisans; the 2026 Craftscape schedule isn't out yet. | https://hornbillfestival.com/events/ |
 | Date: Dec 2027 · date TBC: Hornbill Festival 2027 (usually 1-10 Dec). 2027 not announced. | https://hornbillfestival.com/events/ |
-| Take-part route "Meet Naga craftspeople and buy their work" (Watch & buy local): Attend the festival, watch craft demonstrations in the morungs and buy bamboo, cane, beadwork, weaving and wood carving from artisan stalls. | Re-worded from the CSV row and the dated items above |
-| Check note: Hands-on workshop slots for visitors are not confirmed for 2026; the 2026 Craftscape schedule is not out yet. | CSV verification notes / dated items above |
-| Check note: Indian visitors from outside Nagaland need an Inner Line Permit; foreigners have Protected Area / registration rules. Check before you travel (permit details not re-verified). | CSV verification notes / dated items above |
-| Check note: Beware the lookalike domain hornbilfestival.com (one 'l'). | CSV verification notes / dated items above |
+| Take-part route "Meet Naga craftspeople and buy their work" (Watch & buy local): Attend the festival, watch craft demonstrations in the morungs and buy bamboo, cane, beadwork, weaving and wood carving from artisan stalls. | Our summary of the research notes and the dated items above |
+| Check note: Hands-on workshop slots for visitors are not confirmed for 2026; the 2026 Craftscape schedule is not out yet. | Our research notes / dated items above |
+| Check note: Indian visitors from outside Nagaland need an Inner Line Permit; foreigners have Protected Area / registration rules. Check before you travel (permit details not re-verified). | Our research notes / dated items above |
+| Check note: Beware the lookalike domain hornbilfestival.com (one 'l'). | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -30,7 +30,7 @@ Row #4 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadli
 | Resource (Official; publisher: Government of Nagaland): Nagaland ILP – FAQ: Official answers on who needs a permit and how to apply online. | https://ilp.nagaland.gov.in/faq |
 | Also consulted for the skills section | https://hornbillfestival.com/ |
 | Also consulted for the skills section | https://ilp.nagaland.gov.in/about |
-| No official resource yet: No official resource yet for learning a Naga craft; hands-on visitor workshops for 2026 are unconfirmed. Beware the lookalike domain hornbilfestival.com (one 'l'). | Skills research (gap recorded) |
+| No official resource yet: No official resource yet for learning a Naga craft; hands-on visitor workshops for 2026 are unconfirmed. Beware the lookalike domain hornbilfestival.com (one 'l'). | Gap noted during research |
 
 ## Source audit (4 Oct 2026, IST)
 
@@ -46,5 +46,5 @@ Official sources first; non-official sources only if the event community widely 
 
 ## Our grouping
 
-- Levels shown: Watch & buy local (our grouping of the CSV participation level "Spectator+ (buy local-made)").
+- Levels shown: Watch & buy local (our grouping of the researched participation level "Spectator+ (buy local-made)").
 - Usual months used by the month filter: Dec.

@@ -1,6 +1,6 @@
 # Nomad · RoboCup (world championship): sources
 
-Row #31 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #31 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Qualify with a team through the league's rules (RoboCupJunior is for students up to 19), or visit on the public visitor days to watch the competitions | https://2027.robocup.org/ (primary) · https://www.robocup.org/events/80 (secondary) |
 | Participation level: Build-compete (team qualification); Watch (visitor days) | https://2027.robocup.org/ (primary) · https://www.robocup.org/events/80 (secondary) |
 | Entry requirements / deadline: Teams qualify per league; 2027 visitor tickets not on sale yet | https://2027.robocup.org/ (primary) · https://www.robocup.org/events/80 (secondary) |
-| Verification note (research pass): Dates from the RoboCup Federation and the RoboCup 2027 organisers (checked 14 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from the RoboCup Federation and the RoboCup 2027 organisers (checked 14 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 30 Jun–6 Jul 2026: RoboCup 2026, Incheon. RoboCup Federation: 30 Jun-6 Jul 2026, Incheon, South Korea. Build/use: Autonomous robots. How to join: Teams qualify per league; visitors watch. | https://www.robocup.org/events/80 |
 | Date: 17–21 Jun 2027: RoboCup 2027, Nuremberg. RoboCup 2027 official site: 17-21 Jun 2027, Nuremberg Exhibition Center. Build/use: Autonomous robots. How to join: Teams qualify per league; public visitor days 17-20 Jun. | https://2027.robocup.org/ |
-| Take-part route "Build a robot team and qualify" (Team entry): Build autonomous robots for a league (soccer, rescue, @Home, industrial, or RoboCupJunior for students up to 19) and qualify under that league's rules. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Visit the world championship" (Watch & buy local): In 2027 the public visitor days are 17–20 Jun at the Nuremberg Exhibition Center, with planned hours of about 9am to 5pm. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 visitor tickets and exact opening hours aren't published yet. | CSV verification notes / dated items above |
-| Check note: The host city changes every year. | CSV verification notes / dated items above |
+| Take-part route "Build a robot team and qualify" (Team entry): Build autonomous robots for a league (soccer, rescue, @Home, industrial, or RoboCupJunior for students up to 19) and qualify under that league's rules. | Our summary of the research notes and the dated items above |
+| Take-part route "Visit the world championship" (Watch & buy local): In 2027 the public visitor days are 17–20 Jun at the Nuremberg Exhibition Center, with planned hours of about 9am to 5pm. | Our summary of the research notes and the dated items above |
+| Check note: 2027 visitor tickets and exact opening hours aren't published yet. | Our research notes / dated items above |
+| Check note: The host city changes every year. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -38,5 +38,5 @@ Row #31 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry, Watch & buy local (our grouping of the CSV participation level "Build-compete (team qualification); Watch (visitor days)").
+- Levels shown: Team entry, Watch & buy local (our grouping of the researched participation level "Build-compete (team qualification); Watch (visitor days)").
 - Usual months used by the month filter: Jun, Jul.

@@ -1,6 +1,6 @@
 # Nomad · Kinetic Grand Championship: sources
 
-Row #18 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #18 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Enter as a racer team, or volunteer/spectate | https://kineticgrandchampionship.com/racers (primary) ·  (secondary) |
 | Participation level: Build-compete | https://kineticgrandchampionship.com/racers (primary) ·  (secondary) |
 | Entry requirements / deadline: Fully human-powered; pilots 16+. 2027 registration dates not published | https://kineticgrandchampionship.com/racers (primary) ·  (secondary) |
-| Verification note (research pass): 2027 dates/fees UNVERIFIED. Source audit 4 Oct 2026: newspaper link removed. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): 2027 dates/fees UNVERIFIED. Source audit 4 Oct 2026: newspaper link removed. | Our research notes (3 Oct 2026, IST) |
 | Date: 23–25 May 2026: Kinetic Grand Championship 2026. Memorial Day weekend 2026; confirmed by the organiser's 2026 race-results page. Build/use: Human-powered amphibious art sculpture, 50 miles. How to join: Enter a racer team or volunteer/spectate. | https://kineticgrandchampionship.com/ |
 | Date: 29–31 May 2027: Kinetic Grand Championship 2027. Arcata to Ferndale, Humboldt County, CA. Build/use: Human-powered amphibious art sculpture, 50 miles. How to join: Enter a racer team (2027 registration not open yet) or volunteer. | https://kineticgrandchampionship.com/ |
-| Take-part route "Race a human-powered amphibious sculpture" (Team entry): Enter a racer team with a fully human-powered art sculpture that crosses sand, mud and water over 50 miles. Pilots must be 16+. 2027 registration isn't open yet. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Volunteer or spectate" (Watch & buy local): Volunteer or watch along the route. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 registration is not open yet. | CSV verification notes / dated items above |
+| Take-part route "Race a human-powered amphibious sculpture" (Team entry): Enter a racer team with a fully human-powered art sculpture that crosses sand, mud and water over 50 miles. Pilots must be 16+. 2027 registration isn't open yet. | Our summary of the research notes and the dated items above |
+| Take-part route "Volunteer or spectate" (Watch & buy local): Volunteer or watch along the route. | Our summary of the research notes and the dated items above |
+| Check note: 2027 registration is not open yet. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -30,7 +30,7 @@ Row #18 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Community-accepted; publisher: Elliot Naess (experienced kinetic racer); hosted by Kinetic Grand Championship): How to Build a Kinetic Sculpture – Elliot Naess: A veteran racer's design and build notes covering planning, flotation and drivetrains. Why accepted: Written by a long-time racer and linked from and hosted on the official KGC Racers page as builder guidance. | https://kineticgrandchampionship.com/s/HowtoBuildaKinetic_ElliotNaess.pdf |
 | Resource (Official; publisher: Kinetic Grand Championship (official channel)): Kinetic GC – YouTube: Linked from the official site; footage of water and sand crossings. | https://www.youtube.com/c/KineticGC |
 | Also consulted for the skills section | https://kineticgrandchampionship.com/s/KGC23-ART-Criteria.pdf |
-| Note: 2027 registration and dates aren't open yet. | Skills research (gap recorded) |
+| Note: 2027 registration and dates aren't open yet. | Gap noted during research |
 
 See also: skills guide `skills/human-powered-craft/`
 See also: skills guide `skills/festival-build-safety-lnt/`
@@ -47,5 +47,5 @@ Official sources first; non-official sources only if the event community widely 
 
 ## Our grouping
 
-- Levels shown: Team entry, Watch & buy local (our grouping of the CSV participation level "Build-compete").
+- Levels shown: Team entry, Watch & buy local (our grouping of the researched participation level "Build-compete").
 - Usual months used by the month filter: May.

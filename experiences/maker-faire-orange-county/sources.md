@@ -1,6 +1,6 @@
 # Nomad · Maker Faire Orange County: sources
 
-Row #49 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #49 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Apply through the Call for Makers (via the MakerAlley platform) to exhibit; volunteer; or visit | https://oc.makerfaire.com/ (primary) · https://oc.makerfaire.com/call-for-makers/ (secondary) |
 | Participation level: Build-exhibit (application) | https://oc.makerfaire.com/ (primary) · https://oc.makerfaire.com/call-for-makers/ (secondary) |
 | Entry requirements / deadline: 2027 Call for Makers not published yet (2026 deadline: 3 Aug 2026) | https://oc.makerfaire.com/ (primary) · https://oc.makerfaire.com/call-for-makers/ (secondary) |
-| Verification note (research pass): Dates and venue from the organiser's home page ('OC Fair & Event Center - Costa Mesa, CA, Sept 11 & 12, 2027') (checked 1 Nov 2026). Run by OCreate LLC under licence from Make: Community. The call for makers and maker manual still describe 2026; 2027 details TBC. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates and venue from the organiser's home page ('OC Fair & Event Center - Costa Mesa, CA, Sept 11 & 12, 2027') (checked 1 Nov 2026). Run by OCreate LLC under licence from Make: Community. The call for makers and maker manual still describe 2026; 2027 details TBC. | Our research notes (3 Oct 2026, IST) |
 | Date: 11–12 Sep 2027: Maker Faire Orange County 2027. Organiser: 11-12 Sep 2027, OC Fair & Event Center, Costa Mesa. The 2027 call TBC. Build/use: Exhibit your own project; or visit. How to join: Apply through the Call for Makers (2027 call not published yet); volunteer; or visit. | https://oc.makerfaire.com/ |
-| Take-part route "Exhibit your project" (Team entry): Apply through the Call for Makers on the MakerAlley platform to show robotics, 3D printing, crafts, art, cooking or anything you made. The 2027 call is not published yet; the 2026 deadline was 3 Aug. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Visit the faire" (Watch & buy local): A family-friendly weekend of makers of all ages sharing their projects and hands-on activities. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 dates: 11-12 Sep 2027 at the OC Fair & Event Center, Costa Mesa (organiser's home page). | CSV verification notes / dated items above |
-| Check note: Volunteers help with set-up, hands-on activities, stages and maker support; sign-up is on the organiser's volunteer page. | CSV verification notes / dated items above |
-| Check note: The faire is run by OCreate LLC under licence from Make: Community. The call for makers and maker manual pages still describe 2026. | CSV verification notes / dated items above |
+| Take-part route "Exhibit your project" (Team entry): Apply through the Call for Makers on the MakerAlley platform to show robotics, 3D printing, crafts, art, cooking or anything you made. The 2027 call is not published yet; the 2026 deadline was 3 Aug. | Our summary of the research notes and the dated items above |
+| Take-part route "Visit the faire" (Watch & buy local): A family-friendly weekend of makers of all ages sharing their projects and hands-on activities. | Our summary of the research notes and the dated items above |
+| Check note: 2027 dates: 11-12 Sep 2027 at the OC Fair & Event Center, Costa Mesa (organiser's home page). | Our research notes / dated items above |
+| Check note: Volunteers help with set-up, hands-on activities, stages and maker support; sign-up is on the organiser's volunteer page. | Our research notes / dated items above |
+| Check note: The faire is run by OCreate LLC under licence from Make: Community. The call for makers and maker manual pages still describe 2026. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -39,5 +39,5 @@ Row #49 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry, Watch & buy local (our grouping of the CSV participation level "Build-exhibit (application)").
+- Levels shown: Team entry, Watch & buy local (our grouping of the researched participation level "Build-exhibit (application)").
 - Usual months used by the month filter: Sep.

@@ -1,6 +1,6 @@
 # Nomad · Albuquerque International Balloon Fiesta (chase crew): sources
 
-Row #20 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #20 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Register as chase crew (online from mid-July; on-site daily 5:30-7:30am & 4:30-6:30pm at Crew Corral); Navigator volunteer apps Feb-Aug | https://www.balloonfiesta.com/wp-content/uploads/2026/09/Guest-Guide-2026.pdf (primary) · https://www.balloonfiesta.com/get-involved/volunteers-aibf/ (secondary) |
 | Participation level: Crew (open) | https://www.balloonfiesta.com/wp-content/uploads/2026/09/Guest-Guide-2026.pdf (primary) · https://www.balloonfiesta.com/get-involved/volunteers-aibf/ (secondary) |
 | Entry requirements / deadline: Volunteer Navigators: min 5 shifts/25 hrs; apps 2 Feb-15 Aug (2026) | https://www.balloonfiesta.com/wp-content/uploads/2026/09/Guest-Guide-2026.pdf (primary) · https://www.balloonfiesta.com/get-involved/volunteers-aibf/ (secondary) |
-| Verification note (research pass): Crew registration details from official 2026 guest guide (via search summary). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Crew registration details from official 2026 guest guide (via search summary). | Our research notes (3 Oct 2026, IST) |
 | Date: 3–11 Oct 2026: Albuquerque International Balloon Fiesta 2026. Official dates. Happening now. Build/use: Crew a hot-air balloon (inflate, chase, pack down). How to join: Register as chase crew online or at the Chase Crew tower / Crew Corral on the field. | https://www.balloonfiesta.com/plan-your-visit/faqs/ |
 | Date: 2–10 Oct 2027: Albuquerque International Balloon Fiesta 2027. Official future-dates list. Build/use: Crew a hot-air balloon. How to join: Register as chase crew online or on the field. | https://www.balloonfiesta.com/plan-your-visit/faqs/ |
-| Take-part route "Crew a hot-air balloon" (Crew): Register as chase crew (online from mid-July, or on site daily 5:30–7:30am and 4:30–6:30pm at the Crew Corral) and help launch, chase and pack down a balloon. Crew is unpaid. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Volunteer as a Navigator" (Crew): Navigator volunteers commit to at least 5 shifts / 25 hours; applications ran 2 Feb–15 Aug in 2026. | Re-worded from the CSV row and the dated items above |
-| Check note: Crew registration details come from the official 2026 guest guide (via a search summary). | CSV verification notes / dated items above |
+| Take-part route "Crew a hot-air balloon" (Crew): Register as chase crew (online from mid-July, or on site daily 5:30–7:30am and 4:30–6:30pm at the Crew Corral) and help launch, chase and pack down a balloon. Crew is unpaid. | Our summary of the research notes and the dated items above |
+| Take-part route "Volunteer as a Navigator" (Crew): Navigator volunteers commit to at least 5 shifts / 25 hours; applications ran 2 Feb–15 Aug in 2026. | Our summary of the research notes and the dated items above |
+| Check note: Crew registration details come from the official 2026 guest guide (via a search summary). | Our research notes / dated items above |
 | Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on recreational flying | https://kinetic.curiosta.com/recreational-flying/ |
 
 ## Skills you'll need (section 03)
@@ -32,7 +32,7 @@ Row #20 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: Balloon Federation of America (US national governing body for ballooning)): Crew Achievement Award Program (CAAP): The national balloon body's crew skill levels, from apprentice to master crew chief. | https://bfa.net/index.php/education-training/pilot-and-crew-achievement-programs/crew-achievement |
 | Also consulted for the skills section | https://www.balloonfiesta.com/get-involved/volunteers-aibf/ |
 | Also consulted for the skills section | https://www.balloonfiesta.com/wp-content/uploads/2025/09/Chasers-Club-Frequently-Asked-Questions.pdf |
-| Note: The 2027 crew-registration window isn't published yet. | Skills research (gap recorded) |
+| Note: The 2027 crew-registration window isn't published yet. | Gap noted during research |
 
 ## Check notes shown on the page
 
@@ -40,5 +40,5 @@ Row #20 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Crew (our grouping of the CSV participation level "Crew (open)").
+- Levels shown: Crew (our grouping of the researched participation level "Crew (open)").
 - Usual months used by the month filter: Oct.

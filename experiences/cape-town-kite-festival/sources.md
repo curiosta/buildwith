@@ -1,6 +1,6 @@
 # Nomad · Cape Town International Kite Festival: sources
 
-Row #25 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #25 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Buy a ticket; join kite-making workshop (offered 2025) | https://www.capementalhealth.co.za/colourthesky/ (primary) · https://www.capementalhealth.co.za/couragetofly/ (secondary) |
 | Participation level: Build (workshop) / Use | https://www.capementalhealth.co.za/colourthesky/ (primary) · https://www.capementalhealth.co.za/couragetofly/ (secondary) |
 | Entry requirements / deadline: Ticket | https://www.capementalhealth.co.za/colourthesky/ (primary) · https://www.capementalhealth.co.za/couragetofly/ (secondary) |
-| Verification note (research pass): 2026 workshop programme not verified. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): 2026 workshop programme not verified. | Our research notes (3 Oct 2026, IST) |
 | Date: 24–25 Oct 2026: Cape Town International Kite Festival 2026. Youngsfield Military Base, Ottery. Build/use: Kite-making workshops (offered in 2025), kite flying. How to join: Buy a ticket. | https://www.capementalhealth.co.za/colourthesky/ |
 | Date: Oct 2027 · date TBC: Cape Town International Kite Festival 2027 (usually October). 2027 dates not published. | https://www.capementalhealth.co.za/colourthesky/ |
-| Take-part route "Join a kite-making workshop" (Workshop / open build): Kite-making workshops were offered in 2025; the 2026 workshop programme is not verified. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Fly kites and watch show kites" (Use local gear): Buy a ticket, fly kites and watch the show kites. | Re-worded from the CSV row and the dated items above |
-| Check note: 2026 workshop programme not verified. | CSV verification notes / dated items above |
+| Take-part route "Join a kite-making workshop" (Workshop / open build): Kite-making workshops were offered in 2025; the 2026 workshop programme is not verified. | Our summary of the research notes and the dated items above |
+| Take-part route "Fly kites and watch show kites" (Use local gear): Buy a ticket, fly kites and watch the show kites. | Our summary of the research notes and the dated items above |
+| Check note: 2026 workshop programme not verified. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -28,7 +28,7 @@ Row #25 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: American Kitefliers Association (AKA), US national kite association): How to Make a Kite: Starter guidance on kite structure, materials and plans. | https://www.kite.org/about-kites/how-to-make-a-kite/ |
 | Resource (Official; publisher: American Kitefliers Association (AKA), US national kite association): How To Fly A Kite: Launching, bridle and tail corrections. | https://www.kite.org/about-kites/how-to-fly-a-kite/ |
 | Resource (Official; publisher: American Kitefliers Association (AKA), US national kite association): Kite Safety: Field safety for crowded family events. | https://www.kite.org/about-kites/kite-safety/ |
-| No official resource yet: No official kite-making guide from the organiser yet; the national kite association's guides above cover the basics. The 2026 workshop timetable isn't published. | Skills research (gap recorded) |
+| No official resource yet: No official kite-making guide from the organiser yet; the national kite association's guides above cover the basics. The 2026 workshop timetable isn't published. | Gap noted during research |
 
 See also: skills guide `skills/kite-basics/`
 
@@ -38,5 +38,5 @@ See also: skills guide `skills/kite-basics/`
 
 ## Our grouping
 
-- Levels shown: Workshop / open build, Use local gear (our grouping of the CSV participation level "Build (workshop) / Use").
+- Levels shown: Workshop / open build, Use local gear (our grouping of the researched participation level "Build (workshop) / Use").
 - Usual months used by the month filter: Oct.

@@ -1,6 +1,6 @@
 # Nomad · Berck-sur-Mer International Kite Festival (Rencontres Internationales de Cerfs-Volants): sources
 
-Row #50 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #50 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Travel to Berck-sur-Mer and watch on the beach; the 2027 programme is not published yet | https://www.berck-tourisme.com/fr/decouvrir/les-rencontres-internationales-de-cerfs-volants-2027 (primary) · https://www.cerf-volant-berck.com/actualites/save-the-date (secondary) |
 | Participation level: Watch & buy local | https://www.berck-tourisme.com/fr/decouvrir/les-rencontres-internationales-de-cerfs-volants-2027 (primary) · https://www.cerf-volant-berck.com/actualites/save-the-date (secondary) |
 | Entry requirements / deadline: Programme and visitor details TBC (not published yet) | https://www.berck-tourisme.com/fr/decouvrir/les-rencontres-internationales-de-cerfs-volants-2027 (primary) · https://www.cerf-volant-berck.com/actualites/save-the-date (secondary) |
-| Verification note (research pass): Dates from the Berck-sur-Mer tourist office page, the organiser's 'Save the date' news and the town's news page (published 29 May 2026) (checked 1 Nov 2026). Run by the town of Berck-sur-Mer with Berck Évènements Loisirs Côte d'Opale. Programme TBC. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from the Berck-sur-Mer tourist office page, the organiser's 'Save the date' news and the town's news page (published 29 May 2026) (checked 1 Nov 2026). Run by the town of Berck-sur-Mer with Berck Évènements Loisirs Côte d'Opale. Programme TBC. | Our research notes (3 Oct 2026, IST) |
 | Date: 17–25 Apr 2027: Berck-sur-Mer International Kite Festival 2027 (40th edition). Berck-sur-Mer tourist office: 40th edition, 17-25 Apr 2027. Programme TBC. Build/use: Giant kites, kite ballets and aerial displays by flyers from around the world. How to join: Watch on the beach; programme not published yet. | https://www.berck-tourisme.com/fr/decouvrir/les-rencontres-internationales-de-cerfs-volants-2027 |
-| Take-part route "Watch giant kites and kite ballets on the beach" (Watch & buy local): Nine days of aerial displays, giant kites, kite ballets and family activities, with kite flyers and delegations from around the world. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 is the 40th edition: 17-25 Apr 2027 (tourist office, organiser and town). | CSV verification notes / dated items above |
-| Check note: The detailed 2027 programme is not published yet. | CSV verification notes / dated items above |
-| Check note: The festival is run by the town of Berck-sur-Mer; the tourist office handles visitor information. | CSV verification notes / dated items above |
+| Take-part route "Watch giant kites and kite ballets on the beach" (Watch & buy local): Nine days of aerial displays, giant kites, kite ballets and family activities, with kite flyers and delegations from around the world. | Our summary of the research notes and the dated items above |
+| Check note: 2027 is the 40th edition: 17-25 Apr 2027 (tourist office, organiser and town). | Our research notes / dated items above |
+| Check note: The detailed 2027 programme is not published yet. | Our research notes / dated items above |
+| Check note: The festival is run by the town of Berck-sur-Mer; the tourist office handles visitor information. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -39,5 +39,5 @@ See also: skills guide `skills/kite-basics/`
 
 ## Our grouping
 
-- Levels shown: Watch & buy local (our grouping of the CSV participation level "Watch & buy local").
+- Levels shown: Watch & buy local (our grouping of the researched participation level "Watch & buy local").
 - Usual months used by the month filter: Apr.

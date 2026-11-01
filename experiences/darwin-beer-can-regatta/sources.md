@@ -1,6 +1,6 @@
 # Nomad · Darwin Lions Beer Can Regatta: sources
 
-Row #26 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,11 +10,11 @@ Row #26 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Register boat + crew (can register up to day before) | https://beercanregatta.org.au/registration/ (primary) · https://beercanregatta.org.au/rules/ (secondary) |
 | Participation level: Build-compete (open) | https://beercanregatta.org.au/registration/ (primary) · https://beercanregatta.org.au/rules/ (secondary) |
 | Entry requirements / deadline: Boat must float, be made from recycled drink containers and pass safety check; forms by 5pm day before | https://beercanregatta.org.au/registration/ (primary) · https://beercanregatta.org.au/rules/ (secondary) |
-| Verification note (research pass): Verified on official site. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Verified on official site. | Our research notes (3 Oct 2026, IST) |
 | Date: Jun 2027 · date TBC: Darwin Lions Beer Can Regatta 2027 (June/July, date TBC). 2026 was 28 Jun; 2027 not published. | https://beercanregatta.org.au/registration/ |
 | Date: Jul 2027 · date TBC: Darwin Lions Beer Can Regatta 2027 (June/July, date TBC). 2026 was 28 Jun; 2027 not published. | https://beercanregatta.org.au/registration/ |
-| Take-part route "Build a boat from drink cans and race it" (Team entry): Register your boat and crew (forms by 5pm the day before). The boat must float, be made from recycled drink containers and pass a safety check. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 date not published (2026: 28 Jun). | CSV verification notes / dated items above |
+| Take-part route "Build a boat from drink cans and race it" (Team entry): Register your boat and crew (forms by 5pm the day before). The boat must float, be made from recycled drink containers and pass a safety check. | Our summary of the research notes and the dated items above |
+| Check note: 2027 date not published (2026: 28 Jun). | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -26,7 +26,7 @@ Row #26 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: Darwin Lions Beer Can Regatta (organiser)): Rules – Darwin Lions Beer Can Regatta: Official craft, safety and conduct rules. | https://beercanregatta.org.au/rules/ |
 | Resource (Official; publisher: Darwin Lions Beer Can Regatta): Boat Construction: The organiser's step-by-step can-boat construction method. | https://beercanregatta.org.au/boat-construction/ |
 | Resource (Official; publisher: Darwin Lions Beer Can Regatta): Registration: Boat-registration requirements (all people aboard listed; deadline the day before). Note: page text still references 2024. | https://beercanregatta.org.au/registration/ |
-| Note: The registration page still carries 2024 wording: confirm the 2027 details when they're published. | Skills research (gap recorded) |
+| Note: The registration page still carries 2024 wording: confirm the 2027 details when they're published. | Gap noted during research |
 
 See also: skills guide `skills/human-powered-craft/`
 
@@ -36,5 +36,5 @@ See also: skills guide `skills/human-powered-craft/`
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Build-compete (open)").
+- Levels shown: Team entry (our grouping of the researched participation level "Build-compete (open)").
 - Usual months used by the month filter: Jun, Jul.

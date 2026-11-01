@@ -1,6 +1,6 @@
 # Nomad · AfrikaBurn: sources
 
-Row #24 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,15 +10,15 @@ Row #24 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Buy ticket; register a theme camp (Sep-Feb); apply for creative grants (open Sep, close late Oct) | https://tickets.afrikaburn.org/afrikaburn-2027-theme/ (primary) · https://www.afrikaburn.org/event/participation/artworks-performances/ (secondary) |
 | Participation level: Build (open, ticketed) | https://tickets.afrikaburn.org/afrikaburn-2027-theme/ (primary) · https://www.afrikaburn.org/event/participation/artworks-performances/ (secondary) |
 | Entry requirements / deadline: Theme camp forms due Jan; grants close late Oct | https://tickets.afrikaburn.org/afrikaburn-2027-theme/ (primary) · https://www.afrikaburn.org/event/participation/artworks-performances/ (secondary) |
-| Verification note (research pass): 2027 dates verified on official ticket site. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): 2027 dates verified on official ticket site. | Our research notes (3 Oct 2026, IST) |
 | Date: 27 Apr–3 May 2026: AfrikaBurn 2026. Quaggafontein, Tankwa Karoo. Gate policy on the official ticketing site: opened Mon 27 Apr 2026. Build/use: Artworks, theme camps, mutant vehicles. How to join: Buy a ticket and bring or build something. | https://tickets.afrikaburn.org/ |
 | Deadline: 23 Oct 2026: AfrikaBurn 2027 Creative Grant applications (midnight). Official timeline: 23 October, midnight (SAST). Build/use: Grant towards your artwork or performance at AfrikaBurn. How to join: Register your project, then submit the grant form. | https://www.afrikaburn.org/event/participation/artworks-performances/ |
 | Deadline: Jan 2027 · date TBC: AfrikaBurn theme camp Form 2 due (January). Month only; no exact date found. | https://www.afrikaburn.org/event/participation/theme-camps/theme-camps-guide/ |
 | Deadline: 15 Feb 2027: AfrikaBurn Art Form II (M.A.K.E.) project details. Official timeline says '15 Feb'. Burn/sound pieces must be registered by end of Feb. Build/use: Project details for burn, sound and lights approvals. How to join: Submit Art Form II. | https://www.afrikaburn.org/event/participation/artworks-performances/ |
 | Date: 26 Apr–2 May 2027: AfrikaBurn 2027. Tankwa Karoo, South Africa. Build/use: Artworks, theme camps, mutant vehicles. How to join: Buy a ticket and bring or build something. | https://tickets.afrikaburn.org/afrikaburn-2027-theme/ |
-| Take-part route "Build an artwork, theme camp or mutant vehicle" (Workshop / open build): Buy a ticket and bring or build something. Register a theme camp (Sep–Feb; Form 2 due in January). | Re-worded from the CSV row and the dated items above |
-| Take-part route "Apply for a Creative Grant" (Workshop / open build): Register your project, then submit the grant form (2027 deadline: 23 Oct 2026, midnight SAST). | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 dates verified on the official ticket site; 2027 ticket details are not published yet. | CSV verification notes / dated items above |
+| Take-part route "Build an artwork, theme camp or mutant vehicle" (Workshop / open build): Buy a ticket and bring or build something. Register a theme camp (Sep–Feb; Form 2 due in January). | Our summary of the research notes and the dated items above |
+| Take-part route "Apply for a Creative Grant" (Workshop / open build): Register your project, then submit the grant form (2027 deadline: 23 Oct 2026, midnight SAST). | Our summary of the research notes and the dated items above |
+| Check note: 2027 dates verified on the official ticket site; 2027 ticket details are not published yet. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -34,7 +34,7 @@ Row #24 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: AfrikaBurn (Tankwa Town NPC, organiser)): WTF Guide / Out of the Box 2025 (PDF): Camping etiquette, fire safety, MOOP and departments (most recent edition found). | https://www.afrikaburn.org/wp-content/uploads/2025/04/WTF_OOTB-2025_single-pages.pdf |
 | Resource (Official; publisher: AfrikaBurn (Tankwa Town NPC, organiser)): Mutant Vehicles: DMV testing, licensing and driving rules. | https://www.afrikaburn.org/event/participation/mutant-vehicles/ |
 | Also consulted for the skills section | https://www.afrikaburn.org/event/participation/theme-camps/theme-camps-guide/ |
-| Note: The 2027 survival guide isn't published yet; the 2025 edition is the latest. | Skills research (gap recorded) |
+| Note: The 2027 survival guide isn't published yet; the 2025 edition is the latest. | Gap noted during research |
 
 See also: skills guide `skills/festival-build-safety-lnt/`
 
@@ -44,5 +44,5 @@ See also: skills guide `skills/festival-build-safety-lnt/`
 
 ## Our grouping
 
-- Levels shown: Workshop / open build (our grouping of the CSV participation level "Build (open, ticketed)").
+- Levels shown: Workshop / open build (our grouping of the researched participation level "Build (open, ticketed)").
 - Usual months used by the month filter: Apr, May.

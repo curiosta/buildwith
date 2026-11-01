@@ -12,7 +12,7 @@ Cross-cutting skills guide from the skills research (checked 2026-10-04, IST), a
 | Resource (Official; publisher: Breckenridge Tourism Office): International Snow Sculpture Championships – Breckenridge: How a top snow contest runs (block size, hand tools only). | https://gobreck.com/event/international-snow-sculpture-championships/ |
 | Resource (Official; publisher: Central Pollution Control Board (hosted by MPCB)): Revised Guidelines for Idol Immersion (CPCB): Materials rules for eco-friendly clay idols. | https://www.mpcb.gov.in/sites/default/files/water-quality/water-quality-status/RevisedGuidelines09092021.pdf |
 | Resource (Official; publisher: UNESCO): Durga Puja in Kolkata – UNESCO: Context on Kumartuli's unfired river-clay idol craft. | https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703 |
-| No official resource yet: No official clay-modelling or snow-carving tutorial yet. | Skills research (gap recorded) |
+| No official resource yet: No official clay-modelling or snow-carving tutorial yet. | Gap noted during research |
 | Applies to: Eco-friendly Ganesh idol-making workshops | experiences/ganesh-idol-workshops-mumbai/ (skills research applies_to / see_also_guides) |
 | Applies to: Kumartuli idol makers & Durga Puja | experiences/kumartuli-durga-puja-kolkata/ (skills research applies_to / see_also_guides) |
 | Applies to: Harbin International Snow Sculpture Competition (Ice & Snow Festival) | experiences/harbin-snow-sculpture/ (skills research applies_to / see_also_guides) |

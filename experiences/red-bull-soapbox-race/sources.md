@@ -1,6 +1,6 @@
 # Nomad · Red Bull Soapbox Race: sources
 
-Row #13 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,14 +10,14 @@ Row #13 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Apply as a team with a design; selected teams build and race | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race (primary) · https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026 (secondary) |
 | Participation level: Build-compete (application) | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race (primary) · https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026 (secondary) |
 | Entry requirements / deadline: London 2026: 4 members 18+, application with design; deadline 1 Mar 2026 | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race (primary) · https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026 (secondary) |
-| Verification note (research pass): Red Bull runs editions irregularly per city. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Red Bull runs editions irregularly per city. | Our research notes (3 Oct 2026, IST) |
 | Date: 16 May 2026: Red Bull Soapbox Race Los Angeles 2026. Official Red Bull Soapbox series page (past event). Build/use: Human/gravity-powered soapbox kart. How to join: Teams were selected earlier; free to watch. | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
 | Date: 14 Jun 2026: Red Bull Soapbox Race Denver 2026. Official Red Bull Soapbox series page (past event). Build/use: Human/gravity-powered soapbox kart. How to join: Teams were selected earlier; free to watch. | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
 | Date: 20 Jun 2026: Red Bull Soapbox Race London 2026. Alexandra Palace, 20 Jun 2026 (official Red Bull page). Build/use: Human/gravity-powered soapbox kart. How to join: Teams were selected earlier; free to watch. | https://www.redbull.com/gb-en/events/red-bull-soapbox-race-london-2026 |
 | Date: May 2027 · date TBC: Red Bull Soapbox Race 2027 (no editions announced; 2026 ran May-Jun). Watch for announcements; London 2026 applications closed 1 Mar. | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
 | Date: Jun 2027 · date TBC: Red Bull Soapbox Race 2027 (no editions announced; 2026 ran May-Jun). Watch for announcements; London 2026 applications closed 1 Mar. | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
-| Take-part route "Apply as a team with a design" (Team entry): Apply with your soapbox design; selected teams build a gravity-powered kart and race it. For London 2026, teams were 4 members aged 18+. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 editions are NOT announced. Red Bull runs editions irregularly by city. | CSV verification notes / dated items above |
+| Take-part route "Apply as a team with a design" (Team entry): Apply with your soapbox design; selected teams build a gravity-powered kart and race it. For London 2026, teams were 4 members aged 18+. | Our summary of the research notes and the dated items above |
+| Check note: 2027 editions are NOT announced. Red Bull runs editions irregularly by city. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -30,7 +30,7 @@ Row #13 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: Red Bull (event organiser)): How to build a winning Red Bull Soapbox racer: A UK champion team captain's chassis, wheel, brake and steering tips, published by the organiser. | https://www.redbull.com/gb-en/how-to-build-a-soapbox-car |
 | Resource (Official; publisher: Red Bull (event organiser)): Red Bull Soapbox Race Belfast – here's all you need to know: Recaps the official UK/Ireland size and weight limits, scoring and helmet rule. | https://www.redbull.com/ie-en/red-bull-soapbox-ireland |
 | Also consulted for the skills section | https://www.redbull.com/int-en/event-series/red-bull-soapbox-race |
-| Note: Use the rules for the edition you enter; 2027 editions aren't announced. | Skills research (gap recorded) |
+| Note: Use the rules for the edition you enter; 2027 editions aren't announced. | Gap noted during research |
 
 See also: skills guide `skills/human-powered-craft/`
 
@@ -40,5 +40,5 @@ See also: skills guide `skills/human-powered-craft/`
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Build-compete (application)").
+- Levels shown: Team entry (our grouping of the researched participation level "Build-compete (application)").
 - Usual months used by the month filter: May, Jun.

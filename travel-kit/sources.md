@@ -1,6 +1,6 @@
 # Nomad · Travel Kit: sources
 
-Official-source check of 30 Oct 2026 (IST). Every factual line on the page links to the official page(s) below; lines marked "Our tip" are editorial advice and state no facts. Customs and currency limits are legal thresholds, not prices; the page lists no costs. Kit picks: 0 (content.TRAVEL_KIT_PRODUCTS); the disclosure "Some kit picks link to products I sell on Amazon." shows only when there is at least one.
+Official-source check of 30 Oct 2026 (IST). Every factual line on the page links to the official page(s) below; lines marked "Our tip" are editorial advice and state no facts. Customs and currency limits are legal thresholds, not prices; the page lists no costs. Kit picks: 0; the disclosure "Some kit picks link to products I sell on Amazon." shows only when there is at least one.
 
 | Fact used | Source |
 |---|---|

@@ -1,6 +1,6 @@
 # Nomad · Great Cardboard Boat Regatta (SIU Carbondale): sources
 
-Row #28 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #28 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Build a cardboard boat at home and register on race morning, or build an instant boat on site from a kit (first come, first served); paddles and life jackets are provided | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php (primary) · https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php (secondary) |
 | Participation level: Build-compete (open) | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php (primary) · https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php (secondary) |
 | Entry requirements / deadline: Register and pass the boat inspection on race morning (10am to noon in 2026); races start at 1pm; all crew wear life jackets | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php (primary) · https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php (secondary) |
-| Verification note (research pass): 2026 and 2027 dates from SIU's official pages (checked 14 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): 2026 and 2027 dates from SIU's official pages (checked 14 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 18 Apr 2026: Great Cardboard Boat Regatta 2026 (51st), SIU Carbondale. SIU official: Sat 18 Apr 2026, Campus Lake; races from 1pm. Build/use: Muscle-powered cardboard boat. How to join: Register and pass inspection on race morning; instant-boat kits on site. | https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php |
 | Date: 24 Apr 2027: Great Cardboard Boat Regatta 2027, SIU Carbondale. SIU Touch of Nature official page: 24 Apr 2027; races begin at 1pm. Build/use: Muscle-powered cardboard boat. How to join: Register and pass inspection on race morning; instant-boat kits on site. | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php |
-| Take-part route "Build a cardboard boat and race it" (Team entry): Build a muscle-powered boat from corrugated cardboard (the hull must be cardboard; one-part waterproofing only), then register and pass inspection on race morning. Races run on a U-shaped course of about 300 yards; up to 10 people per boat. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Or build an instant boat on the day" (Workshop / open build): Instant-boat kits (cardboard, a box knife and tape) are handed out at Campus Lake on a first-come, first-served basis; you get about two hours to build. Paddles and life jackets are provided. | Re-worded from the CSV row and the dated items above |
-| Check note: Rules and classes come from the 2026 information form; check the 2027 form before you build. | CSV verification notes / dated items above |
-| Check note: Spectators are free. | CSV verification notes / dated items above |
+| Take-part route "Build a cardboard boat and race it" (Team entry): Build a muscle-powered boat from corrugated cardboard (the hull must be cardboard; one-part waterproofing only), then register and pass inspection on race morning. Races run on a U-shaped course of about 300 yards; up to 10 people per boat. | Our summary of the research notes and the dated items above |
+| Take-part route "Or build an instant boat on the day" (Workshop / open build): Instant-boat kits (cardboard, a box knife and tape) are handed out at Campus Lake on a first-come, first-served basis; you get about two hours to build. Paddles and life jackets are provided. | Our summary of the research notes and the dated items above |
+| Check note: Rules and classes come from the 2026 information form; check the 2027 form before you build. | Our research notes / dated items above |
+| Check note: Spectators are free. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -38,5 +38,5 @@ See also: skills guide `skills/human-powered-craft/`
 
 ## Our grouping
 
-- Levels shown: Team entry, Workshop / open build (our grouping of the CSV participation level "Build-compete (open)").
+- Levels shown: Team entry, Workshop / open build (our grouping of the researched participation level "Build-compete (open)").
 - Usual months used by the month filter: Apr.

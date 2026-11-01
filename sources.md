@@ -1,6 +1,6 @@
 # Nomad · Home: sources
 
-Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oct 2026 (IST). Experience facts come from `experiences_v1.csv`; dates come from `cal.py` (source of truth for dates), with the audit's replacements applied (official sources only; see each experience's sources.md). The site deliberately shows **no prices**.
+Research of 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oct 2026 (IST). Experience facts come from that research; dates come from the date check (source of truth for dates), with the audit's replacements applied (official sources only; see each experience's sources.md). The site deliberately shows **no prices**.
 
 ## Experience cards and launch set
 
@@ -35,7 +35,7 @@ Research pass 3 Oct 2026 (IST) plus a date check and a source-rule audit on 4 Oc
 | Henley-on-Todd Regatta: summary, levels and next dates | https://www.henleyontodd.com.au/faqs · https://www.henleyontodd.com.au/competitors (details: experiences/henley-on-todd-regatta/sources.md) |
 | Great Cardboard Boat Regatta (SIU Carbondale): summary, levels and next dates | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php · https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php (details: experiences/siu-cardboard-boat-regatta/sources.md) |
 | Cannon Beach Sandcastle Contest: summary, levels and next dates | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ · https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/ (details: experiences/cannon-beach-sandcastle-contest/sources.md) |
-| Castells: human towers and the Concurs de Castells: summary, levels and next dates | https://castellscat.cat/en/els-castells · https://www.concursdecastells.cat/ (details: experiences/castells-tarragona/sources.md) |
+| Castells: human towers and the Concurs de Castells: summary, levels and next dates | https://castellscat.cat/en/els-castells · https://eng.concursdecastells.cat/ (details: experiences/castells-tarragona/sources.md) |
 | RoboCup (world championship): summary, levels and next dates | https://2027.robocup.org/ · https://www.robocup.org/events/80 (details: experiences/robocup-world-championship/sources.md) |
 | Port Townsend Wooden Boat Festival: summary, levels and next dates | https://woodenboat.org/2025-home/ · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (details: experiences/port-townsend-wooden-boat-festival/sources.md) |
 | Baltimore Kinetic Sculpture Race: summary, levels and next dates | https://www.avam.org/kinetic · https://baltimore.org/event/kinetic-sculpture-race/ (details: experiences/baltimore-kinetic-sculpture-race/sources.md) |

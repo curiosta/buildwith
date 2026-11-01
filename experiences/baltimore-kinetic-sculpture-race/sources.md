@@ -1,6 +1,6 @@
 # Nomad · Baltimore Kinetic Sculpture Race: sources
 
-Row #33 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #33 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Build a sculpture with a team and enter it with AVAM (pilots and pit crew), or watch along the 8-hour route | https://www.avam.org/kinetic (primary) · https://baltimore.org/event/kinetic-sculpture-race/ (secondary) |
 | Participation level: Build-compete | https://www.avam.org/kinetic (primary) · https://baltimore.org/event/kinetic-sculpture-race/ (secondary) |
 | Entry requirements / deadline: Entry through AVAM's race page; sculptures must pass a safety inspection and carry the safety gear set in the rules | https://www.avam.org/kinetic (primary) · https://baltimore.org/event/kinetic-sculpture-race/ (secondary) |
-| Verification note (research pass): Dates from AVAM (organiser) and Visit Baltimore (official tourism board). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from AVAM (organiser) and Visit Baltimore (official tourism board). | Our research notes (3 Oct 2026, IST) |
 | Date: 2 May 2026: Baltimore Kinetic Sculpture Race 2026. Visit Baltimore: 2 May 2026, 9am-7pm. Build/use: Human-powered amphibious art sculpture. How to join: Team entry with AVAM; free to watch. | https://baltimore.org/event/kinetic-sculpture-race/ |
 | Date: 1 May 2027: Baltimore Kinetic Sculpture Race 2027. AVAM: next race Sat 1 May 2027. Build/use: Human-powered amphibious art sculpture. How to join: Team entry with AVAM; free to watch. | https://www.avam.org/kinetic |
-| Take-part route "Race a human-powered amphibious sculpture" (Team entry): Build a fully human-powered art sculpture with a team (pilots plus pit crew) that crosses city streets, sand, mud and the harbour, and enter it with AVAM. No motors, batteries or stored energy. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Watch along the route" (Watch & buy local): The race runs for about 8 hours from AVAM, with the water entry at the Canton waterfront and mud and sand obstacles in Patterson Park. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 entry details aren't published yet; the 2026 rules are on AVAM's site. | CSV verification notes / dated items above |
+| Take-part route "Race a human-powered amphibious sculpture" (Team entry): Build a fully human-powered art sculpture with a team (pilots plus pit crew) that crosses city streets, sand, mud and the harbour, and enter it with AVAM. No motors, batteries or stored energy. | Our summary of the research notes and the dated items above |
+| Take-part route "Watch along the route" (Watch & buy local): The race runs for about 8 hours from AVAM, with the water entry at the Canton waterfront and mud and sand obstacles in Patterson Park. | Our summary of the research notes and the dated items above |
+| Check note: 2027 entry details aren't published yet; the 2026 rules are on AVAM's site. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -36,5 +36,5 @@ See also: skills guide `skills/human-powered-craft/`
 
 ## Our grouping
 
-- Levels shown: Team entry, Watch & buy local (our grouping of the CSV participation level "Build-compete").
+- Levels shown: Team entry, Watch & buy local (our grouping of the researched participation level "Build-compete").
 - Usual months used by the month filter: May.

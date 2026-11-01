@@ -1,6 +1,6 @@
 # Nomad · City Nature Challenge: sources
 
-Row #38 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,14 +10,14 @@ Row #38 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Find your city on the participating list when it is posted (early 2027), then add your own observations on the app your city uses | https://www.citynaturechallenge.org/participate (primary) · https://www.citynaturechallenge.org/ (secondary) |
 | Participation level: Team entry (join a challenge) | https://www.citynaturechallenge.org/participate (primary) · https://www.citynaturechallenge.org/ (secondary) |
 | Entry requirements / deadline: Free and open to anyone; each city is led by local organisers; the participating-city list is not posted yet | https://www.citynaturechallenge.org/participate (primary) · https://www.citynaturechallenge.org/ (secondary) |
-| Verification note (research pass): Dates from the organisers' 2027 pages (California Academy of Sciences and Natural History Museum of Los Angeles County) (checked 26 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from the organisers' 2027 pages (California Academy of Sciences and Natural History Museum of Los Angeles County) (checked 26 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 30 Apr–3 May 2027: City Nature Challenge 2027: observation days. Organisers: 30 Apr-3 May 2027. Build/use: Photograph wild plants and animals in your city. How to join: Join your city's challenge once the city list is posted (early 2027). | https://www.citynaturechallenge.org/ |
 | Date: 4–16 May 2027: City Nature Challenge 2027: identification days. Organisers: 4-16 May 2027. Build/use: Upload observations and help identify them. How to join: Share observations on your city's platform. | https://www.citynaturechallenge.org/ |
 | Date: 20 May 2027: City Nature Challenge 2027: results announced. Organisers: results announcement 20 May 2027. Build/use: See which cities found the most. How to join: Results are public. | https://www.citynaturechallenge.org/ |
-| Take-part route "Take part in your city's challenge" (Team entry): Photograph or record wild plants, animals and fungi in your city during the four observation days, then upload them to the platform your city uses and help identify what was found. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027: observe 30 Apr-3 May, identify 4-16 May, results announced 20 May. | CSV verification notes / dated items above |
-| Check note: The list of participating cities is posted in early 2027; the organisers also have a page on organising a city for 2027. | CSV verification notes / dated items above |
-| Check note: Only wild life counts: mark planted or cared-for plants as cultivated. | CSV verification notes / dated items above |
+| Take-part route "Take part in your city's challenge" (Team entry): Photograph or record wild plants, animals and fungi in your city during the four observation days, then upload them to the platform your city uses and help identify what was found. | Our summary of the research notes and the dated items above |
+| Check note: 2027: observe 30 Apr-3 May, identify 4-16 May, results announced 20 May. | Our research notes / dated items above |
+| Check note: The list of participating cities is posted in early 2027; the organisers also have a page on organising a city for 2027. | Our research notes / dated items above |
+| Check note: Only wild life counts: mark planted or cared-for plants as cultivated. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -38,5 +38,5 @@ Row #38 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Team entry (join a challenge)").
+- Levels shown: Team entry (our grouping of the researched participation level "Team entry (join a challenge)").
 - Usual months used by the month filter: Apr, May.

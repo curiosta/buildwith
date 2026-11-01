@@ -1,6 +1,6 @@
 # Nomad · Bridgestone World Solar Challenge: sources
 
-Row #34 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,11 +10,11 @@ Row #34 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Enter a team (usually universities and schools) in the Challenger, Cruiser or other classes, or volunteer as event crew along the route | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced (primary) · https://worldsolarchallenge.org/2027-event/team-registration (secondary) |
 | Participation level: Build-compete (application); Crew (volunteer) | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced (primary) · https://worldsolarchallenge.org/2027-event/team-registration (secondary) |
 | Entry requirements / deadline: 2027 applications for entry are open (official page); teams must follow the 2027 regulations | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced (primary) · https://worldsolarchallenge.org/2027-event/team-registration (secondary) |
-| Verification note (research pass): Dates and regulations from the official BWSC site (checked 14 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates and regulations from the official BWSC site (checked 14 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 22–29 Aug 2027: Bridgestone World Solar Challenge 2027. Official: 22-29 Aug 2027 (start 22 Aug in Darwin; finish line opens 26 Aug; awards 29 Aug). Build/use: Solar-powered car, Darwin to Adelaide. How to join: Team application for entry; volunteer crew. | https://worldsolarchallenge.org/latest-news/2027-dates-regulations-announced |
-| Take-part route "Build a solar car and enter" (Team entry): Teams (usually universities and schools) build a solar-powered car under the 2027 regulations and apply for entry in the Challenger, Cruiser or other classes. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Volunteer on the event crew" (Crew): Volunteers help run the event along the route; register through the official volunteer page. | Re-worded from the CSV row and the dated items above |
-| Check note: Held every two years: no 2026 edition. 2027 applications for entry are open. | CSV verification notes / dated items above |
+| Take-part route "Build a solar car and enter" (Team entry): Teams (usually universities and schools) build a solar-powered car under the 2027 regulations and apply for entry in the Challenger, Cruiser or other classes. | Our summary of the research notes and the dated items above |
+| Take-part route "Volunteer on the event crew" (Crew): Volunteers help run the event along the route; register through the official volunteer page. | Our summary of the research notes and the dated items above |
+| Check note: Held every two years: no 2026 edition. 2027 applications for entry are open. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -35,5 +35,5 @@ Row #34 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry, Crew (our grouping of the CSV participation level "Build-compete (application); Crew (volunteer)").
+- Levels shown: Team entry, Crew (our grouping of the researched participation level "Build-compete (application); Crew (volunteer)").
 - Usual months used by the month filter: Aug.

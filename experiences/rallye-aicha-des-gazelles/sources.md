@@ -1,6 +1,6 @@
 # Nomad · Rallye Aïcha des Gazelles (Morocco): sources
 
-Row #41 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #41 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Enter as a pair of women over 18; a training weekend before departure teaches map reading and navigation | https://www.rallyeaichadesgazelles.com/en/ (primary) · https://www.rallyeaichadesgazelles.com/en/become-a-gazelle/the-steps/ (secondary) |
 | Participation level: Team entry (pair of women) | https://www.rallyeaichadesgazelles.com/en/ (primary) · https://www.rallyeaichadesgazelles.com/en/become-a-gazelle/the-steps/ (secondary) |
 | Entry requirements / deadline: Women over 18, entering as a pair; organised by the events agency Maïenga; confirm the entry details with the organiser | https://www.rallyeaichadesgazelles.com/en/ (primary) · https://www.rallyeaichadesgazelles.com/en/become-a-gazelle/the-steps/ (secondary) |
-| Verification note (research pass): Dates from the rally's 2027 dates page; entry conditions from the rally's 'steps' page (checked 26 Oct 2026). Organised by the events agency Maïenga; confirm eligibility with the organiser before relying on it. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from the rally's 2027 dates page; entry conditions from the rally's 'steps' page (checked 26 Oct 2026). Organised by the events agency Maïenga; confirm eligibility with the organiser before relying on it. | Our research notes (3 Oct 2026, IST) |
 | Date: 20 Mar–3 Apr 2027: Rallye Aïcha des Gazelles 2027. Rally site: 20 Mar-3 Apr 2027; competition stages 26 Mar-1 Apr. Build/use: Navigate the Moroccan desert with map, compass and ruler (no GPS). How to join: Women over 18 enter as a pair; a training weekend comes first (confirm eligibility with the organiser). | https://www.rallyeaichadesgazelles.com/en/2027-edition/dates-2027/ |
-| Take-part route "Enter as a pair" (Team entry): Women over 18 enter in pairs and navigate the desert with a map, compass and ruler, with no GPS or phones. A training weekend before departure covers map reading and navigation. | Re-worded from the CSV row and the dated items above |
-| Check note: Open to women over 18 who enter as a pair. We have not confirmed these conditions with the organiser. | CSV verification notes / dated items above |
-| Check note: The rally is organised by the events agency Maïenga; its own site is the source here. | CSV verification notes / dated items above |
-| Check note: 2027: 20 Mar-3 Apr, with the competition stages from 26 Mar to 1 Apr. | CSV verification notes / dated items above |
+| Take-part route "Enter as a pair" (Team entry): Women over 18 enter in pairs and navigate the desert with a map, compass and ruler, with no GPS or phones. A training weekend before departure covers map reading and navigation. | Our summary of the research notes and the dated items above |
+| Check note: Open to women over 18 who enter as a pair. We have not confirmed these conditions with the organiser. | Our research notes / dated items above |
+| Check note: The rally is organised by the events agency Maïenga; its own site is the source here. | Our research notes / dated items above |
+| Check note: 2027: 20 Mar-3 Apr, with the competition stages from 26 Mar to 1 Apr. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -39,5 +39,5 @@ Row #41 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Team entry (pair of women)").
+- Levels shown: Team entry (our grouping of the researched participation level "Team entry (pair of women)").
 - Usual months used by the month filter: Mar, Apr.

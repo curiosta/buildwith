@@ -1,6 +1,6 @@
 # Nomad · Port Townsend Wooden Boat Festival: sources
 
-Row #32 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #32 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Buy a festival ticket, make something in the Woodworking Tent (open daily), join the workshops and get on the water in boats built by local builders | https://woodenboat.org/2025-home/ (primary) · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (secondary) |
 | Participation level: Build (hands-on tent); Use (get on the water) | https://woodenboat.org/2025-home/ (primary) · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (secondary) |
 | Entry requirements / deadline: Festival ticket; boat owners apply to show their boats | https://woodenboat.org/2025-home/ (primary) · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ (secondary) |
-| Verification note (research pass): Dates from the festival's own site and its organiser Northwest Maritime (checked 14 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from the festival's own site and its organiser Northwest Maritime (checked 14 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 11–13 Sep 2026: Port Townsend Wooden Boat Festival 2026. Northwest Maritime: 11-13 Sep 2026. Build/use: Hands-on woodworking; wooden boats on the water. How to join: Festival ticket. | https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ |
 | Date: 10–12 Sep 2027: Port Townsend Wooden Boat Festival 2027 (50th). Official festival site: 10-12 Sep 2027. Build/use: Hands-on woodworking; wooden boats on the water. How to join: Festival ticket. | https://woodenboat.org/2025-home/ |
-| Take-part route "Make something in the Woodworking Tent" (Workshop / open build): The Woodworking Tent is open daily (9:30am–5pm in 2026): try a shave horse and drawknife, build a wooden pen, make and brand a keepsake or a cheese board. | Re-worded from the CSV row and the dated items above |
-| Take-part route "Get on the water in wooden boats" (Use local gear): Tour hundreds of wooden boats built by local and visiting builders and join the on-the-water activities. | Re-worded from the CSV row and the dated items above |
-| Check note: 2027 is the 50th festival; the 2027 programme isn't published yet. | CSV verification notes / dated items above |
+| Take-part route "Make something in the Woodworking Tent" (Workshop / open build): The Woodworking Tent is open daily (9:30am–5pm in 2026): try a shave horse and drawknife, build a wooden pen, make and brand a keepsake or a cheese board. | Our summary of the research notes and the dated items above |
+| Take-part route "Get on the water in wooden boats" (Use local gear): Tour hundreds of wooden boats built by local and visiting builders and join the on-the-water activities. | Our summary of the research notes and the dated items above |
+| Check note: 2027 is the 50th festival; the 2027 programme isn't published yet. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -36,5 +36,5 @@ See also: skills guide `skills/human-powered-craft/`
 
 ## Our grouping
 
-- Levels shown: Workshop / open build, Use local gear (our grouping of the CSV participation level "Build (hands-on tent); Use (get on the water)").
+- Levels shown: Workshop / open build, Use local gear (our grouping of the researched participation level "Build (hands-on tent); Use (get on the water)").
 - Usual months used by the month filter: Sep.

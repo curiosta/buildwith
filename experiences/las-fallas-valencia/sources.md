@@ -1,6 +1,6 @@
 # Nomad · Las Fallas: sources
 
-Row #12 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,14 +10,14 @@ Row #12 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Spectator; visit the Ninot Exhibition and vote for the figure saved from burning; joining a casal fallero not verified | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas (primary) · https://ich.unesco.org/en/RL/valencia-fallas-festivity-00859 (secondary) |
 | Participation level: Spectator+ | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas (primary) · https://ich.unesco.org/en/RL/valencia-fallas-festivity-00859 (secondary) |
 | Entry requirements / deadline: None | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas (primary) · https://ich.unesco.org/en/RL/valencia-fallas-festivity-00859 (secondary) |
-| Verification note (research pass): Source audit 4 Oct 2026: newspaper and city-guide links removed. Festival days from Visit València (city tourism board) and UNESCO. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Source audit 4 Oct 2026: newspaper and city-guide links removed. Festival days from Visit València (city tourism board) and UNESCO. | Our research notes (3 Oct 2026, IST) |
 | Date: 15–19 Mar 2026: Las Fallas, Valencia 2026. Visit València: 15–19 March every year. Build/use: Giant satirical monuments built by local artists and casals. How to join: Watch; Cremà (the burning) on the night of 19 Mar. | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas |
 | Date: Feb 2027 · date TBC: Las Fallas: Exposición del Ninot 2027 (vote for the figure saved from burning). Visit València: it runs through March. 2027 opening date: Unconfirmed: no official source. | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas |
 | Date: Mar 2027 · date TBC: Las Fallas: Exposición del Ninot 2027 (vote for the figure saved from burning). Visit València: it runs through March. 2027 opening date: Unconfirmed: no official source. | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas |
 | Date: 15–19 Mar 2027: Las Fallas, Valencia. Visit València: 15–19 March every year; Cremà on the night of 19 Mar. Build/use: Giant satirical monuments built by local artists and casals. How to join: Watch; Cremà (the burning) on 19 Mar. | https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas |
-| Take-part route "See the fallas and vote for a ninot" (Watch & buy local): Watch the giant satirical monuments built by local artists and neighbourhood casals, and visit the Ninot Exhibition to vote for the figure saved from burning (Visit València: it runs through March). The Cremà (burning) is on the night of 19 Mar. | Re-worded from the CSV row and the dated items above |
-| Check note: Joining a casal fallero is not verified. | CSV verification notes / dated items above |
-| Check note: 2027 Ninot Exhibition opening date: Unconfirmed: no official source; the Junta Central Fallera's 2027 programme isn't out yet. | CSV verification notes / dated items above |
+| Take-part route "See the fallas and vote for a ninot" (Watch & buy local): Watch the giant satirical monuments built by local artists and neighbourhood casals, and visit the Ninot Exhibition to vote for the figure saved from burning (Visit València: it runs through March). The Cremà (burning) is on the night of 19 Mar. | Our summary of the research notes and the dated items above |
+| Check note: Joining a casal fallero is not verified. | Our research notes / dated items above |
+| Check note: 2027 Ninot Exhibition opening date: Unconfirmed: no official source; the Junta Central Fallera's 2027 programme isn't out yet. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -30,7 +30,7 @@ Row #12 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: Visit València (city tourism board)): 7 consejos para disfrutar de las Fallas (lectura fácil): Simple rules for mascletàs and crowds, including what not to bring. | https://www.visitvalencia.com/sites/default/files/media/downloadable-file/files/consejosdisfrutarfallaslecturafacilcastellano_805327176.pdf |
 | Resource (Official; publisher: Ajuntament de València; published on fallas.com (Junta Central Fallera)): Bando de Fallas 2026: The mayor's festival bylaw: mascletà-area restrictions and pyrotechnic rules. | https://fallas.com/wp-content/uploads/2026/01/C6509_bando-de-fallas.pdf |
 | Resource (Official; publisher: UNESCO Intangible Cultural Heritage Section): Valencia Fallas festivity – UNESCO Intangible Cultural Heritage: Explains how fallas and ninots are made and why they're burned. | https://ich.unesco.org/en/RL/valencia-fallas-festivity-00859 |
-| No official resource yet: No official guide yet for visitors who want to help a casal fallero build (not verified). | Skills research (gap recorded) |
+| No official resource yet: No official guide yet for visitors who want to help a casal fallero build (not verified). | Gap noted during research |
 
 See also: skills guide `skills/festival-build-safety-lnt/`
 
@@ -48,5 +48,5 @@ Official sources first; non-official sources only if the event community widely 
 
 ## Our grouping
 
-- Levels shown: Watch & buy local (our grouping of the CSV participation level "Spectator+").
+- Levels shown: Watch & buy local (our grouping of the researched participation level "Spectator+").
 - Usual months used by the month filter: Feb, Mar.

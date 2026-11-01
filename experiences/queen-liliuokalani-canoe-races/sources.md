@@ -1,6 +1,6 @@
 # Nomad · Queen Lili'uokalani Canoe Races (outrigger): sources
 
-Row #40 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #40 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Join a canoe club crew, or use the race blog's 'Need a Crew / Need a Paddler' category; the organiser tries to help overseas crews find canoes | https://www.qlcanoerace.com/ (primary) · https://www.qlcanoerace.com/ql-event-schedule.asp (secondary) |
 | Participation level: Crew (paddler) | https://www.qlcanoerace.com/ (primary) · https://www.qlcanoerace.com/ql-event-schedule.asp (secondary) |
 | Entry requirements / deadline: Paddling experience and a crew are needed; each paddler signs a waiver online (new in 2026); 2027 registration is not open | https://www.qlcanoerace.com/ (primary) · https://www.qlcanoerace.com/ql-event-schedule.asp (secondary) |
-| Verification note (research pass): Organiser: the Kai 'Opua Canoe Club (official race site). 2026 dates from the race schedule page; no 2027 dates published (checked 26 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Organiser: the Kai 'Opua Canoe Club (official race site). 2026 dates from the race schedule page; no 2027 dates published (checked 26 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 3–7 Sep 2026: Queen Lili'uokalani Canoe Races 2026 (past). Race schedule page: Thu 3-Mon 7 Sep 2026. Saturday is the 18-mile race. No 2027 dates yet. Build/use: Outrigger canoe crews: sprint relay, 18-mile ocean race and shorter races. How to join: Join a canoe club crew or use the race blog's 'Need a Crew / Need a Paddler' category. | https://www.qlcanoerace.com/ql-event-schedule.asp |
 | Date: Sep 2027 · date TBC: Queen Lili'uokalani Canoe Races 2027 (held each Labor Day weekend). 2027 dates not announced; Labor Day weekend is the usual timing. | https://www.qlcanoerace.com/ql-event-schedule.asp |
-| Take-part route "Paddle on a crew" (Crew): Join an outrigger canoe club crew, or use the race blog's 'Need a Crew / Need a Paddler' category. The Saturday race is 18 miles; the Thursday relay and the Sunday and Monday races are shorter. The organiser tries to help visiting crews find canoes. | Re-worded from the CSV row and the dated items above |
-| Check note: Held each Labor Day weekend; 2027 dates are not announced yet. The 2026 races ran 3-7 Sep. | CSV verification notes / dated items above |
-| Check note: Paddling experience is expected; every paddler signs a waiver online. | CSV verification notes / dated items above |
-| Check note: The official organiser is the Kai 'Opua Canoe Club. | CSV verification notes / dated items above |
+| Take-part route "Paddle on a crew" (Crew): Join an outrigger canoe club crew, or use the race blog's 'Need a Crew / Need a Paddler' category. The Saturday race is 18 miles; the Thursday relay and the Sunday and Monday races are shorter. The organiser tries to help visiting crews find canoes. | Our summary of the research notes and the dated items above |
+| Check note: Held each Labor Day weekend; 2027 dates are not announced yet. The 2026 races ran 3-7 Sep. | Our research notes / dated items above |
+| Check note: Paddling experience is expected; every paddler signs a waiver online. | Our research notes / dated items above |
+| Check note: The official organiser is the Kai 'Opua Canoe Club. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -41,5 +41,5 @@ See also: skills guide `skills/human-powered-craft/`
 
 ## Our grouping
 
-- Levels shown: Crew (our grouping of the CSV participation level "Crew (paddler)").
+- Levels shown: Crew (our grouping of the researched participation level "Crew (paddler)").
 - Usual months used by the month filter: Sep.

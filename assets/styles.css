@@ -506,3 +506,21 @@ details.sec[open]>summary{margin-bottom:18px}
   body[data-print] .tk-path{break-before:auto}
   a{color:#000!important}
 }
+
+/* ---- Site QC 1 Nov 2026 fixes (release 2026-11-01c) ---- */
+/* B1 focus ring >= 3:1 against every adjacent colour. Light surfaces: a 3px --sea-900 ring (17:1 on sand, 18:1 on white)
+   with a 2px coral inner band in the offset gap (coral vs sea-900 = 6.5:1), so the coral accent stays. Dark chrome
+   (topbar, hero, dark bands, footer): a 3px coral ring (>= 4.5:1 on sea-700..sea-900) with a sea-900 inner band. */
+:focus-visible,.evpast summary:focus-visible,details.sec>summary:focus-visible{outline:3px solid var(--sea-900);outline-offset:2px;box-shadow:0 0 0 2px var(--coral);border-radius:6px}
+.topbar :focus-visible,.hero :focus-visible,section.block.dark :focus-visible,footer :focus-visible{outline-color:var(--coral);box-shadow:0 0 0 2px var(--sea-900)}
+/* skip link: coral pill shown over the dark topbar; sea-900 ring on its edge plus a white halo outside it */
+.skip:focus,.skip:focus-visible{outline:3px solid var(--sea-900);outline-offset:0;box-shadow:0 0 0 6px #fff}
+/* skip-link target takes programmatic focus only (tabindex=-1); no ring on the whole page */
+main[tabindex="-1"]:focus,main[tabindex="-1"]:focus-visible{outline:none;box-shadow:none}
+/* B2 small text: level tags and source badges >= 11px */
+.lv,.evtags .lv{font-size:.6875rem}
+.badge,.tk-tip{font-size:.6875rem}
+/* WCAG 2.5.8: inline-ish links/buttons get >= 24px tall hit areas; vertical padding on inline boxes does not move the text */
+a.src,a.url,.evn,h3>a,h4>a,.h4>a,.crumbs a,.see-also a,.more-link a,.tk-home a,.h4>a{padding-block:4px}
+.linkbtn{padding:4px 0}
+.tk-list input{width:24px;height:24px;margin:1px 0 0}

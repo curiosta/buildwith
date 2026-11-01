@@ -1,6 +1,6 @@
 # Nomad · ARC Atlantic Rally for Cruisers: sources
 
-Row #42 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,13 +10,13 @@ Row #42 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Sail as crew with a skipper who has entered the rally; trained crew are expected: the organiser requires the skipper and at least one crew member to have done safety training | https://worldcruising.com/events/arc (primary) · https://worldcruising.com/crew (secondary) |
 | Participation level: Crew (experienced) | https://worldcruising.com/events/arc (primary) · https://worldcruising.com/crew (secondary) |
 | Entry requirements / deadline: Every rally boat needs at least two adults; the skipper and at least one crew member must have safety training; you join through a skipper who has entered | https://worldcruising.com/events/arc (primary) · https://worldcruising.com/crew (secondary) |
-| Verification note (research pass): Dates from World Cruising Club's ARC page (checked 26 Oct 2026). | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates from World Cruising Club's ARC page (checked 26 Oct 2026). | Our research notes (3 Oct 2026, IST) |
 | Date: 22 Nov 2026: ARC 2026: start from Las Palmas. World Cruising Club: start 22 Nov 2026; prizegiving in Saint Lucia 19 Dec 2026. Build/use: Cross the Atlantic as crew on a cruising yacht. How to join: Join a skipper who has entered; trained crew are expected. | https://worldcruising.com/events/arc/arc-2026 |
 | Date: 21 Nov 2027: ARC 2027: start from Las Palmas. World Cruising Club: start 21 Nov 2027; prizegiving in Saint Lucia 18 Dec 2027. Build/use: Cross the Atlantic as crew on a cruising yacht. How to join: Join a skipper who has entered; trained crew are expected. | https://worldcruising.com/events/arc |
-| Take-part route "Join a yacht as crew" (Crew): Sail as crew with a skipper who has entered the rally. Trained crew are expected: the organiser requires the skipper and at least one crew member to have safety training, and every boat needs at least two adults. | Re-worded from the CSV row and the dated items above |
-| Check note: This is not a beginner route: you need offshore sailing experience or recognised safety training. | CSV verification notes / dated items above |
-| Check note: The crossing is about 2,700 nautical miles and takes around 18-21 days. | CSV verification notes / dated items above |
-| Check note: ARC 2026 starts 22 Nov 2026; ARC 2027 starts 21 Nov 2027. | CSV verification notes / dated items above |
+| Take-part route "Join a yacht as crew" (Crew): Sail as crew with a skipper who has entered the rally. Trained crew are expected: the organiser requires the skipper and at least one crew member to have safety training, and every boat needs at least two adults. | Our summary of the research notes and the dated items above |
+| Check note: This is not a beginner route: you need offshore sailing experience or recognised safety training. | Our research notes / dated items above |
+| Check note: The crossing is about 2,700 nautical miles and takes around 18-21 days. | Our research notes / dated items above |
+| Check note: ARC 2026 starts 22 Nov 2026; ARC 2027 starts 21 Nov 2027. | Our research notes / dated items above |
 | Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on sailing | https://kinetic.curiosta.com/sailing/ |
 
 ## Skills you'll need (section 03)
@@ -39,5 +39,5 @@ Row #42 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Crew (our grouping of the CSV participation level "Crew (experienced)").
+- Levels shown: Crew (our grouping of the researched participation level "Crew (experienced)").
 - Usual months used by the month filter: Nov, Dec.

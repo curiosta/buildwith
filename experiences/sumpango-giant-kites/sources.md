@@ -1,6 +1,6 @@
 # Nomad · Sumpango Giant Kite Festival (Barriletes Gigantes): sources
 
-Row #23 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #23 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Attend; public kite-flying at the festival: Unconfirmed: no official source | https://www.festivaldesumpango.com (primary) · https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991 (secondary) |
 | Participation level: Spectator+ / Use | https://www.festivaldesumpango.com (primary) · https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991 (secondary) |
 | Entry requirements / deadline: Free entry | https://www.festivaldesumpango.com (primary) · https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991 (secondary) |
-| Verification note (research pass): Source audit 4 Oct 2026: newspaper link removed; the festival committee's site and UNESCO used instead. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Source audit 4 Oct 2026: newspaper link removed; the festival committee's site and UNESCO used instead. | Our research notes (3 Oct 2026, IST) |
 | Date: 1 Nov 2026: Sumpango Giant Kite Festival (Barriletes Gigantes). Held every 1 November (Govt of Guatemala). The 2026 programme isn't published yet. Build/use: Giant tissue-paper kites built by local groups. How to join: Free entry; public kite-flying: Unconfirmed: no official source. | https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/ |
 | Date: 1 Nov 2027: Sumpango Giant Kite Festival (Barriletes Gigantes). Held every 1 November (Govt of Guatemala). Build/use: Giant tissue-paper kites built by local groups. How to join: Free entry. | https://guatemala.gob.gt/festival-de-barriletes-gigantes-conoce-la-tradicion-y-el-color-que-caracteriza-a-sumpango-y-santiago-sacatepequez/ |
-| Take-part route "See giant kites built by local groups" (Watch & buy local): Free entry. Local barrilete groups spend months building giant tissue-paper kites (UNESCO). | Re-worded from the CSV row and the dated items above |
-| Take-part route "Fly a kite yourself" (Use local gear): Public kite-flying at the festival: Unconfirmed: no official source. | Re-worded from the CSV row and the dated items above |
-| Check note: Held every 1 November; the 2026 programme isn't published yet. | CSV verification notes / dated items above |
+| Take-part route "See giant kites built by local groups" (Watch & buy local): Free entry. Local barrilete groups spend months building giant tissue-paper kites (UNESCO). | Our summary of the research notes and the dated items above |
+| Take-part route "Fly a kite yourself" (Use local gear): Public kite-flying at the festival: Unconfirmed: no official source. | Our summary of the research notes and the dated items above |
+| Check note: Held every 1 November; the 2026 programme isn't published yet. | Our research notes / dated items above |
 
 ## Skills you'll need (section 03)
 
@@ -29,7 +29,7 @@ Row #23 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | Resource (Official; publisher: UNESCO Intangible Cultural Heritage Section): Technique of making the giant kites of Santiago Sacatepéquez and Sumpango – UNESCO: English description of the craft and its meaning (inscribed 2024). | https://ich.unesco.org/en/RL/technique-of-making-the-giant-kites-of-santiago-sacatepequez-and-sumpango-guatemala-01991 |
 | Resource (Official; publisher: American Kitefliers Association (AKA), US national kite association): Kite Safety: General kite-field safety for flying your own kite. | https://www.kite.org/about-kites/kite-safety/ |
 | Also consulted for the skills section | https://www.festivaldesumpango.com/que-es-el-festival/comite-permanente-de-barriletes |
-| Note: The 2026 programme isn't published yet. | Skills research (gap recorded) |
+| Note: The 2026 programme isn't published yet. | Gap noted during research |
 
 See also: skills guide `skills/kite-basics/`
 
@@ -45,5 +45,5 @@ Official sources first; non-official sources only if the event community widely 
 
 ## Our grouping
 
-- Levels shown: Watch & buy local, Use local gear (our grouping of the CSV participation level "Spectator+ / Use").
+- Levels shown: Watch & buy local, Use local gear (our grouping of the researched participation level "Spectator+ / Use").
 - Usual months used by the month filter: Nov.

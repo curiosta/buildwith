@@ -1,6 +1,6 @@
 # Nomad · Tour of the Nilgiris (TFN): sources
 
-Row #47 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadlines come from `cal.py` (date check 4 Oct 2026, IST), which is the source of truth for dates, with the 4 Oct 2026 source-rule audit applied. The page deliberately shows **no prices** and no contact emails; see the official site.
+Checked against the official sites on 3–4 Oct 2026 (IST): facts on 3 Oct, dates and deadlines on 4 Oct (our date check is the source of truth for dates), with the 4 Oct 2026 source-rule audit applied. Later rechecks are dated in the table. The page deliberately shows **no prices** and no contact emails; see the official site.
 
 | Fact used | Source |
 |---|---|
@@ -10,12 +10,12 @@ Row #47 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 | How a traveller takes part: Register as a rider with the organiser and bring your own bicycle (any human-powered cycle; some road and gravel bikes can be rented); the tour is supported with luggage transfer, meals, accommodation, medical staff and a sweep vehicle | https://www.tourofnilgiris.com/ (primary) · https://www.tourofnilgiris.com/route (secondary) |
 | Participation level: Team entry (rider) | https://www.tourofnilgiris.com/ (primary) · https://www.tourofnilgiris.com/route (secondary) |
 | Entry requirements / deadline: Riders must be fit enough for long hilly days and able to fix a flat tyre; the sweep vehicle collects riders who miss a support-station cut-off; no riding after dark | https://www.tourofnilgiris.com/ (primary) · https://www.tourofnilgiris.com/route (secondary) |
-| Verification note (research pass): Dates, route and support from the organiser's site (home, route, FAQ and 'A day in TFN' pages) (checked 26 Oct 2026). It is a supported tour, not a timed race. The site mentions both '16 editions' and the '17th edition'; the 'A day in TFN' page says 17th. Registration details are on the organiser's site; check the live page. | experiences_v1.csv |
+| Verification note (research, 3 Oct 2026): Dates, route and support from the organiser's site (home, route, FAQ and 'A day in TFN' pages) (checked 26 Oct 2026). It is a supported tour, not a timed race. The site mentions both '16 editions' and the '17th edition'; the 'A day in TFN' page says 17th. Registration details are on the organiser's site; check the live page. | Our research notes (3 Oct 2026, IST) |
 | Date: 6–12 Dec 2026: Tour of the Nilgiris 2026 (TFN, 17th edition): riding days. Organiser: flag-off 6 Dec, last day 12 Dec 2026 in Ooty; pre-tour briefing 5 Dec; hotel check-out 13 Dec. Build/use: Ride a seven-day supported cycling tour into the Nilgiri hills on your own bicycle. How to join: Register with the organiser; pre-tour briefing and registration on 5 Dec. | https://www.tourofnilgiris.com/ |
-| Take-part route "Ride the supported tour" (Team entry): Seven days of riding from Karnataka through Wayanad in Kerala into the Nilgiri hills, finishing in Ooty. You bring your own bicycle; the organiser provides support stations, medical staff, mechanics, luggage transfer, meals and accommodation. Daily stages on the route page run from 67 km to 111 km, with about 1,600 to 2,800 m of climbing. | Re-worded from the CSV row and the dated items above |
-| Check note: TFN 2026: pre-tour briefing 5 Dec, flag-off 6 Dec, final ride 12 Dec in Ooty. It is a supported tour, not a timed race. | CSV verification notes / dated items above |
-| Check note: You must be able to fix a flat tyre yourself, and riders cannot ride after dark: the sweep vehicle picks up riders who miss a cut-off. | CSV verification notes / dated items above |
-| Check note: One bag per rider (up to 65 litres). Some road and gravel bikes are available for rental. | CSV verification notes / dated items above |
+| Take-part route "Ride the supported tour" (Team entry): Seven days of riding from Karnataka through Wayanad in Kerala into the Nilgiri hills, finishing in Ooty. You bring your own bicycle; the organiser provides support stations, medical staff, mechanics, luggage transfer, meals and accommodation. Daily stages on the route page run from 67 km to 111 km, with about 1,600 to 2,800 m of climbing. | Our summary of the research notes and the dated items above |
+| Check note: TFN 2026: pre-tour briefing 5 Dec, flag-off 6 Dec, final ride 12 Dec in Ooty. It is a supported tour, not a timed race. | Our research notes / dated items above |
+| Check note: You must be able to fix a flat tyre yourself, and riders cannot ride after dark: the sweep vehicle picks up riders who miss a cut-off. | Our research notes / dated items above |
+| Check note: One bag per rider (up to 65 litres). Some road and gravel bikes are available for rental. | Our research notes / dated items above |
 | Sister-site link (our own site, not a source for dates): Sport context, safety and where to learn: Kinetic on cycling and mountain biking | https://kinetic.curiosta.com/cycling-mtb/ |
 
 ## Skills you'll need (section 03)
@@ -38,5 +38,5 @@ Row #47 of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Dates and deadl
 
 ## Our grouping
 
-- Levels shown: Team entry (our grouping of the CSV participation level "Team entry (rider)").
+- Levels shown: Team entry (our grouping of the researched participation level "Team entry (rider)").
 - Usual months used by the month filter: Dec.

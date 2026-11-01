@@ -1,6 +1,6 @@
 # Nomad · Experiences list: sources
 
-Each card summarises one row of `experiences_v1.csv` (research pass 3 Oct 2026, IST). Next dates come from `cal.py` (date check 4 Oct 2026, IST). Participation levels are our grouping of the CSV's `participation_level` and `how_a_traveller_participates` columns. Full per-fact sources are in each experience's own `sources.md`.
+Each card summarises one experience from our research of 3 Oct 2026 (IST). Next dates come from our date check of 4 Oct 2026 (IST). Participation levels are our grouping of each experience's researched participation level and how a traveller takes part. Full per-fact sources are in each experience's own `sources.md`.
 
 | Fact used | Source |
 |---|---|
@@ -33,7 +33,7 @@ Each card summarises one row of `experiences_v1.csv` (research pass 3 Oct 2026, 
 | Henley-on-Todd Regatta: place, continent, usual months (Aug), levels (Team entry, Use local gear), next date | https://www.henleyontodd.com.au/faqs · https://www.henleyontodd.com.au/competitors |
 | Great Cardboard Boat Regatta (SIU Carbondale): place, continent, usual months (Apr), levels (Team entry, Workshop / open build), next date | https://ton.siu.edu/campus-programs/carbondale-boat-regatta.php · https://news.siu.edu/2026/04/040826-sius-great-cardboard-boat-regatta-begins-a-new-half-century-of-fun-april-18.php |
 | Cannon Beach Sandcastle Contest: place, continent, usual months (Jun), levels (Team entry), next date | https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/ · https://www.cannonbeach.org/events-and-festivals/sandcastle-contest/registration/ |
-| Castells: human towers and the Concurs de Castells: place, continent, usual months (Sep, Oct), levels (Workshop / open build, Watch & buy local), next date | https://castellscat.cat/en/els-castells · https://www.concursdecastells.cat/ |
+| Castells: human towers and the Concurs de Castells: place, continent, usual months (Sep, Oct), levels (Workshop / open build, Watch & buy local), next date | https://castellscat.cat/en/els-castells · https://eng.concursdecastells.cat/ |
 | RoboCup (world championship): place, continent, usual months (Jun, Jul), levels (Team entry, Watch & buy local), next date | https://2027.robocup.org/ · https://www.robocup.org/events/80 |
 | Port Townsend Wooden Boat Festival: place, continent, usual months (Sep), levels (Workshop / open build, Use local gear), next date | https://woodenboat.org/2025-home/ · https://nwmaritime.org/nwmc-events/signature-events/wooden-boat-festival/ |
 | Baltimore Kinetic Sculpture Race: place, continent, usual months (May), levels (Team entry, Watch & buy local), next date | https://www.avam.org/kinetic · https://baltimore.org/event/kinetic-sculpture-race/ |
